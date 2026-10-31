@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·guess</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · guess</h1>
+<div class="subhead">📍 人教版（一起点）五年级上册 Unit 2 Teachers（老师）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> guess</div>
+    <div class="info-item"><span class="info-label">词性</span> v. 猜，猜测</div>
+    <div class="info-item"><span class="info-label">音标</span> /ɡes/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (五年级)</div>
+    <div class='info-item'><span class='info-label'>三单/过去式</span> guesses · guessed</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 2 Teachers（老师）</div>
+    <p><strong>Lesson 1 · A. 核心词汇</strong><br>
+    wear glasses 戴眼镜 · slim 苗条的 · curly hair 卷发 · straight hair 直发 · nice 和蔼的 · young 年轻的</p>
+    <p><strong>Lesson 1 · B. 猜老师对话</strong><br>
+    — She's my favourite teacher. Who is she? Guess!<br>
+    — She's nice. She's slim. She has long curly hair.</p>
+    <p><strong>Lesson 2 · 猜老师游戏（句子为课本原句，A/B 顺序以课本为准）</strong><br>
+    — He is my favourite teacher.<br>
+    — Really? What does he teach?<br>
+    — He teaches maths.<br>
+    — Guess. Who teaches us maths? Does he wear glasses? Is he tall?<br>
+    — He's that tall man in a blue T-shirt. He has short hair and wears glasses.</p>
+    <p><strong>Lesson 3 · A. 书信（节选主干句）</strong><br>
+    Dear Binbin,<br>
+    I like my new school. The school is beautiful and the teachers are wonderful.<br>
+    He is not very tall, but he is handsome. He has short brown hair.<br>
+    Who is your favourite teacher?<br>
+    Yours,<br>
+    Tim</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经智慧山单元目录页、优质课教案/课件（Unit 2 Teachers Lesson 1）、haoduoyun 课文翻译页、51jiaoxi 跟读资源多源交叉核对；Lesson 3 书信为节选，Story Time 原文待核。本词为本单元游戏指令词，课本原句 Who is she? Guess! 和 Guess. Who teaches us maths?——整个单元就建立在猜老师游戏上。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>g-u-e-s-s，双写 ss 结尾，u 不发音是“哑巴门铃”<br>✏️ 口诀：gu 开头猜一猜，ss 双胞胎站最后！</td></tr>
+        <tr><th>音·发音</th><td>/ɡes/ 单音节，只读“盖斯”，u 不出声<br>🎧 跟读：Guess! · guess again · a guessing game</td></tr>
+        <tr><th>意·释义</th><td>猜，猜测 🤔（Guess who! 猜猜是谁；I guess 我想、我认为）</td></tr>
+        <tr><th>用·句型</th><td>① Who is she? Guess! (她是谁？猜猜看！)<br>② Guess. Who teaches us maths? (猜猜谁教我们数学。)<br>③ Am I right? — Yes! You guessed it! (我猜对了吗？——你猜中啦！)<br>④ I guess you're right. (我想你是对的。)</td></tr>
+        <tr><th>拓·同族词</th><td>guessing game 猜谜游戏；guesser 猜的人<br>口语：I guess ＝ 我想、大概</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>游戏</td><td>Guess who! Is it Miss Li? — No, guess again!</td></tr>
+        <tr><td>线索</td><td>She has curly hair. Now you guess!</td></tr>
+        <tr><td>口语</td><td>I guess it's going to rain.</td></tr>
+        <tr><td>庆祝</td><td>You guessed it! Well done!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 猜谜三连</div>
+        发起：Guess! Who is she? / Guess. Who teaches us maths?<br>提问找线索：Is he tall? Does he wear glasses? — Yes, he does.<br>揭晓：You guessed it!（你猜中啦！）<br>⚠️ guess 三单加 -es：She guesses it right.
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>猜谜是本单元的“游戏引擎”，也是练一般疑问句的黄金场景。建议在家玩“英语版猜猜TA”：一人心里想一位老师或亲戚，其他人只能用 Is he...? Does she...? 提问，问满 5 个问题才能猜答案——不知不觉就把 Does he wear glasses? 练熟了。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 热身指令</strong><br>家长喊 Guess!，孩子做“托下巴想一想”的动作并大声说 Let me guess!</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 变形填空</strong><br>① He ______ the answer. (guesses)<br>② They ______ again. (guess)<br>③ Yesterday I ______ right. (guessed)</div>
+        <div class="game-step"><strong>🔍 关卡3 · 猜猜TA是谁</strong><br>心里想一位家人，其他人用 Is she nice? Does she wear glasses? 提问来猜</div>
+        <div class="game-step"><strong>🎯 关卡4 · 五个问题</strong><br>简化版“二十个问题”：限用 5 个 Is/Does 问题，猜出家人想的那位老师</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>编一个英语谜语让家人猜，录下全程打卡<br><span class="btn-mimic">🎤 示例：Guess! She's slim. She has curly hair. Who is she?</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟guess通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《猜猜盒子的秘密》</h3>
+    <div class="quote">💫 生日会上，爸爸捧出一个大盒子：Guess what's inside! Lily 摇一摇：Is it a puppy? 爸爸笑而不语。Binbin 听一听，调皮地说：Does it wear glasses? 全家大笑。盒子开了——是一只戴眼镜造型的玩具猫头鹰！爸爸说：You guessed it! 最开心的不是礼物，而是一起猜的过程。🎁</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What was in the box? (A toy owl with glasses.)<br>• Who guessed it wears glasses? (Binbin.)<br>• 问问孩子：Guess what's in MY pocket! 用英语玩一玩！</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 游戏 ── Guess who! · a guessing game<br>├── 提问 ── Is he tall? Does he wear glasses?<br>├── 答对 ── You guessed it!<br>├── 口语 ── I guess… 我想、大概<br>└── 拼写 ── u 不发音，ss 双写</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>guess 在中古英语里写作 gessen，来源尚无定论，一说来自古诺尔斯语（北欧语族）——很可能是维京人带进英语的词。今天 guess 既当“瞎猜”，也当礼貌的“我想”：I guess you're right 其实是委婉的“你说得对”。<br>🎯 讲给孩子：一个 I guess，既能是“乱猜”，也能是“温柔地同意”——语气的魔法！</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>guess</td><td>v./n. 猜；猜测（make a guess 猜一下）</td></tr>
+        <tr><td>guessing game</td><td>猜谜游戏（本单元课堂主角）</td></tr>
+        <tr><td>guesser</td><td>guess + er → 爱猜的人</td></tr>
+        <tr><td>guesswork</td><td>guess + work → 瞎猜、臆测</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Life is like a box of chocolates. You never know what you're gonna get." 🍫<br>生活就像一盒巧克力，你永远不知道下一颗是什么。—— 电影《阿甘正传》(1994) 经典台词，人生就是一场大 guess！</div>
+
+    <h3>🎵 歌词里的 guess</h3>
+    🎵 The Guess Who《American Woman》(1970)：Billboard 冠军金曲——乐队名自带彩蛋：The Guess Who 直译“猜猜是谁”，与 guess 词义完美双关，猜谜课堂的背景音乐非它莫属！
+
+    <h3>⚡ 冷知识</h3>
+    <p>桌游《Guess Who?》（猜猜是谁）上世纪 80 年代问世，玩法和本单元猜老师一模一样：用 Does he wear glasses? Is her hair curly? 这类问题缩小范围——英语老师最爱拿它当教具。更古老的“二十个问题”（Twenty Questions）相传已有几百年历史，规则同样只用 Is/Does/Can 提问。试试看：只用 5 个问题，你能猜出家人想的那位老师吗？</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>guess</strong> /ɡes/ v. 猜，猜测</div>
+        <div>guess 猜（guesses · guessed；u 不发音）</div>
+        <div>功能句：Guess! Who teaches us maths?</div>
+        <div>提问线索：Is he tall? Does he wear glasses?</div>
+        <div>答对啦：You guessed it!</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）五年级上册 Unit 2 Teachers（老师）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("guess");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

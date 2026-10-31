@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·sometimes</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · sometimes</h1>
+<div class="subhead">📍 人教版（一起点）五年级上册 Unit 1 Classmates（同学）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> sometimes</div>
+    <div class="info-item"><span class="info-label">词性</span> adv. 有时</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈsʌmtaɪmz/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (五年级)</div>
+    <div class="info-item"><span class="info-label">三胞胎</span> sometime / some time</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 1 Classmates（同学们）</div>
+    <p><strong>Lesson 1 · Look, listen and say</strong><br>
+    — Look at these photos. These are my new friends.<br>
+    — Who is she?<br>
+    — Her name is Helen. She likes reading. She is polite and quiet.<br>
+    — Who is he?<br>
+    — He is Peter.（Peter 描述段后半句原文待核）</p>
+    <p><strong>单元歌谣 · Chant</strong><br>
+    Some are clever, and some are helpful.<br>
+    （中段数行原文待核）<br>
+    Make new friends, but keep the old.</p>
+    <p><strong>Lesson 2 · 对话课</strong><br>
+    （场景：Tom 的生日聚会 party——做飞机模型、宠物狗凑热闹；逐句原文待核）</p>
+    <p><strong>核心句型 · 本单元反复出现</strong><br>
+    — What's your friend like?<br>
+    — He is clever. / She is polite and quiet.</p>
+    <p><strong>Lesson 3 · 阅读课</strong><br>
+    Tom 的美国朋友 Joe 的性格与日常小故事（逐句原文待核）</p>
+    <p style="font-size:12px;opacity:.75;">✅ 单元名、Lesson 1 对话句、chant 句与核心句型经 51教习网跟读页（yyld.51jiaoxi.com/wushang/rjbxqd_danyuan01.html）、电子课本网 dzkbw.com、教材 Checkpoint 词汇表多源交叉核对；标“待核”处仅作场景描述，不作逐句原文。本页主角：sometimes——描述习惯的“温度计”，位置放对才算数。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>some·times —— some（一些）+ times（次数）＝有些时候 ✏️ 口诀：some 修饰 times，两个词手拉手不分开</td></tr>
+        <tr><th>音·发音</th><td>/ˈsʌm.taɪmz/ 两音节，重音在前，结尾 s 别丢。🎧 跟读：I sometimes walk to school. · Sometimes I read at night.</td></tr>
+        <tr><th>意·释义</th><td>adv. 有时，间或（频度副词）近义 at times</td></tr>
+        <tr><th>用·句型</th><td>① Sometimes I play football after school. (我有时放学后踢球。)<br>② He is sometimes late. (他有时迟到。)<br>③ I sometimes talk in class—sorry! (我有时上课说话——抱歉！)<br>④ 频度谱：always → usually → often → sometimes → never</td></tr>
+        <tr><th>拓·同族词</th><td>易混三胞胎：sometimes 有时 · sometime 某个时候 · some time 一段时间</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>习惯</td><td>Sometimes I read before bed.</td></tr>
+        <tr><td>位置A</td><td>I sometimes play chess with my dad.（实义动词前）</td></tr>
+        <tr><td>位置B</td><td>He is sometimes late.（be 动词后）</td></tr>
+        <tr><td>频度</td><td>I always brush my teeth, but sometimes I forget to tidy my desk.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · sometimes 位置法则</div>
+        <p><strong>实义动词前：</strong>I sometimes walk to school.（sometimes 卡在主语和动词中间）</p><p><strong>be 动词后：</strong>She is sometimes late.（be 后不动）</p><p><strong>句首强调：</strong>Sometimes I dream of summer.（放句首加强语气）</p><p>⚠️ sometimes 一个词＝有时；sometime＝某时；some time＝一段时间，别写散。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>sometimes 是频度副词家族里孩子最容易用错位置的。建议在家做“频度尺”：纸条从左到右写 always → usually → often → sometimes → never，孩子每天说一句真实情况并贴进对应格（I sometimes help cook dinner.）。位置对了（动词前 / be 后），习惯表达就过关了。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 频度尺排队</strong><br>把 always / usually / often / sometimes / never 卡片按 100% → 0% 排队</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 位置找茬</strong><br>“I walk sometimes to school.” ❌ → “I sometimes walk to school.” ✔</div>
+        <div class="game-step"><strong>🔍 关卡3 · 三胞胎分辨</strong><br>sometimes 有时 / sometime 某时 / some time 一段时间——各造一句</div>
+        <div class="game-step"><strong>🎭 关卡4 · 真话挑战</strong><br>用 sometimes 说一件自己的小糗事：“Sometimes I forget my keys.”</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 “I always..., but sometimes I...” 说一句反差句并录音<br><span class="btn-mimic">🎤 示例：I always brush my teeth, but sometimes I forget to water the plants.</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟sometimes通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《sometimes 小猪》</h3>
+    <div class="quote">小猪球球有个口头禅：“I <strong>sometimes</strong> forget things.” 忘带水壶？sometimes。忘写名字？sometimes。可有一天，他发现妈妈也 “sometimes forgets”——忘了他不爱吃胡萝卜。球球大笑：“原来大人也 sometimes！”他做了张小纸条贴在门上：Sometimes forgetting is OK. But always trying is better.（偶尔忘记没关系，一直努力更了不起。）瞧，sometimes 和 always 手拉手——谁也不完美，谁都在进步。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What does the pig often say? (I sometimes forget things.)<br>• What does his mom sometimes forget? (He doesn't like carrots.)<br>• 问问孩子：说一件你 sometimes 忘记做的事，再用 always 说一件你坚持的事。</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">sometimes 有时
+├── 频度谱 ── always → usually → often → sometimes → never
+├── 位置 ── 动词前 / be 后 / 句首
+├── 例句 ── I sometimes walk to school.
+├── 三胞胎 ── sometime 某时 · some time 一段时间
+└── 搭档 ── ...but always... 反差句</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>sometimes 的家谱一目了然：some（一些）+ time（次、时候）+ s（复数尾巴）——“有些时候”。它是英语里少见的“自带复数”的副词，因为它数的正是“次数”。类似带 s 的老词还有 besides（此外）、afterwards（之后）。🎯 讲给孩子：sometimes＝有好多次，但不是每一次。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>sometime</td><td>某个时候（Come over sometime!）</td></tr>
+        <tr><td>some time</td><td>一段时间（It took some time.）</td></tr>
+        <tr><td>at times</td><td>有时（sometimes 的同义短语）</td></tr>
+        <tr><td>always</td><td>总是（频度尺的另一端）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“To everything there is a season.” 凡事皆有定时。—— 《传道书》。sometimes 哭，sometimes 笑；sometimes 静，sometimes 动——时间把每种时刻都安排好了。</div>
+
+    <h3>🎵 歌词里的 sometimes</h3>
+    <p>🎵 Britney Spears《Sometimes》(1999)：流行天后的青春成名曲，副歌三连 “Sometimes I run, sometimes I hide, sometimes I'm scared of you...”——sometimes 的句首用法被天后唱成了教科书。</p><p>🔗 与 always、often、usually 页同属“频度家族”（主题互链，非同曲）。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>频度副词在英语歌里是“点名专业户”：always、never、sometimes 是歌词三大常客。布兰妮这首《Sometimes》的副歌连用三个 “Sometimes I...”，一句一个位置示范——听三遍歌，sometimes 的用法就刻在耳朵里了。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>sometimes</strong> /ˈsʌmtaɪmz/ adv. 有时</div>
+        <div>sometimes /ˈsʌmtaɪmz/ adv. 有时</div>
+        <div>I sometimes walk to school.（动词前）</div>
+        <div>She is sometimes late.（be 后）</div>
+        <div>三胞胎：sometimes / sometime / some time</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）五年级上册 Unit 1 Classmates（同学）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("sometimes");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
