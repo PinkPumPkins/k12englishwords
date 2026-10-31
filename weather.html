@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·weather</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · weather</h1>
+<div class="subhead">📍 人教版（一起点）二年级下册 Unit 2 Weather</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> weather</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 天气</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈweðə/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (二年级)</div>
+    <div class='info-item'><span class='info-label'>注意</span> th 咬舌；近形词 whether 是否</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 2 Weather（天气）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>— It's rainy. It's rainy. Umbrellas go up, up, up.<br>— …… Umbrellas go down, down, down.（歌谣按天气轮唱，伞随天气起落做动作）<br>（本课单词：rainy 下雨的 · cloudy 多云的 · snowy 下雪的 · windy 刮风的 · sunny 晴朗的 · umbrella 雨伞）</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— What's the weather like today, Dad?<br>— It's sunny.<br>— Wow! Let's go and play football.<br><strong>B. Act and guess（演一演、猜天气）</strong><br>— What's the weather like today? — It's rainy. — No. — It's windy. — Yes!</p><p><strong>Lesson 3 · A. Choose and say / B. Let's write</strong><br>— What's the weather like today?<br>— It's snowy. Let's make a snowman.<br>（B 部分字母书写：E for egg · F for fish · G for girl · H for head）</p><p><strong>Story Time</strong><br>— What's the weather like? — It's cloudy and rainy.<br>— I don't like rain. — I love rain!<br>— Look, now it's sunny! Let's go to the park.<br>— But it's windy. We can fly a kite.<br>— I can fly a kite now! This is fun. — Oh no, my cap!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网同步跟读页（yyld.51jiaoxi.com/erxia/rjbxqd_danyuan02.html）、人教社教师网优质课教案（renjiaoshe.com：It's rainy. Umbrellas go up, up, up. / What's the weather like today? — It's windy.）、电子课本PDF摘要多源交叉核对：单元名 Unit 2 Weather、Lesson 1-3 栏目与核心句、Lesson 2 Wow! Let's go and play football.、Lesson 3 Let's make a snowman. 均为两源以上一致；Lesson 1 歌谣各天气段与伞起伞落的完整对应（教案源确认 rainy 配 Umbrellas go up, up, up.）、Story Time 对话分行及标点、Lesson 3 字母细节为跟读页单源转写，细节待进一步核对。focus：weather 是单元标题词（Unit 2 Weather），Lesson 2 核心问句 What's the weather like today? 的主角，全单元都在问它。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>wea-ther —— 里头藏着 we（我们）：天气是我们每天都要聊的事！<br>✏️ 口诀：we 我们 + a + ther，大家一起聊天气</td></tr>
+        <tr><th>音·发音</th><td>/ˈweðə/ 两音节，重音在前：WEA-ther；th 咬舌浊音（和 this 的 th 同款）<br>🎧 跟读：What's the weather like? · nice weather · weather report</td></tr>
+        <tr><th>意·释义</th><td>天气 ☀️☁️（不可数名词：好天气说 nice weather，不能说 a weather）</td></tr>
+        <tr><th>用·句型</th><td>① What's the weather like today? (今天天气怎么样？)<br>② The weather is nice today. (今天天气很好。)<br>③ What's the weather like in Beijing? (北京天气怎么样？)<br>④ Here is the weather report. (这是天气预报。)</td></tr>
+        <tr><th>拓·同族词</th><td>问天气两句型：What's the weather like? ＝ How's the weather?（同义）<br>近形词：whether 是否（I don't know whether he will come.）<br>weatherman 天气预报员</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>课本问句</td><td>What's the weather like today?</td></tr>
+        <tr><td>同义问法</td><td>How's the weather today?</td></tr>
+        <tr><td>描述</td><td>The weather is nice today.</td></tr>
+        <tr><td>场景</td><td>Here is the weather report.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句 · 问天气的万能句</div>
+        <p><strong>课本问法：</strong>What's the weather like today? — It's sunny / rainy / cloudy / windy / snowy.</p><p><strong>同义问法：</strong>How's the weather (today)?（答案完全一样）</p><p>⚠️ weather 不可数：nice weather ✔ · a weather ✘；天气预报是 weather report</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>weather 是本单元主题词，五个天气词全往它身上挂。家里设固定'天气播报时间'：推窗一起问 What's the weather like today?，孩子抢答 It's ...。两个陷阱提前防：th 要咬舌；别和 whether（是否）搞混。看天气预报是现成素材：一句 Here is the weather report 开场，全家轮流当主播。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 天气主播</strong><br>家长问 What's the weather like today?，孩子开播报，全家一周轮值</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 城市连线</strong><br>What's the weather like in Beijing / Harbin / Sanya?，孩子按城市答 It's ...</div>
+        <div class="game-step"><strong>✅ 关卡3 · 句型填空</strong><br>① What's the ______ like today? (weather)<br>② ______ the weather? (How's)<br>③ The weather is ______ today. (nice)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 符号读图</strong><br>看天气预报图标（太阳/云/雨滴/雪花）抢答 It's ...</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>模仿天气预报员说 Here is the weather report. It's ... in ... 并录语音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟weather通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Weather Reporter》</h3>
+    <div class="quote">班里新设了'天气主播'角，每天由一名同学播报。今天轮到圆圆。她清清嗓子：'Here is the weather report! What's the weather like today? It's cloudy in the morning... and sunny in the afternoon!' 同学们鼓掌。老师说：'Great job! Weather changes, but our reporter never misses a day!' 圆圆发现：天天聊天气，英语天天有话说。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 圆圆当的是什么主播？(天气播报员 weather reporter)<br>• 早上和下午天气有什么不同？(早上多云，下午晴)<br>• 问问孩子：明天你想播什么天气？用 What's the weather like? It's ... 练一遍。</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">weather 天气<br>├── 问法 ── What's the weather like? ＝ How's the weather?<br>├── 家族 ── rainy / cloudy / snowy / windy / sunny<br>├── 不可数 ── nice weather ✔ · a weather ✘<br>└── 场景 ── weather report 天气预报</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>weather 来自古英语 weder，和德语 Wetter、荷兰语 weer 都是兄弟，最早指'空气的状态'。它还有个隐藏身份——动词：weather the storm 字面是'扛过风暴'，引申为'渡过难关'——weather 自己就能当'遮风挡雨'的那个人。德国的天气预报叫 Wetterbericht，一听就是 weather 的亲戚。🎯 讲给孩子：weather 和德语 Wetter 是表亲，全世界的'天气'都爱姓 W。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>weather report</td><td>天气预报（电视/广播里的天气节目）</td></tr>
+        <tr><td>weather the storm</td><td>渡过难关（weather 作动词）</td></tr>
+        <tr><td>whether</td><td>是否（近形词：I don't know whether he will come.）</td></tr>
+        <tr><td>weatherman</td><td>天气预报员（weather + man）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">There is no such thing as bad weather, only unsuitable clothing.<br>没有坏天气，只有不合适的衣服。—— 常被归于英国徒步作家温赖特、也被北欧家庭当谚语用：户外家庭的精神口号。</div>
+
+    <h3>🎵 歌词里的 weather</h3>
+    <p>🎵 The Carpenters《Rainy Days and Mondays》(1971)：主题关联（沿用名单已配，与 rainy 页同源复用）。weather 没有高知名度的冠名金曲——因为'天气'太大了，一首歌只能装下'某一种天气'：雨天有 Rainy Days and Mondays，晴天有 Sunny，多云有 Both Sides Now，刮风有 Windy——本单元四首歌合起来，就是一台完整的 weather report。</p><p>🎵 彩蛋：想听'歌名直接叫 weather'的歌要等到大人的歌单——小朋友先把五种天气的歌唱齐，就是最好的天气合辑。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>天气预报符号是全世界通用的'天气文字'：太阳=晴、云朵=多云、云+雨滴=雨、云+雪花=雪，不看文字也能读懂。英国 BBC 早在1920年代就开始播天气预报。英语国家的人寒暄最爱聊天气：'Lovely weather, isn't it?'（天气真好啊！）是万能开场白——聊天气不是没话找话，而是礼貌：天气安全、中性、人人都懂，正好适合陌生人之间破冰。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>weather</strong> /ˈweðə/ n. 天气</div>
+        <div><strong>weather</strong> /ˈweðə/ n. 天气（不可数）</div>
+        <div>课本句：What's the weather like today?</div>
+        <div>问法：What's the weather like? ＝ How's the weather?</div>
+        <div>注意：th 咬舌；近形词 whether 是'是否'</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级下册 Unit 2 Weather<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("weather");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

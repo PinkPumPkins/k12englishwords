@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·rainy</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · rainy</h1>
+<div class="subhead">📍 人教版（一起点）二年级下册 Unit 2 Weather</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> rainy</div>
+    <div class="info-item"><span class="info-label">词性</span> adj. 下雨的</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈreɪni/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (二年级)</div>
+    <div class='info-item'><span class='info-label'>词族</span> rain 雨 → rainy 下雨的</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 2 Weather（天气）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>— It's rainy. It's rainy. Umbrellas go up, up, up.<br>— …… Umbrellas go down, down, down.（歌谣按天气轮唱，伞随天气起落做动作）<br>（本课单词：rainy 下雨的 · cloudy 多云的 · snowy 下雪的 · windy 刮风的 · sunny 晴朗的 · umbrella 雨伞）</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— What's the weather like today, Dad?<br>— It's sunny.<br>— Wow! Let's go and play football.<br><strong>B. Act and guess（演一演、猜天气）</strong><br>— What's the weather like today? — It's rainy. — No. — It's windy. — Yes!</p><p><strong>Lesson 3 · A. Choose and say / B. Let's write</strong><br>— What's the weather like today?<br>— It's snowy. Let's make a snowman.<br>（B 部分字母书写：E for egg · F for fish · G for girl · H for head）</p><p><strong>Story Time</strong><br>— What's the weather like? — It's cloudy and rainy.<br>— I don't like rain. — I love rain!<br>— Look, now it's sunny! Let's go to the park.<br>— But it's windy. We can fly a kite.<br>— I can fly a kite now! This is fun. — Oh no, my cap!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网同步跟读页（yyld.51jiaoxi.com/erxia/rjbxqd_danyuan02.html）、人教社教师网优质课教案（renjiaoshe.com：It's rainy. Umbrellas go up, up, up. / What's the weather like today? — It's windy.）、电子课本PDF摘要多源交叉核对：单元名 Unit 2 Weather、Lesson 1-3 栏目与核心句、Lesson 2 Wow! Let's go and play football.、Lesson 3 Let's make a snowman. 均为两源以上一致；Lesson 1 歌谣各天气段与伞起伞落的完整对应（教案源确认 rainy 配 Umbrellas go up, up, up.）、Story Time 对话分行及标点、Lesson 3 字母细节为跟读页单源转写，细节待进一步核对。focus：rainy 是 Lesson 1 歌谣 It's rainy. Umbrellas go up, up, up. 的天气词，Story Time 里 It's cloudy and rainy. / I don't like rain. 直接出场。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>rain + y —— rain（雨）后面拖一条小尾巴 y，就变成形容词！<br>✏️ 口诀：rain 是雨点，y 是尾巴，拖上尾巴就是'下雨的'</td></tr>
+        <tr><th>音·发音</th><td>/ˈreɪni/ 两音节，重音在前：RAIN-ny，ai 读长音 /eɪ/<br>🎧 跟读：a rainy day · It's rainy. · cloudy and rainy</td></tr>
+        <tr><th>意·释义</th><td>下雨的 🌧️（也说'多雨的'：a rainy city 多雨的城市）</td></tr>
+        <tr><th>用·句型</th><td>① It's rainy. (下雨了。)<br>② It's a rainy day. (这是个雨天。)<br>③ I don't like rainy days. (我不喜欢雨天。)<br>④ It's rainy in London today. (伦敦今天有雨。)</td></tr>
+        <tr><th>拓·同族词</th><td>三兄弟：rain 雨(名词)→rainy 下雨的(形容词)→raining 正在下雨<br>-y 天气词家族：windy/snowy/sunny/cloudy——本单元全家福！</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>描述</td><td>It's rainy today.</td></tr>
+        <tr><td>组合</td><td>It's cloudy and rainy.</td></tr>
+        <tr><td>短语</td><td>a rainy day 雨天</td></tr>
+        <tr><td>对比</td><td>It's rainy in London. It's sunny in Beijing.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句 · 说'下雨'</div>
+        <p><strong>课本问法：</strong>What's the weather like today? — It's rainy. (今天天气怎么样？——下雨。)</p><p><strong>-y 变身：</strong>rain 雨 → <u>rainy</u> 下雨的（名词加 y 变形容词）</p><p><strong>常用搭配：</strong>a rainy day 雨天 · rainy season 雨季</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>rainy 是全家最好实战的天气词：下雨天推窗说 It's rainy!，出门前提醒 Take an umbrella!。重点讲 -y 后缀规律——rain 加 y 变 rainy，一招能学会本单元五个天气词。爱下雨还是烦下雨都可以说：I like rain. / I don't like rainy days.——观点表达从天气开始最自然。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 天气播报员</strong><br>推窗看天，孩子播报 It's rainy. / It's sunny.，连续三天打卡算通关</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 加 y 变身赛</strong><br>rain→rainy · snow→snowy · wind→windy · cloud→cloudy · sun→sunny（双写n！），全对通关</div>
+        <div class="game-step"><strong>✅ 关卡3 · 句型填空</strong><br>① It's ______ today. (rainy)<br>② It's a ______ day. (rainy)<br>③ I don't like ______ days. (rainy)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 天气符号卡</strong><br>画或打印天气符号（云+雨滴=雨），抽到哪张说哪句 It's ...</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 It's rainy. I like / don't like rainy days. 表明态度并录语音打卡<br><span class='btn-mimic'>🎤 示例：It's rainy. I like rainy days — I can jump in puddles!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟rainy通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Umbrellas Up!》</h3>
+    <div class="quote">小雅和爸爸去公园野餐，半路掉雨点了。'It's rainy!' 爸爸唰地撑开伞：'Umbrellas go up, up, up!' 两人在伞下接着野餐，雨点打在伞面上嗒嗒响，像请来了一位鼓手。雨停了，天边挂出彩虹。'Look! Now it's sunny!' 小雅说：'Rainy days have music, and sunny days have rainbows!' 原来每种天气都自带礼物。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 下雨了他们怎么办？(撑伞——Umbrellas go up)<br>• 雨停后天气怎么样？(It's sunny)<br>• 问问孩子：你喜欢雨天吗？用 I like rain. / I don't like rain. 说一说。</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">rainy 下雨的<br>├── 词族 ── rain 雨 → rainy 下雨的 → raining 正在下<br>├── 后缀 ── -y 家族：windy / snowy / sunny / cloudy<br>├── 句型 ── It's rainy. · a rainy day<br>└── 名歌 ── Rainy Days and Mondays 雨天与星期一</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>rain 来自古英语 regn，和德语 Regen（雨）是亲兄弟，几千年来都管下雨这件事。英语把名词变成'充满……的'形容词，最常用的办法就是加个小尾巴 -y：rain→rainy（雨多）、wind→windy、sun→sunny、snow→snowy、cloud→cloudy——五个天气词一套公式全搞定。🎯 讲给孩子：-y 是英语最高产的形容词尾巴，学会一个 rainy，等于学会半个单元。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>rain</td><td>n. 雨（It's raining. 正在下雨）</td></tr>
+        <tr><td>raining</td><td>正在下雨（进行时，别和 rainy 混）</td></tr>
+        <tr><td>rainbow</td><td>彩虹（rain + bow 弓：雨后天上的'弓'）</td></tr>
+        <tr><td>raincoat</td><td>雨衣（rain + coat：下雨穿的外套）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">Rain, rain, go away. Come again some other day.<br>雨呀雨呀快走开，改日再来。—— 英语世界传唱最久的童谣之一：孩子们想出去玩时，就对着雨唱这两句。</div>
+
+    <h3>🎵 歌词里的 rainy</h3>
+    <p>🎵 The Carpenters《Rainy Days and Mondays》(1971)：歌名含词。卡朋特兄妹的传世经典——'Rainy days and Mondays always get me down'（雨天和星期一总让我情绪低落），雨天加星期一是歌里最著名的'坏心情组合'。（沿用名单已配）</p><p>🎵 彩蛋：雨天专属儿歌《Rain Rain Go Away》——和本页谚语同款，下雨天和孩子对唱，唱完雨就'走开'啦。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>天气预报符号里，雨天是一朵云加几滴雨；英语里说'下倾盆大雨'用 rain cats and dogs（天上掉猫狗）——这个说法的确切来历至今没有定论，一说和北欧神话里的猫狗风暴有关，一说是17世纪暴雨后流浪猫狗被冲上街的画面。来历不确定，反而是语言学家们还在吵的趣题。另一个硬知识：英国伦敦有'多雨城市'的名声，说 a rainy city 一点没错。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>rainy</strong> /ˈreɪni/ adj. 下雨的</div>
+        <div><strong>rainy</strong> /ˈreɪni/ adj. 下雨的</div>
+        <div>课本句：It's rainy. Umbrellas go up, up, up.</div>
+        <div>后缀：rain + y → rainy（-y 天气词家族）</div>
+        <div>名歌：Rainy Days and Mondays（The Carpenters）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级下册 Unit 2 Weather<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("rainy");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
