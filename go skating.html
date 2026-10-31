@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·go skating</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · go skating</h1>
+<div class="subhead">📍 人教版（一起点）四年级下册 Unit 5 Free Time</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> go skating</div>
+    <div class="info-item"><span class="info-label">词性</span> 动词短语 去滑冰</div>
+    <div class="info-item"><span class="info-label">音标</span> /ɡəʊ ˈskeɪtɪŋ/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (四年级)</div>
+    <div class='info-item'><span class='info-label'>同族</span> go shopping / go swimming</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 5 Free Time（P48-53）</div>
+    <p><strong>Main scene · 主情景图（P48-49）</strong><br>
+    孩子们交流各自的课余生活：野餐、拉小提琴、滑冰、野营、做家务——本单元主题：Free Time 课余时间。</p>
+    <p><strong>Lesson 1 · 词汇与功能句（P50）</strong><br>
+    核心短语：go for a picnic 去野餐 · play the violin 拉小提琴 · go skating 去滑冰 · go camping 去野营 · do the housework 做家务<br>
+    词汇：free 空闲的 · never 从不<br>
+    功能句：— What do you do in your free time? — I often go for a picnic.</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat（P51）</strong><br>
+    — Mike: Lily, what are you going to do tomorrow?<br>
+    — Lily: I'm going skating.<br>
+    — Mike: How often do you go skating?<br>
+    — Lily: I go skating twice a week. What do you do in your free time?<br>
+    — Mike: I often read books.</p>
+    <p><strong>Lesson 3 · A. Read and fill in the blanks（P52）</strong><br>
+    交笔友自我介绍卡：Jin Jing：I go to a dance club once a week. · Alex（来自加拿大）：My friends and I go skating twice a week. · Tina：I often read English stories. · Amanda：会跳街舞，想学中国舞（Who can teach me?）</p>
+    <p><strong>Fun Time · Let's sing（P53 · 频率歌·歌词大意）</strong><br>
+    睡觉一天一次、刷牙一天两次、吃饭一天三次、写作业 every day、go skating once a week、play the violin twice a week、上五天学、do the housework——一首歌唱全频率。</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经好多云课文对照页 m.haoduoyun.cc/fanyi/rjb/4x/5.html、51jiaoxi 单元词汇表 yyld.51jiaoxi.com/sixia/rjbxqd_danyuan06.html、电子课本网/Scribd 电子课本、B站 P50 逐页跟读（BV1oQdUBTEJV）多源交叉核对；Lesson 2/3 课文句两源一致，Fun Time 歌词为大意、逐句原文待核。go skating 为 Lesson 1 核心短语，Lesson 2 对话（How often do you go skating? — Twice a week.）与 Fun Time 频率歌均出现。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>go + skating：skate 去掉 e 加 ing，不双写！<br>✏️ 口诀：go + 动词ing，“去做某项活动”</td></tr>
+        <tr><th>音·发音</th><td>/ˈskeɪ.tɪŋ/ skate /skeɪt/ 中间的 eɪ 是长元音，像滑出去的长弧线<br>🎧 跟读：go skating · ice skating · skating rink 滑冰场</td></tr>
+        <tr><th>意·释义</th><td>去滑冰 ⛸️（一般指真冰；轮滑要说 roller skating）</td></tr>
+        <tr><th>用·句型</th><td>① How often do you go skating? — Twice a week. (课本原句！)<br>② I'm going skating tomorrow. (我明天要去滑冰。)<br>③ Let's go skating on Sunday! (周日去滑冰吧！)<br>④ I go skating with my friends. (我和朋友去滑冰。)</td></tr>
+        <tr><th>拓·同族词</th><td>go + V-ing 大家族：go shopping / go swimming / go camping / go fishing；skater 滑冰者；ice skates 冰鞋</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>频率</td><td>I go skating twice a week. (课本原句)</td></tr>
+        <tr><td>邀请</td><td>Let's go skating on Sunday!</td></tr>
+        <tr><td>计划</td><td>I'm going skating tomorrow.</td></tr>
+        <tr><td>能力问答</td><td>Can you go skating? — Yes, I can.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · go + doing 去做某事</div>
+        <p><strong>go + 动词ing = 去做（某项活动）：</strong><br><u>go</u> skating 滑冰 ⛸️ / <u>go</u> swimming 游泳 🏊 / <u>go</u> shopping 购物 🛒 / <u>go</u> camping 野营 ⛺</p><p><strong>本单元最经典的频率问答（Lesson 2 原句）：</strong><br>— <u>How often</u> do you go skating?<br>— I go skating <u>twice a week</u>.</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>go + V-ing 是英语超高频结构。可以列一张“go 家族”清单贴冰箱：go shopping、go swimming、go skating、go camping、go fishing，每完成一件事就打卡说一句。提醒孩子：skating 是 skate 去掉 e 加 ing，不双写；轮滑是 roller skating，别和真冰滑冰混。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 go skating，孩子从 ⛸️ 滑冰 / 🏊 游泳 / 🛹 滑板 中选 → 正确答案：⛸️</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① I go ______ twice a week. (skating)<br>② Let's go ______ in the park! (skating)</div>
+        <div class="game-step"><strong>🔄 关卡3 · go 家族连线</strong><br>shopping→购物 · swimming→游泳 · skating→滑冰 · camping→野营</div>
+        <div class="game-step"><strong>🔍 关卡4 · 动作模仿</strong><br>脚下“滑”两步做一个冰上动作，边滑边说 I go skating! 得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>复述课本原句并造新句<br><span class='btn-mimic'>🎤 示例：I go skating twice a week. I never go skating in summer!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟go skating通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Skating on the Lake》</h3>
+    <div class="quote">⛸️ 冬天，湖面结了厚厚的冰。小企鹅波波第一次去 go skating，“扑通”摔了个屁股蹲儿，冰面像镜子一样亮。伙伴们围过来喊：“Never give up!” 波波爬起来，每周认真练 twice a week。一个月后，波波在冰上滑出一朵漂亮的冰花：“Skating is my favourite free time activity!”</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• How often did Bobo practise skating? (Twice a week)<br>• Who said “Never give up”? (His friends)<br>• 问问孩子：What can you do after practising many times?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 结构 ── go + skating（skate 去 e 加 ing，不双写）
+├── 家族 ── go shopping · go swimming · go camping（go + V-ing）
+├── 分辨 ── skating 真冰滑冰 · roller skating 轮滑
+├── 课本 ── How often do you go skating? — Twice a week.
+└── 装备 ── ice skates 冰鞋 · skating rink 滑冰场</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>skate（冰鞋/滑冰）一般认为来自荷兰语 schaats。荷兰是滑冰的故乡：几个世纪前，荷兰人冬天就穿着冰鞋在结了冰的运河上“通勤”，从家门口一路滑到市场——滑冰在荷兰一度是正经交通工具。动词 skate 由名词“冰鞋”而来，17 世纪进入英语。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>skate</td><td>动词滑冰 / 名词冰鞋，一词两用</td></tr>
+        <tr><td>skating</td><td>skate 去 e 加 ing（不双写 t！）</td></tr>
+        <tr><td>roller skating</td><td>roller(轮子) + skating → 轮滑</td></tr>
+        <tr><td>skater</td><td>skate + er → 滑冰的人</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">英语习语 “skate on thin ice”（在薄冰上滑冰）＝冒风险、如履薄冰：Stop skating on thin ice with your homework!（别拿作业冒险啦！）——滑冰的刺激感，被英语借成了“冒险”的代名词。</div>
+
+    <h3>🎵 歌词里的 go skating</h3>
+    <p>🎵 Vince Guaraldi《Skating》(1965，出自《查理·布朗的圣诞节》A Charlie Brown Christmas)：轻快爵士钢琴纯音乐。史努比在冰面上转圈滑冰时，电视里响的就是这段——琴音像冰刀划出的弧线，一听就想转圈。</p><p>🔗 与本单元 go 家族页（go for a picnic / go camping）互链；已标注：纯音乐。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>最早的冰鞋是骨头做的！北欧出土过几千年前的动物骨头冰鞋，人们把它绑在鞋上在冰面滑行省力气。花样滑冰 1908 年第一次进入奥运会（当时还是夏季奥运会），1924 年首届冬奥会上它也是元老项目。荷兰小朋友至今流行“运河上学滑冰”，这是他们冬天的国民运动。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>go skating</strong> /ɡəʊ ˈskeɪtɪŋ/ 动词短语 去滑冰</div>
+        <div><strong>go skating</strong> /ˈskeɪtɪŋ/ 去滑冰（go + V-ing）</div>
+        <div>功能句：— How often do you go skating? — Twice a week.（课本原句）</div>
+        <div>考点：go shopping / go swimming / go camping 同结构；skate 去 e 加 ing</div>
+        <div>歌曲记忆：Vince Guaraldi《Skating》（纯音乐）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级下册 Unit 5 Free Time<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("go skating");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

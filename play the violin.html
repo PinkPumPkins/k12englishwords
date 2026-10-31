@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·play the violin</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · play the violin</h1>
+<div class="subhead">📍 人教版（一起点）四年级下册 Unit 5 Free Time</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> play the violin</div>
+    <div class="info-item"><span class="info-label">词性</span> 动词短语 拉小提琴</div>
+    <div class="info-item"><span class="info-label">音标</span> /pleɪ ðə ˌvaɪəˈlɪn/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (四年级)</div>
+    <div class='info-item'><span class='info-label'>考点</span> 乐器前加 the</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 5 Free Time（P48-53）</div>
+    <p><strong>Main scene · 主情景图（P48-49）</strong><br>
+    孩子们交流各自的课余生活：野餐、拉小提琴、滑冰、野营、做家务——本单元主题：Free Time 课余时间。</p>
+    <p><strong>Lesson 1 · 词汇与功能句（P50）</strong><br>
+    核心短语：go for a picnic 去野餐 · play the violin 拉小提琴 · go skating 去滑冰 · go camping 去野营 · do the housework 做家务<br>
+    词汇：free 空闲的 · never 从不<br>
+    功能句：— What do you do in your free time? — I often go for a picnic.</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat（P51）</strong><br>
+    — Mike: Lily, what are you going to do tomorrow?<br>
+    — Lily: I'm going skating.<br>
+    — Mike: How often do you go skating?<br>
+    — Lily: I go skating twice a week. What do you do in your free time?<br>
+    — Mike: I often read books.</p>
+    <p><strong>Lesson 3 · A. Read and fill in the blanks（P52）</strong><br>
+    交笔友自我介绍卡：Jin Jing：I go to a dance club once a week. · Alex（来自加拿大）：My friends and I go skating twice a week. · Tina：I often read English stories. · Amanda：会跳街舞，想学中国舞（Who can teach me?）</p>
+    <p><strong>Fun Time · Let's sing（P53 · 频率歌·歌词大意）</strong><br>
+    睡觉一天一次、刷牙一天两次、吃饭一天三次、写作业 every day、go skating once a week、play the violin twice a week、上五天学、do the housework——一首歌唱全频率。</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经好多云课文对照页 m.haoduoyun.cc/fanyi/rjb/4x/5.html、51jiaoxi 单元词汇表 yyld.51jiaoxi.com/sixia/rjbxqd_danyuan06.html、电子课本网/Scribd 电子课本、B站 P50 逐页跟读（BV1oQdUBTEJV）多源交叉核对；Lesson 2/3 课文句两源一致，Fun Time 歌词为大意、逐句原文待核。play the violin 为 Lesson 1 核心短语，Fun Time 频率歌唱到 play the violin twice a week。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>play + the + violin —— 三件套缺一不可；violin 拆音节 vi·o·lin 记忆<br>✏️ 口诀：乐器姓 the，球类不姓！play the violin ✔ · play violin ✘</td></tr>
+        <tr><th>音·发音</th><td>/ˌvaɪ.əˈlɪn/ 三音节，重音在最后：vi-a-LIN；vi 读 /vaɪ/<br>🎧 跟读：play the violin · violinist 小提琴家</td></tr>
+        <tr><th>意·释义</th><td>拉小提琴 🎻（弦乐/键盘乐器统一用 play；violin n. 小提琴）</td></tr>
+        <tr><th>用·句型</th><td>① I can play the violin. (我会拉小提琴。)<br>② She plays the violin twice a week. (她一周拉两次琴。)<br>③ How often do you play the violin? (你多久拉一次琴？)<br>④ Listen! Someone is playing the violin. (听！有人在拉琴。)</td></tr>
+        <tr><th>拓·同族词</th><td>play the piano / the guitar / the pipa 都带 the；对比 play football 球类不带；violin + ist = violinist 小提琴家</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>能力</td><td>I can play the violin.</td></tr>
+        <tr><td>频率</td><td>She plays the violin twice a week.</td></tr>
+        <tr><td>进行时</td><td>Listen! He is playing the violin.</td></tr>
+        <tr><td>喜好</td><td>I like playing the violin.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 乐器加 the</div>
+        <p><strong>play + the + 乐器：</strong><br><u>play the</u> violin 🎻 / <u>play the</u> piano 🎹 / <u>play the</u> guitar 🎸</p><p><strong>play + 球类（不加 the）：</strong><br><u>play</u> football ⚽ / <u>play</u> basketball 🏀 / <u>play</u> ping-pong 🏓</p><p>⚠️ 口诀：弹的拉的带 the，踢的拍的裸奔！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>乐器加 the 是本页最大考点。孩子正在学琴的话，每次练琴前说一句 I play the violin.；没学乐器，可以看音乐会视频玩“the 快问快答”：报乐器名，孩子抢答 play the... 还是 play...。重点纠正 play violin 漏 the。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音辨物</strong><br>家长说 play the violin，孩子从 🎻 / 🎹 / 🥁 中选 → 正确答案：🎻</div>
+        <div class="game-step"><strong>✏️ 关卡2 · the 填空</strong><br>① I play ___ violin. (the)<br>② I play ___ football. (不填！)<br>③ She plays ___ piano. (the)</div>
+        <div class="game-step"><strong>🔄 关卡3 · 三单变身</strong><br>I play the violin. → She ______ the violin. (plays)<br>进行时：Listen! He is ______ it. (playing)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 动作模仿</strong><br>拿筷子当琴弓做拉琴动作，边做边说 I'm playing the violin! 得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>说完整句：I play the violin ___ a week.（填上频率）<br><span class='btn-mimic'>🎤 示例：I play the violin twice a week.</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟play the violin通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Little Violinist》</h3>
+    <div class="quote">🎻 小猫咪咪每天放学都趴在邻居爷爷窗外听小提琴。妈妈问：“Do you want to play the violin?” 咪咪用力点头。第一周，琴声像锯木头，小老鼠们捂着耳朵跑；一个月后，琴声像小鸟叫；一年后的森林音乐会，咪咪一曲拉完，全场掌声雷动。咪咪说：“I play the violin twice a week — and never give up!”</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• How often does Mimi play the violin? (Twice a week)<br>• What did the violin sound like at first? (像锯木头)<br>• 问问孩子：What do you want to learn to play?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 铁律 ── play the + 乐器（the 不能丢！）
+├── 乐器行 ── the piano 钢琴 · the guitar 吉他 · the pipa 琵琶
+├── 对比 ── play football 踢足球（球类不加 the）
+├── 频率 ── play the violin twice a week（Fun Time 歌词）
+└── 人物 ── violinist 小提琴家</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>violin 来自意大利语 violino，其实是 viola（维奥尔琴/中提琴）加“小”后缀 -ino 变来的——所以小提琴字面意思就是“小小的维奥尔”。这个家族四兄弟按个头排队：violin 小提琴、viola 中提琴、cello 大提琴（全名 violoncello）、double bass 低音提琴，个头越大声音越低。现代小提琴诞生于 16 世纪的意大利北部。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>violin</td><td>vi·o·lin 三音节；来自意大利语 violino（小 viola）</td></tr>
+        <tr><td>violinist</td><td>violin + ist（“…家/…师”后缀）→ 小提琴家</td></tr>
+        <tr><td>the violin</td><td>play the + 乐器：the 是乐器短语的地道标志</td></tr>
+        <tr><td>fiddle</td><td>小提琴的口语别称（乡村音乐里常说 fiddle）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">莎士比亚《威尼斯商人》第五幕：“The man that hath no music in himself, Nor is not moved with concord of sweet sounds...”（心中没有音乐、不为甜美和声所动的人……不可深交。）—— 四百多年前的“音乐素养论”，今天听来依然成立。</div>
+
+    <h3>🎵 歌词里的 play the violin</h3>
+    <p>🎵 Charlie Daniels Band《The Devil Went Down to Georgia》(1979)：Billboard 冠军。魔鬼下凡到佐治亚州，跟小伙子比小提琴赌金琴——曲中疯狂的小提琴对决（fiddle battle）是摇滚史名场面。</p><p>🔗 与 played the piano 页互链（同为乐器演奏）；Fun Time 频率歌里也唱到 play the violin twice a week。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>一把手工小提琴约有 70 个零件，琴板木料常常要自然风干好几年才能上琴。世界上最著名的老琴出自 17—18 世纪意大利克雷莫纳的斯特拉迪瓦里家族，他 1716 年做的名琴“弥赛亚”至今几乎崭新地保存在博物馆里。顺带一提：爱因斯坦从小拉小提琴，据说思路卡壳时就靠拉琴找灵感。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>play the violin</strong> /pleɪ ðə ˌvaɪəˈlɪn/ 动词短语 拉小提琴</div>
+        <div><strong>play the violin</strong> /ˌvaɪəˈlɪn/ 拉小提琴（乐器前必加 the）</div>
+        <div>功能句：I can play the violin. / She plays the violin twice a week.</div>
+        <div>考点：play the + 乐器 ✔ · play + 球类（不加 the）</div>
+        <div>歌曲记忆：Charlie Daniels Band《The Devil Went Down to Georgia》</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级下册 Unit 5 Free Time<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("play the violin");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

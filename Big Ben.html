@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·Big Ben</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · Big Ben</h1>
+<div class="subhead">📍 人教版（一起点）四年级下册 Unit 6 Countries（国家）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> Big Ben</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 大本钟（伦敦地标钟楼与大钟的名字，专有名词）</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˌbɪɡ ˈben/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (四年级)</div>
+    <div class='info-item'><span class='info-label'>位置</span> London, the UK</div>
+</div>
+
+<div class='textbook'>
+    <div class='textbook-title'>📖 课本原文直通车 · Unit 6 Countries（国家）</div>
+    <p><strong>Lesson 1 · A. Look, listen and repeat</strong><br>
+    — Welcome to China!<br>
+    — Where are you from? — I'm from Canada. / I'm from Australia. / I'm from the UK. / I'm from the USA.<br>
+    人物自介（教案多源核对）：My name is Edward. I'm from Canada. I like collecting things. / My name is Cindy. I'm from Australia. I like swimming.<br>
+    （本课单词：Canada 加拿大 · Australia 澳大利亚 · the UK 英国 · the USA 美国 · China 中国）</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>
+    — I'm from the UK. My name is Tom. I like drawing and making models.（宾宾说自己来自中国、喜欢拍照，两源一致）<br>
+    —（汤姆邀请宾宾去他的国家参观大本钟、在那里拍照 · 大意）<br>
+    <strong>B. Let's act</strong>（角色扮演）<br>
+    — I'm from the USA. You can visit Disneyland in my country.</p>
+    <p><strong>Lesson 3 · A. Read and match（宾宾写给妈妈的信 · Dear Mum）</strong><br>
+    借着篝火的光写信（campfire），介绍三位新朋友：<br>
+    Cindy is a pretty girl. She is from Australia. She likes swimming. 她的国家有可爱的考拉（cute koalas）。<br>
+    Edward is from Canada. He likes collecting beautiful maple leaves.（收集美丽的枫叶）<br>
+    Tom is from the UK. He likes making models. He has a great Big Ben model.（有一个很棒的大本钟模型）<br>
+    信的结尾：想游览这些国家。</p>
+    <p><strong>Let's Check（概要，原文待核）</strong><br>
+    A：Alex（加拿大，收集枫叶）· Ted（澳大利亚，常去看考拉）· Kitty（英国，爱画大本钟）· John（美国，爱去迪士尼）；B：Peter 来自英国爱滑板，Grace 爱读书。</p>
+    <p><strong>Fun Time（A/B 知识拓展，概要，原文待核）</strong><br>
+    加拿大：能看到海狸和枫叶，人们爱冬季运动；英国：大本钟有150多年历史，除夕夜人们聚在它周围；美国：迪士尼乐园，坐游乐设施、见白雪公主，甚至和米老鼠一起吃午饭；澳大利亚：考拉每天睡约20小时，白天睡、晚上吃树叶。<br>
+    <strong>C. Let's sing</strong>（两源一致）：Where are you from? 问答式歌曲——朋友来自北京，那里以长城闻名；来自伦敦，以大本钟闻名；来自悉尼，It's famous for the Opera House.</p>
+    <p><strong>Story Time（概要，原文待核）</strong><br>
+    Amy 逛一座"世界之家"大房子：来自中国的微笑大熊猫 → 来自英国的大本钟模型 → 卧室里来自澳大利亚的考拉玩偶 → 遇见来自美国迪士尼的米老鼠 → 门上的枫叶引出加拿大的房间（悬念收尾）。</p>
+    <p><strong>Let's Spell</strong><br>
+    y 发 /aɪ/：fly, sky, my；y 发 /i/：happy, hobby, candy</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经多源交叉核对：单元名 Countries 经智慧山(zhihuishan.com/pepsinianjixia.html)、电子课本网(dzkbw.com/books/rjb/yingyu/xqdsixia/)、好多云课文翻译(m.haoduoyun.cc/fanyi/rjb/4x/6.html)、英语朗读宝(yyld.51jiaoxi.com/sixia/rjbxqd_danyuan07.html)四源一致；Lesson 2 对话、Lesson 3 信件与 Fun Time C 歌曲经好多云+朗读宝两源一致；Lesson 1 自介句经人教教师网教案(renjiaoshe.com)与同步课堂资源核对；Let's Check、Fun Time A/B、Story Time 概要据朗读宝整理，逐句原文待核。Big Ben 在 Lesson 2 就出场：Tom 邀请宾宾去他的国家看大本钟；Lesson 3 信里说他有一个很棒的 Big Ben 模型；Fun Time 介绍它有150多年历史。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>Big（大）+ Ben（人名"本"），两个词首字母都大写——它是名字，不是普通名词！<br>✏️ 口诀：大 Ben 是名钟，Big Ben 两个大写挺神气！</td></tr>
+        <tr><th>音·发音</th><td>/ˌbɪɡ ˈben/ 重音在 Ben<br>🎧 跟读：visit Big Ben · a Big Ben model · Big Ben in London</td></tr>
+        <tr><th>意·释义</th><td>大本钟 🔔（伦敦议会大厦钟楼里的大钟，英国最著名的地标；"Big Ben"本是那口大钟的名字）</td></tr>
+        <tr><th>用·句型</th><td>① You can visit Big Ben in my country. (在我的国家你可以参观大本钟。·课本 Tom 邀请句)<br>② He has a great Big Ben model. (他有一个很棒的大本钟模型。·Lesson 3 信件)<br>③ Big Ben is in London. (大本钟在伦敦。)<br>④ Kitty likes drawing pictures of Big Ben. (Kitty 喜欢画大本钟。·Let's Check)</td></tr>
+        <tr><th>拓·同族词</th><td>clock 钟 · tower 塔 · bell 钟/铃（Big Ben 本是一口大 bell！）<br>同单元地标：the Great Wall · Disneyland</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>地标</td><td>Big Ben is in London.</td></tr>
+        <tr><td>邀请</td><td>You can visit Big Ben.</td></tr>
+        <tr><td>描述</td><td>Big Ben is very old and famous.</td></tr>
+        <tr><td>模型</td><td>I have a Big Ben model.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 地名地标都"戴帽子"（首字母大写）</div>
+        地标名是专有名词：<br><strong>Big Ben</strong> ✔ <s>big ben</s> ✘<br><br>类似的地标：the Great Wall 长城 · Disneyland 迪士尼乐园<br>⚠️ Fun Time 唱句：It's famous for the Opera House.（它以歌剧院闻名）<br>be famous for = 以……闻名，先混个脸熟！
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>Big Ben 是本单元出镜率最高的地标（Lesson 2、Lesson 3、Fun Time 三次）。在家搭积木时搭一座"大本钟"，说 This is my Big Ben model!——正是课本里 Tom 的同款。顺带纠正小误会：Big Ben 严格说是钟楼里那口大钟的名字，钟楼叫 Elizabeth Tower。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 Big Ben，孩子从 🔔 / 🐼 / 🍁 中选 → 正确答案：🔔</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 大写纠错</strong><br>big ben → ______ (Big Ben)<br>disneyland → ______ (Disneyland)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 补全课本句</strong><br>You can visit ______ ______ in my country. (Big Ben)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 积木搭一搭</strong><br>用积木搭一座钟楼，说 This is my Big Ben model! 得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>当英国小导游录语音<br><span class='btn-mimic'>🎤 示例：I'm from the UK. You can visit Big Ben!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟Big Ben通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《会唱歌的钟》</h3>
+    <div class="quote">💫 Tom 的 Big Ben 模型每到整点就"当——"地响一声。妹妹问：真的大本钟也唱歌吗？Tom 挺起胸脯：It's over 150 years old, and it sings every hour! 妹妹把耳朵贴在模型上：它唱的是英文歌吗？Tom 笑了：It sings in "time"! 世界上所有的钟说的是同一种语言——滴答和当当。🔔</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Whose Big Ben model is it? (Tom's)<br>• How old is the real Big Ben? (Over 150 years)<br>• 问问孩子：家里哪种声音像"时间的歌声"？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 位置 ── London, the UK（议会大厦钟楼）<br>├── 名字 ── 本是大钟名，钟楼叫 Elizabeth Tower<br>├── 年龄 ── 1859年启动，150多岁<br>├── 句型 ── You can visit Big Ben in my country.<br>└── 模型 ── a Big Ben model（课本 Tom 同款）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>Big Ben 的"Ben"据最流行的说法来自本杰明·霍尔爵士（Sir Benjamin Hall）——负责大钟安装的官员，他块头大，绰号"大本 Big Ben"；也有人说它得名于拳击冠军本·凯特（Ben Caunt），同样是著名的"大块头"。1859年大钟第一次敲响，从此"大本"成了英国人心中最准的时间。<br>🎯 讲给孩子：Big Ben 原本是一个"大个子"的外号——外号喊了一百多年，喊成了国家的名片。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>Big Ben</td><td>本是大钟的名字：英国最著名的"钟"</td></tr>
+        <tr><td>Elizabeth Tower</td><td>钟楼的正式名字（2012年更名）</td></tr>
+        <tr><td>bell</td><td>钟/铃：Big Ben 本质上是一口大 bell</td></tr>
+        <tr><td>clock tower</td><td>钟楼：带时钟的塔</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Lost time is never found again." ⏰ 失去的时间再也找不回来。—— 本杰明·富兰克林《穷理查年鉴》。大本钟160多年准时敲响，就是在提醒伦敦人：时间很贵，别浪费。</div>
+
+    <h3>🎵 歌词里的 Big Ben</h3>
+    🎵 传统儿歌《London Bridge Is Falling Down》：全球皆知的伦敦童谣，唱的是伦敦另一座名桥——Big Ben 就在不远处守护着泰晤士河。<br>🔗 与 London 页互链（同曲童谣：伦敦地标专属 BGM）。
+
+    <h3>⚡ 冷知识</h3>
+    <p>Big Ben 其实是"钟"的名字：钟楼2012年更名为 Elizabeth Tower。大钟1859年启动，比埃菲尔铁塔还年长30岁；钟摆上方放着一摞旧便士硬币，加减一枚就能微调快慢——用"一分钱"校准时间，是真的！课本 Fun Time 说除夕夜人们聚在大本钟下倒计时跨年，如今依然是伦敦跨年的保留节目。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>Big Ben</strong> /ˌbɪɡ ˈben/ n. 大本钟（伦敦地标钟楼与大钟的名字，专有名词）</div>
+        <div>Big Ben /ˌbɪɡ ˈben/ n. 大本钟（专有名词，两个大写）</div>
+        <div>功能句：You can visit Big Ben in my country.</div>
+        <div>常识锚点：钟楼正名 Elizabeth Tower；1859年启动</div>
+        <div>名言：Lost time is never found again.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级下册 Unit 6 Countries（国家）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("Big Ben");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

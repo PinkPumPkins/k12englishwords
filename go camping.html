@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·go camping</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · go camping</h1>
+<div class="subhead">📍 人教版（一起点）四年级下册 Unit 5 Free Time</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> go camping</div>
+    <div class="info-item"><span class="info-label">词性</span> 动词短语 去野营</div>
+    <div class="info-item"><span class="info-label">音标</span> /ɡəʊ ˈkæmpɪŋ/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (四年级)</div>
+    <div class='info-item'><span class='info-label'>相关</span> camp n. 营地 · tent 帐篷</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 5 Free Time（P48-53）</div>
+    <p><strong>Main scene · 主情景图（P48-49）</strong><br>
+    孩子们交流各自的课余生活：野餐、拉小提琴、滑冰、野营、做家务——本单元主题：Free Time 课余时间。</p>
+    <p><strong>Lesson 1 · 词汇与功能句（P50）</strong><br>
+    核心短语：go for a picnic 去野餐 · play the violin 拉小提琴 · go skating 去滑冰 · go camping 去野营 · do the housework 做家务<br>
+    词汇：free 空闲的 · never 从不<br>
+    功能句：— What do you do in your free time? — I often go for a picnic.</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat（P51）</strong><br>
+    — Mike: Lily, what are you going to do tomorrow?<br>
+    — Lily: I'm going skating.<br>
+    — Mike: How often do you go skating?<br>
+    — Lily: I go skating twice a week. What do you do in your free time?<br>
+    — Mike: I often read books.</p>
+    <p><strong>Lesson 3 · A. Read and fill in the blanks（P52）</strong><br>
+    交笔友自我介绍卡：Jin Jing：I go to a dance club once a week. · Alex（来自加拿大）：My friends and I go skating twice a week. · Tina：I often read English stories. · Amanda：会跳街舞，想学中国舞（Who can teach me?）</p>
+    <p><strong>Fun Time · Let's sing（P53 · 频率歌·歌词大意）</strong><br>
+    睡觉一天一次、刷牙一天两次、吃饭一天三次、写作业 every day、go skating once a week、play the violin twice a week、上五天学、do the housework——一首歌唱全频率。</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经好多云课文对照页 m.haoduoyun.cc/fanyi/rjb/4x/5.html、51jiaoxi 单元词汇表 yyld.51jiaoxi.com/sixia/rjbxqd_danyuan06.html、电子课本网/Scribd 电子课本、B站 P50 逐页跟读（BV1oQdUBTEJV）多源交叉核对；Lesson 2/3 课文句两源一致，Fun Time 歌词为大意、逐句原文待核。go camping 为 Lesson 1 核心短语。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>go + camping：camp(营地) + ing；camp 单独也是名词“营地”<br>✏️ 口诀：带上帐篷去 camp，加个 ing 变活动</td></tr>
+        <tr><th>音·发音</th><td>/ˈkæm.pɪŋ/ 短元音 æ，嘴张大：CAM-ping<br>🎧 跟读：go camping · a summer camp 夏令营 · campfire 篝火</td></tr>
+        <tr><th>意·释义</th><td>去野营/露营 ⛺（住帐篷的户外过夜活动；camping n. 露营）</td></tr>
+        <tr><th>用·句型</th><td>① We go camping in summer. (我们夏天去野营。)<br>② Let's go camping in the forest! (去森林野营吧！)<br>③ I went camping last weekend. (上周末我去露营了。)<br>④ Do you like going camping? (你喜欢露营吗？)</td></tr>
+        <tr><th>拓·同族词</th><td>go fishing 钓鱼 / go hiking 徒步 同结构；campsite 营地 · campfire 篝火；summer camp 夏令营是欧美孩子的经典暑假</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>频率</td><td>We go camping twice a year.</td></tr>
+        <tr><td>邀请</td><td>Let's go camping this summer!</td></tr>
+        <tr><td>过去式</td><td>I went camping last weekend.</td></tr>
+        <tr><td>地点</td><td>We go camping near the lake.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · Let's... 提议句</div>
+        <p><strong>提议一起做某事：</strong><br><u>Let's</u> go camping! / <u>Let's</u> go for a picnic!<br>（Let's = Let us，“我们……吧”）</p><p><strong>应答：</strong><br>— Good idea! / Great! / Sounds fun!</p><p>⚠️ Let's 后接动词原形：Let's go ✔ · Let's goes ✘</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>露营是英语国家孩子生活的常见话题。可以在客厅来一次“微露营”：搭个小帐篷、关灯、打手电讲英语故事，全程用英语下指令：Let's go camping! / Put up the tent!（搭帐篷）/ Tell a story!（讲故事）。顺带把 campfire、tent 这些装备词混个脸熟。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 go camping，孩子从 ⛺ 帐篷 / 🧺 野餐篮 / 🎣 鱼竿 中选 → 正确答案：⛺</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① We go ______ in summer. (camping)<br>② Let's go ______ in the forest! (camping)</div>
+        <div class="game-step"><strong>🔄 关卡3 · go 家族接龙</strong><br>go skating → go swimming → go ______（camping / fishing / shopping…说一个算过关）</div>
+        <div class="game-step"><strong>🔍 关卡4 · 装备配对</strong><br>tent→野营 · basket→野餐 · fishing rod→钓鱼，配对全对得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>发出露营提议并说一件要带的装备<br><span class='btn-mimic'>🎤 示例：Let's go camping! We need a tent.</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟go camping通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Tent Under the Stars》</h3>
+    <div class="quote">⛺ 夏天的傍晚，爸爸提议：“Let's go camping!” 朵朵负责背帐篷，妈妈带食物和水。到了营地，全家一起搭起橙色帐篷。夜里，campfire 篝火烤棉花糖，天上的星星比城市里多一百倍。朵朵数着星星睡着了，梦里还在说：“Camping is the best free time ever!”</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What did Duoduo carry? (The tent)<br>• What did the family do at night? (烤棉花糖、看星星)<br>• 问问孩子：What would you take if you go camping?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 结构 ── go + camping（camp 营地 + ing）
+├── 装备 ── tent 帐篷 · campfire 篝火 · torch 手电筒
+├── 时间 ── in summer · at the weekend
+├── 同族 ── summer camp 夏令营 · go hiking 徒步
+└── 句型 ── Let's go camping!（提议）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>camp 来自拉丁语 campus，意思是“开阔的平地”。古罗马军团行军扎营，扎营的平地就叫 campus。后来这个词一分为二：campus 变成“校园”（大学 campus 就是这么来的），camp 变成“营地”。所以今天的“校园”和“营地”是一对兄弟词，都源自罗马士兵脚下那片平地。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>camp</td><td>名词营地 / 动词扎营，一词两用</td></tr>
+        <tr><td>camping</td><td>camp + ing → 露营活动（go camping 去野营）</td></tr>
+        <tr><td>campfire</td><td>camp(营地) + fire(火) → 篝火</td></tr>
+        <tr><td>summer camp</td><td>夏令营（欧美孩子的经典暑假项目）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">英语习语 “a happy camper”（快乐的露营者）＝心满意足的人，常用否定式：Dad was not a happy camper when the tent fell down.（帐篷塌了，老爸可不高兴了。）——露营的快乐，英语拿它形容一切好心情。</div>
+
+    <h3>🎵 歌词里的 go camping</h3>
+    <p>🎵 Allan Sherman《Hello Muddah, Hello Fadduh》(1963)：冠军搞笑金曲。整首歌是一封“夏令营告状信”：小男孩给爸妈写信，哭诉营地的各种“惨况”，字字搞笑，是美国家庭夏令营文化的名曲——听懂大意就会笑翻。</p><p>🔗 与本单元 go 家族页（go for a picnic / go skating）互链。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>现代休闲露营从 20 世纪初开始流行，把“野外生存”变成了“家庭度假”。童子军创始人贝登堡勋爵把露营变成青少年的成长课堂——学会搭帐篷、看地图、生篝火，都算真本事。2010 年代英语还冒出个新词 glamping：glamorous(豪华) + camping = 豪华露营，带大床和电灯的那种帐篷！</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>go camping</strong> /ɡəʊ ˈkæmpɪŋ/ 动词短语 去野营</div>
+        <div><strong>go camping</strong> /ˈkæmpɪŋ/ 去野营（camp 营地 + ing）</div>
+        <div>功能句：Let's go camping! / We go camping in summer.</div>
+        <div>考点：go 家族接龙；tent 帐篷 · campfire 篝火</div>
+        <div>歌曲记忆：Allan Sherman《Hello Muddah, Hello Fadduh》</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级下册 Unit 5 Free Time<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("go camping");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

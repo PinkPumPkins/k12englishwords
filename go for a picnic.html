@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·go for a picnic</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · go for a picnic</h1>
+<div class="subhead">📍 人教版（一起点）四年级下册 Unit 5 Free Time</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> go for a picnic</div>
+    <div class="info-item"><span class="info-label">词性</span> 动词短语 去野餐</div>
+    <div class="info-item"><span class="info-label">音标</span> /ɡəʊ fə(r) ə ˈpɪknɪk/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (四年级)</div>
+    <div class='info-item'><span class='info-label'>同义</span> have a picnic</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 5 Free Time（P48-53）</div>
+    <p><strong>Main scene · 主情景图（P48-49）</strong><br>
+    孩子们交流各自的课余生活：野餐、拉小提琴、滑冰、野营、做家务——本单元主题：Free Time 课余时间。</p>
+    <p><strong>Lesson 1 · 词汇与功能句（P50）</strong><br>
+    核心短语：go for a picnic 去野餐 · play the violin 拉小提琴 · go skating 去滑冰 · go camping 去野营 · do the housework 做家务<br>
+    词汇：free 空闲的 · never 从不<br>
+    功能句：— What do you do in your free time? — I often go for a picnic.</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat（P51）</strong><br>
+    — Mike: Lily, what are you going to do tomorrow?<br>
+    — Lily: I'm going skating.<br>
+    — Mike: How often do you go skating?<br>
+    — Lily: I go skating twice a week. What do you do in your free time?<br>
+    — Mike: I often read books.</p>
+    <p><strong>Lesson 3 · A. Read and fill in the blanks（P52）</strong><br>
+    交笔友自我介绍卡：Jin Jing：I go to a dance club once a week. · Alex（来自加拿大）：My friends and I go skating twice a week. · Tina：I often read English stories. · Amanda：会跳街舞，想学中国舞（Who can teach me?）</p>
+    <p><strong>Fun Time · Let's sing（P53 · 频率歌·歌词大意）</strong><br>
+    睡觉一天一次、刷牙一天两次、吃饭一天三次、写作业 every day、go skating once a week、play the violin twice a week、上五天学、do the housework——一首歌唱全频率。</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经好多云课文对照页 m.haoduoyun.cc/fanyi/rjb/4x/5.html、51jiaoxi 单元词汇表 yyld.51jiaoxi.com/sixia/rjbxqd_danyuan06.html、电子课本网/Scribd 电子课本、B站 P50 逐页跟读（BV1oQdUBTEJV）多源交叉核对；Lesson 2/3 课文句两源一致，Fun Time 歌词为大意、逐句原文待核。go for a picnic 为 Lesson 1 核心短语，课本功能句 What do you do in your free time? 的示范活动之一。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>go for + a picnic 三段式：go for 表“去参加”，a picnic 一场野餐<br>✏️ 口诀：picnic 拼写 pic·nic，两个 c 夹一个 n！变 ing 要加 k：picnicking 野餐进行时</td></tr>
+        <tr><th>音·发音</th><td>/ˈpɪk.nɪk/ 重音在前：PIC-nic，两拍干脆<br>🎧 跟读：go for a picnic · have a picnic · a picnic basket 野餐篮</td></tr>
+        <tr><th>意·释义</th><td>去野餐 🧺（picnic 也单独作名词：a picnic in the park 公园野餐）</td></tr>
+        <tr><th>用·句型</th><td>① What do you do in your free time? — I often go for a picnic. (你空闲时做什么？——我常去野餐。)<br>② Let's go for a picnic this Sunday! (这周日我们去野餐吧！)<br>③ How often do you go for a picnic? — Once a month. (多久野餐一次？——一个月一次。)<br>④ We went for a picnic last week. (上周我们去野餐了。)</td></tr>
+        <tr><th>拓·同族词</th><td>have a picnic 同义可互换（与 have a picnic 页互链）；同单元 go 家族：go camping 野营 · go skating 滑冰；picnic 源自法语，本义“人人带一道菜”</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>邀请</td><td>Let's go for a picnic this Saturday!</td></tr>
+        <tr><td>频率</td><td>I go for a picnic once a month.</td></tr>
+        <tr><td>地点</td><td>We go for a picnic in the park.</td></tr>
+        <tr><td>过去式</td><td>We went for a picnic last week.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · What do you do in your free time?</div>
+        <p><strong>问空闲活动（本单元第一功能句）：</strong><br>— <u>What do you do in your free time?</u>（你空闲时间做什么？）<br>— I often <u>go for a picnic</u>. / I often read books.</p><p><strong>often 表示“经常”，位置在实义动词前：</strong><br>I <u>often</u> go for a picnic. ✔</p><p>⚠️ free time 里 free 是形容词“空闲的”，修饰名词 time。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>四下 Unit 5 是课余活动+频率单元。建议周末真去一次公园野餐，铺餐布时说一句 Let's go for a picnic!；回家再用日历数一数“这个月野餐了几次”，自然带出 once a month 等频率表达。重点盯 picnic 拼写：pic·nic，别多写一个 k。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 go for a picnic，孩子从 🧺 野餐篮 / ⛺ 帐篷 / 🎣 钓鱼竿 中选 → 正确答案：🧺</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 短语填空</strong><br>① Let's go for a ______ this Sunday! (picnic)<br>② We have a ______ in the park. (picnic)</div>
+        <div class="game-step"><strong>🔄 关卡3 · 同义变身</strong><br>go for a picnic = ______ a picnic (have)<br>同义短语互换，句意不变</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>在绘本或家庭相册里找出野餐照片，指着说 They go for a picnic! 说对了得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 I go for a picnic... 造句并说出时间和地点<br><span class='btn-mimic'>🎤 示例：I go for a picnic in spring. In the park!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟go for a picnic通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《One Sunny Picnic》</h3>
+    <div class="quote">🧺 周六早上，熊妈妈说：“Let's go for a picnic!” 熊弟弟背起 picnic basket：“What do we need?” 妈妈一样样数：“Sandwiches, apples, juice...” 到了草地，熊爸爸铺开餐布：“What a free and happy day!” 一阵风来，帽子飞了，全家追着跑——原来野餐的笑声，比三明治还甜。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Who said “Let's go for a picnic”? (Mum)<br>• What did they take? (Sandwiches, apples and juice)<br>• 问问孩子：Where do you want to go for a picnic?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 同义 ── have a picnic（与 have a picnic 页互链）
+├── 频率 ── once a week · twice a month · in spring
+├── 地点 ── in the park · on the grass · by the lake
+├── 装备 ── picnic basket 野餐篮 · sandwiches 三明治
+└── 家族 ── go camping 野营 · go skating 滑冰（go + 活动）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>picnic 来自 17 世纪的法语 pique-nique：piquer 意为“叉起来”，nique 指小玩意儿。它最初指“每人自带一道菜、凑成一桌”的室内拼饭聚会，后来才搬到户外草地上。所以野餐的精髓从来不是“去哪儿”，而是“人人带一份”。18 世纪进入英语后，picnic 逐渐专指户外聚餐，并衍生出 picnic basket（野餐篮）和 no picnic（可不是轻松事）这样的用法。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>picnic</td><td>pic·nic：p-i-c-n-i-c，两个 c 夹一个 n</td></tr>
+        <tr><td>picnicking</td><td>picnic + k + ing（picnic 结尾是 -ic，加 ing 要先加 k）</td></tr>
+        <tr><td>picnic basket</td><td>picnic(野餐) + basket(篮子) → 野餐篮</td></tr>
+        <tr><td>no picnic</td><td>习语“绝非轻松事”：野餐=轻松的代名词</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“That's no picnic.”（那可不是闹着玩的。）—— 英语里野餐是“轻松愉快”的代名词，反过来用 no picnic 就表示“不容易”。还有兄弟句 a piece of cake（小菜一碟）——英语真的很爱用食物形容难易。</div>
+
+    <h3>🎵 歌词里的 go for a picnic</h3>
+    <p>🎵 John Denver《Sunshine on My Shoulders》(1974)：Billboard 冠军。阳光洒在肩头的温暖旋律，就是草地野餐的标配 BGM——听着前奏，仿佛全家已铺开野餐垫。</p><p>🔗 与 have a picnic 页互链（同款歌曲）；本单元 go 家族页（go skating / go camping）互相打通。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>picnic 一词 17 世纪刚进入英语时指室内拼饭，人人带一道菜的野餐会曾是英国上流社会的社交时尚。今天英语里 no picnic 仍表示“不轻松”，可见几百年过去，野餐依然是“享受”的代名词。另外，最经典的野餐食物三明治，据说是以 18 世纪一位沉迷打牌、让仆人把肉夹进面包里好腾出手继续玩的伯爵命名的。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>go for a picnic</strong> /ɡəʊ fə(r) ə ˈpɪknɪk/ 动词短语 去野餐</div>
+        <div><strong>go for a picnic</strong> /ɡəʊ fə(r) ə ˈpɪknɪk/ 去野餐（= have a picnic）</div>
+        <div>功能句：What do you do in your free time? — I often go for a picnic.</div>
+        <div>考点：picnic 拼写 pic·nic；变 ing 加 k：picnicking</div>
+        <div>歌曲记忆：John Denver《Sunshine on My Shoulders》</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级下册 Unit 5 Free Time<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("go for a picnic");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
