@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·how</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · how</h1>
+<div class="subhead">📍 人教版（一起点）一年级上册 Unit 4 Numbers</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> how</div>
+    <div class="info-item"><span class="info-label">词性</span> adv. 怎样；多少</div>
+    <div class="info-item"><span class="info-label">音标</span> /haʊ/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐</div>
+    <div class="info-item"><span class="info-label">家族</span> wh- 疑问词</div>
+</div>
+
+<div class="textbook"><div class="textbook-title">📖 课本原文直通车 · Unit 4 Numbers</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>One finger, two fingers, three fingers, four.<br>One, two, three, four, five fingers more.<br>Six fingers, seven fingers, eight fingers, nine.<br>Six, seven, eight, nine, ten fingers. Hooray!</p><p><strong>Lesson 1 · B. Listen and do</strong><br>— Hello, Joy. — Hello!<br>— Show me five.</p><p><strong>Lesson 2 · Look, listen and repeat</strong><br>— How many birds are there? — Nine.<br><strong>Lesson 2 · Let's play</strong><br>— How many tigers are there? — Five. — Six.</p><p><strong>Lesson 3 · Look, count and say</strong><br>— How many dogs are there? — Six.<br><strong>Lesson 3 · Let's sing</strong><br>One little, two little, three little…（经典数数歌，从 one 一路唱到 ten）</p><p><strong>Story Time</strong><br>— Bill, Andy and Joy, this is for you. — Thank you!<br>— How many are there? — One, two, three…<br>— Let's share! — OK! One for Joy and one for me.<br>— One for Andy and one for me… — Oh, no!</p><p style="font-size:12px;opacity:.75;">✅ 原文经智慧山课文页、51教学跟读资源、配套教案等多源交叉核对；本单元核心句型 How many…are there?<br>📌 本页聚焦：<strong>How many birds are there?</strong>（Lesson 2 · A. Look, listen and repeat）</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>h·o·w 三个字母问天问地；注意它不以 w 开头，是 wh- 家族里最特别的一位<br>✏️ 口诀：how 张大嘴，问个够</td></tr>
+        <tr><th>音·发音</th><td>/haʊ/ 像“好”的口型张更圆——提问就要这个惊讶表情<br>🎧 跟读：How are you? · How many? · How old?</td></tr>
+        <tr><th>意·释义</th><td>怎样；多少 ❓（问方式、问状态、问数量）</td></tr>
+        <tr><th>用·句型</th><td>① How many birds are there?（课本：有多少只鸟？）<br>② How are you?（你好吗？）<br>③ How old are you?（你几岁？）<br>④ How do you go to school?（你怎么上学？）</td></tr>
+        <tr><th>拓·同族词</th><td>however 然而 · anyhow 不管怎样 · know-how 诀窍 · wh- 家族：what / who / where / when / why</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>问候</td><td>How are you? — I'm fine, thank you.</td></tr>
+        <tr><td>年龄</td><td>How old are you? — Seven.</td></tr>
+        <tr><td>数量</td><td>How many books do you have?</td></tr>
+        <tr><td>方式</td><td>How do you go to school? — By bus.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · how 问法大全</div>
+        <p><strong>问数量：</strong>How many + 可数名词复数？How many birds?</p><p><strong>问候状态：</strong>How are you? — I'm fine, thank you.</p><p><strong>问年龄：</strong>How old are you? — I'm seven.</p><p><strong>问方式：</strong>How do you go to school? — By bus.</p><p>❓ wh- 家族：what · who · where · when · why · how</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>how 是一年级最重要的疑问词之一：上学路上用 How many cars? How many trees? 随处问答；睡前用 How are you? 互相问候，把疑问句变成亲子仪式。how 不以 wh 开头是拼写重点，让孩子当“找不同小侦探”。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 情景问候</strong><br>家长问 “How are you?”，孩子答 “I'm fine, thank you. And you?” 来回三轮</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① ______ old are you? (How)<br>② ______ many birds? (How)</div>
+        <div class="game-step"><strong>✅ 关卡3 · wh 家族找朋友</strong><br>把 what / who / where / when / why / how 卡片分类，说说各自问什么</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活问答</strong><br>路上问 “How many doors? How many trees?” 数对得星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 How 问家长三个问题并录音<br><span class="btn-mimic">🎤 示例：How old are you? How many books? How do you go to work?</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟how通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《十万个 How》</h3>
+    <div class="quote">❓ Bill 有句口头禅：“How?” 看见彩虹问 How? 看见飞机问 How does it fly? 看见蚂蚁搬家问 How do they carry? Joy 笑他：“You ask how every day!” Bill 认真地说：“Asking how makes me smart! 会问‘怎样’的孩子最聪明。” 老师听见了，给他贴了一颗星。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Bill 的口头禅是什么？(How)<br>• 他问飞机什么问题？(How does it fly?)<br>• 问问孩子：你最近最想问的一个 How 问题是什么？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 问候 ── How are you? 你好吗<br>├── 年龄 ── How old are you?<br>├── 数量 ── How many + 可数名词复数<br>├── 方式 ── How do you go to school?<br>└── 家族 ── what · who · where · when · why</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>how 来自古英语 hū，和 who、what、when、where、why 一样，都源自印欧语的疑问词根——这家人在古英语里都写作 hw- 开头，是一起“移民”进英语的疑问六兄弟。🎯 讲给孩子：wh- 六兄弟里，how 是唯一拼写不带 wh 的（hw 倒过来写），却可能是出场最多的一个。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>however</td><td>how + ever → 然而；无论如何</td></tr>
+        <tr><td>how many</td><td>多少（问可数名词）</td></tr>
+        <tr><td>how much</td><td>多少（问价钱 / 不可数名词）</td></tr>
+        <tr><td>know-how</td><td>know + how → 诀窍、本事</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“How wonderful it is that nobody need wait a single moment before starting to improve the world.”<br>多么奇妙——想改善世界，谁都不必等。《安妮日记》安妮·弗兰克</div>
+
+    <h3>🎵 歌词里的 how</h3>
+    <p>🎵 Bee Gees《How Deep Is Your Love》(1977)：《周末夜狂热》插曲，Billboard 三周冠军；“How deep is your love” 的深情发问，是 how 在歌里最经典的使用示范。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>美国牛仔打招呼不说 Hello，说 “Howdy!”——它就是 How do you do? 的缩合词，一开口自带西部片滤镜。而 How are you? 几乎是全球英语课本的第一句问候——你学会的第一个英语问句里，多半就有 how。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>how</strong> /haʊ/ adv. 怎样；多少</div>
+        <div>how /haʊ/ adv. 怎样；多少（疑问词）</div>
+        <div>四问：How are you? / How old? / How many? / How…?</div>
+        <div>课本句：How many birds are there?</div>
+        <div>家族：what · who · where · when · why · how</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级上册 Unit 4 Numbers<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("how");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·one</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · one</h1>
+<div class="subhead">📍 人教版（一起点）一年级上册 Unit 4 Numbers</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> one</div>
+    <div class="info-item"><span class="info-label">词性</span> num. 一（数字1）</div>
+    <div class="info-item"><span class="info-label">音标</span> /wʌn/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐</div>
+    <div class="info-item"><span class="info-label">序数词</span> first 第一</div>
+</div>
+
+<div class="textbook"><div class="textbook-title">📖 课本原文直通车 · Unit 4 Numbers</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>One finger, two fingers, three fingers, four.<br>One, two, three, four, five fingers more.<br>Six fingers, seven fingers, eight fingers, nine.<br>Six, seven, eight, nine, ten fingers. Hooray!</p><p><strong>Lesson 1 · B. Listen and do</strong><br>— Hello, Joy. — Hello!<br>— Show me five.</p><p><strong>Lesson 2 · Look, listen and repeat</strong><br>— How many birds are there? — Nine.<br><strong>Lesson 2 · Let's play</strong><br>— How many tigers are there? — Five. — Six.</p><p><strong>Lesson 3 · Look, count and say</strong><br>— How many dogs are there? — Six.<br><strong>Lesson 3 · Let's sing</strong><br>One little, two little, three little…（经典数数歌，从 one 一路唱到 ten）</p><p><strong>Story Time</strong><br>— Bill, Andy and Joy, this is for you. — Thank you!<br>— How many are there? — One, two, three…<br>— Let's share! — OK! One for Joy and one for me.<br>— One for Andy and one for me… — Oh, no!</p><p style="font-size:12px;opacity:.75;">✅ 原文经智慧山课文页、51教学跟读资源、配套教案等多源交叉核对；本单元核心句型 How many…are there?<br>📌 本页聚焦：<strong>One finger, two fingers, three fingers, four.</strong>（Lesson 1 歌谣）</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>o·n·e 三个字母一气呵成。注意：one 的读音一点也不像拼写！✏️ 口诀：one 不是“欧恩”，/wʌn/ 一声吼</td></tr>
+        <tr><th>音·发音</th><td>/wʌn/ 单音节，元音 /ʌ/ 半张嘴短促有力<br>🎧 跟读：one apple · one, two, three · No. 1</td></tr>
+        <tr><th>意·释义</th><td>一 🖐（数量“1”；也作代词“一个”：This one is mine. 这个是我的）</td></tr>
+        <tr><th>用·句型</th><td>① One finger, two fingers, three fingers, four.（课本）<br>② I have one apple.（我有一个苹果。）<br>③ One for you and one for me.（一个给你，一个给我。）<br>④ No. 1! 第一名！</td></tr>
+        <tr><th>拓·同族词</th><td>alone 独自（all + one 全然一个）· only 仅仅 · once 一次 · someone 某人——one 是个大家长</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>点数</td><td>One, two, three — go!</td></tr>
+        <tr><td>数量</td><td>I have one big apple.</td></tr>
+        <tr><td>礼貌</td><td>One moment, please.</td></tr>
+        <tr><td>分享</td><td>One for you and one for me.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 数字 one 的三个身份</div>
+        <p><strong>表数量：</strong>one apple 一个苹果（后面跟<strong>单数</strong>名词！）</p><p><strong>表顺序：</strong>first 第一（one 的序数词变身）</p><p><strong>表编号：</strong>No. 1 第一名 · Bus No. 1 一路车</p><p>⚠️ one 后面的名词用单数：one book ✔ · one books ✘</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>Unit 4 是数字主题单元。孩子最容易把 one 念成“欧恩”，多示范 /wʌn/（像短促的“万”去掉 n 尾）。在家玩“伸手指”游戏：伸一根手指说 one finger，两根说 two fingers，边指边唱课本歌谣，数字感立刻建立。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音伸手指</strong><br>家长说 “Show me one.”，孩子伸 1 根手指大声说 “One!” → 答对击掌</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 单数填空</strong><br>① ___ apple, please. (One)<br>② I have ___ pencil. (one)</div>
+        <div class="game-step"><strong>✅ 关卡3 · one 家族连连看</strong><br>alone＝全然一个 · only＝仅仅 · once＝一次——把词和意思连起来</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>在客厅找出“一个”的东西：One ball! One clock! 每找到一个得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>分零食给家人时说 “One for you and one for me.” 并录语音打卡<br><span class="btn-mimic">🎤 示例：One for dad and one for me!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟one通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《一个苹果的分法》</h3>
+    <div class="quote">🍎 妈妈给 Bill 和 Joy 一个苹果。Bill 挠头：“One apple, two boys! What can we do?” Joy 眼睛一转：“Let's share!” 苹果切成两半——“One half for you and one half for me!” 两人咬一大口：“Sweet! 分享的苹果最甜。”</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 妈妈给了几个苹果？(One)<br>• 两个男孩是怎么解决的？(Let's share! 切成两半)<br>• 问问孩子：如果你只有一个橘子，会怎么和好朋友分享？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 数量 ── one apple · one big tiger<br>├── 顺序 ── first 第一 · No. 1 冠军<br>├── 家族 ── alone 独自 · only 仅仅 · once 一次<br>├── 句型 ── One for you and one for me.<br>└── 口号 ── One World, One Dream 同一个世界，同一个梦想</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>one 是英语里最古老的词之一，来自古英语 ān，再往上追溯到几千年前印欧语的“一”。它的亲戚遍布日常：alone（all+one，全然独自）、only（one+ly，只有一个的）、once（一次）都从它变出来；连不定冠词 a / an 也是 one 弱化来的！🎯 讲给孩子：one 是位“老族长”，a、an、only、alone 都是它的子孙。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>alone</td><td>al(l) 全部 + one 一 → 独自一人</td></tr>
+        <tr><td>only</td><td>one + ly → 仅仅、只有</td></tr>
+        <tr><td>once</td><td>one + ce → 一次</td></tr>
+        <tr><td>someone</td><td>some 某 + one 人 → 某个人</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“One World, One Dream.”<br>同一个世界，同一个梦想。—— 2008 年北京奥运会主题口号，让全世界的 one 响彻鸟巢</div>
+
+    <h3>🎵 歌词里的 one</h3>
+    <p>🎵 Bob Marley & The Wailers《One Love》(1977)：雷鬼之父最温暖的合唱曲，副歌 “One Love! One Heart! Let's get together and feel all right.” 传唱全球——one 唱出来就有拥抱的味道。（同主题的 U2《One》已配给 a_an 页，本页错开）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>alone 这个词拆开就是 all + one——古英语里“独自一人”的本义就是“全然一个”。更妙的是，英语的 a 和 an 也是 one 弱化来的：说 an apple 的时候，你其实用了半个 one。一个词，串起一本英语词典。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>one</strong> /wʌn/ num. 一（数字1）</div>
+        <div>one /wʌn/ num. 一（序数词 first 第一）</div>
+        <div>功能句：One for you and one for me.</div>
+        <div>家族词：alone 独自 · only 仅仅 · once 一次</div>
+        <div>口号：One World, One Dream（2008 北京奥运）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级上册 Unit 4 Numbers<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("one");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

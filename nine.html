@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·nine</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · nine</h1>
+<div class="subhead">📍 人教版（一起点）一年级上册 Unit 4 Numbers</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> nine</div>
+    <div class="info-item"><span class="info-label">词性</span> num. 九（数字9）</div>
+    <div class="info-item"><span class="info-label">音标</span> /naɪn/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐</div>
+    <div class="info-item"><span class="info-label">序数词</span> ninth 第九（去 e）</div>
+</div>
+
+<div class="textbook"><div class="textbook-title">📖 课本原文直通车 · Unit 4 Numbers</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>One finger, two fingers, three fingers, four.<br>One, two, three, four, five fingers more.<br>Six fingers, seven fingers, eight fingers, nine.<br>Six, seven, eight, nine, ten fingers. Hooray!</p><p><strong>Lesson 1 · B. Listen and do</strong><br>— Hello, Joy. — Hello!<br>— Show me five.</p><p><strong>Lesson 2 · Look, listen and repeat</strong><br>— How many birds are there? — Nine.<br><strong>Lesson 2 · Let's play</strong><br>— How many tigers are there? — Five. — Six.</p><p><strong>Lesson 3 · Look, count and say</strong><br>— How many dogs are there? — Six.<br><strong>Lesson 3 · Let's sing</strong><br>One little, two little, three little…（经典数数歌，从 one 一路唱到 ten）</p><p><strong>Story Time</strong><br>— Bill, Andy and Joy, this is for you. — Thank you!<br>— How many are there? — One, two, three…<br>— Let's share! — OK! One for Joy and one for me.<br>— One for Andy and one for me… — Oh, no!</p><p style="font-size:12px;opacity:.75;">✅ 原文经智慧山课文页、51教学跟读资源、配套教案等多源交叉核对；本单元核心句型 How many…are there?<br>📌 本页聚焦：<strong>How many birds are there? — Nine.</strong>（Lesson 2 · A. Look, listen and repeat）</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>n·i·n·e 首尾两个 n 对称，像镜子里的小花<br>✏️ 口诀：nine 两个 n 守着一个 i，哑巴 e 站尾巴</td></tr>
+        <tr><th>音·发音</th><td>/naɪn/ 双元音 /aɪ/ + 鼻音收尾，读起来像“耐恩”连读<br>🎧 跟读：nine birds · at nine · nine lives</td></tr>
+        <tr><th>意·释义</th><td>九 ☁️（九霄云上 on cloud nine · 九命猫 a cat has nine lives）</td></tr>
+        <tr><th>用·句型</th><td>① How many birds are there? — Nine.（课本）<br>② I go to bed at nine.（我九点睡觉。）<br>③ A cat has nine lives.（猫有九条命。）<br>④ I am on cloud nine!（我开心到飞起！）</td></tr>
+        <tr><th>拓·同族词</th><td>ninth 第九（去 e！）· nineteen 十九 · ninety 九十（去 e！）· November 十一月（拉丁 novem＝九）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>问答</td><td>How many birds are there? — Nine.</td></tr>
+        <tr><td>作息</td><td>I go to bed at nine.</td></tr>
+        <tr><td>俗语</td><td>A cat has nine lives.</td></tr>
+        <tr><td>心情</td><td>I am on cloud nine!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 九的变体</div>
+        <p><strong>nineteen 十九（9+10）：</strong>nine + teen</p><p><strong>ninety 九十（9×10）：</strong>nin + ty（去掉 e！）</p><p><strong>ninth 第九：</strong>nine → ninth，去 e 加 th</p><p>⏰ 九点睡觉：It's nine. Time for bed! 数字与作息挂钩记得牢</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>nine 的拼写陷阱全在“去 e”：ninth 去 e、ninety 去 e，让孩子当“找 e 小侦探”。用“九点睡觉”建立时间概念：It's nine. Time for bed! 数字和生活作息挂钩，记得最牢。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音辨数</strong><br>家长说 nine / night / nice，孩子听到 nine 就比 9 根手指</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 找 e 小侦探</strong><br>① 第九：nine → ______ (ninth，去 e)<br>② 九十：nine → ______ (ninety，去 e)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 数字接龙</strong><br>seven → eight → ______ (nine) → ten</div>
+        <div class="game-step"><strong>🔍 关卡4 · 数小鸟</strong><br>看鸟群图数一数，用课本句问答：“How many birds are there? — Nine.”</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>说 “I go to bed at nine.” 并录音，再加一句 on cloud nine 的心情分享</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟nine通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《九条命的猫》</h3>
+    <div class="quote">🐱 Bill 家的猫 Nini 从树上摔下来，毫发无伤。Joy 惊呼：“Wow! A cat has nine lives!” Nini 打了个哈欠，慢悠悠爬上云朵一样的靠垫。Bill 说：“Now it is on cloud nine——真是一只幸福到九霄云外的猫。” Nini 眯着眼：喵～</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 传说猫有几条命？(Nine)<br>• on cloud nine 是什么心情？(开心极了)<br>• 问问孩子：你家宠物有什么“绝技”？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 数量 ── nine birds · nine apples<br>├── 变形 ── ninth 第九 · nineteen 19 · ninety 90（去 e）<br>├── 时间 ── I go to bed at nine. 九点睡觉<br>├── 心情 ── on cloud nine 开心到飞起<br>└── 俗语 ── A cat has nine lives. 九命猫</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>nine 来自古英语 nigon，印欧词根在拉丁语是 novem——November 的名字里也藏着“九”：古罗马历从三月起算，novem 排第九位；历法改动后它跑到第十一位，名字没改。法语 neuf、德语 neun 也同根。🎯 讲给孩子：November 和 September 一样，都是带着旧门牌搬家的月份。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>ninth</td><td>第九（去 e 加 th）</td></tr>
+        <tr><td>nineteen</td><td>nine + teen → 十九</td></tr>
+        <tr><td>ninety</td><td>nin + ty → 九十（去 e！）</td></tr>
+        <tr><td>November</td><td>拉丁 novem(九) → 古罗马历的“九月”，今天排在十一月</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“A stitch in time saves nine.”<br>及时一针省九针（小洞不补，大洞吃苦）。—— 英语经典谚语，劝人趁早解决问题</div>
+
+    <h3>🎵 歌词里的 nine</h3>
+    <p>🎵 The Drifters《Love Potion No. 9》(1959)：Leiber & Stoller 写的传奇老歌，“love potion number nine”（九号爱情魔药）反复咏唱，The Searchers 翻唱再走红——九号药水的魔力让数字 9 自带神秘感。（关联方式：歌名含数字 9，唱作 number nine）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>2006 年之前课本都说太阳系有九大行星，后来冥王星被“降级”，变成八大行星。但九的传说没消失：英语里 on cloud nine（九霄云上）、a cat has nine lives（九命猫）、dressed to the nines（穿得体面），全是 9 的故事。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>nine</strong> /naɪn/ num. 九（数字9）</div>
+        <div>nine /naɪn/ num. 九（序数词 ninth 去 e）</div>
+        <div>变形：nineteen 19 · ninety 90（去 e）</div>
+        <div>课本句：How many birds are there? — Nine.</div>
+        <div>俗语：A cat has nine lives. 九命猫</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级上册 Unit 4 Numbers<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("nine");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·eight</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · eight</h1>
+<div class="subhead">📍 人教版（一起点）一年级上册 Unit 4 Numbers</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> eight</div>
+    <div class="info-item"><span class="info-label">词性</span> num. 八（数字8）</div>
+    <div class="info-item"><span class="info-label">音标</span> /eɪt/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐</div>
+    <div class="info-item"><span class="info-label">同音词</span> ate 吃 · 序数词 eighth</div>
+</div>
+
+<div class="textbook"><div class="textbook-title">📖 课本原文直通车 · Unit 4 Numbers</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>One finger, two fingers, three fingers, four.<br>One, two, three, four, five fingers more.<br>Six fingers, seven fingers, eight fingers, nine.<br>Six, seven, eight, nine, ten fingers. Hooray!</p><p><strong>Lesson 1 · B. Listen and do</strong><br>— Hello, Joy. — Hello!<br>— Show me five.</p><p><strong>Lesson 2 · Look, listen and repeat</strong><br>— How many birds are there? — Nine.<br><strong>Lesson 2 · Let's play</strong><br>— How many tigers are there? — Five. — Six.</p><p><strong>Lesson 3 · Look, count and say</strong><br>— How many dogs are there? — Six.<br><strong>Lesson 3 · Let's sing</strong><br>One little, two little, three little…（经典数数歌，从 one 一路唱到 ten）</p><p><strong>Story Time</strong><br>— Bill, Andy and Joy, this is for you. — Thank you!<br>— How many are there? — One, two, three…<br>— Let's share! — OK! One for Joy and one for me.<br>— One for Andy and one for me… — Oh, no!</p><p style="font-size:12px;opacity:.75;">✅ 原文经智慧山课文页、51教学跟读资源、配套教案等多源交叉核对；本单元核心句型 How many…are there?<br>📌 本页聚焦：<strong>Six fingers, seven fingers, eight fingers, nine.</strong>（Lesson 1 歌谣）</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>e-i-g-h-t 五个字母只读一个音——数字里的“拼写刺客”！<br>✏️ 口诀：-eigh- 三个字母抱团读 /eɪ/，t 收尾</td></tr>
+        <tr><th>音·发音</th><td>/eɪt/ 与 ate（吃）读音完全相同<br>🎧 跟读：I ate eight apples.（我吃了八个苹果）· eight arms</td></tr>
+        <tr><th>意·释义</th><td>八 🐙（章鱼有八条腕：an octopus has eight arms）</td></tr>
+        <tr><th>用·句型</th><td>① Six fingers, seven fingers, eight fingers, nine.（课本）<br>② An octopus has eight arms.（章鱼有八条腕。）<br>③ A spider has eight legs.（蜘蛛有八条腿。）<br>④ Eight, seven, six — go!（倒数开始！）</td></tr>
+        <tr><th>拓·同族词</th><td>eighth 第八 · eighteen 十八 · eighty 八十 · octopus 章鱼 · October 十月（octo＝八）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>海洋</td><td>An octopus has eight arms.</td></tr>
+        <tr><td>动物</td><td>A spider has eight legs.</td></tr>
+        <tr><td>同音</td><td>I ate eight dumplings.</td></tr>
+        <tr><td>倒数</td><td>Eight, seven, six — go!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 八的变体</div>
+        <p><strong>eighteen 十八（8+10）：</strong>eight + teen（一个 t 就够！）</p><p><strong>eighty 八十（8×10）：</strong>eight + y → eighty</p><p><strong>eighth 第八：</strong>eight + th → eighth（只留一个 t）</p><p>⚠️ -eigh- 读 /eɪ/：eight、eighteen、neighbour 都这个调！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>eight 是数字里拼写最“坑”的：五个字母只有一个音。诀窍是把 -eigh- 当整体记（同 neighbour、weigh）。同音词 ate 是天然记忆点：I ate eight apples! 一句话把两个 /eɪt/ 都练了。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音辨词</strong><br>家长说 eight / ate，孩子比出 8 根手指或做吃东西动作——同音不同义！</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 拼写挑战</strong><br>听写 eight，再写出它的两个“亲戚”：eighteen、eighty</div>
+        <div class="game-step"><strong>✅ 关卡3 · 序数词变身</strong><br>eight → ______ (eighth，只留一个 t！)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 数章鱼</strong><br>看章鱼图数一数：“One, two… eight! An octopus has eight arms!”</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>从 eight 倒数到 one，最后一秒喊 Happy New Year 式欢呼</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟eight通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《章鱼的八只手》</h3>
+    <div class="quote">🐙 海洋馆里，一只小章鱼跟 Joy 打招呼：“Hello! I am an octopus. Look — one, two, three, four, five, six, seven, eight!” 它举起八条腕。Joy 说：“Eight arms! 你可以同时拿八个气球！” 小章鱼骄傲地挥挥腕：“And I can open eight jars!” 观众席掌声一片。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 章鱼有几条腕？(Eight)<br>• octopus 里的 octo 是什么意思？(八)<br>• 问问孩子：你想送章鱼哪八样礼物？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 数量 ── eight arms · eight legs · eight balloons<br>├── 变形 ── eighth 第八 · eighteen 18 · eighty 80<br>├── 同音 ── ate 吃（读音完全相同）<br>├── 词根 ── octo 八 → octopus 章鱼 · October 十月<br>└── 句型 ── I ate eight apples.</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>eight 来自古英语 eahta，印欧词根在拉丁语是 octo——章鱼 octopus（octo 八 + pous 足）、八边形 octagon、还有 October 都是它的后代：古罗马历里 October 原是“八月”，历法改动后跑到第十位，名字没改。英语里 -eigh- 组合在 eight、neighbour、weigh 里都读 /eɪ/。🎯 讲给孩子：章鱼的名字本义就是“八条腿的家伙”。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>eighth</td><td>第八（只留一个 t）</td></tr>
+        <tr><td>eighteen</td><td>eight + teen → 十八</td></tr>
+        <tr><td>eighty</td><td>eight + y → 八十</td></tr>
+        <tr><td>octopus</td><td>octo(八) + pous(足) → 章鱼（希腊词）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Behind the eight ball.”<br>落在八号球后面。—— 源自台球的英语俚语：陷入困境、进退两难；eight 最出圈的短语之一</div>
+
+    <h3>🎵 歌词里的 eight</h3>
+    <p>🎵 The Beatles《Eight Days a Week》(1965)：甲壳虫冠军单曲（CSV 已配），“Eight days a week, I love you”——一周只有七天，爱你却要八天。歌名出自鼓手 Ringo 的口头禅，形容忙到一周八天。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>数字 8 在中文里最受欢迎，因为发音像“发”；在英语世界，octo（八）则藏在章鱼和十月里——古罗马历法改动让“八月”October 跑到了第十位。章鱼更有意思：三分之二的神经元分布在八条腕上，每条腕都能“自己拿主意”，开罐头不用教。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>eight</strong> /eɪt/ num. 八（数字8）</div>
+        <div>eight /eɪt/ num. 八（同音 ate；序数词 eighth）</div>
+        <div>拼写：-eigh- 读 /eɪ/，五个字母一个音</div>
+        <div>词根：octo 八 → octopus 章鱼 · October 十月</div>
+        <div>扩展句：An octopus has eight arms.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级上册 Unit 4 Numbers<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("eight");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
