@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·play with fire</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · play with fire</h1>
+<div class="subhead">📍 人教版（一起点）四年级上册 Unit 5 Safety（安全）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> play with fire</div>
+    <div class="info-item"><span class="info-label">词性</span> v. 短语 玩火（也比喻冒不必要的险）</div>
+    <div class="info-item"><span class="info-label">音标</span> /pleɪ wɪð ˈfaɪə(r)/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (四年级)</div>
+    <div class='info-item'><span class='info-label'>比喻义</span> 玩火=自冒风险</div><div class='info-item'><span class='info-label'>语法</span> fire 不可数</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 5 Safety（安全）</div><p><strong>Lesson 1 · A. Look, listen and repeat</strong><br>Climb on the window ledge? — Don't climb on the window ledge. It's dangerous!<br>Play with fire? — Don't play with fire. Be careful!<br>Run down the stairs? — Be careful! Don't run down the stairs. It's dangerous!</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>Be careful! Use the sidewalk.<br>Please wait for the green light. It's safe.<br>Don't read in the street. It's dangerous.</p><p><strong>Lesson 3 · 读一读，写一写（五条安全规则）</strong><br>① Please use the sidewalk. It's safe.<br>② Don't play with fire. It's dangerous.<br>③ Please wait for the green light.<br>④ Don't run down the stairs.<br>⑤ Don't climb on the window ledge.<br>⑥ The light is green. Please go.</p><p><strong>Let's Spell · ur 字母组合</strong><br>hurt · nurse · purse · purple · turtle · burn</p><p><strong>Fun Time · 安全常识</strong><br>Don't throw things out of the window. It's dangerous. You might hurt someone.<br>Don't cook here. It's dangerous. A small fire can become a big one.<br>Be careful! Look out for cars. Don't go against the traffic.<br>Don't open the door for a stranger. It's dangerous.</p><p><strong>Story Time · 小熊倒霉的一天（情节概要）</strong><br>Little Bear 点鞭炮被烫到（Be careful! Ow! That hurts.）、跑下楼梯摔伤胳膊（Ouch! My arm hurts.）、被自行车撞伤腿——Call 120! 大家送他去医院（You have a broken leg.），爸爸叮嘱：Please use the sidewalk next time. Please be more careful, son.</p><p style='font-size:12px;opacity:.75;'>✅ 原文经公开电子课本/跟读资源多源交叉核对（51教习网跟读页 yyld.51jiaoxi.com/sishang/rjbxqd_danyuan06.html、同桌100课文对照页 tongzhuo100.com、人教社课堂实录 renjiaoshe.com）：Lesson 1 三个危险短语与劝阻句、Lesson 2 sidewalk/绿灯句、Lesson 3 五条规则多源逐句一致；Fun Time 与 Story Time 为多源一致的情节概要。单元词表含 stop（交通场景核心词），其逐句原文位置待核。本词为 Lesson 1 核心短语，课本警示句 Don't play with fire. It's dangerous. 在 Lesson 3 复现。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>play + with + fire 三段拼装<br>✏️ 口诀：f-i-r-e 四个字母一团火，i 上一点是火星</td></tr>
+        <tr><th>音·发音</th><td>/pleɪ wɪð ˈfaɪə(r)/ with 的 ð 要咬舌尖；-re 英式读 /ə/ 美式常卷舌<br>🎧 跟读：a big fire · fire alarm · fire drill</td></tr>
+        <tr><th>意·释义</th><td>玩火 🔥 字面指玩打火机火柴；引申指'做危险的事、自讨苦吃'</td></tr>
+        <tr><th>用·句型</th><td>① Don't play with fire. (别玩火。)<br>② It's dangerous. (危险。)<br>③ A small fire can become a big one. (小火会变大。)<br>④ Call 119 if there is a fire! (着火打119！)</td></tr>
+        <tr><th>拓·同族词</th><td>play with water 玩水 · play with snow 玩雪 · play with me 和我玩；firefighter 消防员（词族见构词密码）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>劝阻</td><td>Don't play with fire. It's dangerous.</td></tr>
+        <tr><td>知识</td><td>A small fire can become a big one.</td></tr>
+        <tr><td>求助</td><td>Call 119 when there is a fire!</td></tr>
+        <tr><td>比喻</td><td>Playing with fire never ends well.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 遇火三步走</div>
+        第一步发现：<u>Fire! Fire!</u> 大声喊<br>第二步求助：<u>Call 119!</u>（火警电话）<br>第三步撤离：<u>Leave fast. Don't take the lift!</u>（快撤离，别乘电梯）<br>⚠️ 逃生黄金口诀：弯腰捂鼻快快走！
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>打火机、火柴务必收在孩子拿不到的地方。和孩子背下四个救命号码：119 火警、110 报警、120 急救、122 交通事故。可以在家做一次'逃生演练'：定一个集合点，边演练边说 Don't play with fire. Call 119 if there is a fire! 英语和安全意识一次到位。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 play with fire，孩子从 🔥 / 💧 / 🧊 三张卡中选 → 正确答案：🔥</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 求助电话连线</strong><br>着火了打多少？→ 119<br>有人受伤打多少？→ 120<br>遇到坏人打多少？→ 110</div>
+        <div class="game-step"><strong>✅ 关卡3 · 火安全判断</strong><br>小火苗可以用手碰，对不对？→ ✘ 小火也会变大，永远别碰</div>
+        <div class="game-step"><strong>🔍 关卡4 · 找一找</strong><br>找出家里或小区的'禁止烟火'标志，指着说 No fire! 得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 Don't play with fire. It's dangerous. 劝阻小伙伴并录语音打卡<br><span class='btn-mimic'>🎤 示例：Don't play with fire. A small fire can become a big one!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟play with fire通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《火柴盒的警告》</h3>
+    <div class="quote">🔥 表哥从口袋里掏出一个火柴盒：Look! We can make a small fire! 妹妹摇摇头：Don't play with fire. It's dangerous. A small fire can become a big one! 表哥不信，刚划亮一根火柴，一阵风吹来，火星跳到了纸篓边上——吓得他赶紧用脚踩灭。两人一起去请教了社区消防站的叔叔。表哥红着脸把火柴盒交给了妈妈：You are right. Fire is a good servant but a bad master.</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What did the sister say? (Don't play with fire.)<br>• What can a small fire become? (A big one)<br>• 问问孩子：火警电话是多少？(119)</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 字面 ── play with fire 玩火（禁止！）<br>├── 比喻 ── 玩火自焚 = 自冒风险<br>├── 火族词 ── fire alarm 火警 · fire drill 演习 · firefighter 消防员<br>├── 求助 ── 火警 119 · 报警 110 · 急救 120<br>└── 谚语 ── Fire is a good servant but a bad master.</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>fire 来自古英语 fyr，是英语最古老的词之一；它与希腊语的 pyr 同出一门——烟花叫 pyrotechnics（火的技艺）、纵火狂叫 pyromaniac，都是它的希腊兄弟。英语里 fire 从'火堆'一路长出火警、火力、解雇（You're fired!）等十几种意思。🎯 讲给孩子：fire 有个希腊亲戚 pyr，烟花的学名就是'火的技艺'。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>firefighter</td><td>fire(火) + fighter(战斗者) → 消防员</td></tr>
+        <tr><td>fire alarm</td><td>fire(火) + alarm(警报) → 火警警报器</td></tr>
+        <tr><td>fire drill</td><td>fire(火) + drill(演练) → 消防演习</td></tr>
+        <tr><td>Fire is a good servant but a bad master</td><td>火是好仆人，坏主人（谚语：用得好是帮手，失控就是灾难）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Fire is a good servant but a bad master.” 🔥<br>火是好仆人，却是坏主人。—— 英语经典谚语：炉灶上的火帮我们做饭，野地里的火吞噬森林——关键看谁在掌控它。</div>
+
+    <h3>🎵 歌词里的 play with fire</h3>
+    🎵 The Rolling Stones《Play with Fire》(1965)：滚石乐队名曲，歌名就是本词——最贴切的'别玩火'安全教育梗。<br>🔗 与 street 页（Baker Street）同属经典老歌歌单。
+
+    <h3>⚡ 冷知识</h3>
+    <p>记住四个救命号码：火警 119、报警 110、急救 120、交通事故 122；出国也常用：美国 911、英国 999、欧盟 112。学校每年都有 fire drill（消防演习）：警报一响，弯腰、捂口鼻、走楼梯、不乘电梯、到操场集合。日本小学生还要练'防火头巾'，帽檐一放护住后脑——全世界都在教孩子同一件事：小火苗，大麻烦，别玩火！</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>play with fire</strong> /pleɪ wɪð ˈfaɪə(r)/ v. 短语 玩火（也比喻冒不必要的险）</div>
+        <div>play with fire 玩火（比喻：冒风险）</div>
+        <div>课本句：Don't play with fire. It's dangerous.</div>
+        <div>火族词：firefighter 消防员 · fire alarm 警报 · fire drill 演习</div>
+        <div>求助电话：火警119 · 报警110 · 急救120 · 交通事故122</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级上册 Unit 5 Safety（安全）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("play with fire");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

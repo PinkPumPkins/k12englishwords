@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·sound</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · sound</h1>
+<div class="subhead">📍 人教版（一起点）四年级上册 Unit 6 Jobs（职业）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> sound</div>
+    <div class="info-item"><span class="info-label">词性</span> v. 听起来 n. 声音</div>
+    <div class="info-item"><span class="info-label">音标</span> /saʊnd/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (四年级)</div>
+    <div class='info-item'><span class='info-label'>词性</span> 动词+名词两用</div><div class='info-item'><span class='info-label'>习语</span> safe and sound 安然无恙</div>
+</div>
+
+<div class='textbook'>
+    <div class='textbook-title'>📖 课本原文直通车 · Unit 6 Jobs（职业）</div>
+    <p><strong>Lesson 1 · A. Look, listen and repeat</strong><br>
+    nurse 护士 · cook 厨师 · doctor 医生 · bus driver 公交车司机<br>police officer 警察 · taxi driver 出租车司机 · farmer 农民 · worker 工人</p>
+    <p><strong>Lesson 1 · B. Let's play</strong><br>
+    — Is she a worker? — No, she isn't.<br>— Is she a farmer? — Yes, she is.</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>
+    Binbin: I want to be a doctor in the future. What do you want to be?<br>
+    Yaoyao: Oh, I want to be a nurse.<br>
+    Binbin: That's great.</p>
+    <p><strong>Lesson 2 · B. Do a survey</strong><br>
+    — What do you want to be in the future?<br>— I want to be a police officer.</p>
+    <p><strong>Lesson 3 · A. Read and match（短文）</strong><br>
+    I want to do many jobs in the future.<br>
+    On Mondays, I want to be a police officer. That must be a cool job.<br>
+    On Tuesdays, I want to be a doctor. I can help sick people.<br>
+    On Wednesdays and Thursdays, I want to be a teacher. I can teach English.<br>
+    I want to be a farmer on Fridays.<br>
+    On the weekend, I just want to be myself. I want to play from morning to evening. That sounds fun!</p>
+    <p><strong>Let's Spell</strong><br>
+    ar: arm, bar · or: horn, pork · er: driver, tiger, turtle · ur: fur, dirt, bird</p>
+    <p><strong>Let's Check · A. 听力（人物自述）</strong><br>
+    Hi, I'm Amenda. I want to be a police officer in the future. It's a cool job.<br>
+    Hello, I'm Van. I like to eat. I want to be a cook in the future. Then I can eat any time.<br>
+    Hello, I'm Alex. I want to be a farmer in the future. It's an interesting job.</p>
+    <p><strong>Fun Time · A. Good to know</strong><br>
+    vet 兽医（I love animals. I want to be a vet in the future.）· fashion designer 时装设计师 · writer 作家 · hairdresser 理发师（I want to help people be beautiful.）</p>
+    <p><strong>Fun Time · C. Let's sing</strong><br>
+    歌曲以 What do you want to be in the future? 起句，唱到想成为 police officer、doctor、cook、nurse、bus driver 等职业。</p>
+    <p><strong>Story Time · A. Let's read（对话片段）</strong><br>
+    — I want a job. — You can be a fireman. — I am too small.<br>
+    — You can be a taxi driver. — I am too short.<br>
+    — You can be a singer. — Oh, you can't be a singer.（结尾待核）</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网·英语朗读宝逐句跟读页（yyld.51jiaoxi.com/sishang/rjbxqd_danyuan07.html）、好多云课本翻译页（m.haoduoyun.cc/fanyi/rjb/4s/6.html）、Scribd人教SL新起点四上电子课本快照（scribd.com/document/893080326）、搜狐Unit 6课堂教学实录（sohu.com/a/208689758）四源交叉核对；Lesson 1词汇表、Lesson 2对话、Lesson 3短文主干为两源以上逐句一致；Lesson 3结尾 just want to be myself / That sounds fun! 据Scribd课本快照；Lesson 1 B与Story Time为对话片段概要（结尾逐句原文待核）。本词出自 Lesson 3 短文的结尾感叹：That sounds fun!（那听起来很有趣！）——给整个“职业周计划”画上欢快句号。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>s-ou-nd：ou 发 /aʊ/<br>✏️ 口诀：ound 家族（sound, round, found），ou 张大嘴</td></tr>
+        <tr><th>音·发音</th><td>/saʊnd/ 与 round、found 押韵<br>🎧 跟读：That sounds fun! · the sound of rain · sound asleep</td></tr>
+        <tr><th>意·释义</th><td>v. 听起来（系动词，后接形容词）· n. 声音（自然界一切声响）</td></tr>
+        <tr><th>用·句型</th><td>① That sounds fun! (课文句)<br>② That sounds great! (听起来太棒了！)<br>③ I can hear a strange sound. (我听到一个奇怪的声音。)<br>④ Light travels faster than sound. (光比声音跑得快。)</td></tr>
+        <tr><th>拓·同族词</th><td>五感系动词：look 看起来 · sound 听起来 · feel 感觉 · taste 尝起来 · smell 闻起来</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>课文</td><td>That sounds fun!</td></tr>
+        <tr><td>回应</td><td>Your idea sounds great!</td></tr>
+        <tr><td>听觉</td><td>I hear a strange sound.</td></tr>
+        <tr><td>对比</td><td>The music sounds beautiful.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 五感系动词全家福</div>
+        look 看起来 → You look happy.<br>sound 听起来 → That sounds fun!（课文句）<br>feel 摸/感觉 → It feels soft.<br>taste 尝起来 → It tastes sweet.<br>smell 闻起来 → It smells good.<br>⚠️ 后面全部接形容词，不加副词！
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>sound 是接话神器：孩子说什么计划，家长回 That sounds fun/great/good! 孩子也学会回应。建议全家玩“五感游戏”：一个东西摸一摸（feels）、听一听（sounds）、尝一尝（tastes），轮流造句。读音注意 ou 发 /aʊ/，与 round、found 同韵。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 五感连线</strong><br>家长说 It...（+甜/软/响），孩子选系动词：tastes sweet / feels soft / sounds loud</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① That ______ fun! (sounds) ② The flower ______ good. (smells) ③ I hear a ______. (sound)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 回应接龙</strong><br>家长提议：Let's go swimming! 孩子回 That sounds fun! 换三个提议连玩</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>说出今天听到的三种 sound（鸟叫、雨声、汽车），得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 That sounds... 回应家人三个提议并录语音打卡<br><span class='btn-mimic'>🎤 示例：— Let's make a cake! — That sounds great!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟sound通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《会唱歌的声音》</h3>
+    <div class="quote">🎶 小朵问爸爸：What is a sound? 爸爸弹了一个琴键：This is a sound. 又关上窗听雨：This is a sound too. 小朵说：Then my laughing is a sound, and your story is a sound! 爸爸点头。小朵说：I want to be a musician in the future! 爸爸笑：That sounds fun! 小朵认真地说：No — it IS fun. There's a difference! 父女俩笑成一团。🎹</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What does “sound” mean as a verb? (听起来)<br>• What job does Xiaoduo want? (A musician)<br>• 问问孩子：What sounds do you hear on your way to school?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 系动词 ── That sounds fun/great!<br>├── 名词 ── the sound of rain · a strange sound<br>├── 五感 ── look/sound/feel/taste/smell<br>├── 习语 ── safe and sound 安然无恙<br>└── 同形 ── sound（健康的）：sound asleep</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>sound（声音）来自拉丁语 sonus，经古法语进入英语——sonar（声呐）、sonic（音速的：音速小子 Sonic）都是它的亲戚。英语里还有一个 sound（健康的），来自古英语 gesund：sound mind in a sound body（健全的心智寓于健全的身体）、safe and sound（安然无恙）都是这位“二哥”。两个 sound 拼写相同、来源不同——英语的同形异源彩蛋。🎯 讲给孩子：一个 sound 管声音，一个 sound 管健康。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>sonar</td><td>同源词：声呐（sonus + radar）</td></tr>
+        <tr><td>sonic</td><td>同源词：声音的（supersonic 超音速）</td></tr>
+        <tr><td>sound asleep</td><td>熟睡的（“健康”义的 sound）</td></tr>
+        <tr><td>safe and sound</td><td>安然无恙（习语）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Empty vessels make the greatest sound." 🫙<br>空罐子响声最大。—— 英语谚语（半瓶水响叮当）。最有分量的 sound，往往来自最满的那颗心。</div>
+
+    <h3>🎵 歌词里的 sound</h3>
+    🎵 Simon & Garfunkel《The Sound of Silence》(1964)：传世经典；“Hello darkness, my old friend”——寂静也有声音。<br>🔗 与 quiet 页、blind 页互链（同一首歌）；与 Wednesday 页呼应（《Wednesday Morning, 3 A.M.》同专辑）。
+
+    <h3>⚡ 冷知识</h3>
+    <p>声音在空气中约每秒340米，在水里约1500米——所以水下先听见后看见并不成立，但鲸鱼的歌声能传几百公里。《音乐之声》（The Sound of Music，1965）拿过奥斯卡最佳影片，影史最著名的 sound 在阿尔卑斯山上。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>sound</strong> /saʊnd/ v. 听起来 n. 声音</div>
+        <div>sound 听起来 v. / 声音 n.（同形异源双胞胎）</div>
+        <div>课文句：That sounds fun!</div>
+        <div>五感系动词：look / sound / feel / taste / smell</div>
+        <div>习语：safe and sound 安然无恙</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级上册 Unit 6 Jobs（职业）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("sound");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

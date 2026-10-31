@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·taxi driver</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · taxi driver</h1>
+<div class="subhead">📍 人教版（一起点）四年级上册 Unit 6 Jobs（职业）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> taxi driver</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 出租车司机</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈtæksi ˌdraɪvə(r)/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (四年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> taxi drivers</div><div class='info-item'><span class='info-label'>美式</span> cab driver</div>
+</div>
+
+<div class='textbook'>
+    <div class='textbook-title'>📖 课本原文直通车 · Unit 6 Jobs（职业）</div>
+    <p><strong>Lesson 1 · A. Look, listen and repeat</strong><br>
+    nurse 护士 · cook 厨师 · doctor 医生 · bus driver 公交车司机<br>police officer 警察 · taxi driver 出租车司机 · farmer 农民 · worker 工人</p>
+    <p><strong>Lesson 1 · B. Let's play</strong><br>
+    — Is she a worker? — No, she isn't.<br>— Is she a farmer? — Yes, she is.</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>
+    Binbin: I want to be a doctor in the future. What do you want to be?<br>
+    Yaoyao: Oh, I want to be a nurse.<br>
+    Binbin: That's great.</p>
+    <p><strong>Lesson 2 · B. Do a survey</strong><br>
+    — What do you want to be in the future?<br>— I want to be a police officer.</p>
+    <p><strong>Lesson 3 · A. Read and match（短文）</strong><br>
+    I want to do many jobs in the future.<br>
+    On Mondays, I want to be a police officer. That must be a cool job.<br>
+    On Tuesdays, I want to be a doctor. I can help sick people.<br>
+    On Wednesdays and Thursdays, I want to be a teacher. I can teach English.<br>
+    I want to be a farmer on Fridays.<br>
+    On the weekend, I just want to be myself. I want to play from morning to evening. That sounds fun!</p>
+    <p><strong>Let's Spell</strong><br>
+    ar: arm, bar · or: horn, pork · er: driver, tiger, turtle · ur: fur, dirt, bird</p>
+    <p><strong>Let's Check · A. 听力（人物自述）</strong><br>
+    Hi, I'm Amenda. I want to be a police officer in the future. It's a cool job.<br>
+    Hello, I'm Van. I like to eat. I want to be a cook in the future. Then I can eat any time.<br>
+    Hello, I'm Alex. I want to be a farmer in the future. It's an interesting job.</p>
+    <p><strong>Fun Time · A. Good to know</strong><br>
+    vet 兽医（I love animals. I want to be a vet in the future.）· fashion designer 时装设计师 · writer 作家 · hairdresser 理发师（I want to help people be beautiful.）</p>
+    <p><strong>Fun Time · C. Let's sing</strong><br>
+    歌曲以 What do you want to be in the future? 起句，唱到想成为 police officer、doctor、cook、nurse、bus driver 等职业。</p>
+    <p><strong>Story Time · A. Let's read（对话片段）</strong><br>
+    — I want a job. — You can be a fireman. — I am too small.<br>
+    — You can be a taxi driver. — I am too short.<br>
+    — You can be a singer. — Oh, you can't be a singer.（结尾待核）</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网·英语朗读宝逐句跟读页（yyld.51jiaoxi.com/sishang/rjbxqd_danyuan07.html）、好多云课本翻译页（m.haoduoyun.cc/fanyi/rjb/4s/6.html）、Scribd人教SL新起点四上电子课本快照（scribd.com/document/893080326）、搜狐Unit 6课堂教学实录（sohu.com/a/208689758）四源交叉核对；Lesson 1词汇表、Lesson 2对话、Lesson 3短文主干为两源以上逐句一致；Lesson 3结尾 just want to be myself / That sounds fun! 据Scribd课本快照；Lesson 1 B与Story Time为对话片段概要（结尾逐句原文待核）。本词为 Lesson 1 核心职业词；Story Time 里的小主角正想当它：You can be a taxi driver. — I am too short.（我还太矮了）</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>taxi + driver 复合职业词<br>✏️ 口诀：taxi 计价器车，driver 开车人</td></tr>
+        <tr><th>音·发音</th><td>/ˈtæksi ˌdraɪvə(r)/ 与 by taxi（Unit 3）连读<br>🎧 跟读：a taxi driver · take a taxi · by taxi</td></tr>
+        <tr><th>意·释义</th><td>出租车司机 🚕（taxi 的美式昵称是 cab，所以也有 cab driver）</td></tr>
+        <tr><th>用·句型</th><td>① I want to be a taxi driver. (我想当出租车司机。)<br>② The taxi driver knows the city well. (司机很熟悉这座城市。)<br>③ Let's take a taxi. (我们打车吧。)<br>④ Is he a taxi driver? — Yes, he is.</td></tr>
+        <tr><th>拓·同族词</th><td>by taxi 坐出租车（Unit 3）· taxi rank 出租车候客点 · taxicab 出租车全称</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>愿望</td><td>I want to be a taxi driver in the future.</td></tr>
+        <tr><td>乘坐</td><td>We take a taxi to the airport.</td></tr>
+        <tr><td>描述</td><td>The taxi driver is friendly.</td></tr>
+        <tr><td>建议</td><td>Let's take a taxi. It's faster.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 打车英语一小课</div>
+        叫车：<u>Taxi! / Let's take a taxi.</u><br>指路：<u>To the park, please.</u><br>付费：<u>How much is it?</u><br>⚠️ by taxi（方式）/ take a taxi（动作）——一个说怎么去，一个说去打车
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>taxi driver 与 Unit 3 的 by taxi 是一对词。打车时让孩子说 Let's take a taxi! 到了说 Thank you, driver! 在家用积木搭出租车，轮流当司机问 Where to? 重点区份 by taxi（怎么去）和 take a taxi（打车动作），再把 Story Time 的 I am too short 讲成笑点。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 taxi driver，孩子从 🚕 / 🚌 / 🚂 三张卡中选 → 正确答案：🚕</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 方式vs动作</strong><br>① We go to school ___ taxi. (by) ② Let's ___ a taxi. (take) ③ The ______ driver is kind. (taxi)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数变身</strong><br>one taxi driver → two ______ (taxi drivers)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>打车时说 Hello! To the..., please. 或认出车顶的 TAXI 灯 得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>当小司机玩接客游戏并录语音打卡<br><span class='btn-mimic'>🎤 示例：Welcome! Where to? — To the park, please!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟taxi driver通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《城市活地图》</h3>
+    <div class="quote">🚕 世界上最好的导游，也许是 taxi driver。小雨坐上出租车，司机叔叔一路介绍：Look left — the museum! Look right — the big park! 小雨惊叹：You know everything! 司机笑：I drive this city every day. It's my job. 到站了，小雨敬礼：Thank you, taxi driver! 司机按按喇叭：See you next time, little traveler! 🗺️</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Who knows the city well? (The taxi driver)<br>• Why does he know it? (He drives every day)<br>• 问问孩子：If you take a taxi to the park, what will you say?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 身份 ── a taxi driver · cab driver<br>├── 装备 ── a taxi · taximeter 计价器<br>├── 乘坐 ── by taxi / take a taxi<br>├── 场所 ── taxi rank 候客点<br>└── 同族 ── driver（-er 家族）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>taxi 是 taxicab 的缩写：taximeter（计价器）来自拉丁语 taxa（收费）加 meter（计量器），cab 则来自轻便马车 cabriolet。十九世纪末计价器装上汽车，“按表收费的车”就成了 taxi。所以司机师傅每天看的计价器，正是 taxi 这个词的祖先。🎯 讲给孩子：taxi 的字面意思就是“按表计价”。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>taximeter</td><td>taxi(收费) + meter(计量) → 计价器</td></tr>
+        <tr><td>taxicab</td><td>taxi + cab → 出租车全称</td></tr>
+        <tr><td>cab</td><td>taxi 的美式昵称（cab driver 同义）</td></tr>
+        <tr><td>taxi rank</td><td>出租车候客点（英式说法）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"You talkin' to me?" 🎬<br>你在跟我说话吗？—— 1976年影史经典《出租车司机》（Taxi Driver）中德尼罗的对镜台词，电影史上最著名的即兴发挥之一。一部以 taxi driver 命名的电影，把这个职业拍成了传奇。</div>
+
+    <h3>🎵 歌词里的 taxi driver</h3>
+    🎵 Harry Chapin《Taxi》(1972)：叙事民谣经典，讲的正是一位出租车司机的故事；与 by taxi 页（《Big Yellow Taxi》）错开配歌——两辆“黄出租车”不重样。
+
+    <h3>⚡ 冷知识</h3>
+    <p>伦敦黑色出租车的司机要通过“知识考”（The Knowledge）：背下两万五千条街道和上千个地点，一般要准备两到四年，被称为世界上最难的地理考试。纽约的黄色出租车超过一万三千辆，黄昏时分曼哈顿的“黄色车流”是城市名片——黄色据说是最容易被一眼认出的颜色。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>taxi driver</strong> /ˈtæksi ˌdraɪvə(r)/ n. 出租车司机</div>
+        <div>taxi driver 出租车司机（美式也叫 cab driver）</div>
+        <div>打车句：Let's take a taxi. / To the park, please.</div>
+        <div>词源：taxi = 按表计价的车（taximeter 计价器）</div>
+        <div>冷知识：伦敦司机要考 The Knowledge</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级上册 Unit 6 Jobs（职业）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("taxi driver");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
