@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·go to school</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · go to school</h1>
+<div class="subhead">📍 人教版（一起点）二年级下册 Unit 5 My Day</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> go to school</div>
+    <div class="info-item"><span class="info-label">词性</span> v. 上学</div>
+    <div class="info-item"><span class="info-label">音标</span> /ɡəʊ tə skuːl/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (二年级)</div>
+    <div class="info-item"><span class="info-label">短语结构</span> go to + 地点；特殊：go home不加to！</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 5 My Day</div>
+    <p><strong>Lesson 1 · A. Look, listen and chant</strong><br>
+    Every day, I get up, I eat breakfast, I go to school...<br>
+    （本课单词：get up起床 · eat breakfast吃早饭 · go to school上学 · eat lunch吃午饭 · go home回家 · eat dinner吃晚饭 · go to bed上床睡觉）</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>
+    — When do you get up?<br>
+    — I get up at 7:00.<br>
+    — When do you eat breakfast every day?<br>
+    — At 7:10.</p>
+    <p><strong>Lesson 3 · 说一说 & 字母</strong><br>
+    角色扮演：按时间点播报一天安排（get up at ... / eat breakfast at ... / go to bed at ...）<br>
+    字母书写：Q for quick</p>
+    <p><strong>Story Time</strong><br>
+    — When do you get up, Monkey?<br>
+    — I get up at 7:00.<br>
+    （结尾反转：It's time to go home!）</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经51jiaoxi跟读页、renjiaoshe人教教师网电子课本/教案、智慧山单元资源多源交叉核对；单元名My Day以课本为准。本页聚焦：go to+地点的结构规律与school"闲暇"词源。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>go to school —— go（去）+to（向）+school（学校）三件套；go后接地点要用to当"路标"<br>✏️口诀：go拿着to这张车票，才能到school</td></tr>
+        <tr><th>音·发音</th><td>/ɡəʊ tə skuːl/ go长音/əʊ/；to弱读成/tə/，像轻轻一按<br>🎧跟读：go to school at 7:50 · go to school by bus</td></tr>
+        <tr><th>意·释义</th><td>上学、去上学（go to school强调"去上课"这件事；go to the school只是"去学校这个地方"）</td></tr>
+        <tr><th>用·句型</th><td>① I go to school at 7:50. (我七点五十去上学。)<br>② When do you go to school? (你什么时候去上学？)<br>③ We go to school by bus. (我们坐公交上学。)<br>④ It's time to go to school! (该上学啦！)</td></tr>
+        <tr><th>拓·同族词</th><td>go to家族：go to bed上床 · go to the park去公园；特殊成员：go home回家（home是副词，不加to！）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>时间</td><td>I go to school at 7:50.</td></tr>
+        <tr><td>方式</td><td>We go to school by bus.</td></tr>
+        <tr><td>问答</td><td>—When do you go to school? —At 7:50.</td></tr>
+        <tr><td>情感</td><td>I love going to school. I see my friends.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · go to+地点 & 无to三人组</div>
+        <p><strong>go to + 地点：</strong><br>go to school 上学 · go to bed 上床 · go to the park 去公园</p><p><strong>不加to的特例（副词直接跟）：</strong><br>go home 回家 · go there 去那儿 · come here 过来</p><p>home本身是副词，自带"方向"，不需要to再指路！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>go to school藏着本单元最重要的语法暗线：go后面接地点要加to，但home是副词不用加。建议用"车票"比喻：to是go的车票，home、there、here自带车票。上学路上玩"Go to school!"口令游戏，到校门口说一句I go to school at 7:50.把时间点也练了。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 车票游戏</strong><br>家长说地点（school/park/home），孩子判断要不要"to车票"：go to school✔要票 / go home✔不用票</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① go ___ school（to）　② go ___ home（不填）</div>
+        <div class="game-step"><strong>✅ 关卡3 · 排序</strong><br>eat breakfast → go to school → eat lunch三卡排序并说出时间</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>说出你上学的交通方式：I go to school by ___.</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>录完整句<br><span class="btn-mimic">🎤 示例：I go to school at 7:50. My school is big!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟go to school通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Bus Stop Friend》</h3>
+    <div class="quote">🚌 每天早上7:40，安安在路口等校车，总能碰到同一个爷爷遛狗。第三天，爷爷先开口："Off to school?"安安点头："Yes! I go to school at 7:50 every day."爷爷笑了："When I was young, I walked two miles to school."安安睁大眼睛："Two miles? No bus?"爷爷拍拍小狗："So every day I say—school is worth the walk!"校车来了，安安挥挥手，把这句话记了一整天。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What time does An'an go to school? (At 7:50)<br>• How did Grandpa go to school when he was young? (He walked two miles)<br>• 问问孩子：你上学路上看到什么？用I see ...说一说。</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">go to school 上学
+ ├── 结构 ── go 去 + to 向 + school 学校
+ ├── 时间 ── I go to school at 7:50.
+ ├── 方式 ── by bus / by bike / on foot
+ ├── 特例 ── go home不加to（home是副词）
+ └── 词源 ── school原义"闲暇"（希腊语）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>school来自拉丁语schola，再往前是希腊语scholē，本义竟是"闲暇"！古希腊人认为只有闲下来的人才能从容听讲、讨论学问，"闲暇的地方"渐渐变成了"上学的地方"。所以go to school，字面是"去一个能安心学习的悠闲之地"——和今天赶时间的早晨相比，是不是很有反差萌？</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>go to school</td><td>上学（强调去上课）；比较：go to the school去学校（地方，未必上课，如家长去学校开会）</td></tr>
+        <tr><td>go home</td><td>回家——home是副词，前面不加to（本单元最易错点）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">南非前总统曼德拉说："Education is the most powerful weapon which you can use to change the world."（教育是你能用来改变世界的最强大武器。）——他说这话时已年过七旬，却把"上学"当作自己一生最珍贵的经历。</div>
+
+    <h3>🎵 歌词里的 go to school</h3>
+    🎵 Chuck Berry《School Days》(1957)：摇滚先驱的传奇名曲，"Ring ring goes the bell"的铃声一响，一天的学校生活扑面而来——上学歌的祖师爷。<br>🔗 与school、grade页互链（School Days同曲家族）；与go home页互链（上学—回家双向记忆）。
+
+    <h3>⚡ 冷知识</h3>
+    <p>印度勒克瑙的蒙特梭利学校注册学生曾超过5.5万人，被吉尼斯纪录认证为"世界上学生最多的学校"，一个学校就是一座小城；日本小学生以守时闻名，很多孩子独自坐地铁上学；芬兰的孩子上学更"轻松"——政府从1948年起就给全校学生提供免费校餐。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>go to school</strong> /ɡəʊ tə skuːl/ v. 上学</div>
+        <div><strong>go to school</strong> /ɡəʊ tə skuːl/ v. 上学</div>
+        <div>句型：I go to school at 7:50.</div>
+        <div>语法：go+地点加to；go home不加to！</div>
+        <div>词源：school原义"闲暇"（希腊语scholē）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级下册 Unit 5 My Day<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("go to school");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

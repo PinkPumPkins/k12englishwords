@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·go home</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · go home</h1>
+<div class="subhead">📍 人教版（一起点）二年级下册 Unit 5 My Day</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> go home</div>
+    <div class="info-item"><span class="info-label">词性</span> v. 回家</div>
+    <div class="info-item"><span class="info-label">音标</span> /ɡəʊ həʊm/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (二年级)</div>
+    <div class="info-item"><span class="info-label">语法点</span> home是副词——go home不加to！</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 5 My Day</div>
+    <p><strong>Lesson 1 · A. Look, listen and chant</strong><br>
+    Every day, I get up, I eat breakfast, I go to school...<br>
+    （本课单词：get up起床 · eat breakfast吃早饭 · go to school上学 · eat lunch吃午饭 · go home回家 · eat dinner吃晚饭 · go to bed上床睡觉）</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>
+    — When do you get up?<br>
+    — I get up at 7:00.<br>
+    — When do you eat breakfast every day?<br>
+    — At 7:10.</p>
+    <p><strong>Lesson 3 · 说一说 & 字母</strong><br>
+    角色扮演：按时间点播报一天安排（get up at ... / eat breakfast at ... / go to bed at ...）<br>
+    字母书写：Q for quick</p>
+    <p><strong>Story Time</strong><br>
+    — When do you get up, Monkey?<br>
+    — I get up at 7:00.<br>
+    （结尾反转：It's time to go home!）</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经51jiaoxi跟读页、renjiaoshe人教教师网电子课本/教案、智慧山单元资源多源交叉核对；单元名My Day以课本为准。本页聚焦：go home不加to的语法特例与home的词根"家园村"。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>go home —— go（去）+home（家），中间不加to！home自带"方向感"，是副词<br>✏️口诀：home自带导航，不用to指路</td></tr>
+        <tr><th>音·发音</th><td>/ɡəʊ həʊm/ 两个长音/əʊ/前后呼应，h轻轻吐气<br>🎧跟读：go home at 4:30 · Let's go home.</td></tr>
+        <tr><th>意·释义</th><td>回家（home既可当名词"家"，也可当副词"到家、朝家"）</td></tr>
+        <tr><th>用·句型</th><td>① I go home at 4:30. (我四点半回家。)<br>② When do you go home? (你什么时候回家？)<br>③ Let's go home. It's late. (我们回家吧，天晚了。)<br>④ I go home by bike. (我骑车回家。)</td></tr>
+        <tr><th>拓·同族词</th><td>同源家族：hometown家乡 · homeland祖国 · homeless无家可归的；地名尾巴-ham：Birmingham、Nottingham都是"家园村"</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>时间</td><td>I go home at 4:30.</td></tr>
+        <tr><td>提议</td><td>Let's go home. It's late.</td></tr>
+        <tr><td>方式</td><td>I go home by bike.</td></tr>
+        <tr><td>情感</td><td>Home is sweet. I love my home.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · home的两副面孔</div>
+        <p><strong>home当副词（不加to）：</strong><br>go home 回家 ✔（× go to home）<br>come home 到家 · get home 到家</p><p><strong>home当名词（要加冠词/物主词）：</strong><br>my home我的家 · at home在家 · a warm home一个温暖的家</p><p>判断口诀：跟在动词后面直接表方向→副词，不加to！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>go home的"不加to"是本单元最高频的语法考点。在家门口贴一张"Welcome home!"的小卡片，每天放学问孩子When do you go home?，把时间点练熟；再对比go to school和go home，孩子会发现"普通地点要票（to），home这个自家人不用"——特例讲成故事，孩子记得最牢。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 车票检查</strong><br>go to school / go home / go to the park——哪个不用to？说理由</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 改错</strong><br>① go to home✗ → go home✔　② I go home ___ 4:30.（at）</div>
+        <div class="game-step"><strong>✅ 关卡3 · 作息接龙</strong><br>get up→eat breakfast→go to school→eat lunch→go home→eat dinner→go to bed，七卡接龙</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>说说自己怎么回家：I go home by ___.</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>录"放学播报"<br><span class="btn-mimic">🎤 示例：It's 4:30. School is over. Let's go home!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟go home通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Sweetest Way》</h3>
+    <div class="quote">🏠 放学路上，朵朵和爸爸比赛谁先认出家附近的东西："I see the bakery!" "I see the big tree!"走到路口，朵朵说："Dad, my legs are tired."爸爸背起她："Almost home. Two more minutes."朵朵趴在爸爸背上数：one, two, three...到门口，门一开，饭菜香扑面而来，朵朵深深吸一口气："Dad, going home is the best part of my day."爸爸笑了："That's what home is for."</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Who carried Duoduo? (Dad)<br>• What did Duoduo smell at the door? (Dinner)<br>• 问问孩子：回家路上你最先认出什么？用I see ...说一说。</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">go home 回家
+ ├── 语法 ── home是副词，不加to！
+ ├── 时间 ── I go home at 4:30.
+ ├── 同族 ── hometown家乡 · homeland祖国 · homeless
+ ├── 地名 ── -ham=家园村：Birmingham · Nottingham
+ └── 名句 ── East or west, home is best.</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>home来自古英语hām，本义"村庄、家园"，和德语的Heim是亲兄弟。英国地名里带-ham尾巴的全是它的后代：Birmingham（比尔的家园村）、Nottingham（诺特的家园村）；hamlet（小村庄）也是这门亲戚。一个home，从一千多年前的村落一路走到今天的"回家"——go home这三个字母，其实走了一千年的路。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>at home</td><td>在家：I stay at home.（这里home是名词，前面要加at）</td></tr>
+        <tr><td>hometown</td><td>家乡、故乡（home+town复合词）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">英语谚语："East or west, home is best."（东奔西跑，家里最好。）——这句押韵老话漂洋过海，成了中国人也耳熟能详的"金窝银窝不如自己的狗窝"。放学铃一响，全世界的孩子都懂这句话。</div>
+
+    <h3>🎵 歌词里的 go home</h3>
+    🎵 Michael Bublé《Home》(2005)：全球热单，副歌"Let me go home"唱尽游子心事，也是无数人手机里的"想家专用曲"。<br>🔗 与home页互链（home单词页）；与go to school页互链（上学—回家双向记忆）。
+
+    <h3>⚡ 冷知识</h3>
+    <p>从太空看，地球是全体人类的home：国际空间站约90分钟绕地球一圈，宇航员一天能看到16次日出日落——对他们来说"回家"就是回到大气层内的那一声巨响。英语老师爱在黑板上画一条"回家线"：go home、come home、get home全家都不加to，因为home自带方向。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>go home</strong> /ɡəʊ həʊm/ v. 回家</div>
+        <div><strong>go home</strong> /ɡəʊ həʊm/ v. 回家</div>
+        <div>语法：home是副词——go home ✔（× go to home）</div>
+        <div>句型：When do you go home? —At 4:30.</div>
+        <div>谚语：East or west, home is best.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级下册 Unit 5 My Day<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("go home");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
