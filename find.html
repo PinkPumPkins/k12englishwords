@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·find</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · find</h1>
+<div class="subhead">📍 人教版（一起点）四年级上册 Unit 4 Asking for Help（求助）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> find</div>
+    <div class="info-item"><span class="info-label">词性</span> v. 找到；发现</div>
+    <div class="info-item"><span class="info-label">音标</span> /faɪnd/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (四年级)</div>
+    <div class='info-item'><span class='info-label'>过去式</span> found</div><div class='info-item'><span class='info-label'>辨析</span> find 找到结果 · look for 找的过程</div>
+</div>
+
+<div class='textbook'>
+    <div class='textbook-title'>📖 课本原文直通车 · Unit 4 Asking for Help（求助）</div>
+    <p><strong>Lesson 1 · A. 词汇</strong><br>
+    pen 钢笔 · knife 小刀 · eraser 橡皮 · crayon 蜡笔 · scissors 剪刀 · glue stick 胶棒 · paper 纸</p>
+    <p><strong>Lesson 1 · B. 商店角色扮演（场景：shop 文具店）</strong><br>
+    — Do you have erasers? — Yes, we do. / Sorry, we don't.<br>
+    （在商店询问是否有某物品，答语分肯定与委婉否定）</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>
+    — Can I use your glue stick, please?<br>
+    — Sorry. I'm using it.<br>
+    — That's OK.<br>
+    （Andy 借胶棒先被婉拒，随后 Lucky 出借：Sure. Here you are.）</p>
+    <p><strong>Lesson 2 · B. 问答游戏</strong><br>
+    借书包、小刀、尺子等：Sure. Here you are. / Sorry, I don't have one.</p>
+    <p><strong>Lesson 3 · 短文（情节概要）</strong><br>
+    Steven 和爸爸去公园游玩走散。他到 Information Centre 求助：Excuse me. Can I use your phone? I can't find my dad. 电话接通后爸爸说：I'm at the hamburger shop. Steven 道谢后找到了爸爸。</p>
+    <p><strong>Fun Time · 安全常识</strong><br>
+    火警 119 · 报警 110 · 急救 120 · 交通事故 122（求助电话要知道）</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经公开电子课本/跟读资源多源交叉核对（51教习网跟读页 yyld.51jiaoxi.com、Scribd 电子课本快照、格灵课堂视频资源）；Lesson 2 核心句 Can I use your glue stick, please? / Sorry, I'm using it. 两源逐句一致，Lesson 1 商店问答与 Lesson 3 短文为多源一致的情节概要，逐句原文待核。本词出自 Lesson 3 短文：Steven 说 I can't find my dad.（我找不到爸爸了）——求助前的关键陈述。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>f-i-n-d 四字母，d 像找到的句点<br>✏️ 口诀：find 找到把家 d（到）</td></tr>
+        <tr><th>音·发音</th><td>/faɪnd/ 单音节，/aɪ/ 饱满<br>🎧 跟读：find my pen · find it · Can you find...?</td></tr>
+        <tr><th>意·释义</th><td>找到、发现 🔍（强调结果；找的过程用 look for）</td></tr>
+        <tr><th>用·句型</th><td>① I can't find my dad. (我找不到爸爸了。)<br>② Can you find my eraser? (你能找到我的橡皮吗？)<br>③ I found it! (我找到啦！)<br>④ Where did you find it? (你在哪儿找到的？)</td></tr>
+        <tr><th>拓·同族词</th><td>find→found→found（不规则过去式）；find out 查明真相；founder 创始人</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>求助</td><td>I can't find my dad. Can you help me?</td></tr>
+        <tr><td>寻物</td><td>I'm looking for my pen. — Is this it?</td></tr>
+        <tr><td>惊喜</td><td>I found it under the desk!</td></tr>
+        <tr><td>探究</td><td>Let's find out the answer.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · find vs look for</div>
+        找的过程：<u>I'm looking for my pen.</u>（正在找）<br>找的结果：<u>I found my pen!</u>（找到了！）<br>求助连招：<u>Excuse me. I can't find my... Can you help me?</u><br>⚠️ found 是 find 的过去式；另一个动词 found（创办）拼写相同但来路不同！
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>找不到是孩子求助的第一大场景。练求助三段式：说明困难（I can't find my...）→ 礼貌请求（Can you help me?）→ 感谢回应（Thank you! / I found it!）。和孩子玩寻宝英语：藏好物品用英语提示，找到喊 I found it!</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 find，孩子从 🔍 / 👍 / 5️⃣ 三张卡中选 → 正确答案：🔍</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 过去式变身</strong><br>find → ______ (found) → I ______ it! (found)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 易混辨析</strong><br>找的过程 ______ / 找的结果 ______ (look for; find)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 寻宝游戏</strong><br>家长藏物用英语提示，孩子找到喊 I found it! 得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>完整说一遍求助三段式，录语音打卡<br><span class='btn-mimic'>🎤 示例：I can't find my pen. Can you help me? — Look! I found it!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟find通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Information Centre 的爸爸》</h3>
+    <div class="quote">🏞️ 公园太大，Steven 一回头，爸爸不见了！I can't find my dad! 他想起老师的话：走丢了，去找 Information Centre。工作人员阿姨蹲下来：Don't worry. Can I help you? Steven 说：Excuse me. Can I use your phone? 电话接通，爸爸的声音传来：I'm at the hamburger shop! 十分钟后，父子在汉堡店门口抱在一起。Steven 挥手大喊：Thank you, Information Centre! 🍔</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Who did Steven lose? (His dad)<br>• Where did he ask for help? (Information Centre)<br>• 问问孩子：在公共场所走丢了，第一步做什么？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 过程 ── look for 找<br>├── 结果 ── find→found 找到<br>├── 求助 ── I can't find...<br>├── 场景 ── 走丢 · 寻物<br>└── 同族 ── find out 查明</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>find 是英语最古老的词之一，来自古英语 findan，德语 finden 是它表兄弟。过去式 found 与动词 found（创办）拼写撞车纯属巧合：find 的 found 是找到了，found a company 的 found 来自拉丁语 fundare（建立）。一个拼写，两个户口。🎯 讲给孩子：find 的过去式和创办公司的 found 只是穿了同一件外套。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>find → found → found</td><td>找到（不规则变化）</td></tr>
+        <tr><td>look for</td><td>强调找的过程（与 look for 页互链，同配 U2 同曲）</td></tr>
+        <tr><td>find out</td><td>查明、弄清（find out the truth 查明真相）</td></tr>
+        <tr><td>found</td><td>创办（found a company 开公司，另一个词）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"The best way to find yourself is to lose yourself in the service of others." 🌍<br>找到自己最好的方式，是在为他人服务中忘我。—— 广泛归于圣雄甘地的流传之语。找不到时先求助，找到时记得帮人。</div>
+
+    <h3>🎵 歌词里的 find</h3>
+    🎵 U2《I Still Haven't Found What I'm Looking For》(1987)：格莱美年度唱片，我还没找到我要找的——寻找主题的最强音。<br>🔗 与 look for 页互链（同曲同源：look for 管过程，find 管结果，一对好搭档）。
+
+    <h3>⚡ 冷知识</h3>
+    <p>走丢求助的英语应急口诀：站在原地不乱跑，找穿制服的人（a police officer / a staff member），开口第一句 Excuse me, I can't find my...，第二句 Can you help me? 伦敦地铁、机场、商场都设有 Information Centre，图标是蓝底白字 i，全世界通用——认准 i 字标志，它就是能帮你的人！</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>find</strong> /faɪnd/ v. 找到；发现</div>
+        <div>find 找到（过去式 found）</div>
+        <div>find 管结果 / look for 管过程</div>
+        <div>求助三段式：I can't find... → Can you help me? → Thank you!</div>
+        <div>走丢找 Information Centre，认准 i 字标</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级上册 Unit 4 Asking for Help（求助）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("find");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·gate</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · gate</h1>
+<div class="subhead">📍 人教版（一起点）四年级上册 Unit 3 Transportation（交通方式）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> gate</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 大门；登机口</div>
+    <div class="info-item"><span class="info-label">音标</span> /ɡeɪt/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (四年级)</div>
+    <div class="info-item"><span class="info-label">复数</span> gates</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 3 Transportation（交通方式）</div>
+    <p><strong>Lesson 1 · A. Look, listen and repeat（交通方式短语）</strong><br>
+    by bus 乘公交 · by boat 乘小船 · by ship 乘轮船 · by car 坐小汽车 · by taxi 坐出租车 · by bike 骑自行车 · on foot 步行 · by school bus 乘校车 · by subway 乘地铁 · by plane 乘飞机 · by train 乘火车</p>
+    <p><strong>Lesson 1 · B. Let's play</strong><br>
+    — I usually go to school by ship. — Haha! No.<br>
+    — I usually go to the park by car. — Oh, yes.</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>
+    — Hi, Sue! — Hi, Andy!<br>
+    — How do you usually go to school?<br>
+    — I usually go to school on foot. My home is near our school. What about you?<br>
+    — I usually go to school by subway.</p>
+    <p><strong>Lesson 2 · B. Do a survey（调查活动）</strong><br>
+    — How do you usually go to school?<br>
+    — I usually go to school by school bus. / I usually go to school by subway.</p>
+    <p><strong>Lesson 3 · A. Read and match（两张活动海报）</strong><br>
+    海报一：Want to go to the Fruit Garden to pick apples?<br>
+    Time: 8:00 am Saturday · Meeting Place: School gate · Transportation: By school bus · Let's have fun!<br>
+    海报二：The Earth in 2055 is on at Snow Theatre.<br>
+    Time: 2:00 pm Saturday · Meeting Place: School playground · Transportation: By subway · Come and enjoy the new film!<br>
+    （随后Joy与同伴围绕两张海报展开邀约对话，逐句原文待核）</p>
+    <p><strong>Fun Time · C. Let's sing《How do you go to school?》</strong><br>
+    — How do you go to school? — We usually go by bus. That's how we go to school.<br>
+    — How do you go to the park? — We usually go by bike. That's how we go to the park.<br>
+    — How do you go to the shops? — We usually go by car. That's how we go to the shops.</p>
+    <p><strong>Let's Spell · ar /ɑː/（原文待核）</strong><br>
+    park · car · bar · arm · card · farm</p>
+    <p><strong>Story Time（原文待核）</strong><br>
+    孩子们分乘校车、火车上学，还有孩子的家在沙漠里——I go to school on the Internet!</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经51教习网跟读页(yyld.51jiaoxi.com)、课本翻译网(m.haoduoyun.cc)、奥数网教案(aoshu.com)、步步高资源(eebbk.com)多源交叉核对。gate 出自Lesson 3海报 Meeting Place: School gate——去水果园摘苹果在校门口集合。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>gate —— a_e 魔法e，a 读长音 /eɪ/（与 plane、name 一族！）<br>✏️ 口诀：a_e 魔法门，gate 站校门！</td></tr>
+        <tr><th>音·发音</th><td>/ɡeɪt/，a_e 读 /eɪ/，别读成 /ɡæt/<br>🎧 跟读：at the school gate · Gate 5（登机口）· the garden gate</td></tr>
+        <tr><th>意·释义</th><td>大门；校门口；登机口</td></tr>
+        <tr><th>用·句型</th><td>① Meeting Place: School gate. (集合地点：校门口。——Lesson 3海报)<br>② Let's meet at the school gate. (我们在校门口碰头吧。)<br>③ Our plane leaves from Gate 5. (我们的航班从5号登机口出发。)<br>④ The garden gate is open. (花园的门开着。)</td></tr>
+        <tr><th>拓·同族词</th><td>gate 家族：school gate 校门 · garden gate 花园门 · Gate 机场登机口 · gateway 通道<br>拼写同族：gate — plane — name（a_e 读 /eɪ/）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>海报</td><td>Meeting Place: School gate.</td></tr>
+        <tr><td>约定</td><td>Let's meet at the gate.</td></tr>
+        <tr><td>机场</td><td>Our flight leaves from Gate 5.</td></tr>
+        <tr><td>拼写族</td><td>gate — plane — name（a_e）</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · gate 的三大场景</div>
+        <p><strong>校门口：</strong><br>Let's meet at the <u>school gate</u> at 8:00.</p><p><strong>机场登机口：</strong><br>— Which gate is our flight?<br>— <u>Gate</u> 5.（看登机牌！）</p><p><strong>注意分工：</strong><br>gate 指围墙、围栏上的门；房间的门（带门板可锁）用 <u>door</u>。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>gate 有两大高频场景：校门口（约人集合）和机场登机口（看登机牌上的 Gate 12）。坐飞机时让孩子自己找登机口、读出 Gate 数字；日常约定练习 See you at the school gate!。注意 gate 指院墙、围栏上的“门”，家门（有门板、能锁）用 door。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · gate 还是 door？</strong><br>校门口 → gate · 房间门 → door · 登机口 → gate</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 魔法e填空</strong><br>g__te (gate) · pl__ne (plane) · n__me (name)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 情景问答</strong><br>去果园摘苹果在哪集合？→ At the school gate.（Lesson 3海报）</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>机场大屏找 Gate 数字并读出来：Gate 12! 我们的登机口！</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>跟同学约定：See you at the school gate at 8:00 am tomorrow!</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟gate通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《校门口的老槐树》</h3>
+    <div class="quote">📚 学校 gate 旁有棵老槐树，爷爷说它比教学楼还年长。每天放学，校门口像开演唱会：门卫爷爷指挥交通，家长们踮脚张望。小雨和乐乐约定：Tomorrow, meet me at the gate under the old tree! 第二天，树下的两个小人影挥手相认。小雨说：Every gate is a door to a new day. 老槐树的叶子沙沙响，好像也同意了。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 两个小伙伴约在哪里见？(At the school gate / 老槐树下)<br>• gate 旁有什么？(一棵老槐树)<br>• 问问孩子：Who do you usually meet at the school gate?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">gate 大门
+┌── 拼写 ── a_e 魔法e读 /eɪ/（gate-plane-name 一族）
+├── 场景 ── school gate 校门 · airport Gate 登机口 · garden gate
+├── 区别 ── gate 围墙门 ↔ door 房门（带门板可锁）
+├── 核心句 ── Meeting Place: School gate.（Lesson 3海报）
+└── 互链 ── meeting place 页 · Golden Gate（Tony Bennett歌曲）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>gate 来自古英语 geat（门、大门），是英语最古老的词之一。机场的“登机口”也用 gate——旅客像穿过一道城门一样登机。微软创始人名叫 Bill Gates（比尔·盖茨），Gates 这个姓氏原本就指“住在大门旁的人家”。旧金山的金门大桥 Golden Gate，则是1846年探险家弗里蒙特觉得那道海峡像伊斯坦布尔的“金角湾”，起的这个名字。🎯 讲给孩子：gate 里有城门、校门，还有一个世界级富豪的姓。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>gateway</td><td>gate + way 大门口；通往…的途径</td></tr>
+        <tr><td>Golden Gate</td><td>金门大桥（旧金山市歌的由来）</td></tr>
+        <tr><td>Gate No. 5</td><td>5号登机口（机场用语）</td></tr>
+        <tr><td>door</td><td>房门（与 gate 分工：door 带门板可锁）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you.” 祈求，就给你们；寻找，就寻见；叩门，就给你们开门。—— 《圣经·马太福音》，英语世界流传最广的“门”之箴言。</div>
+
+    <h3>🎵 歌词里的 gate</h3>
+    <p>🎵 Tony Bennett《I Left My Heart in San Francisco》(1962)：格莱美传世经典，旧金山市歌——歌里的金门 Golden Gate 让 gate 有了地理坐标。</p><p>🎵 互链：与 meeting place 页共守校门口；Golden Gate 冷知识在本页词源栏。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>金门大桥 Golden Gate 不是金色的，而是“国际橘”（International Orange）——这种颜色在雾里最醒目，还耐锈蚀。桥名“金门”指的是桥下的海峡，不是桥本身。机场的登机口 Gate 编号越大，往往离安检越远——记得留足时间。小小 gate，连着校园、花园和天空！</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>gate</strong> /ɡeɪt/ n. 大门；登机口</div>
+        <div>gate /ɡeɪt/ n. 大门；登机口</div>
+        <div>课本句：Meeting Place: School gate.（Lesson 3海报）</div>
+        <div>a_e 拼写族：gate — plane — name</div>
+        <div>区分：gate 围墙门 vs door 房门（与 meeting place 页互链）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级上册 Unit 3 Transportation（交通方式）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("gate");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
