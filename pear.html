@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·pear</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · pear</h1>
+<div class="subhead">📍 人教版（一起点）一年级上册 Unit 6 Fruit</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> pear</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 梨</div>
+    <div class="info-item"><span class="info-label">音标</span> /peə(r)/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>同音词</span> pair 一对 · pare 削皮</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 6 Fruit（P46-53）</div><p><strong>Lesson 1 · Look, listen and chant</strong><br>I like apples. I like pears. I like oranges. I like bananas.<br>They are all good to eat.<br>（本课单词：apple 苹果 · pear 梨 · banana 香蕉 · orange 橙子）</p><p><strong>Lesson 2 · Look, listen and repeat</strong><br>— Do you like bananas?<br>— Yes, I do.<br>— Do you like pears?<br>— No, I don't.</p><p><strong>Lesson 3 · B. Let's sing</strong><br>Apple round, apple red.<br>Apple juicy, apple sweet. 🍎</p><p><strong>Story Time</strong><br>— A gift for you. — Thank you!<br>— What is it? — Oh no, a fish!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经公开电子课本/跟读资源多源交叉核对。本页聚焦：pear——Lesson 1 chant 里的 I like pears.，Lesson 2 里被摇头拒绝的那颗：Do you like pears? —No, I don't.</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>p·ear —— 三个字母一笔圈，像一颗圆滚滚的梨挂在耳朵（ear）旁<br>✏️ 口诀：p + ear，梨儿挂在耳朵边，拆成熟字一秒记住</td></tr>
+        <tr><th>音·发音</th><td>/peə(r)/ 单音节，pea + 轻轻的 r<br>🎧 跟读：a pear · two pears · a sweet pear</td></tr>
+        <tr><th>意·释义</th><td>梨 🍐（pear tree 梨树；prickly pear 仙人掌果，了解即可）</td></tr>
+        <tr><th>用·句型</th><td>① I like pears. (我喜欢梨。)<br>② Do you like pears? —No, I don't. (你喜欢梨吗？——不，我不喜欢。)<br>③ This pear is sweet and juicy. (这颗梨又甜又多汁。)<br>④ A pear for you. (给你一个梨。)</td></tr>
+        <tr><th>拓·同族词</th><td>pear → pears（复数）；pear tree 梨树<br>同音三兄弟：pear 梨 · pair 一对 · pare 削皮（都读 /peə/！）· 本单元水果兄弟：apple · banana · orange</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>指认</td><td>This is a pear.</td></tr>
+        <tr><td>喜好</td><td>I like pears.</td></tr>
+        <tr><td>描述</td><td>This pear is sweet and juicy.</td></tr>
+        <tr><td>送礼</td><td>A pear for you.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 问喜好，水果用复数</div>
+        <strong>like 后面问一整类水果，要用复数：</strong><br><u>Do you like</u> pear<b>s</b>? 🍐 / banana<b>s</b> 🍌 / orange<b>s</b> 🍊<br>⚠️ 课本 chant 里 apples · pears · bananas · oranges 全带 s——问的是一类，不是一颗！
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>pear 只有三个字母，最适合第一次独立拼写。建议玩“同音梗”：a pair of pears 就是“一对梨”，pair 和 pear 同音，笑着就把同音词记牢了。听写盯紧不要多加字母；吃梨时来一句 A pear for you，送礼礼貌句顺带就练了。梨偏硬，可以顺势教 juicy（多汁）、sweet（甜），描述词一起攒。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 “a pear”，孩子从 🍐 / 🍎 / 🍌 中选 → 正确答案：🍐</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 同音辨形</strong><br>① 梨 ______ (pear)　② 一双、一对 ______ (pair)　③ 削皮 ______ (pare)——拼写全对得星</div>
+        <div class="game-step"><strong>🔤 关卡3 · 单复数变身</strong><br>one pear → two ______ (pears)<br>one banana → two ______ (bananas)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>在水果篮里找出 pear，指着说 “This is a pear!” 说对了得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>演一遍课本问答并录音：—Do you like pears? —No, I don't. I like bananas!<br><span class='btn-mimic'>🎤 示例：I like pears. They are sweet and juicy!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟pear通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《A Pair of Pears》</h3>
+    <div class="quote">🍐 妹妹的篮子里躺着两颗梨。哥哥凑过来数：Two pears? That's a pair of pears! 妹妹问：Do you like pears? 哥哥摇头：No, I don't. I like bananas! 妹妹不吵不闹，分给妈妈一颗、奶奶一颗：A pear for you, Granny! 奶奶咬一口：Sweet and juicy! 哥哥看着空篮子急了：Now I like pears too! —— 原来分出去的梨，比吃到的更甜。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• How many pears were in the basket? (Two)<br>• Did the brother like pears at first? (No, he liked bananas)<br>• 问问孩子：Do you like pears? 如果不喜欢，你喜欢哪种水果？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 本课句 ── I like pears. / Do you like pears? —No, I don't.<br>├── 同音三兄弟 ── pear 梨 · pair 一对 · pare 削皮<br>├── 搭配 ── pear tree 梨树 · a pair of pears 一对梨 · sweet and juicy<br>├── 复数 ── pear → pears（直接加 s）<br>└── 联想 ── 水果篮 fruit basket · 梨形 pear-shaped</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>pear 来自古英语 pere，再往上追溯到拉丁语 pirum——两千多年前罗马人的园圃里就种满了梨。有趣的是，英语里 pair（一对）、pare（削皮）和 pear 毫无血缘，读音却完全相同，是英语同音词里最有名的“三胞胎”，只能靠拼写认出谁是谁。梨在中国还有自家血脉：我们常吃的沙梨、秋子梨是本土驯化的，和西洋梨属于不同分支。🎯 讲给孩子：pear、pair、pare 同音不同字，写对拼写才算认识。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>pair</td><td>一对、一双（a pair of shoes 一双鞋）——与 pear 同音异形</td></tr>
+        <tr><td>pare</td><td>削皮、修剪（pare an apple 给苹果削皮）——与 pear 同音异形</td></tr>
+        <tr><td>pear tree</td><td>梨树（pear + tree 复合词）</td></tr>
+        <tr><td>prickly pear</td><td>仙人掌果（长满刺的“梨”）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Plant pears for your heirs.” —— 英国古谚（据传由17世纪园艺学家 John Evelyn 记载流传）：种梨树是为了儿孙——梨树寿命长、结果慢，是种给后代的树。</div>
+
+    <h3>🎵 歌词里的 pear</h3>
+    <p>🎵 The Wiggles《Fruit Salad》(1994)：儿童音乐天团 The Wiggles 的全球洗脑神曲，“Fruit salad, yummy yummy!” 开口即上头——梨 pear 正是水果沙拉的常驻嘉宾。（主题关联水果歌；pear 无高知名度冠名曲，如实标注）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>梨树是果树里出了名的长寿选手，欧洲一些老梨树两三百年还在开花结果，比好几个人的寿命加起来还长——“种梨为儿孙”的老话正是这么来的。另外，跟 pear 同音的英语常用词有两个（pair、pare），加上本尊正好三个 /peə/，考试最爱让它们“张冠李戴”，拼写给慢一点才稳。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>pear</strong> /peə(r)/ n. 梨</div>
+        <div>功能句：Do you like pears? —No, I don't.</div>
+        <div>同音：pear 梨 · pair 一对 · pare 削皮（都读 /peə/）</div>
+        <div>复数：pear → pears（直接加 s）</div>
+        <div>歌：The Wiggles《Fruit Salad》——水果沙拉里找 pear</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级上册 Unit 6 Fruit<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("pear");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

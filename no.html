@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·no</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · no</h1>
+<div class="subhead">📍 人教版（一起点）一年级上册 Unit 6 Fruit</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> no</div>
+    <div class="info-item"><span class="info-label">词性</span> adv. & interj. 不；不是</div>
+    <div class="info-item"><span class="info-label">音标</span> /nəʊ/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>同音词</span> know 知道</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 6 Fruit（P46-53）</div><p><strong>Lesson 1 · Look, listen and chant</strong><br>I like apples. I like pears. I like oranges. I like bananas.<br>They are all good to eat.<br>（本课单词：apple 苹果 · pear 梨 · banana 香蕉 · orange 橙子）</p><p><strong>Lesson 2 · Look, listen and repeat</strong><br>— Do you like bananas?<br>— Yes, I do.<br>— Do you like pears?<br>— No, I don't.</p><p><strong>Lesson 3 · B. Let's sing</strong><br>Apple round, apple red.<br>Apple juicy, apple sweet. 🍎</p><p><strong>Story Time</strong><br>— A gift for you. — Thank you!<br>— What is it? — Oh no, a fish!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经公开电子课本/跟读资源多源交叉核对。本页聚焦：no——Lesson 2 的 No, I don't. 和 Story Time 的 Oh no, a fish! 都靠它翻出戏剧感。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>n·o —— 两个字母最简短，态度却最坚决<br>✏️ 口诀：n + o，摇摇头说 no，o 的嘴巴张圆了</td></tr>
+        <tr><th>音·发音</th><td>/nəʊ/ 单音节，o 读 /əʊ/（美音 /noʊ/）<br>🎧 跟读：—Do you like pears? —No, I don't.</td></tr>
+        <tr><th>意·释义</th><td>不；不是（① 回答问题 ② 拒绝请求 ③ 课本 Story Time 的 Oh no! 是“糟糕了！”）</td></tr>
+        <tr><th>用·句型</th><td>① —Do you like pears? —No, I don't. (——不，我不喜欢。)<br>② Oh no, a fish! (哦不，是条鱼！)<br>③ No, thank you. (不用了，谢谢。)<br>④ No smoking. (禁止吸烟。——公共标语)</td></tr>
+        <tr><th>拓·同族词</th><td>no → not（不，副词）· nothing 没有东西 · nobody 没有人<br>同音词：know 知道——Do you know? / No, I don't. 一听就是双簧！</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>否定回答</td><td>No, I don't.</td></tr>
+        <tr><td>礼貌拒绝</td><td>No, thank you.</td></tr>
+        <tr><td>惊呼</td><td>Oh no, a fish!</td></tr>
+        <tr><td>标语</td><td>No smoking.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · no 的两种身份</div>
+        <strong>① 回答问题（放句首）：</strong><br>—Do you like pears? —<u>No</u>, I don't.<br><strong>② 禁止令（当“门卫”）：</strong><br><u>No</u> smoking. 禁止吸烟 / <u>No</u> parking. 禁止停车<br>⚠️ 课本 Story Time 的 Oh no! 不是拒绝，是“糟糕了”——语气一变，意思大变！
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>no 是孩子最先学会却最容易说“过头”的词。家长做两件事：一是把 No, thank you. 练成礼貌拒绝的标配，替掉光秃秃的 No；二是带孩子认楼道里的 NO SMOKING 标语，理解 no 的“禁止令”身份。听写盯紧：no 和 know 同音，但 know 有个不发音的 k——两者千万别混。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 摇头判官</strong><br>家长问 Do you like pears? 孩子摇头答 No, I don't.；再问 Do you like bananas? 答 Yes, I do. 一问一答 4 轮过关</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 同音双簧</strong><br>选词填空：① ___, I don't. (No)　② I ___ the answer. (know)</div>
+        <div class="game-step"><strong>🔤 关卡3 · 标语大会</strong><br>认标语：No smoking（禁烟）· No parking（禁停）· No pets（禁宠物）——说对一个得星</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>在小区/商场找一块 NO 开头的标语，读给家长听，读对得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>演课本 Story Time：打开盒子惊呼 Oh no, a fish! 再对鱼说一句 No, thank you.<br><span class='btn-mimic'>🎤 示例：Oh no, a fish! No, thank you!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟no通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《No Know Twins》</h3>
+    <div class="quote">🎭 单词城里住着一对双胞胎：哥哥 no 爱摇头，弟弟 know 头顶一根安静的 k（从不发音）。哥哥管拒绝：No, I don't. 弟弟管知道：I know! 一天有人喊：Do you know the answer? 哥哥抢答：No! 弟弟急了：别抢我的活！全场笑翻。从此他们约定：听见 know 先找 k，听见 no 直接摇头。考试时谁认错谁，就要表演“摇头一整天”。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What does brother no do? (Says no / refuses)<br>• What does the silent k do? (It says nothing)<br>• 问问孩子：Do you like pears? 试着摇头答 No, I don't.</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 本课句 ── —Do you like pears? —No, I don't. / Oh no, a fish!<br>├── 两种身份 ── 回答（No, I don't.）· 禁止令（No smoking.）<br>├── 家族 ── not 副词 · nothing 没有东西 · nobody 没有人<br>├── 同音 ── know 知道（k 不发音）<br>└── 联想 ── 摇头手势 · 红灯（禁止 = no）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>no 来自古英语 nā，是 ne（不）和 ā（永远）拧在一起的结果，本义是“永不”——比今天的“不”还要坚决。它和 know（知道）读音完全相同却是两家亲戚；英语里这种同音异义的词有上千对，no/know 因为总在问答里碰面，成了最出名的一对。🎯 讲给孩子：no 的祖先意思是“永不”，难怪摇头摇得那么坚定。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>not</td><td>副词“不”：I do not = I don't</td></tr>
+        <tr><td>nothing</td><td>no + thing → 没有东西</td></tr>
+        <tr><td>nobody</td><td>no + body → 没有人</td></tr>
+        <tr><td>No.</td><td>number 的缩写（借自拉丁语 numero）：No.1 = number one 第一</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“No pain, no gain.” —— 英语谚语（一分耕耘，一分收获）：没有辛苦的付出，就没有收获。<br>“No news is good news.” —— 英语谚语（没消息就是好消息）。</div>
+
+    <h3>🎵 歌词里的 no</h3>
+    <p>🎵 Meghan Trainor《NO》(2016)：全球热单（Billboard 前三），歌名就是 no；“My name is No, my sign is No” 的副歌把拒绝唱成自信宣言——no 的 /nəʊ/ 听一遍就上口。（按歌名含词规则新配）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>奖状和信封上的 No.1 并不是“没有1”——No. 是 number 的缩写，借自拉丁语 numero（数字），所以 No.1 要读成 number one 而不是 no one。另外，街头的 NO SMOKING、NO PARKING 标语里，no 后面直接跟动作词就是“禁止”的意思——一个两字母的小词，兼了“拒绝”和“编号”、“禁止令”三份工。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>no</strong> /nəʊ/ adv. & interj. 不；不是</div>
+        <div>功能句：Do you like pears? —No, I don't.</div>
+        <div>礼貌拒绝：No, thank you.</div>
+        <div>同音：no 不 · know 知道（k 不发音）</div>
+        <div>歌：Meghan Trainor《NO》——把拒绝唱成自信宣言</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级上册 Unit 6 Fruit<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("no");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
