@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·friend</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · friend</h1>
+<div class="subhead">📍 人教版（一起点）二年级上册 Unit 2 Boys and Girls（朋友与人物）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> friend</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 朋友</div>
+    <div class="info-item"><span class="info-label">音标</span> /frend/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (二年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> friends · friendly 友好的</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 2 Boys and Girls</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>She is a girl. She is my classmate.<br>He is a boy. He is my friend.<br>I like them. They like me, too.<br>She is a woman. She is my mother.<br>He is a man. He is my father.<br>I love them. They love me, too.<br>（本课单词：girl 女孩 · classmate 同班同学 · boy 男孩 · friend 朋友 · woman 女人 · man 男人）</p><p><strong>Lesson 1 · B. Listen and say</strong><br>— Bill! — He is a boy.<br>— Yaoyao! — She is a girl.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— Look, a boy and a girl.<br>— What's his name? — His name is Sam.<br>— What's her name? — Her name is Candy.<br><strong>B. Choose and say</strong>：— What's his name? — His name is Wu Peng.</p><p><strong>Lesson 3 · A. Let's play</strong><br>— Boy or girl? — Boy!<br><strong>B. Listen and repeat</strong>（字母发音）：e for egg · f for fish · g for girl · h for head</p><p><strong>Story Time</strong><br>— Who is he?<br>— Is he a boy? — Is he a man? — Is he a tiger?<br>— No! Aagghh!<br>— Oh, he's my friend!<br>— What's his name? — His name is Tiny!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi同步跟读页（yyld.51jiaoxi.com/ershang/rjbxqd_danyuan02.html）、智慧山知识点归纳（zhihuishan.com/article/6932.html）、多套同步课堂视频与高清电子课本资源多源交叉核对：单元名Boys and Girls、11词词汇表、What's his/her name核心句型多源一致；Lesson 1歌谣全文与Story Time对话细节为51jiaoxi单源收录，标注待进一步核。friend 在 Lesson 1 歌谣 He is a boy. He is my friend. 和 Story Time Oh, he's my friend! 两处原句复现。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>fr + i + end —— 结尾正好是 end（结束）！但和朋友的友谊永远别 end<br>✏️ 口诀：friend 中间是 ie，别写成 fiend（恶魔）！</td></tr>
+        <tr><th>音·发音</th><td>/frend/ 单音节，ie 在这里读 /e/<br>🎧 跟读：my friend · a good friend · best friend</td></tr>
+        <tr><th>意·释义</th><td>朋友 👫（形容词 friendly＝友好的；friendship＝友谊）</td></tr>
+        <tr><th>用·句型</th><td>① He is my friend. (他是我的朋友。)<br>② We are good friends. (我们是好朋友。)<br>③ She is my best friend. (她是我最好的朋友。)<br>④ I like my friends. (我喜欢我的朋友们。)</td></tr>
+        <tr><th>拓·同族词</th><td>friendly 友好的（friend+ly）· friendship 友谊（-ship 名词后缀）· best friend 最好的朋友 · make friends 交朋友</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>介绍</td><td>He is my friend, Tiny.</td></tr>
+        <tr><td>情谊</td><td>We are good friends.</td></tr>
+        <tr><td>动作</td><td>I play with my friends.</td></tr>
+        <tr><td>描述</td><td>My friend is kind to me.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 交朋友的'复数'秘密</div>
+        <p><strong>make friends</strong> 交朋友——注意固定用复数 friends！<br>✔ I make friends at school.　✘ make a friend with...</p><p><strong>be friends with</strong> 和…是朋友：I am friends with Sam.</p><p>⚠️ 单独说'一个朋友'才用 a friend：I have a friend.</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>friend 是二年级最容易写错的词之一：中间是 ie 不是 ei，更不是 fiend。家里玩法：让孩子说三个朋友的名字，用 '______ is my friend.' 造句；再问 'What do you do with your friends?' 引导他说 We play together. 顺便讲：friendly 是'友好的'，多一个 ly 意思就变了。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音指认</strong><br>家长说 'my friend'，孩子从同学照中指自己的好朋友 → 指对了得一颗星</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 拼写排雷</strong><br>① fr___nd (ie) ② 圈出正确拼写：friend / fiend / frend ③ friend 里藏着哪个短词？(end)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数变身</strong><br>one friend → two ______ (friends)　We are good ______ (friends)</div>
+        <div class="game-step"><strong>🔍 关卡4 · Story Time 表演</strong><br>用课本句表演：'Oh, he's my friend! What's his name? His name is Tiny!'</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 '______ is my friend. We play together.' 介绍好朋友，录语音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟friend通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Tiny Is My Friend》</h3>
+    <div class="quote">🐿️ 放学了，Bill 拉着妈妈往家跑：'Mum, come and see!' 草丛里钻出一只小松鼠，竖着大尾巴。Bill 笑着介绍：'Oh, he's my friend!' 妈妈惊讶地问：'What's his name?' 'His name is Tiny! We are friends. I give him nuts, he gives me happy days.'（我给他坚果，他给我快乐的日子。）妈妈笑了：'A friend in need is a friend indeed.'</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Bill 的朋友是谁？(A little squirrel 小松鼠 Tiny)<br>• Bill 为小松鼠做什么？(He gives him nuts)<br>• 问问孩子：Who is YOUR friend? 用英语说一句 I love my friend.</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 亲疏 ── friend 朋友 / best friend 最好的朋友<br>├── 家族 ── friendly 友好的 / friendship 友谊<br>├── 动作 ── make friends 交朋友 / play with 一起玩<br>├── 场景 ── at school 在学校 / at home 在家<br>└── 谚语 ── A friend in need is a friend indeed.</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>friend 是英语里最古老的一批词：古英语 frēond，来自动词 frēogan——'爱'。它的字面意思就是'我爱的人'。更妙的是，friend 和 free（自由的）出自同一个日耳曼词根：在古代部族里，'被爱的家人'才是'自由人'——爱和自由，从一开始就是一对。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>friendly</td><td>friend + ly → 友好的（a friendly girl 一个友好的女孩）</td></tr>
+        <tr><td>friendship</td><td>friend + ship → 友谊（-ship 是'关系'后缀）</td></tr>
+        <tr><td>best friend</td><td>best(最好) + friend → 最好的朋友</td></tr>
+        <tr><td>make friends</td><td>固定搭配：交朋友（必用复数！）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"A friend in need is a friend indeed."<br>患难见真情。—— 英语世界最著名的友谊谚语，数百年前就有记载，今天交朋友依然用得上。</div>
+
+    <h3>🎵 歌词里的 friend</h3>
+    <p>🎵 The Beatles《With a Little Help from My Friends》(1967)：披头士传世经典，副歌 'I get by with a little help from my friends'（靠朋友们帮点小忙，日子照样过得去）；Joe Cocker 翻唱版再度登顶。朋友的价值，一首歌唱透。（歌名含词）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>每年7月30日是联合国设立的'国际友谊日'（International Day of Friendship）。孩子们的社交词典里还有个超高频缩写 BFF＝Best Friends Forever（永远的最好朋友）——写贺卡、发消息时一句 'You're my BFF!' 胜过千言万语。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>friend</strong> /frend/ n. 朋友</div>
+        <div>friend /frend/ n. 朋友（复数 friends）</div>
+        <div>课本句：He is a boy. He is my friend.</div>
+        <div>拼写排雷：f-r-i-e-n-d，中间是 ie</div>
+        <div>谚语：A friend in need is a friend indeed.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级上册 Unit 2 Boys and Girls（朋友与人物）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("friend");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

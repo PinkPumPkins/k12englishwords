@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·classmate</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · classmate</h1>
+<div class="subhead">📍 人教版（一起点）二年级上册 Unit 2 Boys and Girls（朋友与人物）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> classmate</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 同班同学</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈklɑːsmeɪt/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (二年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> classmates</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 2 Boys and Girls</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>She is a girl. She is my classmate.<br>He is a boy. He is my friend.<br>I like them. They like me, too.<br>She is a woman. She is my mother.<br>He is a man. He is my father.<br>I love them. They love me, too.<br>（本课单词：girl 女孩 · classmate 同班同学 · boy 男孩 · friend 朋友 · woman 女人 · man 男人）</p><p><strong>Lesson 1 · B. Listen and say</strong><br>— Bill! — He is a boy.<br>— Yaoyao! — She is a girl.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— Look, a boy and a girl.<br>— What's his name? — His name is Sam.<br>— What's her name? — Her name is Candy.<br><strong>B. Choose and say</strong>：— What's his name? — His name is Wu Peng.</p><p><strong>Lesson 3 · A. Let's play</strong><br>— Boy or girl? — Boy!<br><strong>B. Listen and repeat</strong>（字母发音）：e for egg · f for fish · g for girl · h for head</p><p><strong>Story Time</strong><br>— Who is he?<br>— Is he a boy? — Is he a man? — Is he a tiger?<br>— No! Aagghh!<br>— Oh, he's my friend!<br>— What's his name? — His name is Tiny!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi同步跟读页（yyld.51jiaoxi.com/ershang/rjbxqd_danyuan02.html）、智慧山知识点归纳（zhihuishan.com/article/6932.html）、多套同步课堂视频与高清电子课本资源多源交叉核对：单元名Boys and Girls、11词词汇表、What's his/her name核心句型多源一致；Lesson 1歌谣全文与Story Time对话细节为51jiaoxi单源收录，标注待进一步核。classmate 出现在 Lesson 1 歌谣 She is a girl. She is my classmate. 原句中，是本单元开篇第一个长词。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>class + mate —— class 班级 + mate 伙伴，两个字一拼就是'同班伙伴'<br>✏️ 口诀：一个 class 里的 mate，就是 classmate！</td></tr>
+        <tr><th>音·发音</th><td>/ˈklɑːsmeɪt/ 双音节，重音在前：CLASS-mate<br>🎧 跟读：my classmate · a new classmate · my classmates</td></tr>
+        <tr><th>意·释义</th><td>同班同学 👫（同一个班一起上课的伙伴；mate 单独用还是英式口语'哥们儿'）</td></tr>
+        <tr><th>用·句型</th><td>① She is my classmate. (她是我的同班同学。)<br>② This is my new classmate. (这是我的新同学。)<br>③ We are classmates. (我们是同班同学。)<br>④ My classmate helps me. (我的同学帮助我。)</td></tr>
+        <tr><th>拓·同族词</th><td>mate 家族大点名：deskmate 同桌 · schoolmate 同校同学 · roommate 室友 · teammate 队友</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>介绍</td><td>This is my classmate, Lily.</td></tr>
+        <tr><td>描述</td><td>My classmate is nice.</td></tr>
+        <tr><td>合作</td><td>My classmate and I play together.</td></tr>
+        <tr><td>数量</td><td>I have many classmates.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 介绍同学</div>
+        <p><strong>This is my classmate, ______.</strong> 最标准的介绍句。</p><p><strong>She is my classmate. / He is my classmate.</strong> 注意：先看清是男是女，再选 She/He！</p><p><strong>We are classmates.</strong> 用复数表示'我们同班'。</p><p>⚠️ classmate 是同班同学；deskmate 才是同桌——别弄混！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>classmate 拼写长，用'拆字法'最好教：class（班）+ mate（伙伴）。家里玩法：让孩子说出班里三个好朋友的名字，用 '______ is my classmate.' 逐个介绍，顺便把 She/He 练了。重点纠正：mate 不要写成 mait，class 里 a 读长音 /ɑː/。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音指认</strong><br>家长说 'my classmate'，孩子从全家合影/同学照片中指出来 → 指对了得一颗星</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 拼写拆字</strong><br>① class + ______ = classmate (mate) ② 数一数：classmate 有几个字母？(9个) ③ 找藏在里面的两个短词：class 和 mate</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数变身</strong><br>one classmate → two ______ (classmates)　my classmate → we are ______ (classmates)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 课本原句秀</strong><br>让孩子指着课本插图说 'She is a girl. She is my classmate.'（Lesson 1 原句）</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 'This is my classmate, ______.' 介绍三位真同学，录语音打卡<br><span class='btn-mimic'>🎤 示例：This is my classmate, Amy. She is nice!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟classmate通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The New Classmate》</h3>
+    <div class="quote">🎒 今天班里来了一位新同学。老师微笑着说：'This is our new classmate, Sam.' 大家齐声说：'Welcome!' 下课铃一响，Amy 拉着 Sam 去玩滑梯：'We are classmates now!'（我们现在同班啦！）Sam 开心地笑了：'I like my new class!'</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 班里来了谁？(A new classmate, Sam)<br>• Amy 对 Sam 说了什么？(We are classmates now!)<br>• 问问孩子：Who is YOUR classmate? 让他模仿课文介绍一位真同学</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── mate 家族 ── deskmate 同桌 / schoolmate 同校 / roommate 室友<br>├── 介绍 ── This is my classmate, ...<br>├── 复数 ── one classmate → many classmates<br>├── 场景 ── classroom 教室 / playground 操场<br>└── 动作 ── help 帮助 · play 一起玩 · learn 一起学</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>classmate 是个'罗马+德国'混血词：class 来自拉丁语 classis，本指古罗马全体公民分成的等级队伍；mate 来自中古低地德语，本意是'一起吃饭的人'——和 meat（肉）是亲戚！所以 classmate 的字面故事是：一群人排在一队、分一块面包吃——一起上课、一起吃饭，可不就是同班同学嘛。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>deskmate</td><td>desk(课桌) + mate → 同桌（同班里坐你旁边的那位）</td></tr>
+        <tr><td>schoolmate</td><td>school(学校) + mate → 同校同学（同校不同班）</td></tr>
+        <tr><td>roommate</td><td>room(房间) + mate → 室友（住一个房间）</td></tr>
+        <tr><td>teammate</td><td>team(队) + mate → 队友</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">英语里暂无可确认的 classmate 专属名谚（如实标注）。课堂金句就用课本原句：She is a girl. She is my classmate. —— 介绍同学，从这句开始。</div>
+
+    <h3>🎵 歌词里的 classmate</h3>
+    <p>🎵 Vitamin C《Graduation (Friends Forever)》(2000)：毕业季'国歌级'金曲，副歌 'As we go on, we remember, all the times we had together'（我们会记得在一起的时光）——同窗之情唱进全球毕业生心里，classmate 的情谊就是它唱的那样。（主题关联：同学情）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>英语把'同学'分得特别细：同班叫 classmate，同校叫 schoolmate，同桌叫 deskmate，住同屋叫 roommate——一个 mate 走天下！mate 单独用还是英国人的口头禅：Jack 投进一球，队友喊 'Nice shot, mate!'，等于中文的'哥们儿，好球！'。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>classmate</strong> /ˈklɑːsmeɪt/ n. 同班同学</div>
+        <div>classmate /ˈklɑːsmeɪt/ n. 同班同学（复数 classmates）</div>
+        <div>课本句：She is a girl. She is my classmate.</div>
+        <div>拆字：class 班级 + mate 伙伴</div>
+        <div>mate 家族：deskmate 同桌 · roommate 室友 · teammate 队友</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级上册 Unit 2 Boys and Girls（朋友与人物）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("classmate");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

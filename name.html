@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·name</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · name</h1>
+<div class="subhead">📍 人教版（一起点）二年级上册 Unit 2 Boys and Girls（朋友与人物）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> name</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 名字（也可作动词'命名'）</div>
+    <div class="info-item"><span class="info-label">音标</span> /neɪm/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (二年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> names</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 2 Boys and Girls</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>She is a girl. She is my classmate.<br>He is a boy. He is my friend.<br>I like them. They like me, too.<br>She is a woman. She is my mother.<br>He is a man. He is my father.<br>I love them. They love me, too.<br>（本课单词：girl 女孩 · classmate 同班同学 · boy 男孩 · friend 朋友 · woman 女人 · man 男人）</p><p><strong>Lesson 1 · B. Listen and say</strong><br>— Bill! — He is a boy.<br>— Yaoyao! — She is a girl.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— Look, a boy and a girl.<br>— What's his name? — His name is Sam.<br>— What's her name? — Her name is Candy.<br><strong>B. Choose and say</strong>：— What's his name? — His name is Wu Peng.</p><p><strong>Lesson 3 · A. Let's play</strong><br>— Boy or girl? — Boy!<br><strong>B. Listen and repeat</strong>（字母发音）：e for egg · f for fish · g for girl · h for head</p><p><strong>Story Time</strong><br>— Who is he?<br>— Is he a boy? — Is he a man? — Is he a tiger?<br>— No! Aagghh!<br>— Oh, he's my friend!<br>— What's his name? — His name is Tiny!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi同步跟读页（yyld.51jiaoxi.com/ershang/rjbxqd_danyuan02.html）、智慧山知识点归纳（zhihuishan.com/article/6932.html）、多套同步课堂视频与高清电子课本资源多源交叉核对：单元名Boys and Girls、11词词汇表、What's his/her name核心句型多源一致；Lesson 1歌谣全文与Story Time对话细节为51jiaoxi单源收录，标注待进一步核。name 是 Lesson 2 全部核心句型的落脚点：What's his name? His name is Sam. / What's her name? Her name is Candy.</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>n + ame —— 结尾 ame 与 game（游戏）、same（相同）押韵<br>✏️ 口诀：name、game、same，ame 家族一起念！</td></tr>
+        <tr><th>音·发音</th><td>/neɪm/ 单音节，'魔术e'让 a 读自己名字 /eɪ/<br>🎧 跟读：my name · your name · his name · her name</td></tr>
+        <tr><th>意·释义</th><td>名字 🏷️（也可当动词'命名'：They named the dog Tiny. 他们给小狗取名 Tiny）</td></tr>
+        <tr><th>用·句型</th><td>① What's your name? (你叫什么名字？)<br>② My name is Bill. (我的名字叫比尔。)<br>③ What's his name? His name is Sam. (课本原句)<br>④ Write your name here. (把名字写在这里。)</td></tr>
+        <tr><th>拓·同族词</th><td>first name 名字 · last name/family name 姓 · nickname 昵称 · username 用户名</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>课本</td><td>What's her name? Her name is Candy.</td></tr>
+        <tr><td>自我</td><td>My name is Bill.</td></tr>
+        <tr><td>礼貌</td><td>May I have your name?</td></tr>
+        <tr><td>动作</td><td>Write your name here.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 问名字的礼貌阶梯</div>
+        <p><strong>What's your name?</strong> 你叫什么名字？（同学之间）</p><p><strong>May I have your name?</strong> 能告诉我您的名字吗？（对长辈/陌生人，更礼貌）</p><p><strong>Nice to meet you!</strong> 问完名字紧跟这句，礼貌满分！</p><p>⚠️ 西方姓名姓在后：Tom Smith 里 Tom 是 first name（名），Smith 是 last name（姓）——和中国正相反！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>name 是本单元句型的'落点'：What's his/her name? 都要用它回答。家里玩法：用毛绒玩具开'名字发布会'——孩子问 What's his name? 家长答 His name is...，再互换。顺带讲清 first name 和 last name 的顺序，跟中文姓名对比着记，孩子一辈子不混。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 名字快问快答</strong><br>家长指课本人物问 'What's his name?'，孩子答 'His name is Sam.'；换 her 再答 'Her name is Candy.'</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 拼写填空</strong><br>① n_me (a) ② 押韵家族连线：name-game-same ③ 数一数：name 有几个字母？(4个)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 姓名排排队</strong><br>拆一拆：Li Ming 和 Tom Smith——中国人的姓在______（前），西方人的姓在______（后）</div>
+        <div class="game-step"><strong>🔍 关卡4 · 玩具发布会</strong><br>给毛绒玩具开'记者会'：What's his name? / What's her name? 一问一答</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>录一段自我介绍：'Hello! My name is ______. Nice to meet you!'</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟name通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《A Name Is a Wish》</h3>
+    <div class="quote">🏷️ 爸爸说：'Every name is a wish.'（每个名字都是一个愿望。）小 girl 举手：'My name is Yao, I want to jump higher and higher!' 弟弟说：'My name is Hao, I want to be a good boy!' 这时小狗汪汪叫，小 girl 笑了：'Let's name it Wangcai——汪财！它会带来好运！'爸爸点头：'Good name!'</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 爸爸说每个名字都是什么？(A wish 愿望)<br>• 小狗叫什么名字？(Wangcai)<br>• 问问孩子：Why did Mum and Dad choose YOUR name? 听爸妈讲你名字的故事</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 顺序 ── first name 名 + last name 姓（西方姓在后！）<br>├── 家族 ── nickname 昵称 / username 用户名 / pen name 笔名<br>├── 动词 ── name 命名：They named the dog Tiny.<br>├── 课本 ── What's his/her name? His/Her name is...<br>└── 礼貌 ── May I have your name?</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>name 是一座横跨欧亚的词源大桥：英语 name、拉丁语 nomen（英文 nominal'名义上的'）、希腊语 onoma（英文 anonymous'匿名的'，an＝没有＋onym 名字）全都来自同一个印欧老祖先。也就是说，几千年前'名字'这个词在欧洲各语言里就是远房亲戚。你的 name，比金字塔还古老。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>first name</td><td>first(第一) + name → 名（西方名字在前）</td></tr>
+        <tr><td>last name</td><td>last(最后) + name → 姓（西方姓氏在后）</td></tr>
+        <tr><td>nickname</td><td>nick(绰号) + name → 昵称、外号</td></tr>
+        <tr><td>username</td><td>user(用户) + name → 用户名（注册账号必见）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"What's in a name? That which we call a rose by any other name would smell as sweet."<br>名字有什么意义？玫瑰换个名字，依旧芬芳。—— 莎士比亚《罗密欧与朱丽叶》名句：爱不该被姓氏阻挡。</div>
+
+    <h3>🎵 歌词里的 name</h3>
+    <p>🎵 Eminem《My Name Is》(1999)：格莱美获奖说唱名曲，hook 一遍洗脑：'Hi! My name is (what?) My name is (who?)'——全场抢答式自我介绍。⚠️ 说唱风格、语速快、个别用词较冲，建议家长挑选副歌片段给孩子听。（歌名含词，风格已标注）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>冰岛人的姓氏不遗传：儿子的姓＝爸爸的名＋son，女儿的姓＝爸爸的名＋dóttir——约恩（Jon）的儿子叫约恩松（Jonsson），女儿就叫约恩斯朵蒂尔（Jonsdottir）！所以冰岛电话簿按名字排序，不按姓。一个 name，藏着整个家族的'活户口本'。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>name</strong> /neɪm/ n. 名字（也可作动词'命名'）</div>
+        <div>name /neɪm/ n. 名字（复数 names；动词'命名'）</div>
+        <div>课本句：What's his/her name? His/Her name is...</div>
+        <div>礼貌版：May I have your name?</div>
+        <div>顺序：西方 first name 在前，last name 在后</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级上册 Unit 2 Boys and Girls（朋友与人物）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("name");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

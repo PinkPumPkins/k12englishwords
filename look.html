@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·look</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · look</h1>
+<div class="subhead">📍 人教版（一起点）二年级上册 Unit 2 Boys and Girls（朋友与人物）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> look</div>
+    <div class="info-item"><span class="info-label">词性</span> v. 看；瞧（也作感叹词 Look!）</div>
+    <div class="info-item"><span class="info-label">音标</span> /lʊk/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (二年级)</div>
+    <div class='info-item'><span class='info-label'>搭配</span> look at 看着</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 2 Boys and Girls</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>She is a girl. She is my classmate.<br>He is a boy. He is my friend.<br>I like them. They like me, too.<br>She is a woman. She is my mother.<br>He is a man. He is my father.<br>I love them. They love me, too.<br>（本课单词：girl 女孩 · classmate 同班同学 · boy 男孩 · friend 朋友 · woman 女人 · man 男人）</p><p><strong>Lesson 1 · B. Listen and say</strong><br>— Bill! — He is a boy.<br>— Yaoyao! — She is a girl.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— Look, a boy and a girl.<br>— What's his name? — His name is Sam.<br>— What's her name? — Her name is Candy.<br><strong>B. Choose and say</strong>：— What's his name? — His name is Wu Peng.</p><p><strong>Lesson 3 · A. Let's play</strong><br>— Boy or girl? — Boy!<br><strong>B. Listen and repeat</strong>（字母发音）：e for egg · f for fish · g for girl · h for head</p><p><strong>Story Time</strong><br>— Who is he?<br>— Is he a boy? — Is he a man? — Is he a tiger?<br>— No! Aagghh!<br>— Oh, he's my friend!<br>— What's his name? — His name is Tiny!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi同步跟读页（yyld.51jiaoxi.com/ershang/rjbxqd_danyuan02.html）、智慧山知识点归纳（zhihuishan.com/article/6932.html）、多套同步课堂视频与高清电子课本资源多源交叉核对：单元名Boys and Girls、11词词汇表、What's his/her name核心句型多源一致；Lesson 1歌谣全文与Story Time对话细节为51jiaoxi单源收录，标注待进一步核。look 在课本指令 Look, listen and chant 与原句 Look, a boy and a girl. 中反复出场，是课本使用频率最高的指令词之一。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>l + oo + k —— oo 双o读 /ʊ/，和 book（书）、cook（做饭）一家人<br>✏️ 口诀：拿起 book，看一眼 look！</td></tr>
+        <tr><th>音·发音</th><td>/lʊk/ 单音节，短促干脆<br>🎧 跟读：look at me · look at the boy · Look!</td></tr>
+        <tr><th>意·释义</th><td>看；瞧 👀（强调'看'的动作；Look! 单独用＝'快看/注意！'）</td></tr>
+        <tr><th>用·句型</th><td>① Look! A boy and a girl. (看！一个男孩和一个女孩。)<br>② Look at me. (看着我。)<br>③ Look at the blackboard. (看黑板。)<br>④ What are you looking at? (你在看什么？)</td></tr>
+        <tr><th>拓·同族词</th><td>look at 看（某物）· look for 寻找 · look after 照顾 · look out 小心 · see 看见（结果）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>指令</td><td>Look at the blackboard, please.</td></tr>
+        <tr><td>惊叹</td><td>Look! A boy and a girl!</td></tr>
+        <tr><td>寻找</td><td>I look for my cat.</td></tr>
+        <tr><td>提问</td><td>What are you looking at?</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · look 三兄弟分家</div>
+        <p><strong>look</strong>＝'看'的动作（Look! 快看！）</p><p><strong>look at</strong>＝看着某个对象（Look at me.）</p><p><strong>see</strong>＝看见的结果（I see a bird. 我看见一只鸟。）</p><p><strong>watch</strong>＝看移动的/欣赏（watch TV 看电视 · watch a game 看比赛）</p><p>口诀：look 是动作，see 是结果，watch 盯着瞧！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>look 是课堂第一指令词，在家直接用起来：'Look at me!'（看我）'Look at the book!'（看书）——指令游戏天天玩。重点讲清 look 和 see 的区别：look 是'主动去看'的动作，see 是'看见了'的结果。孩子听到 Look! 会转头，就成功了一大半。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听指令做动作</strong><br>家长说 'Look at the door / Look at me'，孩子立刻转头看——反应快得一颗星</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 拼写填空</strong><br>① l___k (oo) ② oo 家族连线：book · look · cook ③ 数一数：look 有几个字母？(4个)</div>
+        <div class="game-step"><strong>✅ 关卡3 · look/see/watch 选词</strong><br>① ______ at the blackboard. (Look) ② I can ______ a cat. (see) ③ Let's ______ TV. (watch)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>散步时玩 I look, I see：'I look at the sky. I see a bird!' 轮流说出看到的东西</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 'Look! ______.' 指着一样东西喊出来（如 Look! A dog!），录语音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟look通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Look!》</h3>
+    <div class="quote">🔭 小 boy 大卫举着新望远镜跑上楼：'Look, Mum! I can see far, far away!' 妈妈凑过来：'What do you see?' 'I look left——a cat! I look right——a bird! I look up——' 大卫突然不说话了。妈妈紧张地问：'What?' 大卫咧嘴一笑：'I see YOU in the window, Mum! You look funny!' 原来望远镜照见的是正在擦玻璃的妈妈。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 大卫用什么看远方？(A telescope 望远镜)<br>• 他最后'看见'了谁？(His mum)<br>• 问问孩子：look 和 see 有什么不一样？（look 是去看的动作，see 是看见的结果）</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 短语 ── look at 看 / look for 找 / look after 照顾 / look out 小心<br>├── 辨析 ── look 动作 / see 结果 / watch 盯着看<br>├── 拼读 ── oo 读 /ʊ/：look · book · cook<br>├── 场景 ── 课堂指令 Look at the blackboard<br>└── 感叹 ── Look! 快看！</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>look 是土生土长的英语词：古英语 lōcian，'看、瞥'，和德语的 lugen（窥视）是表亲。一千年来意思几乎没变，稳稳当当做'看'的门面担当。它还是课本的'点名王'——每一课的 Look, listen and chant，第一个开口的都是它。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>look at</td><td>看着……（Look at me. 看着我）</td></tr>
+        <tr><td>look for</td><td>寻找（强调找的过程）</td></tr>
+        <tr><td>look after</td><td>照顾（I look after my dog. 我照顾我的狗）</td></tr>
+        <tr><td>look out</td><td>小心！（＝Watch out!）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Look before you leap."<br>三思而后行（跳之前先看一眼）。—— 英语最古老的行动谚语之一：动手之前，先看清楚。</div>
+
+    <h3>🎵 歌词里的 look</h3>
+    <p>🎵 Roxette《The Look》(1989)：瑞典传奇组合 Roxette 的冠军曲，副歌魔性循环 'She's got the look'（她有着那样的眼神）——听一遍就忘不掉 look 的发音。（歌名含词）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>英美孩子骑车撒把时的经典欢呼是 'Look, Mum, no hands!'（妈你看，我不用手！）——儿童影视作品里的高频台词。另一个彩蛋：课本指令 'Look, listen and chant' 里，look 永远排第一——先看，再听，才开口，这是语言学习的黄金顺序。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>look</strong> /lʊk/ v. 看；瞧（也作感叹词 Look!）</div>
+        <div>look /lʊk/ v. 看；瞧（Look! 瞧！）</div>
+        <div>课本句：Look! A boy and a girl.</div>
+        <div>三兄弟：look 动作 · see 结果 · watch 盯着看</div>
+        <div>谚语：Look before you leap.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级上册 Unit 2 Boys and Girls（朋友与人物）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("look");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
