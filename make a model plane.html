@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·make a model plane</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · make a model plane</h1>
+<div class="subhead">📍 人教版（一起点）二年级下册 Unit 1 Playtime（游戏时间）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> make a model plane</div>
+    <div class="info-item"><span class="info-label">词性</span> v. 短语 做飞机模型</div>
+    <div class="info-item"><span class="info-label">音标</span> /meɪk ə ˈmɒdl pleɪn/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (二年级)</div>
+    <div class='info-item'><span class='info-label'>拆解</span> make+model+plane三连</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 1 Playtime（游戏时间）</div>
+    <p><strong>Lesson 1 · A. Look, listen and chant</strong><br>
+    Bill can play football. Me too, me too.<br>
+    Yaoyao can fly a kite. Me too, me too.<br>
+    Joy can ride a bike. Me too, me too.<br>
+    Binbin can swim. Me too, me too.<br>
+    Andy can make a model plane. Me too, me too.<br>
+    Lily can make a snowman. Me too, me too.<br>
+    （本课短语：play football · fly a kite · ride a bike · make a model plane · swim · make a snowman）</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>
+    — Can you play football?<br>
+    — No, I can't. Can you ride a bike?<br>
+    — Yes, I can.<br>
+    B. Let's survey：— Can you swim? — Yes, I can.</p>
+    <p><strong>Lesson 3 · A. Let's play / B. Let's write</strong><br>
+    — Tiger, can you make a snowman?<br>
+    — No, I can't.<br>
+    A for apple · B for bike · C for cat · D for dog</p>
+    <p><strong>Story Time</strong><br>
+    — Can you make a model plane? — Sorry, I can't.<br>
+    — Can you ride a bike? / Can you play football? / Can you fly a kite? / Can you make a snowman? — Sorry, I can't.<br>
+    — Look! I can swim!</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经51教习跟读页、电子课本(Scribd)、爱奇艺同步教学视频等多源交叉核对；各课时（Lesson 1-3、Story Time）文本已确认。注：任务书所记主题"Weekend Activities/周末活动"与课本不符，课本实际单元名为Playtime（游戏时间），本页以课本为准。make a model plane在chant中对应Andy；与airport页同曲互链（Leaving on a Jet Plane）。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>make·a·model·plane —— 本课最长短语！make的a_e长音，model重音在前<br>✏️ 口诀：make+“作品”，手工万能动词</td></tr>
+        <tr><th>音·发音</th><td>/meɪk ə ˈmɒdl pleɪn/ 四拍短语：MAKE-a-MO-del-PLANE<br>🎧 跟读：make a plane · make a card · model plane</td></tr>
+        <tr><th>意·释义</th><td>做飞机模型✈️（model=模型；make=制作，手工万能词）</td></tr>
+        <tr><th>用·句型</th><td>① I can make a model plane. (我会做飞机模型。)<br>② Can you make a model plane? (你会做飞机模型吗？)<br>③ Let's make a model plane together. (我们一起做飞机模型吧。)<br>④ My model plane can fly! (我的飞机模型能飞！)</td></tr>
+        <tr><th>拓·同族词</th><td>make家族：make a card做卡片 · make a snowman堆雪人 · make a cake做蛋糕<br>plane家族：airplane飞机 · paper plane纸飞机</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>能力</td><td>I can make a model plane.</td></tr>
+        <tr><td>问答</td><td>—Can you make a model plane? —Sorry, I can't.</td></tr>
+        <tr><td>邀请</td><td>Let's make a paper plane!</td></tr>
+        <tr><td>描述</td><td>This is my model plane.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · make+物品</div>
+        <p><strong>make＝做（手工/制作）：</strong></p><p><u>make</u> a model plane ✈️ / <u>make</u> a card 🎴 / <u>make</u> a cake 🍰 / <u>make</u> a snowman ⛄</p><p>⚠️ make做的事看得见摸得着：做出来的东西用a+单数名词</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>做模型是最好的“英语+动手”组合。和孩子一起拼模型时全程用英语下指令：Make it! Put it here! Look, a plane!完成后举办“试飞仪式”，一起喊One, two, three, fly!——把make a model plane变成家庭仪式，词汇自然内化。用剪刀时注意安全，可顺便复习scissors。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说make a model plane/make a snowman/make a card，孩子指图 → model plane=✈️</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 短语排序</strong><br>卡片打乱：a / make / model plane → make a model plane</div>
+        <div class="game-step"><strong>✅ 关卡3 · make接龙</strong><br>make a…接着说：make a plane → make a cake → make a card，看谁接得多</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>真折一个纸飞机，完成后说This is my model plane!得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>边做边解说，录一段英语小视频打卡<br><span class='btn-mimic'>🎤 示例：I can make a model plane. One, two, three, fly!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟make a model plane通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《飞得最远的纸飞机》</h3>
+    <div class="quote">✈️ Andy会做模型飞机，Binbin不会。“Can you make a model plane?” Binbin问。“Sorry, I can't,” Andy摇摇头，“But I can learn! Can you teach me?” 两人折了一下午，做出一架黄色纸飞机。Andy喊：“One, two, three, fly!” 纸飞机飞过桌子、飞过沙发——“Look! I can make a plane, and it can fly!”</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Who can make a model plane? (Andy)<br>• What did they make together? (A yellow paper plane)<br>• 问问孩子：不会做的事情，可以怎么办？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── make作品 ── model plane · card · cake · snowman<br>├── plane家族 ── airplane · paper plane 纸飞机<br>├── 句型 ── Can you make…? —Sorry, I can't.<br>├── 场景 ── One, two, three, fly!<br>└── 冷知识 ── 纸飞机世界纪录约69米</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>plane是airplane（美式）/aeroplane（英式）的简写，20世纪初航空刚起步时，人们嫌全名太长就喊出了plane。aero-来自希腊语“空气”。词源学家认为plane的词根还和planet（行星）沾亲带故，都带着“漫游”的意思——飞机在天上漫游，行星在宇宙里漫游。🎯 讲给孩子：一个plane，天上“天上”都能游。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>airplane</td><td>air(空气) + plane → 飞机（美式拼写）</td></tr>
+        <tr><td>aeroplane</td><td>aero(空气) + plane → 飞机（英式拼写）</td></tr>
+        <tr><td>paper plane</td><td>paper(纸) + plane → 纸飞机</td></tr>
+        <tr><td>model</td><td>模型；模特；型号——一词多义</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Learning by doing.” ✂️<br>做中学——美国教育家杜威(John Dewey)的著名主张。做飞机模型正是最好的英语课：手在动，嘴在说make, put, fly，单词跟着飞机一起起飞。</div>
+
+    <h3>🎵 歌词里的 make a model plane</h3>
+    <p>🎵 John Denver《Leaving on a Jet Plane》(1972)：民谣经典，“I'm leaving on a jet plane”的开场无人不晓——jet plane喷气式飞机与飞机模型完美呼应。</p><p>🔗 与airport页同曲互链（airport页同样配Leaving on a Jet Plane）。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>世界上飞得最远的纸飞机纪录约69米，几乎横跨一个篮球场，由折纸大师柯林斯设计、运动员艾尤布投掷创造。秘诀：机翼微微上翘、投掷手臂约45度角向上——做完model plane不妨照着试一试。真正的动力飞行1903年由莱特兄弟完成，第一次只飞了12秒。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>make a model plane</strong> /meɪk ə ˈmɒdl pleɪn/ v. 短语 做飞机模型</div>
+        <div>make a model plane v. 做飞机模型</div>
+        <div>make家族：make a card/cake/snowman</div>
+        <div>plane=airplane的简写</div>
+        <div>冷知识：纸飞机纪录约69米</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级下册 Unit 1 Playtime（游戏时间）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("make a model plane");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
