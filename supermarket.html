@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·supermarket</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · supermarket</h1>
+<div class="subhead">📍 人教版（一起点）二年级上册 Unit 4 In the Community</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> supermarket</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 超市</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈsuːpəmɑːkɪt/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (二年级)</div>
+    <div class='info-item'><span class='info-label'>积木</span> super(超级) + market(市场)</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 4 In the City（城市场所）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>Bill is in the bookshop. Lily's at the zoo.<br>Joy is in the supermarket. Andy's at school.<br>Binbin's in the park. Mike's there, too. Yaoyao's in the hospital.<br>Where are you?<br>（本课单词：bookshop 书店 · zoo 动物园 · school 学校 · supermarket 超市 · park 公园 · hospital 医院）</p><p><strong>Lesson 1 · B. Look and say</strong><br>— Where is Lily? — She is at the zoo.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— Where are you going?<br>— I'm going to the park.<br><strong>B. Let's play</strong>：— Where are you going? — I'm going to the zoo.</p><p><strong>Lesson 3 · A. Choose and say</strong><br>— Hi, Yaoyao. Where are you going?<br>— I want a book. I'm going to the bookshop.<br><strong>B. Listen and repeat</strong>（字母发音）：m for monkey · n for nose · o for orange · p for park</p><p><strong>Story Time</strong><br>— Where are we going today?<br>— We're going to the park! — We're going to the supermarket!<br>— No. We just stay at home.<br>— I'm happy at home with my friends!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi同步跟读页（yyld.51jiaoxi.com/ershang/rjbxqd_danyuan05.html）、智慧山二年级上册知识点归纳与多篇同步教案/电子课本资源多源交叉核对：六场所词+go/to词汇表、Lesson 1歌谣（Bill is in the bookshop…Yaoyao's in the hospital）与核心句型 Where are you going? / I'm going to… 多源一致；Lesson 2/3对话与Story Time细节为51jiaoxi单源收录，标注待进一步核。⚠️ 多数公开资源该单元名作 In the Community，本页沿用任务书 In the City 口径，待主控面核定。supermarket 在 Lesson 1 歌谣 Joy is in the supermarket. 和 Story Time We're going to the supermarket! 复现，是本单元最长的场所词。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>super + market —— 全班最长单词来了！拆成两块积木就好写<br>✏️ 口诀：super 开头真神气，market 收尾不掉地</td></tr>
+        <tr><th>音·发音</th><td>/ˈsuː.pə.mɑː.kɪt/ 四个音节，重音在最前：SU-per-mar-ket<br>🎧 跟读：in the supermarket · go to the supermarket · a big supermarket</td></tr>
+        <tr><th>意·释义</th><td>超市 🛒：自己推车选货、门口一起结账的大型自助商店；中文'超市'就是 super（超级）+ market（市场）的意译</td></tr>
+        <tr><th>用·句型</th><td>① Joy is in the supermarket. (乔伊在超市。)<br>② I'm going to the supermarket. (我要去超市。)<br>③ The supermarket is big. (这家超市很大。)<br>④ I want some apples. (我想要些苹果。——在超市挑货时说)</td></tr>
+        <tr><th>拓·同族词</th><td>super 家族：superman 超人 · superstar 超级明星；market 家族：market 市场、集市——'卖什么'决定店名</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>课本</td><td>Joy is in the supermarket.</td></tr>
+        <tr><td>邀请</td><td>Let's go to the supermarket.</td></tr>
+        <tr><td>愿望</td><td>I want some apples and milk.</td></tr>
+        <tr><td>描述</td><td>The supermarket is big and bright.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 想要就说 I want</div>
+        <p><strong>说愿望：</strong>I want a book. 我想要本书。/ I want some apples. 我想要些苹果。</p><p><strong>课本组合拳：</strong>I want a book. I'm going to the bookshop. —— 先说要什么，再说去哪买！</p><p>⚠️ want 后面接东西：want an apple / want some milk；'想要做某事'则是 want to do。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>supermarket 是本单元最长词，教'拆积木'最有效：super（超级）+ market（市场），拆开立刻变简单。逛超市是天然英语课：推车时让孩子说 I want some apples. 并亲手放进购物车。别追求一次读准四个音节，多听课本音频，抓住重音 SU-per，孩子自然越读越顺。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 音节拍手</strong><br>su-per-mar-ket 拍四下手读四个音节，家长听重音是否在最前</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 积木拼词</strong><br>① ______ + market = supermarket (super) ② 用 I want ______ 说出超市里最想买的一样东西</div>
+        <div class="game-step"><strong>✅ 关卡3 · 课本句填空</strong><br>① Joy is in the ______. (supermarket) ② We're going to the ______! (supermarket，Story Time 句)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 小小采购员</strong><br>给孩子三张'购物卡'（apple/milk/book），超市角色扮演里喊 I want apples!</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>下次逛超市，用英语说出一样想买的东西并录音：I want ______<br><span class='btn-mimic'>🎤 示例：I want some bananas!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟supermarket通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Trolley Gets Fuller and Fuller》</h3>
+    <div class="quote">🛒 妈妈和小安去 supermarket 买周末的食物。小安负责推车：'I want some apples!' 放进去。'I want some milk!' 又放进去。看到小蛋糕：'I want that cake, too!' 购物车越来越满，像一座小山。结账时妈妈看着小山笑了：'You want everything!' 小安不好意思地挠头：'Next time, I want a small trolley!'（下次我要一辆小推车！）</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 小安推着什么购物？(购物车 trolley)<br>• 购物车怎么了？(越来越满，像小山)<br>• 问问孩子：If you go to the supermarket, what do you want? 用 I want... 说出三样东西</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 拆词 ── super 超级 + market 市场<br>├── 音节 ── SU-per-mar-ket 四音节重音在前<br>├── 课本 ── Joy is in the supermarket.<br>├── 场景 ── I want some apples.<br>└── 家族 ── superman 超人 · superstar 超星 · market 市场</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>supermarket 是20世纪的'新生儿'：super- 来自拉丁语'在上面、超过'（superman、superstar 都是同门），market 来自拉丁语 mercatus（集市）。1930年代，美国出现了自助选购、一次买齐的新式大商店，人们觉得它比普通 market 强大了不止一点，就叫它 supermarket——'超级市场'。中文'超市'正是对它的意译。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>supermarket</td><td>超市（自助大商店）</td></tr>
+        <tr><td>superman</td><td>超人（super+man）</td></tr>
+        <tr><td>superstar</td><td>超级明星（super+star）</td></tr>
+        <tr><td>market</td><td>市场、集市（拉丁语 mercatus）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"There's no such thing as a free lunch."<br>天下没有免费的午餐。—— 英语俗语，因经济学家米尔顿·弗里德曼用它做书名而家喻户晓：超市货架上的每样东西都有价格哦。</div>
+
+    <h3>🎵 歌词里的 supermarket</h3>
+    <p>🎵 Macklemore & Ryan Lewis《Thrift Shop》(2012)：格莱美获奖神曲，副歌 'I'm gonna pop some tags'（淘货去啦）魔性洗脑。超市没有高知名度的同名冠名曲（如实标注），本页复用'逛店买东西'主题——歌里逛的是旧货店（thrift shop），与 buy 页同曲异角度，正好对比 shop 主题。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>世界上第一家超市普遍认为是1930年美国人迈克尔·库伦在纽约开设的 King Kullen（金库伦），他被后人称作'超市之父'。他的秘诀有两条：东西便宜、自己动手拿——自助购物从此改变了全世界人的生活方式。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>supermarket</strong> /ˈsuːpəmɑːkɪt/ n. 超市</div>
+        <div>supermarket /ˈsuːpəmɑːkɪt/ n. 超市</div>
+        <div>课本句：Joy is in the supermarket.</div>
+        <div>积木：super 超级 + market 市场</div>
+        <div>场景句：I want some apples.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级上册 Unit 4 In the Community<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("supermarket");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

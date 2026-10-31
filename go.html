@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·go</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · go</h1>
+<div class="subhead">📍 人教版（一起点）二年级上册 Unit 4 In the Community</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> go</div>
+    <div class="info-item"><span class="info-label">词性</span> v. 去</div>
+    <div class="info-item"><span class="info-label">音标</span> /ɡəʊ/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (二年级)</div>
+    <div class='info-item'><span class='info-label'>过去式</span> went（不按套路！）</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 4 In the City（城市场所）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>Bill is in the bookshop. Lily's at the zoo.<br>Joy is in the supermarket. Andy's at school.<br>Binbin's in the park. Mike's there, too. Yaoyao's in the hospital.<br>Where are you?<br>（本课单词：bookshop 书店 · zoo 动物园 · school 学校 · supermarket 超市 · park 公园 · hospital 医院）</p><p><strong>Lesson 1 · B. Look and say</strong><br>— Where is Lily? — She is at the zoo.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— Where are you going?<br>— I'm going to the park.<br><strong>B. Let's play</strong>：— Where are you going? — I'm going to the zoo.</p><p><strong>Lesson 3 · A. Choose and say</strong><br>— Hi, Yaoyao. Where are you going?<br>— I want a book. I'm going to the bookshop.<br><strong>B. Listen and repeat</strong>（字母发音）：m for monkey · n for nose · o for orange · p for park</p><p><strong>Story Time</strong><br>— Where are we going today?<br>— We're going to the park! — We're going to the supermarket!<br>— No. We just stay at home.<br>— I'm happy at home with my friends!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi同步跟读页（yyld.51jiaoxi.com/ershang/rjbxqd_danyuan05.html）、智慧山二年级上册知识点归纳与多篇同步教案/电子课本资源多源交叉核对：六场所词+go/to词汇表、Lesson 1歌谣（Bill is in the bookshop…Yaoyao's in the hospital）与核心句型 Where are you going? / I'm going to… 多源一致；Lesson 2/3对话与Story Time细节为51jiaoxi单源收录，标注待进一步核。⚠️ 多数公开资源该单元名作 In the Community，本页沿用任务书 In the City 口径，待主控面核定。go 是 Lesson 2 核心句 Where are you going? / I'm going to the park. 的'发动机'，be going to 句型在本单元反复操练。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>g + o —— 两个字母一个圈，像车轮滚滚向前<br>✏️ 口诀：g 起步，o 是圈，go 一写就出发</td></tr>
+        <tr><th>音·发音</th><td>/ɡəʊ/ 单音节，o 读双元音 /əʊ/（美式读 /ɡoʊ/）<br>🎧 跟读：go to school · go home · Let's go!</td></tr>
+        <tr><th>意·释义</th><td>去、前往 🚶：英语里最忙的动词之一；Where are you going? 里它正穿着 ing 外套工作</td></tr>
+        <tr><th>用·句型</th><td>① Where are you going? (你要去哪儿？)<br>② I'm going to the park. (我要去公园。)<br>③ Let's go! (我们走吧！)<br>④ I go home at five. (我五点回家。)</td></tr>
+        <tr><th>拓·同族词</th><td>go 家族：go → goes（三单）→ going（进行）→ went（过去式）→ gone（过去分词）；短语：go to school 上学 · go home 回家 · go shopping 去购物</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>课本</td><td>Where are you going? I'm going to the park.</td></tr>
+        <tr><td>出发</td><td>Let's go!</td></tr>
+        <tr><td>日常</td><td>I go home at five.</td></tr>
+        <tr><td>加油</td><td>Go, go, go!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · go 的'三不乘客'</div>
+        <p><strong>要去某地＝go to + 地点：</strong>go to school / go to the park</p><p><strong>但三位'特殊乘客'不坐 to 的车：</strong>go home 回家 · go there 去那儿 · go here 来这儿</p><p>⚠️ 因为 home/there/here 是副词，自带'地点'功能，to 就不用出场了！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>go 是本单元句型的发动机：Where are you going? / I'm going to the park. 全靠它转。日常练习零成本：出门前家长问 Where are you going?，孩子答 I'm going to school/the park.；顺便记住特殊规则 go home 不加 to。过去式 went 不按套路变形，先混个脸熟即可，不必要求掌握。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听指令行动</strong><br>家长说 Go to the door! / Go home!，孩子照做并复述指令</div>
+        <div class="game-step"><strong>✏️ 关卡2 · to 的选择题</strong><br>① go ______ school (to) ② go ______ home (不加！) ③ go ______ the park (to)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 课本句问答</strong><br>家长问 Where are you going?，孩子答 I'm going to the park/zoo/bookshop，三处轮换</div>
+        <div class="game-step"><strong>🔍 关卡4 · 变身链</strong><br>go → goes → going → ______（补上过去式 went，说对得双星）</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>录一句最提气的加油 Go, go, go! 再录一句 I'm going to ______<br><span class='btn-mimic'>🎤 示例：I'm going to the supermarket!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟go通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Let's Go!》</h3>
+    <div class="quote">🚗 周六早晨，爸爸一喊：'Let's go!' 全家出发。妈妈问小北：'Where are we going?' 小北保密：'Guess!' 车窗外经过了 school，经过了 park，最后停在一个大门口——supermarket! 妈妈：'I'm going to buy apples.' 爸爸：'I'm going to buy juice.' 小北跳下车：'I'm going to the toy corner!'（我要去玩具角！）三个人，三个方向，一次最快乐的 go。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 全家最后停在了哪里？(supermarket)<br>• 小北要去超市的哪个角落？(玩具角 the toy corner)<br>• 问问孩子：Where are you going this weekend? 用 I'm going to... 回答</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 变形 ── go → goes → going → went → gone<br>├── 句型 ── Where are you going? I'm going to...<br>├── 特殊 ── go home / go there（不加 to）<br>├── 课本 ── I'm going to the park.<br>└── 短语 ── go to school · go shopping · Let's go!</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>go 是英语里最古老的动词之一，古英语拼作 gān，德语里的表兄弟叫 gehen。它最出名的是那个'不认亲'的过去式 went：go 原本的过去式在历史里退休了，动词 wend（蜿蜒前行，如 wend one's way 漫步）的过去式 went 跳槽过来补位，一直干到今天——这是英语史上最著名的'借调'案例。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>go / went / gone</td><td>原形 / 过去式 / 过去分词（went 借自 wend）</td></tr>
+        <tr><td>be going to</td><td>正要去…（本单元核心句型）</td></tr>
+        <tr><td>go shopping</td><td>去购物（go + doing 家族）</td></tr>
+        <tr><td>Let's go</td><td>我们走吧（let's = let us）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"All roads lead to Rome."<br>条条大路通罗马。—— 经典谚语：不管 go 哪条路，走好自己的路最重要。</div>
+
+    <h3>🎵 歌词里的 go</h3>
+    <p>🎵 Fleetwood Mac《Go Your Own Way》(1977)：传奇专辑《Rumours》的主打金曲，副歌标题 Go Your Own Way（走你自己的路）就是 go 的最强示范——歌名含词。（70年代分手名曲的背景如实标注，我们只学它的 go！）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>围棋的英文就叫 Go——这个拼写借自日语，和英语动词 go 毫无亲缘，纯属'撞脸'。另一个事实：go 是英语最高频的动词之一，孩子开口说英语，go 往往是最早学会、用得最多的词。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>go</strong> /ɡəʊ/ v. 去</div>
+        <div>go /ɡəʊ/ v. 去（过去式 went）</div>
+        <div>课本句：Where are you going? I'm going to the park.</div>
+        <div>规则：go to school ✔ · go home（不加 to）</div>
+        <div>家族：goes · going · went · gone</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级上册 Unit 4 In the Community<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("go");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
