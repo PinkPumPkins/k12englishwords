@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·play chess</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · play chess</h1>
+<div class="subhead">📍 人教版（一起点）三年级下册 Unit 3 After School Activities</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> play chess</div>
+    <div class="info-item"><span class="info-label">词性</span> 短语 下棋</div>
+    <div class="info-item"><span class="info-label">音标</span> /pleɪ tʃes/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (三年级下)</div>
+    <div class='info-item'><span class='info-label'>语法</span> chess 前不加 a / the</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 3 After School Activities</div><p><strong>Lesson 1 · 词汇课</strong><br>本课六个活动短语：play chess 下棋 · play sports 做运动 · draw pictures 画画<br>dance 跳舞 · read books 读书 · sing songs 唱歌</p><p><strong>Lesson 2 · 对话课</strong><br>— Yaoyao: Binbin, what are you going to do after school?<br>— Binbin: I'm going to play sports. I love to play football.<br>— What's he going to do after school?<br>— He's going to read books.</p><p><strong>Lesson 3 · 时间与计划</strong><br>重点词：tomorrow 明天 · wake up 醒来、叫醒 · be back 回来<br>— I'm going to play chess at 4 o'clock.<br>— I'll be back at five o'clock.</p><p><strong>Fun Time / Story Time</strong><br>围绕课后活动计划的游戏与图画故事（本栏为句型级核对，逐字原文待核）</p><p style='font-size:12px;opacity:.75;'>✅ 原文经公开教案/知识点资源多源交叉核对（教师之家 renjiaoshe.com Lesson 2 教案原句引用、七彩学科网 Lesson 1 教案、步一步教育单元知识点、张启飞英语三下U3逐页课）；Lesson 3 为句型级核对，Fun/Story 逐字原文待核。本页词 play chess 是 Lesson 1 六短语之一，Lesson 3 例句 I'm going to play chess at 4 o'clock.；歌曲与 played chess 页互链。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>play + chess —— chess 虽以 s 结尾却是单数！不加 a、不加 the<br>✏️ 口诀：chess 自带 s，前面什么都不放</td></tr>
+        <tr><th>音·发音</th><td>/pleɪ tʃes/ ch 读 /tʃ/，chess 与 cheese（奶酪）一音之差<br>🎧 跟读：play chess · a chess game · chessboard</td></tr>
+        <tr><th>意·释义</th><td>下国际象棋 ♟️（两人对弈；check 将军，checkmate 将死）</td></tr>
+        <tr><th>用·句型</th><td>① I'm going to play chess at 4 o'clock. (我打算四点下棋。)<br>② Can you play chess? (你会下棋吗？)<br>③ Let's play chess after school! (放学后咱们下棋吧！)<br>④ My grandpa often plays chess with me. (爷爷常陪我下棋。)</td></tr>
+        <tr><th>拓·同族词</th><td>chessboard 棋盘；chessman 棋子；check 将军<br>同族棋类：Chinese chess 中国象棋 · go 围棋</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>邀请</td><td>Let's play chess after school!</td></tr>
+        <tr><td>能力</td><td>Can you play chess? — Yes, a little.</td></tr>
+        <tr><td>频度</td><td>I play chess with my grandpa on Sundays.</td></tr>
+        <tr><td>胜负</td><td>I win the chess game!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · chess 的三个规矩</div>
+        <p><strong>① 不加冠词：</strong><br><u>play chess</u> ✔ / play a chess ✘ / play the chess ✘</p><p><strong>② 单数用法：</strong><br>chess 以 s 结尾却是单数：Chess is fun. (下棋很有趣。)</p><p><strong>③ 对弈用语：</strong><br><u>check!</u> 将军！/ <u>checkmate!</u> 将死！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>下棋是训练专注力的黄金课后活动。亲子对弈时把英语用起来：将军了说 Check!，赢了说 I win!，输了说 Good game!。孩子只需几局，play chess 就变成条件反射。提醒孩子 chess 前不加 a 和 the。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音辨词</strong><br>家长说 chess / cheese / check，孩子听到 chess 举棋子，听到 cheese 做吃奶酪状</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 冠词判断</strong><br>① play ___ chess (不填)<br>② play ___ piano (the)<br>③ Chess ___ fun. (is)</div>
+        <div class="game-step"><strong>🔁 关卡3 · 句型接力</strong><br>I'm going to play chess at ___ o'clock. 换时间说三遍</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>和家里人对弈一盘，赢棋说 I win!，输棋说 Good game!</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>边摆棋盘边说 Let's play chess! 录语音打卡<br><span class='btn-mimic'>🎤 示例：Let's play chess at 4 o'clock!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟play chess通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《棋盘上的下午》</h3>
+    <div class="quote">♟️ 放学后，Binbin 去爷爷家。爷爷摆好棋盘：Let's play chess! Binbin 一步一步想：I'm going to move the knight... 下了半盘，爷爷说：Check! Binbin 眼睛一亮，把小兵往前一推——Checkmate! 爷爷哈哈大笑：You win! 窗外的夕阳照在棋盘上，像个金色的小国王。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Who does Binbin play chess with? (His grandpa)<br>• Who wins at last? (Binbin)<br>• 问问孩子：What game do you often play with grandpa or grandma?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">play chess 下棋<br>├── 棋类家族 ── chess 国际象棋 · Chinese chess 象棋 · go 围棋<br>├── 对弈用语 ── check 将军 · checkmate 将死 · I win!<br>├── 课本句 ── I'm going to play chess at 4 o'clock.<br>└── 拼写提醒 ── chess 自带 s，单数，不加 the</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>chess 一路旅行才走到英语里：它来自波斯语 shāh——“国王”！经阿拉伯语传到法语时变成了 esches（复数），再进入英语成了 chess。连“将死”的 checkmate 也是波斯语 shāh māt——“国王无路可走了”。一颗波斯语里的国王，指挥了全世界棋盘上一千多年的战争。<br>🎯 讲给孩子：chess 本义是“国王”，将死国王就赢了。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>play chess</td><td>play + chess(国际象棋) → 下棋；不加 a / the</td></tr>
+        <tr><td>chessboard</td><td>chess + board(板) → 棋盘</td></tr>
+        <tr><td>checkmate</td><td>波斯语 shāh māt → 国王被困 = 将死</td></tr>
+        <tr><td>Chinese chess</td><td>中国象棋；go 围棋</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“The game of chess is not merely an idle amusement.”<br>下棋绝非消遣那么简单。—— 本杰明·富兰克林《棋道》，他说下棋能锻炼头脑、养成遇事冷静的习惯。</div>
+
+    <h3>🎵 歌词里的 play chess</h3>
+    🎵《One Night in Bangkok》(1984)：出自音乐剧《Chess》，Billboard 冠军曲，下棋主题最著名的流行歌。<br>🔗 与 played chess 页互链（过去式）。
+
+    <h3>⚡ 冷知识</h3>
+    <p>国际象棋约一千五百年前起源于印度的“恰图兰卡”，后来经波斯、阿拉伯传到欧洲。英语 checkmate（将死）来自波斯语 shāh māt——“国王无路可走”，chess 这个词本身就来自“国王”。一首曼谷之夜的流行歌，唱的其实是音乐剧里两位棋手的世界对决。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>play chess</strong> /pleɪ tʃes/ 短语 下棋</div>
+        <div><strong>play chess</strong> /pleɪ tʃes/ 短语 下棋</div>
+        <div>课本句：I'm going to play chess at 4 o'clock.</div>
+        <div>语法锚：chess 单数不加 the · checkmate = 将死</div>
+        <div>名言：下棋绝非消遣 —— 富兰克林《棋道》</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）三年级下册 Unit 3 After School Activities<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("play chess");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

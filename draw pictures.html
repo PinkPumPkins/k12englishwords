@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·draw pictures</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · draw pictures</h1>
+<div class="subhead">📍 人教版（一起点）三年级下册 Unit 3 After School Activities</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> draw pictures</div>
+    <div class="info-item"><span class="info-label">词性</span> 短语 画画</div>
+    <div class="info-item"><span class="info-label">音标</span> /drɔː ˈpɪktʃərz/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (三年级下)</div>
+    <div class='info-item'><span class='info-label'>单数</span> draw a picture 画一幅画</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 3 After School Activities</div><p><strong>Lesson 1 · 词汇课</strong><br>本课六个活动短语：play chess 下棋 · play sports 做运动 · draw pictures 画画<br>dance 跳舞 · read books 读书 · sing songs 唱歌</p><p><strong>Lesson 2 · 对话课</strong><br>— Yaoyao: Binbin, what are you going to do after school?<br>— Binbin: I'm going to play sports. I love to play football.<br>— What's he going to do after school?<br>— He's going to read books.</p><p><strong>Lesson 3 · 时间与计划</strong><br>重点词：tomorrow 明天 · wake up 醒来、叫醒 · be back 回来<br>— I'm going to play chess at 4 o'clock.<br>— I'll be back at five o'clock.</p><p><strong>Fun Time / Story Time</strong><br>围绕课后活动计划的游戏与图画故事（本栏为句型级核对，逐字原文待核）</p><p style='font-size:12px;opacity:.75;'>✅ 原文经公开教案/知识点资源多源交叉核对（教师之家 renjiaoshe.com Lesson 2 教案原句引用、七彩学科网 Lesson 1 教案、步一步教育单元知识点、张启飞英语三下U3逐页课）；Lesson 3 为句型级核对，Fun/Story 逐字原文待核。本页词 draw pictures 是 Lesson 1 六短语之一；歌曲 Vincent 与 go to a drawing club / poem 页互链。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>draw(画) + pictures(图) —— draw 中间两个 w 排排站<br>✏️ 口诀：draw 里两座小山 w-w，一笔一笔画出来</td></tr>
+        <tr><th>音·发音</th><td>/drɔː ˈpɪktʃərz/ draw 拉长音，picture 读 /ˈpɪk-tʃər/ 不是 /ˈpiːk/<br>🎧 跟读：draw pictures · draw a picture · draw a cat</td></tr>
+        <tr><th>意·释义</th><td>画画 🎨（draw 是线条画，paint 是涂颜料上色）</td></tr>
+        <tr><th>用·句型</th><td>① I'm going to draw pictures after school. (我打算放学后画画。)<br>② She's going to draw pictures at home. (她打算在家画画。)<br>③ What are you drawing? (你在画什么？)<br>④ I like drawing animals. (我喜欢画动物。)</td></tr>
+        <tr><th>拓·同族词</th><td>drawer 抽屉（原义“拉出来的东西”）；drawing 画作；picture book 图画书<br>同族艺术词：paint 涂颜料 · colour 上色</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>计划</td><td>I'm going to draw pictures at 4 o'clock.</td></tr>
+        <tr><td>描述</td><td>I'm drawing my family.</td></tr>
+        <tr><td>喜好</td><td>I like drawing flowers.</td></tr>
+        <tr><td>展示</td><td>Look at my picture!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · draw 与 paint</div>
+        <p><strong>draw = 用笔画画（线条）</strong><br><u>draw</u> a cat / <u>draw</u> pictures with crayons 🖍️</p><p><strong>paint = 涂颜料作画（上色）</strong><br><u>paint</u> a picture / <u>paint</u> the wall</p><p>⚠️ 单复数：draw a picture（一幅）↔ draw pictures（泛指画画这件事）</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>画画是最安静也最出成果的课后活动。孩子画完别只说“真棒”，加一句英语 What are you drawing? 让孩子用 I'm drawing... 介绍作品，再把画贴起来标上 My picture。本页歌曲 Vincent 舒缓优美，适合当画画背景音乐，顺便讲讲梵高的《星月夜》。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音画图</strong><br>家长说 draw a cat / draw a fish，孩子快速画出简笔画并说 This is my picture!</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 单复数变身</strong><br>one picture → two ______ (pictures)<br>I draw a picture → I draw ______ (pictures)</div>
+        <div class="game-step"><strong>🔁 关卡3 · 句型接力</strong><br>She's going to draw pictures at ___ o'clock. 孩子换人称换时间说三句</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>放学后画一幅画，用英语说画的内容：I'm drawing a ______ . 得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>边听 Vincent 边画星星月亮，完成后说 Look at my picture! 录语音打卡<br><span class='btn-mimic'>🎤 示例：I'm drawing starry stars!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟draw pictures通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《画里的星空》</h3>
+    <div class="quote">🎨 放学后，Yaoyao 铺开画纸：I'm going to draw pictures. 她画了一片蓝蓝的夜空。爸爸看见了说：This looks like Starry Night! 他放起一首歌，唱歌的人叫 Don McLean，他把梵高的画唱成了歌。Yaoyao 画上一颗颗转圈的星星，说：Look at my picture! Music and pictures are good friends.</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What is Yaoyao going to do? (Draw pictures)<br>• What does her picture look like? (Starry Night)<br>• 问问孩子：What would you draw in your night sky?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">draw pictures 画画<br>├── 笔画 ── draw 线条画 ↔ paint 颜料画<br>├── 单复数 ── draw a picture · draw pictures<br>├── 课本句 ── I'm going to draw pictures after school.<br>└── 同族词 ── drawing 画作 · drawer 抽屉 · picture book 图画书</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>draw 来自古英语 dragan，本义是“拉、拖”——和 drag（拖拽）是亲兄弟！古人写字画画，就是把笔“拉过”石头或纸面，draw 因此有了“画”的意思。picture 来自拉丁语 pictura（绘画），词根 pingere 是“描画、上色”，英语 paint 也从这里来。<br>🎯 讲给孩子：draw 本义是“拉”——拉着一支笔走，就是画。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>draw pictures</td><td>draw(画) + pictures(图画) → 画画；单数 draw a picture</td></tr>
+        <tr><td>drawer</td><td>draw(拉) + er → 抽屉（被“拉”出来的那格）</td></tr>
+        <tr><td>drawing</td><td>draw + ing → 图画、素描；a drawing of a cat 一张猫的素描</td></tr>
+        <tr><td>picture book</td><td>picture + book → 图画书、绘本</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“A picture is worth a thousand words.”<br>一图胜千言。—— 英语谚语，好画的说服力，有时比一千个字还强。</div>
+
+    <h3>🎵 歌词里的 draw pictures</h3>
+    🎵 Don McLean《Vincent (Starry Starry Night)》(1971)：整首歌都在“看”梵高的《星月夜》，致敬名画的传世名曲。<br>🔗 与 go to a drawing club 页互链（同曲）；与 poem 页互链（诗与画一家）。
+
+    <h3>⚡ 冷知识</h3>
+    <p>梵高一生画了八百多幅油画，生前却只卖出一幅；如今他的《星月夜》挂在纽约现代艺术博物馆（MoMA），每年几百万人排队看它。Don McLean 写这首歌时，就是望着《星月夜》写下的——一幅差点被世界错过的画，最后被一首歌留住了。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>draw pictures</strong> /drɔː ˈpɪktʃərz/ 短语 画画</div>
+        <div><strong>draw pictures</strong> /drɔː ˈpɪktʃərz/ 短语 画画</div>
+        <div>课本句：I'm going to draw pictures after school.</div>
+        <div>辨析：draw 线条画 · paint 涂颜料</div>
+        <div>谚语：A picture is worth a thousand words.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）三年级下册 Unit 3 After School Activities<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("draw pictures");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
