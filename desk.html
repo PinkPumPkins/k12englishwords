@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·desk</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · desk</h1>
+<div class="subhead">📍 人教版（一起点）一年级下册 Unit 1 Classroom</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> desk</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 书桌</div>
+    <div class="info-item"><span class="info-label">音标</span> /desk/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> desks</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 1 Classroom</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>On my desk, I can see, A book for you, A book for me.<br>Under my chair, I can see, A schoolbag for you, A schoolbag for me.<br>（本课单词：chair 椅子 · desk 书桌 · blackboard 黑板 · on 在…上 · under 在…下面 · in 在…里面）</p><p><strong>Lesson 1 · B. Listen and do</strong><br>Put your schoolbag under the chair.<br>Put your schoolbag on the chair.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— Where is the ruler?<br>— It's on the desk.<br><strong>B. Do and say</strong>：— Where is the book? — It's in the desk.</p><p><strong>Lesson 3 · A. Find and say</strong><br>— Where is the apple?<br><strong>B. Letters in life</strong>：Aa · Bb · Cc · Dd（字母歌跟唱）</p><p><strong>Story Time</strong><br>Put my ruler in the pencil box.<br>Put my pencil box in the schoolbag.<br>Let's go home!<br>— Where is my pencil box?<br>— Oh, it's in your mouth!（结尾句原文待核）</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi同步跟读页（yyld.51jiaoxi.com/yixia/rjbxqd_danyuan01.html）、Scribd电子课本、智慧山词汇页多源交叉核对；Lesson 3与Story Time单源更细，待核句已标注。desk 在 Lesson 1 歌谣 On my desk 和 Lesson 2 句型 It's on/in the desk 中反复出场，是本单元出镜率最高的家具词。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>d·e·s·k 四个字母，拼写与读音一一对应<br>✏️ 口诀：desk 桌上放本书，别把 sk 写反啦！</td></tr>
+        <tr><th>音·发音</th><td>/desk/ 单音节，结尾 /sk/ 要收干净<br>🎧 跟读：on the desk · a clean desk · my new desk</td></tr>
+        <tr><th>意·释义</th><td>书桌；办公桌 📚（也指服务台：front desk 前台 · information desk 问询处）</td></tr>
+        <tr><th>用·句型</th><td>① This is my desk. (这是我的书桌。)<br>② It's on the desk. (它在书桌上。)<br>③ Put the book on the desk. (把书放桌上。)<br>④ My desk is clean. (我的书桌很干净。)</td></tr>
+        <tr><th>拓·同族词</th><td>desktop 桌面/台式电脑 · desk lamp 台灯 · front desk 前台</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>指认</td><td>This is my desk.</td></tr>
+        <tr><td>方位</td><td>The book is on the desk.</td></tr>
+        <tr><td>描述</td><td>My desk is big and clean.</td></tr>
+        <tr><td>指令</td><td>Please clean your desk.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · desk 与 table 怎么分</div>
+        <p><strong>desk</strong>＝有抽屉、读写办公用的桌：书桌、办公桌。</p><p><strong>table</strong>＝吃饭开会用的桌：dining table 餐桌。</p><p>口诀：上学用 desk，吃饭用 table！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>desk 孩子天天用，输入零成本：写作业前说一句 'This is my desk.'，收玩具时说 'Put it on the desk.'。顺便玩方位：铅笔 in the pencil box，橡皮 on the desk，本单元介词一起练齐。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听指令做动作</strong><br>家长说 'Put your pencil on the desk.'，孩子照做——做对了击掌！</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 拼写填空</strong><br>① d___k (es) ② de___ (sk) ③ 数一数：desk 有几个字母？(4个)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数变身</strong><br>one desk → two ______ (desks)　one chair → two ______ (chairs)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>指着家里的书桌说 'This is my desk.'，再找找桌上有什么，用 on the desk 说出来</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 'The book is on the desk.' 描述桌面，录语音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟desk通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Noisy Desk》</h3>
+    <div class="quote">📚 晚上的书桌上开起了聊天会。铅笔说：'I'm in the pencil box.' 橡皮说：'I'm on the desk.' 尺子不服气：'I'm under the book!' 书桌爷爷咳嗽一声：'别吵啦，你们都是我的宝贝。' 于是大家排好队，desk 变得整整齐齐。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 铅笔在哪里？(In the pencil box)<br>• 橡皮在哪里？(On the desk)<br>• 问问孩子：What's on YOUR desk? 让他指一样东西用英语说出来</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 桌上 ── book · pencil box · lamp 台灯<br>├── 方位 ── on / in / under the desk<br>├── 同族 ── desktop 桌面 · desk lamp 台灯<br>├── 辨析 ── desk 书写桌 ≠ table 餐桌<br>└── 场景 ── classroom · office 办公室</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>desk 的祖先是拉丁语 discus（圆盘），中世纪变成 desca（工作桌），再经古法语传进英语。它的表亲 disc / disk（圆盘，CD 的 D）至今还在服役——从'圆盘'到'书桌'，桌面圆圆的想象讲了一千年。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>desktop</td><td>desk + top → 电脑桌面、台式机</td></tr>
+        <tr><td>desk lamp</td><td>desk + lamp → 台灯</td></tr>
+        <tr><td>front desk</td><td>front(前面) + desk → 酒店/办公前台</td></tr>
+        <tr><td>information desk</td><td>问询处、服务台</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">常见英语说法（不记名谚语，如实标注）：A tidy desk is a tidy mind.（桌子整齐，头脑清楚）——大人和孩子收书桌时都适用。</div>
+
+    <h3>🎵 歌词里的 desk</h3>
+    <p>🎵 The Jackson 5《ABC》(1970)：Billboard 冠军神曲，'Easy as ABC, simple as Do-Re-Mi'（像ABC一样简单）——课堂主题最强音，让 desk 的学习氛围唱起来。（主题关联：课桌/课堂）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>老式课桌的桌角有个小圆洞，叫墨水瓶孔（inkwell hole）——过去学生用蘸水笔写字，墨水瓶就插在洞里。今天'书桌'还搬进了电脑：开机看到的 desktop（桌面），名字就是从 desk 借来的。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>desk</strong> /desk/ n. 书桌</div>
+        <div>desk /desk/ n. 书桌（复数 desks）</div>
+        <div>课本句：It's on the desk. / It's in the desk.</div>
+        <div>辨析：desk 书写桌 ≠ table 餐桌</div>
+        <div>口诀：d-e-s-k，桌上书本排排站</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级下册 Unit 1 Classroom<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("desk");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

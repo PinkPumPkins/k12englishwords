@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·box</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · box</h1>
+<div class="subhead">📍 人教版（一起点）一年级下册 Unit 2 Room</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> box</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 箱子；盒子</div>
+    <div class="info-item"><span class="info-label">音标</span> /bɒks/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐（一年级）</div>
+    <div class='info-item'><span class='info-label'>复数</span> boxes（加-es）</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 2 Room</div>
+    <p><strong>Lesson 1 · A. Look, listen and chant</strong><br>
+    This is the light, near the bed.<br>
+    This is the bed, near the door.<br>
+    （本课单词：light 灯 · bed 床 · door 门 · box 箱子；方位词：near 靠近 · behind 在…背后）</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>
+    — What's behind the door?<br>
+    — A chair.</p>
+    <p><strong>Lesson 3 · chant 巩固</strong><br>
+    This is the door, near the box.（原文待核）</p>
+    <p><strong>Story Time</strong><br>
+    — I have a gift for you.<br>
+    — Go and find it.<br>
+    — OK!</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经智慧山课文页、英语朗读宝(51jiaoxi)跟读页、人教社教师版Story Time页、智慧山期末复习资料多源交叉核对；Lesson 3补充句仅单源，已标注“待核”。box的复数boxes要加-es，是一年级拼写高频考点。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>b·o·x —— o是方方的箱口，x像捆箱子的交叉胶带<br>✏️ 口诀：箱子方方贴个x，复数记得加-es！</td></tr>
+        <tr><th>音·发音</th><td>/bɒks/ 单音节，短元音/ɒ/，嘴巴张圆<br>🎧 跟读：a box · boxes · a box of crayons</td></tr>
+        <tr><th>意·释义</th><td>箱子；盒子📦（a box of…一盒/一箱…）</td></tr>
+        <tr><th>用·句型</th><td>① This is the box. (这是箱子。)<br>② The box is behind the door. (箱子在门后面。)<br>③ A box of crayons, please. (请给我一盒蜡笔。)<br>④ What's in the box? (盒子里有什么？)</td></tr>
+        <tr><th>拓·同族词</th><td>box→boxes（复数，加-es）；pencil box铅笔盒；mailbox邮箱；一年级上册学过a box of crayons一盒蜡笔！</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>请求</td><td>Open the box, please.</td></tr>
+        <tr><td>量词</td><td>A box of crayons, please.</td></tr>
+        <tr><td>疑问</td><td>What's in the box?</td></tr>
+        <tr><td>位置</td><td>The box is near the bed.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · a box of一盒/一箱</div>
+        <p><strong>a box of+复数名词：</strong><br>a box of crayons一盒蜡笔🖍️<br>a box of chocolates一盒巧克力🍫<br>⚠️ box复数加<strong>-es</strong>：two boxes——x结尾的名词复数统一加-es！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>本单元是房间物品+方位主题。家里到处是box：鞋盒、纸巾盒、玩具箱、快递盒，拿几个真盒子就能做“box大点名”。重点抓两件事：一是复数boxes要加-es（考试常考），二是a box of的量词用法，接着一年级上册的a box of crayons自然复现。玩“What's in the box?”猜物游戏，孩子兴趣最高。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说“the box”，孩子从📦/🚪/💡中选 → 正确答案：📦</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 量词填空</strong><br>①a ___ of crayons (box)<br>②What's in the ___? (box)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数变身</strong><br>one box → two ______ (boxes)←注意-es！<br>one bed → two ______ (beds)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>找出家里的box（鞋盒/纸巾盒/玩具箱），说“This is a box.”，说对一个得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用“What's in the box?”造句并录语音打卡<br><span class='btn-mimic'>🎤 示例：What's in the box? Let me see!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟box通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《What's in the Box?》</h3>
+    <div class="quote">📦 门口出现一个神秘的箱子。妹妹踮着脚问：“What's in the box?” 哥哥抱起来摇一摇——“咕噜咕噜！”打开一看，是只小猫！小猫从箱子里跳出来，绕着门转了三圈，最后趴回箱子旁边睡着了。“The cat is near the box now,” 妹妹小声说，“Shh, it's sleeping.”</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What was in the box? (A cat)<br>• 小猫最后睡在哪儿？(Near the box)</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 量词 ── a box of crayons · a box of chocolates<br>
+├── 复数 ── box→boxes（加-es）<br>
+├── 同族 ── pencil box铅笔盒 · mailbox邮箱<br>
+├── 位置 ── The box is behind the door.<br>
+└── 熟语 ── think outside the box跳出框框思考<br></div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>box来自拉丁语buxis，再往上追是希腊语pyxis——本意是“黄杨木盒”（pyxos黄杨树）。古人拿黄杨木挖出小盒子装膏药和首饰，木头盒子的名字就这么传遍了欧洲。<br>🎯 讲给孩子：box从一开始就是“小木盒”，如今纸箱、铁盒、快递盒都归它管。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>pencil box</td><td>pencil+box → 铅笔盒</td></tr>
+        <tr><td>mailbox</td><td>mail(信件)+box → 邮箱</td></tr>
+        <tr><td>box office</td><td>box+office → 售票处；票房（从前戏院把票钱收进小箱子）</td></tr>
+        <tr><td>boxing</td><td>拳击——和box(盒子)同形不同源，纯彩蛋</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Think outside the box.”<br>跳出框框思考。——源自经典的“九点连线”谜题：只有把线画出九个点围成的“盒子”，才能一笔连成，后来成了英语里鼓励创新的金句。</div>
+
+    <h3>🎵 歌词里的 box</h3>
+    <p>🎵 <strong>Roddy Ricch《The Box》(2020)：歌名含词</strong>——Billboard多周冠军，那段标志性的“eee er”人声音效全世界都在模仿，“The Box”到底装了什么？歌手说这是个秘密。说唱风格已如实标注。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>“box office”（票房）的说法来自莎士比亚时代：剧场售票收的钱真的装在一个小箱子（box）里，箱子放在一个叫box office的小窗口后面——箱子从此成了“票房”的代名词，如今说的“10亿票房”，字面意思是“10亿的小箱子”。另外，拳击叫boxing、拳手叫boxer，和box（盒子）同形不同源，是词表里少见的“撞脸词”——box的家族比你想的大。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>box</strong> /bɒks/ n. 箱子；盒子</div>
+        <div>功能句：A box of crayons, please.</div>
+        <div>复数：box→boxes（x结尾加-es）</div>
+        <div>同族词：pencil box铅笔盒 · mailbox邮箱</div>
+        <div>熟语：Think outside the box跳出框框思考</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级下册 Unit 2 Room<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("box");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

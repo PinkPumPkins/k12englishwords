@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·blackboard</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · blackboard</h1>
+<div class="subhead">📍 人教版（一起点）一年级下册 Unit 1 Classroom</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> blackboard</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 黑板</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈblækbɔːd/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>构成</span> black + board</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 1 Classroom</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>On my desk, I can see, A book for you, A book for me.<br>Under my chair, I can see, A schoolbag for you, A schoolbag for me.<br>（本课单词：chair 椅子 · desk 书桌 · blackboard 黑板 · on 在…上 · under 在…下面 · in 在…里面）</p><p><strong>Lesson 1 · B. Listen and do</strong><br>Put your schoolbag under the chair.<br>Put your schoolbag on the chair.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— Where is the ruler?<br>— It's on the desk.<br><strong>B. Do and say</strong>：— Where is the book? — It's in the desk.</p><p><strong>Lesson 3 · A. Find and say</strong><br>— Where is the apple?<br><strong>B. Letters in life</strong>：Aa · Bb · Cc · Dd（字母歌跟唱）</p><p><strong>Story Time</strong><br>Put my ruler in the pencil box.<br>Put my pencil box in the schoolbag.<br>Let's go home!<br>— Where is my pencil box?<br>— Oh, it's in your mouth!（结尾句原文待核）</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi同步跟读页（yyld.51jiaoxi.com/yixia/rjbxqd_danyuan01.html）、Scribd电子课本、智慧山词汇页多源交叉核对；Lesson 3与Story Time单源更细，待核句已标注。blackboard 与 chair、desk 并称 Lesson 1 教室三件套，是教室场景图里的'C位'。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>black(黑色) + board(板) 合成词，字面＝黑色的板<br>✏️ 口诀：黑色的板挂墙上，blackboard 好帮手！</td></tr>
+        <tr><th>音·发音</th><td>/ˈblækbɔːd/ 双音节，重音在前：BLACK-board<br>🎧 跟读：look at the blackboard · a big blackboard</td></tr>
+        <tr><th>意·释义</th><td>黑板 🖤（教室里用粉笔书写的深色大板）</td></tr>
+        <tr><th>用·句型</th><td>① Look at the blackboard. (看黑板。)<br>② Clean the blackboard. (擦黑板。)<br>③ Write your name on the blackboard. (把名字写在黑板上。)<br>④ The blackboard is big. (黑板很大。)</td></tr>
+        <tr><th>拓·同族词</th><td>board 板：whiteboard 白板 · skateboard 滑板 · keyboard 键盘；chalk 粉笔</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>指认</td><td>That is a blackboard.</td></tr>
+        <tr><td>课堂</td><td>Look at the blackboard, please.</td></tr>
+        <tr><td>动作</td><td>Clean the blackboard, please.</td></tr>
+        <tr><td>方位</td><td>The words are on the blackboard.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 课堂指令三连</div>
+        <p><strong>Look at the blackboard.</strong> 看黑板——上课最常听到的指令。</p><p><strong>Eyes on me!</strong> 眼睛看我！</p><p><strong>Come to the blackboard.</strong> 来黑板前（做题/展示）。</p><p>听懂指令，上课不掉队！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>在家用小白板或一张黑卡纸当 blackboard，孩子当小老师：写字母 A、B、C、D（正好是本课 Lesson 3 的字母），说 'Look at the blackboard!'。角色扮演一遍，课堂指令全记住。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 'blackboard'，孩子从 🖤板 / 📺 / 🪟 中选 → 正确答案：黑板</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 合成词拆装</strong><br>① black + board = ______ (blackboard) ② black 的反义词 ______ (white)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 指令连一连</strong><br>看黑板 → Look at the blackboard. / 擦黑板 → Clean the blackboard.</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>找出家里的小黑板/白板/画板，指着说 'Look at the blackboard!'</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>当小老师写个大大的 A，说 'Look at the blackboard. This is A!'</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟blackboard通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Magic Blackboard》</h3>
+    <div class="quote">🖤 晚上的教室静悄悄。blackboard 突然开口：'明天孩子们要认识新字母啦！' 粉笔跳出来说：'我来写！' 它写了一个大大的 A。blackboard 夸道：'A 站得直直的，真精神！' 原来黑板最开心的事，就是每天陪孩子们上课。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 谁在黑板上写字？(The chalk)<br>• 写了什么字母？(A)<br>• 问问孩子：如果你是小老师，你想在 blackboard 上写什么？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 构成 ── black 黑 + board 板<br>├── 伙伴 ── chalk 粉笔 / eraser 板擦<br>├── 动作 ── look at / write on / clean<br>├── 家族 ── whiteboard 白板 / skateboard 滑板 / keyboard 键盘<br>└── 场景 ── classroom 教室</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>blackboard 是个'老实'的合成词：black（黑）+ board（木板）。19 世纪初现代课堂普及，木板刷上黑漆就是最好的写字板，'黑板'由此得名。board 本义'木板'，是合成词大户：whiteboard 白板、keyboard 键盘、skateboard 滑板，全是它的孩子。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>whiteboard</td><td>white(白) + board → 白板</td></tr>
+        <tr><td>keyboard</td><td>key(按键) + board → 键盘</td></tr>
+        <tr><td>skateboard</td><td>skate(滑) + board → 滑板</td></tr>
+        <tr><td>noticeboard</td><td>notice(通知) + board → 布告板</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">英语习语 chalk it up to experience（就当交学费、记取经验）——据说源自过去用粉笔在黑板/石板上记分记事的老习惯：粉笔一划，账就'记上了'。</div>
+
+    <h3>🎵 歌词里的 blackboard</h3>
+    <p>🎵 Pink Floyd《Another Brick in the Wall》(1979)：传奇乐队最出圈的名曲，'We don't need no education' 唱遍全球——课堂主题之最，blackboard 的重音 BLACK 一起头就记住。（主题关联：教室/课堂）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>黑板以前真是黑的！早期多用石板（slate）做，后来改刷墨绿色——绿色更护眼，粉笔字也更清楚。于是今天很多'黑板'其实长着绿脸，英语也多了个名字 chalkboard（粉笔板）。名字没换，颜色先退休了。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>blackboard</strong> /ˈblækbɔːd/ n. 黑板</div>
+        <div>blackboard /ˈblækbɔːd/ n. 黑板（black+board）</div>
+        <div>课堂句：Look at the blackboard.</div>
+        <div>同族词：whiteboard · keyboard · skateboard</div>
+        <div>口诀：黑色的板，blackboard 挂墙上</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级下册 Unit 1 Classroom<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("blackboard");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

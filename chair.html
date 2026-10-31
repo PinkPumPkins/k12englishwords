@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·chair</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · chair</h1>
+<div class="subhead">📍 人教版（一起点）一年级下册 Unit 1 Classroom</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> chair</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 椅子</div>
+    <div class="info-item"><span class="info-label">音标</span> /tʃeə(r)/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> chairs</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 1 Classroom</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>On my desk, I can see, A book for you, A book for me.<br>Under my chair, I can see, A schoolbag for you, A schoolbag for me.<br>（本课单词：chair 椅子 · desk 书桌 · blackboard 黑板 · on 在…上 · under 在…下面 · in 在…里面）</p><p><strong>Lesson 1 · B. Listen and do</strong><br>Put your schoolbag under the chair.<br>Put your schoolbag on the chair.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— Where is the ruler?<br>— It's on the desk.<br><strong>B. Do and say</strong>：— Where is the book? — It's in the desk.</p><p><strong>Lesson 3 · A. Find and say</strong><br>— Where is the apple?<br><strong>B. Letters in life</strong>：Aa · Bb · Cc · Dd（字母歌跟唱）</p><p><strong>Story Time</strong><br>Put my ruler in the pencil box.<br>Put my pencil box in the schoolbag.<br>Let's go home!<br>— Where is my pencil box?<br>— Oh, it's in your mouth!（结尾句原文待核）</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi同步跟读页（yyld.51jiaoxi.com/yixia/rjbxqd_danyuan01.html）、Scribd电子课本、智慧山词汇页多源交叉核对；Lesson 3与Story Time单源更细，待核句已标注。chair 是 Lesson 1 教室三件套之一，歌谣 Under my chair 一句原句复现。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>ch + air —— ch 读 /tʃ/，后半截正是 air（空气）<br>✏️ 口诀：ch 牵着 air 走，小椅子跟你走！</td></tr>
+        <tr><th>音·发音</th><td>/tʃeə(r)/ 单音节，ch＝/tʃ/ 干脆利落<br>🎧 跟读：a chair · sit on the chair · three chairs</td></tr>
+        <tr><th>意·释义</th><td>椅子 🪑（有靠背的单人座位；chair 还可指'会议主持人'）</td></tr>
+        <tr><th>用·句型</th><td>① This is a chair. (这是一把椅子。)<br>② Sit on the chair, please. (请坐在椅子上。)<br>③ Put your schoolbag on the chair. (课本指令句)<br>④ I like my little chair. (我喜欢我的小椅子。)</td></tr>
+        <tr><th>拓·同族词</th><td>armchair 扶手椅（arm 手臂 + chair）· highchair 宝宝餐椅 · wheelchair 轮椅（wheel 轮子）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>指认</td><td>This is a chair.</td></tr>
+        <tr><td>动作</td><td>Sit on the chair, please.</td></tr>
+        <tr><td>方位</td><td>The cat is under the chair.</td></tr>
+        <tr><td>数量</td><td>I have two chairs at home.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · '请坐'三种说法</div>
+        <p><strong>Sit down, please.</strong> 最常用：请坐。</p><p><strong>Take a seat.</strong> 更客气：您请坐。</p><p><strong>This chair is for you.</strong> 这把椅子留给你——热情待客金句！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>chair 是孩子每天坐的家具，最好'身教'：指真椅子说 chair，再玩指令游戏——'Sit on the chair.' 让孩子执行。重点纠正 ch 误读成 /s/，ch 要读 /tʃ/（像'吃'的声母）。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 'a chair'，孩子从 🪑 / 🛏️ / 📚 三张卡片中选 → 正确答案：🪑</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 拼写填空</strong><br>① ch___ir (air) ② __air 填首字母 (ch) ③ 数一数：chair 有几个字母？(5个)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数变身</strong><br>one chair → two ______ (chairs)　one desk → two desks（对比记忆）</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>在家里找一把椅子，指着它说 'This is a chair!' 说对了得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 'Sit on the chair, please.' 发指令，让爸爸妈妈照做——孩子当小老师！</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟chair通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Happy Chair》</h3>
+    <div class="quote">🪑 教室里有一把 happy chair。下课了，明明找不到自己的椅子：'Where is my chair?' 他绕着 desk 找了一圈：'Is it under the desk? No!' 最后在窗户边找到了——椅子正晒着太阳。明明拍拍它说：'My happy chair!' 椅子好像也笑了：'Welcome back!'</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 明明在找什么？(His chair)<br>• 椅子在哪里找到的？(By the window)<br>• 问问孩子：Where is YOUR chair? 让他用英语指给大家看</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 种类 ── armchair 扶手椅 / highchair 餐椅 / wheelchair 轮椅<br>├── 动作 ── sit on 坐 / stand on 站 / take 搬<br>├── 方位 ── on the chair · under the chair<br>├── 场景 ── classroom 教室 / dining room 餐厅<br>└── 数字 ── a chair · two chairs · many chairs</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>chair 的老家是希腊语 kathedra（kata 向下 + hedra 坐面），先搬进拉丁语当 cathedra，再经古法语 chaire 住进英语。同门兄弟 cathedral（大教堂）原意是'设有主教座位的教堂'——主教的宝座，就是 chair 的老祖宗。更妙的是，英语里 chair 还能当动词'主持'（chair a meeting），坐上椅子就掌了话语权。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>armchair</td><td>arm(手臂) + chair → 扶手椅</td></tr>
+        <tr><td>chairman</td><td>chair + man → 主席、会长（如今也说 chair，不分男女）</td></tr>
+        <tr><td>wheelchair</td><td>wheel(轮子) + chair → 轮椅</td></tr>
+        <tr><td>cathedral</td><td>同源词：大教堂，源自'主教座位'</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">音乐剧《悲惨世界》名曲 Empty Chairs at Empty Tables（空椅空桌）——用一把空椅子唱尽对挚友的思念。（chair 专属谚语暂无可确认来源，如实标注）</div>
+
+    <h3>🎵 歌词里的 chair</h3>
+    <p>🎵 George Strait《The Chair》(1985)：乡村音乐传奇冠军曲，歌名就是本词！绅士开场白 'Can I buy you a drink?' 配上一把 chair，浪漫又上口。（歌名含词）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>全球孩子都玩过 Musical Chairs（音乐椅）！音乐一停就要抢椅子，是派对永远的高潮。另外，会议室里'主持人'也叫 chair——chairman（主席）的字面意思就是'椅子上的那个人'：坐哪把椅子，管哪摊事。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>chair</strong> /tʃeə(r)/ n. 椅子</div>
+        <div>chair /tʃeə(r)/ n. 椅子（复数 chairs）</div>
+        <div>课本句：Under my chair, I can see...</div>
+        <div>同族词：armchair · wheelchair · chairman</div>
+        <div>口诀：ch 牵着 air，小椅子带回家</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级下册 Unit 1 Classroom<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("chair");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
