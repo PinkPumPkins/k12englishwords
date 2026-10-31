@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·want</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · want</h1>
+<div class="subhead">📍 人教版（一起点）一年级下册 Unit 4 Food</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> want</div>
+    <div class="info-item"><span class="info-label">词性</span> v. 要；想要</div>
+    <div class="info-item"><span class="info-label">音标</span> /wɒnt/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>高频</span> I want… 想要……</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 4 Food（食物）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>rice 米饭 · noodles 面条 · vegetables 蔬菜 · fish 鱼 · chicken 鸡肉 · eggs 鸡蛋<br>I'm hungry. I want noodles.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— I'm hungry. 我饿了。<br>— I want rice and vegetables. 我想要米饭和蔬菜。<br>— Here you are. 给你。</p><p><strong>Lesson 3 · 句型巩固</strong><br>— Do you like fish? — Yes, I do. / No, I don't.<br>I want chicken. I want eggs.</p><p><strong>Story Time · 故事时间</strong><br>1 I want noodles. 我想要面条。<br>2 I want rice. I'm hungry. 我想要米饭。我饿了。</p><p style='font-size:12px;opacity:.75;'>✅ 原文经智慧山课文页（zhihuishan.com/xiao-xue-ying-yu/3309.html）、51教学网课文朗读资源（yyld.51jiaoxi.com）、知乎 Lesson 2 优质课教案多源交叉核对；核心句型 I'm hungry. / I want…（本单元超高频）。I want rice and vegetables——本单元所有点餐句都靠 want 开口。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>w·an·t —— 三个字母，结尾 t 别丢<br>✏️ 口诀：想要 want，尾巴 t 站好岗</td></tr>
+        <tr><th>音·发音</th><td>/wɒnt/ 单音节，英式 /wɒnt/，美式读 /wɑːnt/<br>🎧 跟读：I want rice · I want to eat · What do you want?</td></tr>
+        <tr><th>意·释义</th><td>要；想要（后接名词：I want rice；后接 to do：I want to eat）</td></tr>
+        <tr><th>用·句型</th><td>① I want rice and vegetables.<br>② I want noodles, please.<br>③ I want to sleep. (我想睡觉了。)<br>④ Do you want an egg? — Yes, please!</td></tr>
+        <tr><th>拓·同族词</th><td>would like（want 的礼貌版）· wanted（过去式）；路人皆知的 WANTED 通缉令海报也是它</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>点餐</td><td>I want rice and vegetables, please.</td></tr>
+        <tr><td>想做</td><td>I want to eat noodles.</td></tr>
+        <tr><td>询问</td><td>Do you want some rice?</td></tr>
+        <tr><td>回应</td><td>Yes, please. / No, thank you.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · want 的两副面孔</div>
+        <p><strong>want + 名词：</strong>想要某物<br>I want <u>rice</u>. / I want <u>an egg</u>.</p><p><strong>want to + 动词：</strong>想去做某事<br>I want <u>to eat</u>. / I want <u>to sleep</u>.</p><p>⚠️ 问别人更礼貌的说法是 Would you like…?：Would you like some rice?</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>want 是孩子开口点餐的钥匙词。在家玩'小小点餐员'：家长当厨师，孩子用 I want… 点菜，加 please 就升级为礼貌顾客。同时教孩子问别人时用 'Do you want…?'，而大人之间更常用 'Would you like…?'——一个词两级礼貌，饭桌上就能体会。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 'I want noodles'，孩子从 🍜 / 🥚 / 🍗 中选 → 正确答案：🍜</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 补全句子</strong><br>I ___ rice and chicken. → want！点餐钥匙词</div>
+        <div class="game-step"><strong>✅ 关卡3 · 句式变身</strong><br>I want rice.（要米饭）→ 我想'去吃' → I want ___ eat. → to！want to + 动词</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>玩餐厅游戏，孩子当顾客用 I want… 点 3 样菜得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 'I want…, please.' 点餐并补一句 'Thank you!' 完整录音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟want通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《什么都要的国王》</h3>
+    <div class="quote">👑 贪心国王在宫殿里大喊：'I want gold! I want a big cake! I want the moon!' 厨师急得团团转——金子和蛋糕都有，月亮谁也搬不动呀。一个卖蛋糕的小女孩说：'陛下，您想要的太多了。先吃完手里这块 cake 吧！' 国王咬了一大口，慢慢笑了：'嗯……现在，我只想要——再来一块！' 想要太多时，先吃好手里那块。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What did the king want first? (Gold, a big cake, the moon)<br>• Who helped him? (A little girl)<br>• 问问孩子：如果国王只能要一样，你建议他 I want… 什么？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── want + 食物 ── I want rice. / I want noodles.<br>├── want to + 动作 ── I want to eat. / I want to play.<br>├── 询问 ── Do you want an egg? — Yes, please!<br>├── 礼貌版 ── Would you like…?（大人爱用）<br>└── 歌单 ── I Want to Hold Your Hand 牵手名曲</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>want 来自古诺尔斯语 vanta，意思是'缺少'——又是维京人带来的词。所以在英语最老的意义上，'想要什么'其实就是'缺什么'：I want rice，是心里缺一口米饭。英语谚语 'For want of a nail'（少了一颗钉子）用的正是这个老本义。🎯 讲给孩子：want 的老祖宗是'缺'，想要的东西，就是心里缺的那一块。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>want to do</td><td>想去做某事（want + to + 动词原形）</td></tr>
+        <tr><td>would like</td><td>想要（want 的礼貌版：Would you like some tea?）</td></tr>
+        <tr><td>for want of</td><td>因为缺少（谚语 For want of a nail 因小失大）</td></tr>
+        <tr><td>WANTED</td><td>通缉令（海报上的 WANTED 就是要'缉拿'的 want）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">For want of a nail, the shoe was lost; for want of a shoe, the horse was lost; for want of a horse, the rider was lost… 🐴 —— '少了一颗钉子，丢了马蹄铁；丢了马蹄铁，倒了战马；倒了战马，摔了骑手……' 这首英语传统连环谚语，用的全是 want'缺少'的老本义——小小的'缺'，一层层放大成大事。</div>
+
+    <h3>🎵 歌词里的 want</h3>
+    <p>🎵 The Beatles《I Want to Hold Your Hand》(1964)：甲壳虫攻占美国的开山之作，Billboard 冠军，正式掀起'英伦入侵'——'I want to hold your hand' 一句唱了六十多年，want 一开口就是歌名。（歌名含词；此曲已配 hand 页，同源复用标注）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>① 英语点餐礼仪：想客气一点，把 'I want…' 换成 'I would like…'——服务员听着更舒服，孩子学会礼貌升一星。② 美国老电影里的 WANTED 海报（通缉令）就是 want 的'要'字放大版——要人归案，字面意思'被要的人'。③ 世界上最会'要'的小黄人 Minions 见面就喊 'Banana!'，堪称'I want banana'的极简版——想要，是所有生物的第一句心里话。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>want</strong> /wɒnt/ v. 要；想要</div>
+        <div>want /wɒnt/ v. 要；想要</div>
+        <div>课本句：I want rice and vegetables.</div>
+        <div>两个用法：want + 名词 / want to + 动词</div>
+        <div>礼貌版：Would you like…?</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级下册 Unit 4 Food<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("want");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

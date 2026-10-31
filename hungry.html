@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·hungry</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · hungry</h1>
+<div class="subhead">📍 人教版（一起点）一年级下册 Unit 4 Food</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> hungry</div>
+    <div class="info-item"><span class="info-label">词性</span> adj. 饥饿的</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈhʌŋɡri/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>搭配</span> be hungry 饿了</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 4 Food（食物）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>rice 米饭 · noodles 面条 · vegetables 蔬菜 · fish 鱼 · chicken 鸡肉 · eggs 鸡蛋<br>I'm hungry. I want noodles.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— I'm hungry. 我饿了。<br>— I want rice and vegetables. 我想要米饭和蔬菜。<br>— Here you are. 给你。</p><p><strong>Lesson 3 · 句型巩固</strong><br>— Do you like fish? — Yes, I do. / No, I don't.<br>I want chicken. I want eggs.</p><p><strong>Story Time · 故事时间</strong><br>1 I want noodles. 我想要面条。<br>2 I want rice. I'm hungry. 我想要米饭。我饿了。</p><p style='font-size:12px;opacity:.75;'>✅ 原文经智慧山课文页（zhihuishan.com/xiao-xue-ying-yu/3309.html）、51教学网课文朗读资源（yyld.51jiaoxi.com）、知乎 Lesson 2 优质课教案多源交叉核对；核心句型 I'm hungry. / I want…（本单元超高频）。I'm hungry. 是本单元第一句核心表达，饭前必练。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>hun·gry —— 注意中间没有 a！不是 hangry…哦对，hangry 真存在，但那是另一个词（见冷知识）<br>✏️ 口诀：肚子饿得咕咕叫，h-u-n-g-r-y 别写翘</td></tr>
+        <tr><th>音·发音</th><td>/ˈhʌŋ.ɡri/ 两音节，重音在前 HUNG-gree<br>🎧 跟读：I'm hungry · Are you hungry? · hungry and thirsty</td></tr>
+        <tr><th>意·释义</th><td>饥饿的（说'我饿了'用 I'm hungry，be 动词不能丢：✘ I hungry）</td></tr>
+        <tr><th>用·句型</th><td>① I'm hungry. (我饿了。)<br>② Are you hungry? — Yes, I am.<br>③ I'm hungry. I want noodles.<br>④ The little cat is hungry. (小猫饿了。)</td></tr>
+        <tr><th>拓·同族词</th><td>hunger 饥饿（名词）· thirsty 口渴的 · angry 生气的（三兄弟长得像，一对比就分清）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>自述</td><td>I'm hungry, Mum!</td></tr>
+        <tr><td>询问</td><td>Are you hungry?</td></tr>
+        <tr><td>连句</td><td>I'm hungry. I want rice and chicken.</td></tr>
+        <tr><td>对比</td><td>I'm hungry, not thirsty. 我是饿，不是渴。</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · I'm + 身体感觉</div>
+        <p><strong>说感觉：</strong><br><u>I'm</u> hungry. 我饿了。 / <u>I'm</u> thirsty. 我渴了。 / <u>I'm</u> tired. 我累了。</p><p><strong>问别人：</strong><br><u>Are you</u> hungry? 你饿吗？ — Yes, I am. / No, I'm not.</p><p>⚠️ 感觉是形容词，必须用 be 动词连：I<u>'m</u> hungry，不是 I hungry！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>I'm hungry 是孩子每天必喊的话，最好的练习时机就是饭前。孩子一喊'我饿了'，家长就笑着回 'Say it in English!'，把 I'm hungry. I want… 变成饭前暗号。同时教 thirsty（口渴的），hungry/thirsty 一对记：肚子饿了 hungry，嘴巴干了 thirsty，两词都来自'身体报警器'。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音做动作</strong><br>家长说 'I'm hungry'，孩子揉肚子；说 'I'm thirsty'，孩子做喝水状 → 全对得星</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 补全句子</strong><br>I ___ hungry. I want rice. → am！be 动词不能丢</div>
+        <div class="game-step"><strong>✅ 关卡3 · 问答接龙</strong><br>—Are you hungry? —Yes, I am. I want ______!（轮流换 rice / noodles / eggs）</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>饭前主动用英语说 'I'm hungry!' 坚持一周得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 'I'm hungry. I want…' 表演一只饿肚子的小熊并录音打卡<br><span class='btn-mimic'>🎤 示例：Roar! I'm hungry! I want fish, please!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟hungry通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《小熊的咕咕肚子》</h3>
+    <div class="quote">🐻 小熊的肚子咕咕叫，像藏了一只青蛙：'Mum, I'm hungry!' 熊妈妈摊开手：'Honey, the honey pot is empty!' 小熊只好去找蜜蜂：'Hello! Are you hungry? Let's share!' 蜜蜂们商量了一下，送来一小罐甜甜的蜜：'Here you are!' 小熊把蜜分给蜜蜂一半：'Sharing makes me full!' 肚子饱了，心里也饱了。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Why was the little bear hungry? (The honey pot was empty)<br>• Who shared honey with him? (The bees)<br>• 问问孩子：I'm hungry 的时候，你第一句想说什么？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 核心句 ── I'm hungry. 我饿了。（be 动词不能少！）<br>├── 询问 ── Are you hungry? — Yes, I am. / No, I'm not.<br>├── 伙伴词 ── thirsty 渴的 · tired 累的 · angry 生气的<br>├── 连接 ── I'm hungry. + I want…<br>└── 潮词 ── hangry = hungry + angry 饿到生气</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>hungry 是英语土生土长的词：古英语 hungor（饥饿）加 -y。它还有个时髦的'后代'——2018 年牛津词典正式收录新词 hangry（hungry + angry 的合体），意思是'饿到生气'：人一饿就烦躁，这个词一收录就火遍全球。🎯 讲给孩子：饿了说 I'm hungry，饿到想发火，英语里有个专门的词——hangry！</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>hunger</td><td>饥饿（名词：Hunger is the best sauce.）</td></tr>
+        <tr><td>hungry</td><td>饥饿的（形容词，本页主角）</td></tr>
+        <tr><td>hangry</td><td>饿到生气的（hungry + angry 拼合新词，2018 入典）</td></tr>
+        <tr><td>thirsty</td><td>口渴的（hungry 的'水杯兄弟'）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">Hunger is the best sauce. 🍲 —— '饥饿是最好的调味汁。' 传自古罗马（常归于西塞罗，如实注明是传统托名）：饿了吃什么都香，再朴素的饭也像盛宴。所以孩子喊 I'm hungry 的时候，正是训练好好吃饭的黄金时刻。</div>
+
+    <h3>🎵 歌词里的 hungry</h3>
+    <p>🎵 Bruce Springsteen《Hungry Heart》(1980)：摇滚'工人皇帝'斯普林斯汀的招牌金曲，Billboard 前五——'Everybody's got a hungry heart'，谁的心里都饿着一角。歌名含词，副歌把 hungry 唱了又唱，一遍就跟会。（歌名含词，沿用站上既有配置）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>① 肚子'咕咕叫'有学名：borborygmi（腹鸣音）——那是胃在空转收缩挤压气体和液体的声音，是身体在喊 I'm hungry。② 英语里 hungry 不止形容肚子：hungry for knowledge（渴求知识）也是它——求知和求知欲，跟饥饿共享一个词。③ 美国国庆日（7月4日）当天，纽约康尼岛会举办著名的热狗大胃王比赛（Nathan's Famous 热狗大赛），冠军能在 10 分钟吃下几十个热狗——大概是全世界最'hungry'的一天。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>hungry</strong> /ˈhʌŋɡri/ adj. 饥饿的</div>
+        <div>hungry /ˈhʌŋɡri/ adj. 饥饿的</div>
+        <div>课本句：I'm hungry. I want…</div>
+        <div>问答：Are you hungry? — Yes, I am.</div>
+        <div>伙伴词：thirsty 口渴的 · hangry 饿怒的</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级下册 Unit 4 Food<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("hungry");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

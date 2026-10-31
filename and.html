@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·and</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · and</h1>
+<div class="subhead">📍 人教版（一起点）一年级下册 Unit 4 Food</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> and</div>
+    <div class="info-item"><span class="info-label">词性</span> conj. 和；又</div>
+    <div class="info-item"><span class="info-label">音标</span> /ənd/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>词性</span> 连词 conj.</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 4 Food（食物）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>rice 米饭 · noodles 面条 · vegetables 蔬菜 · fish 鱼 · chicken 鸡肉 · eggs 鸡蛋<br>I'm hungry. I want noodles.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— I'm hungry. 我饿了。<br>— I want rice and vegetables. 我想要米饭和蔬菜。<br>— Here you are. 给你。</p><p><strong>Lesson 3 · 句型巩固</strong><br>— Do you like fish? — Yes, I do. / No, I don't.<br>I want chicken. I want eggs.</p><p><strong>Story Time · 故事时间</strong><br>1 I want noodles. 我想要面条。<br>2 I want rice. I'm hungry. 我想要米饭。我饿了。</p><p style='font-size:12px;opacity:.75;'>✅ 原文经智慧山课文页（zhihuishan.com/xiao-xue-ying-yu/3309.html）、51教学网课文朗读资源（yyld.51jiaoxi.com）、知乎 Lesson 2 优质课教案多源交叉核对；核心句型 I'm hungry. / I want…（本单元超高频）。rice and vegetables 里的'连接小能手'，一页课本出现几十次。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>a·n·d —— 三个字母，却是英语最高频词前五名<br>✏️ 口诀：and 是小桥，两头连一连</td></tr>
+        <tr><th>音·发音</th><td>/ənd/，句中常常弱读成 /ən/（bread 'n' butter）<br>🎧 跟读：rice and vegetables · fish and eggs · Mum and Dad</td></tr>
+        <tr><th>意·释义</th><td>和；又；然后（把两个词或两句话手拉手连起来）</td></tr>
+        <tr><th>用·句型</th><td>① rice and vegetables (米饭和蔬菜)<br>② I want fish and eggs. (我想要鱼和蛋。)<br>③ Mum and Dad (妈妈和爸爸)<br>④ Two and two is four. (2 加 2 等于 4。)</td></tr>
+        <tr><th>拓·同族词</th><td>固定搭档：bread and butter 涂黄油的面包/生计 · salt and pepper 盐和胡椒 · rock and roll 摇滚乐</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>并列</td><td>I want rice and vegetables.</td></tr>
+        <tr><td>人称</td><td>Mum and Dad love me.</td></tr>
+        <tr><td>数学</td><td>Two and two is four. 2 加 2 等于 4</td></tr>
+        <tr><td>顺接</td><td>I'm hungry, and I want noodles.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · and 连接三样东西</div>
+        <p><strong>连食物：</strong>rice <u>and</u> vegetables 🍚🥦 / fish <u>and</u> eggs 🐟🥚</p><p><strong>连人：</strong>Mum <u>and</u> Dad / Joy <u>and</u> Bill</p><p><strong>连句子：</strong>I'm hungry, <u>and</u> I want noodles.</p><p>⚠️ 三样以上：A, B <u>and</u> C——and 永远站最后一岗！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>and 是英语里用得最多的'胶水词'。陪读时玩'连词游戏'：家里任何两样东西用 and 连起来说（milk and eggs, Dad and me），连对就击掌。顺带玩数学英语：Two and two is four. 一词两用，孩子发现 and 还能当'加号'，会很惊喜。注意提醒：三样以上时 and 只站最后一个位置。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 连一连</strong><br>家长说 rice / vegetables，孩子用 and 连成 'rice and vegetables'</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 补全句子</strong><br>I want noodles ___ eggs. → and！</div>
+        <div class="game-step"><strong>✅ 关卡3 · 数学英语</strong><br>Two ___ three is five. → and！Two and three is five!</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>在家找出 5 对可以 and 连接的东西并说出来（milk and bread…）得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 'I want A and B.' 说一句含 and 的点餐句并录音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟and通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《和字小桥》</h3>
+    <div class="quote">🌉 单词国里，rice 和 vegetables 吵架了，谁也不理谁，各站盘子一边。小桥 and 摇摇晃晃走过来：'别吵啦！我一来，你们就是一家人！' rice 和 vegetables 半信半疑地踩上桥——手拉手上了餐桌。小主人吃得可香了：'Yummy! I want rice and vegetables!' 从此，单词国里谁想手拉手，都来找 and。一座三个字母的小桥，连起了整个餐桌。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Who connected rice and vegetables? (The little bridge 'and')<br>• What did the boy want to eat? (Rice and vegetables)<br>• 问问孩子：你还能用 and 连出哪两个词？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 连物 ── rice and vegetables · fish and eggs<br>├── 连人 ── Mum and Dad · you and me<br>├── 连句 ── I'm hungry, and I want noodles.<br>├── 数学 ── Two and two is four.（当'加号'）<br>└── 固定搭档 ── bread and butter 生计 · rock and roll 摇滚</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>and 来自古英语 and/ond，两千多年几乎没变过样，是英语最古老、最高频的词之一（与 the、of 同列最高频前五）。它的'兄弟'也很多：rock and roll 靠它命名，ham and eggs 靠它成菜。🎯 讲给孩子：最小的词干最大的活——and 一出手，两样变一家。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>rock and roll</td><td>摇滚乐（rock 摇 + roll 滚，1950 年代命名）</td></tr>
+        <tr><td>bread and butter</td><td>涂黄油的面包；引申为'生计'</td></tr>
+        <tr><td>salt and pepper</td><td>盐和胡椒；也形容'黑白相间的头发'</td></tr>
+        <tr><td>and so on</td><td>等等（列举时的收尾词）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">Live and learn. 📚 —— '活着就要学'（边活边学，边错边长）。三个字母的 and 撑起了这句英语老话。再送一句甲壳虫名言：All you need is love.（你需要的唯有爱）——and 是连接一切的小词，而爱连接一切。</div>
+
+    <h3>🎵 歌词里的 and</h3>
+    <p>🎵 The Beatles《All You Need Is Love》(1967)：甲壳虫通过全球第一次卫星直播首演的传世金曲，'All you need is love' 极简副歌全世界传唱——and 负责连接单词，爱负责连接世界。（主题关联·连接概念，虚词无专属歌，沿用站上既有配置）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>① and 在书写里常变成一个符号：&——它曾是字母表的第 27 个字母！英国孩子背字母表唱到它时要说 'and per se and'（and 本身的 and），念快了连读就成了它的名字 ampersand。② M&M's 巧克力豆的名字就是 M and M——两家创始公司 Mars 和 Murrie 的首字母，中间那颗小 and 是豆子的桥。③ 口语里 and 还常缩成 'n'：rock 'n' roll、salt 'n' pepper——写在歌名里，就成了复古味十足的彩蛋。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>and</strong> /ənd/ conj. 和；又</div>
+        <div>and /ənd/ conj. 和；又</div>
+        <div>课本句：rice and vegetables</div>
+        <div>三种连接：连物 · 连人 · 连句子</div>
+        <div>冷知识：& 的名字 ampersand 来自 and per se and</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级下册 Unit 4 Food<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("and");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

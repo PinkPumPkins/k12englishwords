@@ -1,206 +1,161 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <title>一词一宇宙 · vegetable</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
-        h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #27ae60; }
-        .subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
-        .info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
-        .info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
-        .info-label { font-weight: 600; color: #2c3e50; }
-        .stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-        .stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
-        .stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
-        .stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
-        .stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
-        .stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
-        .textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
-        .textbook p { margin: 8px 0; }
-        .textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
-        .quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
-        .dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
-        .dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
-        .dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
-        .game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
-        .game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
-        .btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
-        .parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
-        .parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
-        .mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
-        .func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
-        .func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
-        .footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
-        @media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·vegetable</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
 </head>
 <body>
 
-<h1>一词一宇宙 · vegetable</h1>
-<div style="text-align:center;margin:2px 0 14px;"><button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button></div>
-<div class="subhead">📍 人教版（一起点）五年级下册 Unit 5</div>
+<h1>🌟 一词一宇宙 · vegetable</h1>
+<div class="subhead">📍 人教版（一起点）一年级下册 Unit 4 Food</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
 
 <div class="info-grid">
     <div class="info-item"><span class="info-label">单词</span> vegetable</div>
     <div class="info-item"><span class="info-label">词性</span> n. 蔬菜</div>
-    <div class="info-item"><span class="info-label">音标</span> /ˈvedʒtəbəl/</div>
-    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (五年级)</div>
-    <div class="info-item"><span class="info-label">复数</span> vegetables</div>
-    <div class="info-item"><span class="info-label">相关词</span> fruit, plant, green</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈvedʒtəbl/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (一年级·词较长)</div>
+    <div class='info-item'><span class='info-label'>复数</span> vegetables</div>
 </div>
 
-<div class="textbook">
-    <div class="textbook-title">📖 课本原文直通车 · Unit 5</div>
-    <p><strong>Lesson 1 (P48-49) Markets and Shops</strong><br>
-    Guide: What can you buy at the market?<br>
-    Binbin: I can buy fresh fruit and <u>vegetables</u> there.<br>
-    Guide: Do you often go to the market?<br>
-    Binbin: Yes, I go there with my mum every Saturday.</p>
-    <p><strong>Lesson 2 (P50-51) At the Market</strong><br>
-    Mum: How about some <u>vegetables</u>?<br>
-    Binbin: Good idea! I like tomatoes and potatoes.<br>
-    Mum: Let's buy some carrots and cabbage, too.<br>
-    Binbin: OK! <u>Vegetables</u> are healthy.</p>
-    <p><strong>Lesson 3 (P52-53) At the Supermarket</strong><br>
-    Dad: Let's buy some <u>vegetables</u> for dinner.<br>
-    Binbin: Great! I like green <u>vegetables</u>.<br>
-    Dad: How about some broccoli and spinach?<br>
-    Binbin: Good idea! They're good for health.</p>
-</div>
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 4 Food（食物）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>rice 米饭 · noodles 面条 · vegetables 蔬菜 · fish 鱼 · chicken 鸡肉 · eggs 鸡蛋<br>I'm hungry. I want noodles.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— I'm hungry. 我饿了。<br>— I want rice and vegetables. 我想要米饭和蔬菜。<br>— Here you are. 给你。</p><p><strong>Lesson 3 · 句型巩固</strong><br>— Do you like fish? — Yes, I do. / No, I don't.<br>I want chicken. I want eggs.</p><p><strong>Story Time · 故事时间</strong><br>1 I want noodles. 我想要面条。<br>2 I want rice. I'm hungry. 我想要米饭。我饿了。</p><p style='font-size:12px;opacity:.75;'>✅ 原文经智慧山课文页（zhihuishan.com/xiao-xue-ying-yu/3309.html）、51教学网课文朗读资源（yyld.51jiaoxi.com）、知乎 Lesson 2 优质课教案多源交叉核对；核心句型 I'm hungry. / I want…（本单元超高频）。vegetable 就在课本核心句 'I want rice and vegetables' 里，是 and 的好搭档。</p></div>
 
-<!-- 低阶 -->
 <div class="stage stage-low">
     <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
     <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
 
-    <h3 style="margin:12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
     <table class="dim-table">
-        <tr><th>形</th><td>veg·e·ta·ble — 非合成词，来自拉丁语<br>✏️ 口诀：ve-ge-ta-ble，发音四音节，要多练习！</td></tr>
-        <tr><th>音</th><td>/ˈvedʒtəbəl/ 三音节 → veg·e·ta·ble<br>重音在第一音节：/ˈVEDJ-tə-bəl/<br>🎧 跟读：I like vegetables. Vegetables are healthy.</td></tr>
-        <tr><th>意</th><td>蔬菜 🥦🥕</td></tr>
-        <tr><th>用</th><td>I like vegetables. (我喜欢蔬菜。)<br>Vegetables are healthy. (蔬菜很健康。)<br>I can buy fresh vegetables. (我可以买新鲜蔬菜。)<br>How about some vegetables? (来点蔬菜怎么样？)</td></tr>
-        <tr><th>拓</th><td>常见蔬菜：tomato / potato / carrot / cabbage / broccoli / spinach<br>蔬菜是健康饮食的重要组成部分！</td></tr>
+        <tr><th>形·拼写</th><td>veg·e·ta·ble —— 四个音节有点长，先记 veg（口语里'蔬菜'就说 veg！）<br>✏️ 口诀：vege + table，蔬菜摆上桌（table 桌子）</td></tr>
+        <tr><th>音·发音</th><td>/ˈvedʒ.tə.bl/ 重音在最前，中间的 a 几乎被'吞掉'<br>🎧 跟读：rice and vegetables · I like vegetables · fresh vegetables</td></tr>
+        <tr><th>意·释义</th><td>蔬菜 🥦（复数 vegetables；口语昵称 veg / veggie，孩子说 veggie 更顺口）</td></tr>
+        <tr><th>用·句型</th><td>① I want rice and vegetables. (我想吃米饭和蔬菜。)<br>② Vegetables are good for you. (蔬菜对你有好处。)<br>③ Eat more vegetables. (多吃蔬菜。)<br>④ Do you like vegetables?</td></tr>
+        <tr><th>拓·同族词</th><td>vegetable → vegetables；veggie 蔬菜（昵称）· vegetarian 素食者（只吃蔬菜的人）</td></tr>
     </table>
 
-    <h3>📢 课本原句跟读表</h3>
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
     <table class="dim-table">
-        <tr><th>出处</th><th>原句</th></tr>
-        <tr><td>Lesson1 P48</td><td>I can buy fresh fruit and vegetables there.</td></tr>
-        <tr><td>Lesson2 P50</td><td>How about some vegetables?</td></tr>
-        <tr><td>Lesson2 P51</td><td>Vegetables are healthy.</td></tr>
-        <tr><td>Lesson2 P51</td><td>I like tomatoes and potatoes.</td></tr>
-        <tr><td>Lesson3 P52</td><td>Let's buy some vegetables for dinner.</td></tr>
-        <tr><td>Lesson3 P53</td><td>I like green vegetables.</td></tr>
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>点餐</td><td>I want rice and vegetables, please.</td></tr>
+        <tr><td>健康</td><td>Vegetables are good for you.</td></tr>
+        <tr><td>询问</td><td>Do you like vegetables?</td></tr>
+        <tr><td>描述</td><td>The vegetables are fresh. 蔬菜很新鲜。</td></tr>
     </table>
 
     <div class="func-box">
-        <div class="func-box-title">📋 功能句总结 · 购物与健康</div>
-        <p><strong>句型：How about some + 物品?</strong><br>How about some vegetables? (来点蔬菜怎么样？)</p>
-        <p><strong>句型：Let's buy some + 物品.</strong><br>Let's buy some vegetables for dinner.</p>
-        <p><strong>句型：主语 + be动词 + healthy.</strong><br>Vegetables are healthy. / Broccoli is good for health.</p>
+        <div class="func-box-title">📋 功能句总结 · and 的并列魔法</div>
+        <p><strong>A and B 连起两样食物：</strong><br>rice <u>and</u> vegetables 🍚🥦 / fish <u>and</u> eggs 🐟🥚</p><p><strong>三样以上用逗号 + and：</strong><br>rice, noodles <u>and</u> fish</p><p>⚠️ and 永远站最后一岗：A, B <u>and</u> C。</p>
     </div>
 
     <div class="parent-card">
         <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
-        <p>本课vegetable的核心场景是"购物"和"健康饮食"。建议带孩子认识常见蔬菜的英文名（tomato, potato, carrot, cabbage等），用"I like..."和"How about some...?"练习表达喜好。结合"Vegetables are healthy"培养健康饮食习惯。</p>
+        <p>很多孩子不爱吃蔬菜，正好借英语餐桌句型来'劝'：盛蔬菜时说 'Vegetables are good for you.'，孩子吃一口就回一句 'Yummy!'。vegetable 拼写长，先学会说、再学写；家里不妨统一喊昵称 veggie，先建立兴趣再攻坚拼写。</p>
     </div>
 
     <h3>🎮 闯关游戏 (5关)</h3>
     <div class="game-box">
-        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长读"vegetable"，孩子从🥦西兰花图 / 🍎苹果图 / 🥩肉图中选 → 正确答案：🥦西兰花图（蔬菜类）</div>
-        <div class="game-step"><strong>✏️ 关卡2 · 课本填空</strong><br>① I can buy fresh fruit and ______. (vegetables)<br>② ______ are healthy. (Vegetables)<br>③ How about some ______? (vegetables / carrots / broccoli)</div>
-        <div class="game-step"><strong>✅ 关卡3 · 分类游戏</strong><br>哪些是蔬菜（vegetables）？<br>tomato 🍅 / apple 🍎 / potato 🥔 / bread 🍞 / carrot 🥕 / milk 🥛<br>答案：tomato, potato, carrot 是蔬菜</div>
-        <div class="game-step"><strong>🔍 关卡4 · 课文找词</strong><br>翻开课本P48-53，数一数"vegetable"出现了几次？ → 答案：6次</div>
-        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用"I like vegetables."或"Vegetables are healthy."说一句话。<br><span class="btn-mimic">🎤 示例：I like broccoli. It's green and healthy!</span></div>
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 'vegetables'，孩子从 🥦 / 🍚 / 🍗 中选 → 正确答案：🥦</div>
+        <div class="game-step"><strong>✏️ 关卡2 · and 填空</strong><br>I want rice ___ vegetables. → and！课本原句别记错</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数变身</strong><br>one vegetable → two ______ (vegetables)；一堆蔬菜说 some ______ (vegetables)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>晚饭桌上找出两种蔬菜，用英语说 'I want rice and ______!' 说对了得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 'Vegetables are good for you.' 劝家人多吃蔬菜并录音打卡<br><span class='btn-mimic'>🎤 示例：Mum, vegetables are good for you! Eat more!</span></div>
     </div>
-    <p style="background:#e9f7e1; padding:8px 14px; border-radius:30px; font-size:13px;">💡 通关口令：在评论区发送"🥦vegetable通关"领取电子单词卡+蔬菜主题词汇表。</p>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟vegetable通关" 领取本词电子单词卡。</p>
 </div>
 
-<!-- 中阶 -->
 <div class="stage stage-mid">
     <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
     <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
 
-    <h3>📖 微型故事《The Healthy Meal》</h3>
-    <div class="quote">
-        🥦 Binbin和爸爸在超市买菜，爸爸问："Do you want to buy some vegetables for dinner?" Binbin说："Great! I like green vegetables." 爸爸看了看货架："How about some broccoli and spinach?" Binbin点点头："Good idea! They're good for health." 回到家，妈妈做好了炒菠菜和西兰花，说："Vegetables are healthy. Eat more!" Binbin大口吃着，感觉特别香！
-    </div>
-    <p><strong>🧑‍🏫 家长提问卡：</strong><br>
-    • What vegetables does Binbin like? (Green vegetables — broccoli and spinach)<br>
-    • Are vegetables healthy? (Yes, vegetables are healthy.)<br>
-    • What does Mum say about vegetables? ("Vegetables are healthy. Eat more!")<br>
-    • 翻翻课本P52，找一找Binbin还提到了哪些蔬菜？</p>
+    <h3>📖 微型故事《蔬菜运动会》</h3>
+    <div class="quote">🥦 深夜，冰箱里的蔬菜王国开运动会！胡萝卜第一个冲过终点：'I'm fast!' 西兰花举起大力士奖杯：'I'm strong!' 番茄红着脸当裁判。突然冰箱门开了，小主人球球睡眼惺忪：'I'm hungry. I want vegetables!' 全场蔬菜大惊，接着齐声欢呼：'Welcome! Eat us and be strong!' 球球啃着胡萝卜笑了——多吃蔬菜，真的会变强。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Who said 'I'm fast'? (The carrot)<br>• What did Qiuqiu want? (Vegetables)<br>• 问问孩子：你最爱哪种 vegetable？用英语说一说</p>
 
-    <h3>🗺️ 思维导图 · vegetable 世界</h3>
-    <div class="mindmap">核心句型: I like vegetables. / How about some vegetables?
-蔬菜种类: tomato / potato / carrot / cabbage / broccoli / spinach
-健康话题: Vegetables are healthy. / Good for health.
-相关词汇: fresh / healthy / green / buy / eat</div>
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 一份 ── some vegetables 一些蔬菜（不用 a）<br>├── 种类 ── carrot 胡萝卜 · tomato 番茄 · potato 土豆<br>├── 健康 ── Vegetables are good for you.<br>├── 句型 ── I want rice and vegetables.<br>└── 口语 ── veggie 蔬菜昵称 · vegetarian 素食者</div>
 
-    <h3>🏛️ 词源故事：从"活力"到"蔬菜"</h3>
-    <p>vegetable 来自拉丁语 vegetabilis（有生命力的、能生长的），由 vegetare（使充满活力）+ -abilis（可...的）构成。最初的 vegetable 指的是"任何能生长的植物"，后来范围缩小特指"蔬菜"。中文"蔬菜" = "蔬"（菜的可食部分）+ "菜"（植物），也是强调"可以吃的植物"。</p>
-    <p>🎯 讲给孩子：vegetable 来自"充满活力"——蔬菜让我们的身体充满活力，所以要多吃蔬菜！</p>
+    <h3>🏛️ 词源故事</h3>
+    <p>vegetable 的老祖宗是拉丁语 vegetare——'使生机勃勃'，和英语 vigor（活力）是亲戚。在古人眼里，蔬菜就是'地里长出来的、绿油油的、充满生机的东西'。所以妈妈说'多吃蔬菜有活力'，这句话词源上完全成立！🎯 讲给孩子：vegetable 这个词里藏着一个'活力按钮'，吃菜补充的正是它的本义。</p>
 </div>
 
-<!-- 高阶 -->
 <div class="stage stage-high">
     <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
     <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
 
-    <h3>🔍 词根解析：veg- 系列词汇</h3>
-    <p>vegetable = veget (使充满活力) + able (可...的) → 可以给身体注入活力的东西 → 蔬菜</p>
-    <table class="dim-table">
-        <tr><th>单词</th><th>释义</th><th>词根</th></tr>
-        <tr><td>vegetable</td><td>蔬菜</td><td>veget充满活力 + able可...的</td></tr>
-        <tr><td>vegetarian</td><td>素食者</td><td>veget蔬菜 + arian人</td></tr>
-        <tr><td>vigor</td><td>活力</td><td>vig活力（veg的变体）</td></tr>
-        <tr><td>revival</td><td>复兴、复活</td><td>re再 + viv活 + al → 再次活过来</td></tr>
-    </table>
+    <h3>🔍 构词密码</h3>
 
-    <h3>🥦 常见蔬菜的英文名称</h3>
-    <table class="dim-table">
-        <tr><th>蔬菜</th><th>英文</th><th>特点</th></tr>
-        <tr><td>西红柿</td><td>tomato</td><td>红色，富含维生素C</td></tr>
-        <tr><td>土豆</td><td>potato</td><td>白色块茎，主食之一</td></tr>
-        <tr><td>胡萝卜</td><td>carrot</td><td>橙色，富含β-胡萝卜素</td></tr>
-        <tr><td>卷心菜</td><td>cabbage</td><td>绿色，叶菜类</td></tr>
-        <tr><td>西兰花</td><td>broccoli</td><td>绿色花蕾，营养丰富</td></tr>
-        <tr><td>菠菜</td><td>spinach</td><td>深绿色，含铁丰富</td></tr>
-    </table>
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>vegetarian</td><td>素食者（vegetable + -arian'……的人'）</td></tr>
+        <tr><td>veggie</td><td>蔬菜的昵称（孩子口语最爱）</td></tr>
+        <tr><td>veg out</td><td>俚语：像植物一样窝着不动，'瘫着放松'</td></tr>
+        <tr><td>green vegetables</td><td>绿叶蔬菜（green 作形容词放前面）</td></tr>
+        </table>
 
     <h3>📜 名言 & 谚语</h3>
-    <div class="quote">
-        "A meal without vegetables is like a body without a soul." — 健康饮食理念<br>没有蔬菜的一餐就像没有灵魂的身体。<br><br>
-        "Eat your vegetables, they are good for you." — 家长语<br>吃蔬菜吧，它们对你有好处。
-    </div>
+    <div class="quote">Let food be thy medicine, and medicine be thy food. 🥦 —— '让食物成为你的良药，让良药成为你的食物。' 传为'医学之父'希波克拉底所说（如实注明是传统托名）——好好吃饭就是最好的养生，蔬菜当然是这张药方的主角。</div>
 
     <h3>🎵 歌词里的 vegetable</h3>
-    <p>The Beach Boys《Vegetables》(1967)：传奇乐队的童趣小歌；备选 Weird Al《Eat It》(1984) 美食恶搞神曲。</p>
+    <p>🎵 The Beach Boys《Vegetables》(1967)：摇滚传奇'海滩男孩'写给蔬菜的欢快小曲，副歌反复念叨 'Vegetables, I love vegetables'，编曲里甚至有'嚼芹菜'的音效——据说 Beatles 的保罗·麦卡特尼来客串了这一口（如实标注为传闻）。（歌名含词，沿用站上既有配置）</p>
 
-    <h3>⚡ 冷知识 · 为什么大力水手吃菠菜？</h3>
-    <p>大力水手Popeye吃菠菜后变得超级强壮的故事深入人心！实际上菠菜确实营养丰富：富含铁、维生素A、维生素C和叶酸。但它的铁含量并没有传说中那么神奇——这个误解来自1870年代科学家的小数点计算错误！不过菠菜确实是健康蔬菜，小朋友们要多吃哦！</p>
+    <h3>⚡ 冷知识</h3>
+    <p>冷知识：胡萝卜在 17 世纪之前的多数记录里是紫色的，一说荷兰园丁培育出橙色品种，还顺便致敬了王室（橙色是荷兰奥兰治家族的标志色）——这一段带点传说色彩，如实注明'一说'。另一个冷知识：英国超市里蔬菜区就叫 veg aisle，英国人说吃蔬菜常说 eat your greens（吃你的绿色）。中西对比：中国人炒菜，西方人拌沙拉——同一棵菜，两种做法，两种餐桌哲学。</p>
 </div>
 
-<div style="background:#f1f2f6; border-radius:28px; padding:20px; text-align:center; margin-top:20px;">
-    <div style="font-weight:800; font-size:18px;">🥦 单词复习卡 (可截图保存)</div>
-    <div style="background:white; border-radius:20px; padding:12px; margin:12px 0;">
-        <div><strong>vegetable</strong>  /ˈvedʒtəbəl/</div>
-        <div>释义：蔬菜</div>
-        <div>课本例句：I can buy fresh vegetables. / Vegetables are healthy.</div>
-        <div>复数：vegetables</div>
-        <div>句型：How about some vegetables? / Vegetables are healthy.</div>
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>vegetable</strong> /ˈvedʒtəbl/ n. 蔬菜</div>
+        <div>vegetable /ˈvedʒtəbl/ n. 蔬菜（复数 vegetables）</div>
+        <div>课本句：I want rice and vegetables.</div>
+        <div>健康句：Vegetables are good for you.</div>
+        <div>口语昵称：veggie · 拼写小帮手 veg</div>
     </div>
-    <div style="font-size:14px; color:#2c3e50;">⬇️ 下期预告 · delicious ⬇️ <br>翻开课本P58，"I like hot pot. It's delicious."</div>
 </div>
 
 <div class="footnote">
-    📚 本文完全匹配人教版（一起点）五年级下册 Unit 5<br>
+    📚 收录于 人教版（一起点）一年级下册 Unit 4 Food<br>
     ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
 </div>
 
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
 
 <script>
 function speakWord() {
@@ -209,12 +164,8 @@ function speakWord() {
     u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
     speechSynthesis.cancel();
     speechSynthesis.speak(u);
-  } catch (e) { alert("\u5f53\u524d\u6d4f\u89c8\u5668\u4e0d\u652f\u6301\u8bed\u97f3\u5408\u6210"); }
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
 }
 </script>
-
-<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
-K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
-</div>
 </body>
 </html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·bear</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · bear</h1>
+<div class="subhead">📍 人教版（一起点）一年级下册 Unit 3 Toys</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> bear</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 玩具熊；熊</div>
+    <div class="info-item"><span class="info-label">音标</span> /beə(r)/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> bears</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 3 Toys</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>本课chant唱遍六大玩具：plane · ball · doll · train · car · bear<br>智慧山版歌词摘句：Toy train, toy train, go, go, go. / Plane, plane, follow me.</p><p><strong>Lesson 1 · B. Listen and act</strong><br>— A car. — A plane. — A bear.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— Can I have a doll? — Sure. Here you are.<br>— Can I have a bear? — Sorry, no.</p><p><strong>Lesson 2 · B. Do and say</strong><br>— Can I have a car? — Sure. Here you are.</p><p><strong>Lesson 3 · A. Let's play</strong><br>— Can I have a ball? — Sure. Here you are. — Oh, I have two.<br><strong>Lesson 3 · B. Letters in life</strong>：Ii · Jj · Kk · Ll</p><p><strong>Story Time</strong><br>— Look. I have many toys.<br>— Can I have your plane? — Here you are.<br>— Can I have your car, please? — Sure.<br>— Can I have your ball, please? — Here you are.<br>— Can I have your doll? — Sure. Here you are.<br>— I have no toys. — Let's share.</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi跟读库、智慧山课文页、电子课本多源交叉核对（chant歌词为智慧山单源摘句）。bear 见 Lesson 2 对话：Can I have a bear? — Sorry, no.（本单元唯一的'拒绝'名场面）</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>b·ear —— ear 是'耳朵'，前面加 b 就是熊：熊耳朵圆又小<br>✏️ 口诀：b + ear（耳朵），bear 听力好！别写成 bare（光秃秃的）。</td></tr>
+        <tr><th>音·发音</th><td>/beə(r)/ 单音节，和 bare 同音——英语最著名的同音陷阱之一<br>🎧 跟读：a bear · two bears · teddy bear · polar bear</td></tr>
+        <tr><th>意·释义</th><td>玩具熊；熊 🐻（本单元指毛绒玩具熊，也指真熊）</td></tr>
+        <tr><th>用·句型</th><td>① This is my teddy bear. (这是我的泰迪熊。)<br>② Can I have a bear? (我能要一只熊吗？)<br>③ Sorry, no. (对不起，不行。)<br>④ The bear is soft. (这只熊毛绒绒的。)</td></tr>
+        <tr><th>拓·同族词</th><td>teddy bear 泰迪熊 · polar bear 北极熊 · panda 大熊猫；考拉英文常叫 koala bear，其实不是熊！</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>指认</td><td>This is my teddy bear.</td></tr>
+        <tr><td>拒绝</td><td>Sorry, no.</td></tr>
+        <tr><td>描述</td><td>The bear is soft and brown.</td></tr>
+        <tr><td>拥有</td><td>I have a big bear.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 委婉拒绝 Sorry, no.</div>
+        <p>课本名场面：<u>— Can I have a bear? — Sorry, no.</u></p><p>拒绝三步走：① 先说 <strong>Sorry</strong>（软语气温人心）② 再说 <strong>no</strong>（立场清楚）③ 想一想还能给什么：<strong>Let's play together!</strong>（我们一起玩！）</p><p>⚠️ 只说 no 很硬，加上 Sorry 立刻变温柔。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>课本特意安排了一组'拒绝'对话（借熊被拒），正好教孩子礼貌说不：先 Sorry 再 no，最后可以补一句一起玩。在家用泰迪熊演两遍，孩子就懂了：拒绝不伤感情。拼写上盯紧 bear（熊）和 bare（光秃秃的）同音不同字。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 'a bear'，孩子从 🧸 / 🚗 / 🪆 中选 → 正确答案：🧸</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① Can I have a b____? (bear)<br>② The ______ is soft. (bear)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 礼貌拒绝演练</strong><br>家长来借玩具，孩子练习：'Sorry, no. Let's play together!' 答对得一颗星</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>找出家里的熊玩具，介绍 'This is my teddy bear. It is soft!'</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>表演课本对话：'Can I have a bear?' — 'Sorry, no.' 录语音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟bear通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《对不起，小熊》</h3>
+    <div class="quote">🧸 乐乐抱着新泰迪熊去公园，毛毛一眼就喜欢上了：'Can I have your bear?' 乐乐抱紧小熊：'Sorry, no. It's my birthday gift.' 毛毛低下头。乐乐想了想，又说：'But we can play together!' 两人用树叶当茶杯、花瓣当点心，给小熊办了一场'森林茶会'。毛毛给小熊戴上野花环：'The bear likes our party!' 乐乐笑了：'The bear has two friends now.' 说'对不起，不行'的时候，再多想一步，好朋友还是好朋友。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Why did Lele say no? (It's his birthday gift)<br>• 乐乐拒绝之后想了什么办法？(Play together)<br>• 问问孩子：拒绝别人时，怎样说才不伤感情？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">bear 熊宇宙<br>┌── 家族 ── teddy bear 泰迪熊 · polar bear 北极熊 · panda 大熊猫<br>├── 同音 ── bear(熊) = bare(光秃秃) 同音不同字<br>├── 句型 ── Can I have a bear? — Sorry, no.<br>├── 描述 ── The bear is soft. 毛绒绒<br>└── 歌谣 ── The Bare Necessities 森林王子名曲</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>古人不敢直呼熊的真名——觉得说出名字就会引来它，于是用'那个棕色的家伙'代称。主流说法认为，英语 bear 就是这样来的：本义'棕色的东西'，德语 Bär、瑞典语 björn 也是一路。而玩具熊另有来历：1902年美国总统罗斯福（昵称 Teddy）拒绝射杀一头被捆住的小熊，漫画传开后，商人把新造的毛绒小熊命名为 teddy bear——总统的一次心软，成就了全球孩子的抱抱。<br>🎯 讲给孩子：bear 是个'外号'，teddy 是个'纪念'。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>teddy bear</td><td>teddy（罗斯福总统昵称）+ bear → 泰迪熊</td></tr>
+        <tr><td>polar bear</td><td>polar(极地的) + bear → 北极熊</td></tr>
+        <tr><td>panda</td><td>大熊猫，熊科成员（英文里常叫 panda bear）</td></tr>
+        <tr><td>koala</td><td>考拉：中文叫'考拉熊'，其实是有袋类，不是熊！</td></tr>
+        <tr><td>bear with me</td><td>动词 bear（承受）：请耐心等我一下（与'熊'同形异源）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">'Bear with me.' 请耐心听我说（这里 bear 是动词'承受'——熊和忍受是同形两家人）。<br>'like a bear with a sore head' 脾气暴躁（像头熊——熊表示不背这个锅）。</div>
+
+    <h3>🎵 歌词里的 bear</h3>
+    <p>🎵 迪士尼《森林王子》《The Bare Necessities》(1967)：CSV指定沿用——谐音双关 bare/bear 是绝佳记忆点；唱歌的正是大棕熊巴鲁 Baloo，'Look for the bare necessities' 轻松洗脑。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>考拉在英文里常被叫 koala bear，但它是袋鼠的亲戚（有袋类），和熊没半点血缘；地球上最大的熊是北极熊。另一件事：1902年罗斯福拒绝射杀小熊的漫画见报后，纽约商人很快造出毛绒小熊，用总统昵称 Teddy 命名——泰迪熊今年已经一百多岁了。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>bear</strong> /beə(r)/ n. 玩具熊；熊</div>
+        <div>bear /beə(r)/ n. 玩具熊；熊（复数 bears）</div>
+        <div>课本句：Can I have a bear? — Sorry, no.</div>
+        <div>拒绝三步：Sorry → no → Let's play together!</div>
+        <div>歌曲：The Bare Necessities（bear = bare 谐音梗）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级下册 Unit 3 Toys<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("bear");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

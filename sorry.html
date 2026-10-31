@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·sorry</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · sorry</h1>
+<div class="subhead">📍 人教版（一起点）一年级下册 Unit 3 Toys</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> sorry</div>
+    <div class="info-item"><span class="info-label">词性</span> int. 对不起；抱歉</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈsɒri/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>回应语</span> That's OK.</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 3 Toys</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>本课chant唱遍六大玩具：plane · ball · doll · train · car · bear<br>智慧山版歌词摘句：Toy train, toy train, go, go, go. / Plane, plane, follow me.</p><p><strong>Lesson 1 · B. Listen and act</strong><br>— A car. — A plane. — A bear.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— Can I have a doll? — Sure. Here you are.<br>— Can I have a bear? — Sorry, no.</p><p><strong>Lesson 2 · B. Do and say</strong><br>— Can I have a car? — Sure. Here you are.</p><p><strong>Lesson 3 · A. Let's play</strong><br>— Can I have a ball? — Sure. Here you are. — Oh, I have two.<br><strong>Lesson 3 · B. Letters in life</strong>：Ii · Jj · Kk · Ll</p><p><strong>Story Time</strong><br>— Look. I have many toys.<br>— Can I have your plane? — Here you are.<br>— Can I have your car, please? — Sure.<br>— Can I have your ball, please? — Here you are.<br>— Can I have your doll? — Sure. Here you are.<br>— I have no toys. — Let's share.</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi跟读库、智慧山课文页、电子课本多源交叉核对（chant歌词为智慧山单源摘句）。sorry 见 Lesson 2 对话：Can I have a bear? — Sorry, no.（委婉拒绝）</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>s·orr·y —— 双 r 中间夹 o，和 carry 一样要双写<br>✏️ 口诀：说 sorry 要诚恳，双 r 双份真心！</td></tr>
+        <tr><th>音·发音</th><td>/ˈsɒri/ 双音节，重音在前：SO-rry<br>🎧 跟读：Sorry, no. · I'm sorry. · I'm sorry to hear that.</td></tr>
+        <tr><th>意·释义</th><td>对不起；抱歉（本义'心疼的'——道歉前，心先疼了）</td></tr>
+        <tr><th>用·句型</th><td>① Sorry, no. (对不起，不行。)<br>② I'm sorry! (对不起！)<br>③ I'm sorry to hear that. (听到这个我很难过。——同情，不是认错)<br>④ — I'm sorry. — That's OK. (——没关系。)</td></tr>
+        <tr><th>拓·同族词</th><td>sore 疼痛的（同源亲戚！sore throat 嗓子疼）；短语 feel sorry for 同情某人</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>道歉</td><td>I'm sorry, Mum.</td></tr>
+        <tr><td>拒绝</td><td>Sorry, no.</td></tr>
+        <tr><td>同情</td><td>I'm sorry to hear that.</td></tr>
+        <tr><td>回应</td><td>— I'm sorry. — That's OK.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · sorry 的三张脸</div>
+        <p><strong>① 道歉：</strong>I'm sorry!（我做错了，主动认）</p><p><strong>② 拒绝：</strong>Sorry, no.（课本名场面：借熊被婉拒）</p><p><strong>③ 同情：</strong>I'm sorry to hear that.（你难过，我也心疼——不是认错！）</p><p>⚠️ 别混淆：<u>Excuse me</u> 用在'打扰之前'（借过、问路），<u>Sorry</u> 用在'出错之后'。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>把 sorry 用出三张脸：撞到人说 I'm sorry；借不出来时说 Sorry, no；朋友摔倒说 I'm sorry to hear that。最重要的一课是回应：听到道歉回 That's OK.（没关系），孩子就完成了礼貌闭环。拼写提醒：sorry 双写 r，和 carry 一样。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 情景判断</strong><br>家长说三个情景：撞到人（说 Sorry）/ 借过（Excuse me）/ 朋友摔伤（I'm sorry to hear that.），孩子配对</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① ______, no. (Sorry)<br>② I'm ______ to hear that. (sorry)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 礼貌闭环</strong><br>一人说 I'm sorry!，另一人接 ______ (That's OK.) 交换角色再来</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>今天真需要道歉时，用完整版：I'm sorry. Let me help.（说 sorry＋帮着修）</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>表演课本对话：'Can I have a bear?' — 'Sorry, no.' 录语音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟sorry通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《哗啦一声之后》</h3>
+    <div class="quote">🧱 乐乐跑过客厅，胳膊肘一扫——妹妹搭了一下午的积木塔'哗啦'倒了。妹妹眼圈红了。乐乐蹲下来，先说：'I'm sorry!' 再说：'Let me help!' 两人一块一块往上搭，妹妹递积木，乐乐扶塔尖。新塔比原来还高两层，塔尖插了一根吸管当旗杆。妹妹看着'新塔'说：'That's OK. Look — it's taller now!' 乐乐笑了。原来'对不起'有三个好朋友：先说 sorry，再帮忙 fix，最后一起笑。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What fell down? (The block tower 积木塔)<br>• 乐乐道歉后做了什么？(Let me help)<br>• 问问孩子：除了说对不起，还能做什么让朋友好受一点？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">sorry 道歉小站<br>┌── 三张脸 ── 道歉 I'm sorry · 拒绝 Sorry, no. · 同情 I'm sorry to hear that.<br>├── 亲戚 ── sore 疼痛的（同源）<br>├── 回应 ── That's OK. 没关系<br>├── 区别 ── Excuse me 打扰之前 / Sorry 出错之后<br>└── 谚语 ── Better safe than sorry.</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>sorry 的祖先是古英语 sarig，词根 sar 的意思就是'疼'——它和今天的 sore（疼痛的）是亲兄弟。所以 sorry 的本义是'心疼的'：做错了事，先是自己心里一疼，才有那声对不起。中世纪它更多用来表达'为别人难过'，近代才越来越常用于认错。难怪英语孩子学礼貌，第一句就是 sorry——语言早就知道：道歉，是共情的第一步。<br>🎯 讲给孩子：说 sorry 前，心先会疼——这就是这个词的温柔来处。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>sore</td><td>同源形容词：疼痛的（sore throat 嗓子疼）</td></tr>
+        <tr><td>feel sorry for</td><td>短语：同情、为…难过（I feel sorry for him.）</td></tr>
+        <tr><td>I'm sorry to hear that.</td><td>同情句式：为别人的坏消息难过，不是认错</td></tr>
+        <tr><td>Sorry, no.</td><td>课本拒绝句：先软后硬，礼貌说不</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">'Better safe than sorry.' 宁可稳妥，不留遗憾（有备无患）——sorry 在谚语里代表'后悔'：安全一步，胜过事后千句对不起。</div>
+
+    <h3>🎵 歌词里的 sorry</h3>
+    <p>🎵 Justin Bieber《Sorry》(2015)：歌名含词，全球冠军单曲；'Is it too late now to say sorry?' 一句传遍全球——现在你知道，说 sorry 永远不会太晚。</p><p>🎵 彩蛋：Elton John《Sorry Seems to Be the Hardest Word》(1976)——歌名即金句：对不起，似乎是最难说出口的话。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>英语世界的日常高频词榜上，sorry 常年位居前列：在英国，被撞的是自己、先说 sorry 的也可能是自己——这是一种礼貌反射，不是认输。另一件值得教孩子的事：I'm sorry to hear that 里的 sorry 表达的是同情——心里疼对方的疼，而不一定是自己做错了事。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>sorry</strong> /ˈsɒri/ int. 对不起；抱歉</div>
+        <div>sorry /ˈsɒri/ int. 对不起；抱歉（双写 r）</div>
+        <div>课本句：Can I have a bear? — Sorry, no.</div>
+        <div>三张脸：道歉 / 拒绝 / 同情；回应 That's OK.</div>
+        <div>歌曲：Sorry；谚语：Better safe than sorry.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级下册 Unit 3 Toys<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("sorry");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
