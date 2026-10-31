@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·play with</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · play with</h1>
+<div class="subhead">📍 人教版（一起点）三年级下册 Unit 5 Family Activities</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> play with</div>
+    <div class="info-item"><span class="info-label">词性</span> v. 短语 与……玩；和……一起玩</div>
+    <div class="info-item"><span class="info-label">音标</span> /pleɪ wɪð/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (三年级)</div>
+    <div class='info-item'><span class='info-label'>三单</span> plays</div><div class='info-item'><span class='info-label'>过去式</span> played</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 5 Family Activities（P48-57）</div>
+    <p><strong>Lesson 1 · A. Look, listen and chant</strong><br>
+    — What are you doing?<br>
+    — I'm watching TV.<br>
+    — What is she doing?<br>
+    — She's feeding the fish. / She's cooking dinner. / She's listening to music.<br>
+    — What is he doing?<br>
+    — He's cleaning the room.<br>
+    — What are they doing?<br>
+    — They're walking the dog.<br>
+    — What are we doing?<br>
+    — We're watering the plants.<br>
+    （本课短语：cooking dinner 做饭 · walking the dog 遛狗 · watering the plants 浇花 · cleaning the room 打扫房间 · listening to music 听音乐 · watching TV 看电视 · feeding the fish 喂鱼）</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat（电话对话）</strong><br>
+    — Hello! This is Lily.<br>
+    — Hi, Lily.<br>
+    — What are you doing? Can you play with me?<br>
+    — Sorry, not now. I'm watching TV. It's basketball, my favourite sport.<br>
+    — What's your sister doing? Can she play with me?<br>
+    — She's cleaning her room now, but we can all play in one hour.<br>
+    — OK. Great!</p>
+    <p><strong>Lesson 3 · A. Read and find（公园短文）</strong><br>
+    It's sunny today. Everyone is happy.<br>
+    The children are playing in the park.<br>
+    Wang Han is walking his dog. Zhao Qi is feeding the fish.<br>
+    Li Le is flying a kite. Zhou Ming is playing football with his brother.<br>
+    （run 的 -ing 形式 running 属于本单元进行时词族：双写 n 再加 ing）</p>
+    <p><strong>Story Time</strong><br>
+    Kate 想找人玩：妈妈在做饭、爸爸在浇花、哥哥在写作业——大家都在忙！最后，全家反过来找 Kate。（概要）</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经51教习网朗读宝（yyld.51jiaoxi.com/sanxia/rjbxqd_danyuan06.html）逐句、电子课本（义务教育教科书英语·一年级起点三年级下册 P48-57）、格灵教育课文朗读视频等多源交叉核对：单元名 Family Activities、Lesson 1 七个-ing短语与问答句型、Lesson 2 电话对话、Lesson 3 关键句均为两源以上一致；Lesson 3 其余细节句与 Story Time 为单源核对，逐字原文待核。本单元语法主线：现在进行时 be + V-ing。play with 在课本 Lesson 2 电话对话：Can you play with me? / Can she play with me?——本单元最高频邀请句。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>play with —— play 玩 + with 和……一起；with 别写成 wish！✏️ 口诀：play 后面接 with，'和谁玩'用 with 牵</td></tr>
+        <tr><th>音·发音</th><td>/pleɪ wɪð/ ay 读长音 /eɪ/，th 咬舌 /ð/。🎧 跟读：play with me · play with my friends · play with the ball</td></tr>
+        <tr><th>意·释义</th><td>与……玩 🤾（play with＋人＝和某人玩；play with＋物＝玩某物：Don't play with fire 别玩火）</td></tr>
+        <tr><th>用·句型</th><td>① Can you play with me? (你能和我玩吗？)<br>② I play with my friends after school. (放学后我和朋友们玩。)<br>③ She's playing with her toys. (她在玩玩具。)<br>④ It's dangerous to play with fire. (玩火危险。)</td></tr>
+        <tr><th>拓·同族词</th><td>play 玩/播放/戏剧(n.) → player 选手/播放器 · playtime 游戏时间；对比：play football 踢足球（球类不加 the）· play the piano 弹钢琴（乐器加 the）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>邀请同伴</td><td>Can you play with me? — Sure! Let's go!</td></tr>
+        <tr><td>说明对象</td><td>I play with my friends in the park.</td></tr>
+        <tr><td>礼貌婉拒</td><td>Sorry, I'm doing my homework now.</td></tr>
+        <tr><td>安全规则</td><td>Don't play with fire. It's dangerous.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · play 的三种搭档</div>
+        <p><strong>play with＋人/物：</strong>和……玩——play with me · play with toys</p><p><strong>play＋球类：</strong>零冠词——play football · play basketball</p><p><strong>play＋the＋乐器：</strong>加 the——play the piano · play the violin</p><p>⚠️ 口诀：球类光膀子，乐器穿 the 衣</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>'play with' 是孩子社交第一句：想加入别的小朋友，鼓励孩子说 Can I play with you?——既练习了 with 的介词用法，又是真实的社交勇气训练。周末约玩时让孩子自己打电话：Can you play with me? 对方用本单元课文回答 She's cleaning her room now, but we can all play in one hour.——把课文演成生活。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 'play with me'，孩子从 🤝 / 🐠 / 🧹 中选 → 正确答案：🤝</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 球类/乐器规则</strong><br>① play ______ football (不填)<br>② play ______ piano (the)<br>③ play ______ violin (the)</div>
+        <div class="game-step"><strong>🧩 关卡3 · 邀请应答</strong><br>Can you play with me? → 两种回答：Sure! / Sorry, not now. I'm...</div>
+        <div class="game-step"><strong>🔍 关卡4 · 小区外交官</strong><br>见到小伙伴，用英语邀请：Can you play with me? 成功邀请一次得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 'I play with my friends.' 造句并录语音打卡，说说你和谁玩得最好</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟play with通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Can I Play with You?》</h3>
+    <div class="quote">📖 操场边，新同学 Mia 一个人站着。Leo 跑过去：'Hi! I'm Leo. Can I play with you?' Mia 眼睛亮了：'Really? I'd love to!' 两人玩起抛球。这时 Amy 走来：'Can you play with me too?' Leo 大声说：'Of course! The more, the merrier!' 三个人的球飞得更高了。放学时 Mia 说：'Playing with new friends is the best!'</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Who does Leo invite first? (Mia)<br>• How many children play together at last? (Three)<br>• 问问孩子：明天你想邀请谁？练一句 Can I play with you?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 搭档 ── play with＋人/物（和谁玩）<br>
+├── 球类 ── play football / basketball（零冠词）<br>
+├── 乐器 ── play the piano / the violin（加 the）<br>
+├── 家族 ── player 选手 · playtime 游戏时间 · a play 戏剧<br>
+└── 课本句 ── Can you play with me?</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>play 来自古英语 <em>plegan</em>，本义是'快速运动、嬉戏'——所以'玩''演戏剧（a play）''播放音乐'都是它：动作活泼起来就是 play；with 来自古英语 <em>wiþ</em>，最初的意思竟然是'对着、反对'，后来才软化成'和……一起'。<br>🎯 讲给孩子：with 从'对着'变成'一起'——朋友就是这样从对手变成伙伴的。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>play with sb/sth</td><td>和……玩（with 引出伙伴）</td></tr>
+        <tr><td>play＋球类/棋类</td><td>零冠词：play football / play chess</td></tr>
+        <tr><td>play＋the＋乐器</td><td>加 the：play the piano / the violin</td></tr>
+        <tr><td>player</td><td>选手；播放器（play＋er）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">'All work and no play makes Jack a dull boy.' 只学习不玩耍，聪明杰克也变傻——经典英语谚语：劳逸结合，玩也是学习的一部分。</div>
+
+    <h3>🎵 歌词里的 play with</h3>
+    <p>🎵 The Beatles《With a Little Help from My Friends》（1967）：披头士传世金曲（Joe Cocker 翻唱再登顶）——'和朋友们一起'正是 play with 的真谛。<br>🎵 互链：friend 页、friendly 页配同曲（歌曲名单沿用），友谊三页连唱！</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>联合国在2024年把每年6月11日定为'国际玩乐日'（International Day of Play）——全世界一起提醒大人：玩不是浪费时间，而是每个孩子的权利。英语里'好玩'叫 fun，'有趣的人'也叫 fun：a fun friend——玩得好，朋友多。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>play with</strong> /pleɪ wɪð/ v. 短语 与……玩；和……一起玩</div>
+        <div>play with /pleɪ wɪð/ v. 与……玩（三单 plays，过去式 played）</div>
+        <div>课本句：Can you play with me? — Sorry, not now. I'm watching TV.</div>
+        <div>球类零冠词，乐器加 the：play football / play the piano</div>
+        <div>谚语：All work and no play makes Jack a dull boy.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）三年级下册 Unit 5 Family Activities<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("play with");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
