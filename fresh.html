@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>一词一宇宙 · fresh</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+        h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #27ae60; }
+        .subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+        .info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+        .info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+        .info-label { font-weight: 600; color: #2c3e50; }
+        .stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+        .stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+        .stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+        .stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+        .stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+        .textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+        .textbook p { margin: 8px 0; }
+        .textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+        .quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+        .dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+        .dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+        .dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+        .game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+        .game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+        .btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+        .parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+        .parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+        .mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+        .func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+        .func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+        .footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+        @media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+    </style>
+</head>
+<body>
+
+<h1>一词一宇宙 · fresh</h1>
+<div style="text-align:center;margin:2px 0 14px;"><button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button></div>
+<div class="subhead">📍 人教版（一起点）五年级下册 Unit 5</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> fresh</div>
+    <div class="info-item"><span class="info-label">词性</span> adj. 新鲜的</div>
+    <div class="info-item"><span class="info-label">音标</span> /freʃ/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (五年级)</div>
+    <div class="info-item"><span class="info-label">副词</span> freshly (新鲜地)</div>
+    <div class="info-item"><span class="info-label">近义词</span> new, natural</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 5</div>
+    <p><strong>Lesson 1 (P48-49) Markets and Shops</strong><br>
+    Guide: Is there a market near your home?<br>
+    Binbin: Yes, there is. I can buy <u>fresh</u> fruit and vegetables there.<br>
+    Guide: Do you often go to the market?<br>
+    Binbin: Yes, I go there with my mum every Saturday.</p>
+    <p><strong>Lesson 2 (P50-51) At the Market</strong><br>
+    Mum: Look at the fish! They're <u>fresh</u>.<br>
+    Binbin: Can we buy some fish?<br>
+    Mum: Sure. How about some vegetables?<br>
+    Binbin: Good idea! The tomatoes look <u>fresh</u>, too.</p>
+    <p><strong>Lesson 3 (P52-53) At the Supermarket</strong><br>
+    Dad: Let's buy some <u>fresh</u> juice.<br>
+    Binbin: Great! I like orange juice.<br>
+    Dad: How about some <u>fresh</u> bread?<br>
+    Binbin: Yes! I want some bread for breakfast.</p>
+</div>
+
+<!-- 低阶 -->
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin:12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形</th><td>fresh — 本身是完整单词，非合成词<br>✏️ 口诀：fresh新鲜要记牢，买鱼买菜都说它！</td></tr>
+        <tr><th>音</th><td>/freʃ/ 单音节 → fresh<br>🎧 跟读：The fish are fresh! The tomatoes look fresh!</td></tr>
+        <tr><th>意</th><td>新鲜的、清新的、自然的 🌿</td></tr>
+        <tr><th>用</th><td>The fish are fresh. (鱼很新鲜。)<br>Fresh fruit and vegetables (新鲜水果和蔬菜)<br>I want some fresh juice. (我想要一些鲜榨果汁。)<br>The air is fresh. (空气很清新。)</td></tr>
+        <tr><th>拓</th><td>fresh (adj.) → freshly (adv. 新鲜地，常修饰过去分词)<br>fresh 作定语：fresh flowers (鲜花)<br>freshly picked (新鲜采摘的)</td></tr>
+    </table>
+
+    <h3>📢 课本原句跟读表</h3>
+    <table class="dim-table">
+        <tr><th>出处</th><th>原句</th></tr>
+        <tr><td>Lesson1 P48</td><td>I can buy fresh fruit and vegetables there.</td></tr>
+        <tr><td>Lesson2 P50</td><td>Look at the fish! They're fresh.</td></tr>
+        <tr><td>Lesson2 P51</td><td>The tomatoes look fresh, too.</td></tr>
+        <tr><td>Lesson3 P52</td><td>Let's buy some fresh juice.</td></tr>
+        <tr><td>Lesson3 P53</td><td>How about some fresh bread?</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 描述物品品质</div>
+        <p><strong>句型：主语 + be动词 + fresh.</strong><br>The fish are fresh. / The tomatoes are fresh.</p>
+        <p><strong>句型：主语 + look/smell + fresh.</strong><br>The tomatoes look fresh!</p>
+        <p><strong>句型：buy some fresh + 食物</strong><br>buy some fresh fish / fresh juice / fresh bread</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>本课fresh的核心场景是"描述食物新鲜"。建议带孩子去超市或菜市场，指着鱼/蔬菜说"The fish are fresh."和"The tomatoes look fresh."，重点区分 be fresh（状态）和 look fresh（视觉）。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长读"The fish are fresh."，孩子从🐟活鱼图 / 🐟死鱼图 / 🥫罐头图中选 → 正确答案：🐟活鱼图（新鲜）</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 课本填空</strong><br>① Look at the fish! They're ______. (fresh)<br>② I can buy ______ fruit and vegetables. (fresh)<br>③ The tomatoes look ______, too. (fresh)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 中英对应</strong><br>1. "鱼很新鲜" → The fish are fresh. / The fish look fresh.<br>2. "新鲜果汁" → fresh juice / fresh fruit</div>
+        <div class="game-step"><strong>🔍 关卡4 · 课文找词</strong><br>翻开课本P48-53，数一数"fresh"出现了几次？ → 答案：5次</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用"The... are/is fresh."描述一种你认为新鲜的食材。<br><span class="btn-mimic">🎤 示例：The strawberries are fresh! They look delicious!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding:8px 14px; border-radius:30px; font-size:13px;">💡 通关口令：在评论区发送"🌿fresh通关"领取电子单词卡+食物新鲜度表达表。</p>
+</div>
+
+<!-- 中阶 -->
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《At the Fish Market》</h3>
+    <div class="quote">
+        🐟 Binbin和妈妈来到鱼摊，妈妈说："Look at the fish! They're fresh." Binbin凑近看，发现鱼眼睛亮亮的，鱼鳃红红的。妈妈问："Can we buy some fish?" Binbin点头："Sure! How about some vegetables?" 妈妈赞许道："Good idea! The tomatoes look fresh, too. Let's buy some fresh tomatoes for dinner."
+    </div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>
+    • Are the fish fresh? (Yes, they are fresh.)<br>
+    • What else looks fresh? (The tomatoes look fresh, too.)<br>
+    • What do they want to buy? (Fish and fresh vegetables)<br>
+    • 翻翻课本P50，描述鱼"新鲜"的词语有哪些？</p>
+
+    <h3>🗺️ 思维导图 · fresh 世界</h3>
+    <div class="mindmap">描述新鲜: fresh fish / fresh vegetables / fresh fruit
+感官动词: look fresh / smell fresh / taste fresh
+新鲜食物: fresh juice / fresh bread / fresh milk
+反义词: fresh (新鲜) ↔️ stale (不新鲜)</div>
+
+    <h3>🏛️ 词源故事：从"跳跃"到"新鲜"</h3>
+    <p>fresh 来自古英语 fersc，原始日耳曼语意为"跳跃的、活泼的"。想象刚打捞上来的鱼还在跳——那就是 fresh（新鲜）！后来词义扩展到"清新空气"、"新想法"等。中文"新鲜"也是"新" + "鲜"（活蹦乱跳的意思），两个语言的思路完全一致。</p>
+    <p>🎯 讲给孩子：fresh 来自"跳跃"——刚捕上来的鱼还在跳，就是 fresh（最新鲜的）！</p>
+</div>
+
+<!-- 高阶 -->
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 词根解析：fresh 系列词汇</h3>
+    <p>fresh 本身是词根，源自原始日耳曼语 *friskaz（跳跃的、活泼的）</p>
+    <table class="dim-table">
+        <tr><th>单词</th><th>释义</th><th>用法</th></tr>
+        <tr><td>fresh</td><td>新鲜的</td><td>adj. 描述食物/空气</td></tr>
+        <tr><td>freshly</td><td>新鲜地</td><td>adv. freshly picked</td></tr>
+        <tr><td>refresh</td><td>使恢复精力</td><td>re再 + fresh新鲜 → 再次新鲜 → 恢复</td></tr>
+        <tr><td>stale</td><td>不新鲜的</td><td>反义词</td></tr>
+    </table>
+
+    <h3>🔎 如何用英文挑选新鲜食材？</h3>
+    <table class="dim-table">
+        <tr><th>食材</th><th>新鲜标志（英文）</th><th>不新鲜标志</th></tr>
+        <tr><td>鱼 Fish</td><td>Eyes are clear and bright. Gills are red.</td><td>Eyes are cloudy. Gills are brown.</td></tr>
+        <tr><td>蔬菜 Vegetables</td><td>Crisp and bright in colour.</td><td>Wilted or yellow.</td></tr>
+        <tr><td>水果 Fruit</td><td>Firm and brightly coloured.</td><td>Soft or bruised.</td></tr>
+    </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">
+        "Fresh food is the foundation of health." — 健康饮食理念<br>新鲜食物是健康的基础。<br><br>
+        "A meal without fresh vegetables is like a day without sunshine." — 营养学家<br>没有新鲜蔬菜的一餐就像没有阳光的一天。
+    </div>
+
+    <h3>🎵 歌词里的 fresh</h3>
+    <p>Kool &amp; the Gang《Fresh》(1984)：80年代放克金曲，副歌反复唱 "She's fresh"，是 fresh 最经典的音乐名片。</p>
+
+    <h3>⚡ 冷知识 · 为什么"新鲜"的鱼在水里游但不新鲜？</h3>
+    <p>严格来说，"新鲜"的鱼指的是"刚从水里捕上来的鱼"，所以英文说"The fish are fresh."（鱼很新鲜）。但如果你在市场看到鱼在水里游，那说明鱼还活着——确实很新鲜！判断鱼新鲜度的英文：眼睛清亮（bright eyes）、鳃是红色（red gills）、肉有弹性（firm flesh）。</p>
+</div>
+
+<div style="background:#f1f2f6; border-radius:28px; padding:20px; text-align:center; margin-top:20px;">
+    <div style="font-weight:800; font-size:18px;">🌿 单词复习卡 (可截图保存)</div>
+    <div style="background:white; border-radius:20px; padding:12px; margin:12px 0;">
+        <div><strong>fresh</strong>  /freʃ/</div>
+        <div>释义：新鲜的、清新的</div>
+        <div>课本例句：The fish are fresh. / Look at the fresh vegetables!</div>
+        <div>感官用法：look fresh / smell fresh / taste fresh</div>
+        <div>句型：The... are/is fresh. / buy some fresh + 食物</div>
+    </div>
+    <div style="font-size:14px; color:#2c3e50;">⬇️ 下期预告 · vegetable ⬇️ <br>翻开课本P48，"I can buy fresh fruit and vegetables."</div>
+</div>
+
+<div class="footnote">
+    📚 本文完全匹配人教版（一起点）五年级下册 Unit 5<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("fresh");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("\u5f53\u524d\u6d4f\u89c8\u5668\u4e0d\u652f\u6301\u8bed\u97f3\u5408\u6210"); }
+}
+</script>
+</body>
+</html>

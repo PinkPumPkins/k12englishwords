@@ -1,227 +1,253 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>一词一宇宙 · hot pot</title>
-<style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f4f8; padding: 20px; color: #333; }
-.container { max-width: 900px; margin: 0 auto; background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; }
-.header { background: linear-gradient(135deg, #795548, #5d4037); color: white; padding: 40px 30px; text-align: center; }
-.header h1 { font-size: 2.5em; margin-bottom: 8px; }
-.header .subtitle { font-size: 1.1em; opacity: 0.9; }
-.info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; padding: 20px 30px; background: #f8fffe; border-bottom: 1px solid #e9ecef; }
-.info-item { display: flex; gap: 8px; }
-.info-label { font-weight: bold; color: #795548; min-width: 60px; }
-.info-value { color: #555; }
-.textbook { padding: 20px 30px; background: #fff; }
-.textbook h2 { color: #1e6f5c; font-size: 1.2em; margin-bottom: 12px; }
-.lesson { background: #ecf8ff; border-left: 4px solid #3498db; padding: 12px 16px; margin-bottom: 10px; border-radius: 4px; }
-.lesson-title { font-weight: bold; color: #3498db; margin-bottom: 6px; font-size: 0.95em; }
-.lesson-content { color: #1f4f6e; font-size: 0.9em; line-height: 1.6; }
-.stage { padding: 24px 30px; }
-.stage-low { background: #e8f8f0; border-top: 3px solid #2ecc71; }
-.stage-mid { background: #fffbf0; border-top: 3px solid #f39c12; }
-.stage-high { background: #fff5f5; border-top: 3px solid #e74c3c; }
-.stage-title { font-size: 1.3em; margin-bottom: 4px; font-weight: bold; }
-.stage-subtitle { font-size: 0.9em; color: #888; margin-bottom: 16px; font-style: italic; }
-.stage-low .stage-title { color: #2ecc71; }
-.stage-mid .stage-title { color: #f39c12; }
-.stage-high .stage-title { color: #e74c3c; }
-.section-title { font-size: 1.05em; font-weight: bold; margin: 14px 0 8px; color: #2c3e50; }
-.table-box { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; margin-bottom: 12px; }
-.table-box table { width: 100%; border-collapse: collapse; }
-.table-box th { background: #e9ecef; padding: 8px 12px; text-align: left; font-size: 0.9em; }
-.table-box td { padding: 8px 12px; border-top: 1px solid #eee; font-size: 0.9em; }
-.table-box tr:first-child td { border-top: none; }
-.func-box { background: #eef4fc; border-radius: 8px; padding: 12px 16px; margin-bottom: 12px; }
-.func-box p { margin-bottom: 6px; font-size: 0.9em; }
-.parent-card { background: #fffbf0; border: 1px solid #f3d89a; border-radius: 8px; padding: 12px 16px; margin-bottom: 12px; }
-.parent-card-title { font-weight: bold; color: #856404; margin-bottom: 6px; }
-.parent-card-content { font-size: 0.9em; color: #555; }
-.game-card { background: #eef4fc; border-radius: 8px; padding: 12px 16px; margin-bottom: 10px; }
-.game-title { font-weight: bold; font-size: 0.95em; color: #3498db; margin-bottom: 4px; }
-.game-content { font-size: 0.88em; color: #555; }
-.pass-title { background: #d4edda; border-radius: 8px; padding: 10px 16px; font-size: 0.9em; color: #27ae60; margin-top: 12px; }
-.mindmap { background: #fff6e0; font-family: Consolas, monospace; padding: 12px 16px; border-radius: 8px; font-size: 0.88em; line-height: 1.6; white-space: pre-wrap; margin-bottom: 12px; }
-.story { font-style: italic; color: #555; line-height: 1.6; font-size: 0.9em; margin-bottom: 12px; }
-.quote { color: #666; line-height: 1.6; font-size: 0.9em; margin-bottom: 8px; font-style: italic; }
-.review { text-align: center; padding: 24px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; }
-.review h3 { font-size: 1.2em; margin-bottom: 12px; }
-.review p { font-size: 0.9em; margin-bottom: 6px; opacity: 0.9; }
-.next { text-align: center; padding: 16px; background: #f8f9fa; color: #888; font-size: 0.9em; }
-.footnote { text-align: center; padding: 12px; color: #aaa; font-size: 0.8em; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>一词一宇宙·hot pot</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #ffffff;
+            color: #1e2a3e;
+            line-height: 1.6;
+            padding: 20px 16px 48px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            text-align: center;
+            margin: 16px 0 8px;
+            letter-spacing: -0.3px;
+            color: #c0392b;
+        }
+        .subhead {
+            text-align: center;
+            font-size: 14px;
+            color: #7f8c8d;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+        }
+        .info-grid {
+            background: #f8fafc;
+            border-radius: 20px;
+            padding: 16px;
+            margin-bottom: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: 14px;
+            border: 1px solid #e2e8f0;
+        }
+        .info-item {
+            background: white;
+            padding: 6px 12px;
+            border-radius: 30px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .info-label { font-weight: 600; color: #2c3e50; }
+        .stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+        .stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+        .stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+        .stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+        .stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+        .textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+        .textbook p { margin: 8px 0; }
+        .textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+        .quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+        .dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+        .dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+        .dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+        .game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+        .game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+        .btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+        .parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+        .parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+        .mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+        .func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+        .func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+        hr { margin: 20px 0; border: none; height: 1px; background: linear-gradient(to right, #ccc, transparent); }
+        .footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+        @media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+    </style>
 </head>
 <body>
-<div class="container">
-  <div class="header">
-    <h1>HOT POT</h1>
-    <p class="subtitle">人教版（一起点）六年级下册 Unit6</p>
-  </div>
 
-  <div class="info-grid">
-    <div class="info-item"><span class="info-label">单词</span><span class="info-value">hot pot</span></div>
-    <div class="info-item"><span class="info-label">词性</span><span class="info-value">n. 火锅</span></div>
-    <div class="info-item"><span class="info-label">音标</span><span class="info-value">/hot pot/</span></div>
-    <div class="info-item"><span class="info-label">难度</span><span class="info-value">一星 (六年级)</span></div>
-    <div class="info-item"><span class="info-label">相关词</span><span class="info-value">hot pot, related words</span></div>
-  </div>
+<h1>🍲 一词一宇宙 · hot pot</h1>
+<div style="text-align:center;margin:2px 0 14px;"><button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button></div>
+<div class="subhead">📍 人教版（一起点）六年级下册 Unit 6</div>
 
-  <div class="textbook">
-    <h2>课本原文直通车 · Unit6</h2>
-    <div class="lesson">
-      <div class="lesson-title">Unit6 Lesson 1</div>
-      <div class="lesson-content">This is my hot pot. I like it.<br>What do you have? I have a hot pot.</div>
-    </div>
-    <div class="lesson">
-      <div class="lesson-title">Unit6 Lesson 2</div>
-      <div class="lesson-content">Point to the hot pot. Show me your hot pot.<br>This is my hot pot. That is your hot pot.</div>
-    </div>
-    <div class="lesson">
-      <div class="lesson-title">Unit6 Lesson 3</div>
-      <div class="lesson-content">I have a hot pot. It's nice.<br>Whose hot pot is this? It's mine.</div>
-    </div>
-  </div>
+<!-- 单词档案 -->
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> hot pot</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 火锅</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈhɒt pɒt/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">相关词</span> hot, pot, cook</div>
+</div>
 
-  <div class="stage stage-low">
-    <div class="stage-title">LOW STAGE · 低阶 · 学生自习室</div>
-    <div class="stage-subtitle">背诵 + 自测 | 课本同步跟读</div>
+<!-- 课本原文 -->
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 6</div>
+    <p><strong>Lesson 1 (P58-59) A Beautiful, Amazing World</strong><br>
+    Guide: What's your favourite food?<br>
+    Binbin: I like hot pot. It's delicious.<br>
+    Guide: Do you want to try it?<br>
+    Binbin: Yes, please!</p>
+    <p><strong>Lesson 2 (P60-61) The Famous Emperor and His Birds</strong><br>
+    Emperor: Welcome to our show! Would you like some tea or some juice?<br>
+    Tourist: Tea, please. It's very kind of you.<br>
+    Emperor: And would you like to try some Beijing duck?</p>
+    <p><strong>Lesson 3 (P62-63) The Story of Paper</strong><br>
+    Teacher: What do you know about hot pot?<br>
+    Student: It's a Chinese food. You cook food in hot water at the table.</p>
+</div>
 
-    <div class="section-title">五维拆解法</div>
-    <div class="table-box">
-      <table>
-        <tr><th>维度</th><th>内容</th></tr>
-        <tr><td>形</td><td>hot pot = 7 letters</td></tr>
-        <tr><td>音</td><td>/hot pot/</td></tr>
-        <tr><td>意</td><td>火锅</td></tr>
-        <tr><td>用</td><td>I have a hot pot. / This is my hot pot.</td></tr>
-        <tr><td>拓</td><td>hot pot (n. 火锅)</td></tr>
-      </table>
-    </div>
+<!-- ================= 低阶 ================= -->
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
 
-    <div class="section-title">课本原句跟读表</div>
-    <div class="table-box">
-      <table>
-        <tr><th>出处</th><th>原句</th></tr>
-        <tr><td>Unit6 Lesson1</td><td>This is my hot pot.</td></tr>
-        <tr><td>Unit6 Lesson2</td><td>Point to the hot pot.</td></tr>
-        <tr><td>Unit6 Lesson3</td><td>Whose hot pot is this? It's mine.</td></tr>
-      </table>
-    </div>
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>hot pot = hot (热的) + pot (锅)<br>✏️ 口诀：热的锅→火锅，边吃边说"hot pot"！</td></tr>
+        <tr><th>音·发音</th><td>/ˈhɒt pɒt/ 两音节，重音在前 → HOT-pot<br>🎧 跟读：I like hot pot. It's delicious!</td></tr>
+        <tr><th>意·释义</th><td>火锅 —— 把食材放进沸腾的汤里边煮边吃 🍲</td></tr>
+        <tr><th>用·句型</th><td>① I like hot pot. It's delicious.<br>② Do you want to try it?<br>③ What's your favourite food?</td></tr>
+        <tr><th>拓·相关词</th><td>pot (n. 锅) — hot pot / cook (v. 烹饪) — cooking<br>delicious (adj. 美味的) — 课本原句"It's delicious."</td></tr>
+    </table>
 
-    <div class="section-title">功能句总结</div>
+    <h3>📢 课本原句跟读表</h3>
+    <table class="dim-table">
+        <tr><th>教材出处</th><th>原句</th></tr>
+        <tr><td>Lesson1 P58</td><td>I like hot pot. It's delicious.</td></tr>
+        <tr><td>Lesson1 P59</td><td>Do you want to try it?</td></tr>
+        <tr><td>Lesson3 P62</td><td>You cook food in hot water at the table.</td></tr>
+        <tr><td>Lesson1 P58</td><td>What's your favourite food?</td></tr>
+    </table>
+
     <div class="func-box">
-      <p>句型：What do you have?<br>回答：I have a hot pot.</p>
-      <p>句型：Whose hot pot is this?<br>回答：It's mine. / It's yours.</p>
-      <p>句型：Point to the hot pot.<br>Show me your hot pot.</p>
+        <div class="func-box-title">📋 功能句总结 · 询问喜好</div>
+        <p><strong>句型①：What's your favourite food?</strong><br>回答：I like hot pot. / I like Beijing duck.</p>
+        <p><strong>句型②：Do you want to try it?</strong><br>回答：Yes, please! / No, thank you.</p>
+        <p><strong>句型③：It's + adj.</strong><br>It's delicious. / It's amazing. / It's dangerous.</p>
     </div>
 
     <div class="parent-card">
-      <div class="parent-card-title">家长指导卡</div>
-      <div class="parent-card-content">本课hot pot是基础词汇，六年级下册Unit6围绕常见句型展开。建议结合实物练习：Point to your hot pot. Show me your hot pot.</div>
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>本课hot pot是情境词汇，建议带孩子回忆吃火锅的经历。课本P58-59通过"询问喜好"引出hot pot，可结合"What an amazing day!"（Unit6主题感叹句）做复习延伸。</p>
     </div>
 
-    <div class="section-title">闯关游戏 (5关)</div>
-    <div class="game-card">
-      <div class="game-title">关卡1 · 听音选图</div>
-      <div class="game-content">家长读"hot pot"，孩子从相关图片中选</div>
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长读"hot pot"，孩子从🍜拉面图 / 🍲火锅图 / 🍔汉堡图中选 → 正确答案：🍲火锅图</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 课本填空</strong><br>① I like ______. It's ______. (hot pot / delicious)<br>② Do you want to ______ it? (try)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 猜中文意思</strong><br>根据英文选正确中文：<br>1. "It's delicious." → 太好吃了 / 太危险 ❌ → 太好吃了 ✔️<br>2. "Do you want to try it?" → 你想试一下吗 / 你想去旅行吗 ❌ → 你想试一下吗 ✔️</div>
+        <div class="game-step"><strong>🔍 关卡4 · 课文找词</strong><br>翻开课本P58-59，找一找hot pot出现在几句话里？ → 答案：3次</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用"What's your favourite food?"和同伴对话，发语音到后台。<br><span class="btn-mimic">🎤 示例：My favourite food is hot pot. It's delicious!</span></div>
     </div>
-    <div class="game-card">
-      <div class="game-title">关卡2 · 课本填空</div>
-      <div class="game-content">This is my ______. (hot pot)</div>
-    </div>
-    <div class="game-card">
-      <div class="game-title">关卡3 · 猜中文意思</div>
-      <div class="game-content">"What do you have?" → 你有什么 / 这是什么</div>
-    </div>
-    <div class="game-card">
-      <div class="game-title">关卡4 · 课文找词</div>
-      <div class="game-content">翻开课本Unit6，hot pot出现了几次？</div>
-    </div>
-    <div class="game-card">
-      <div class="game-title">关卡5 · 口语大挑战</div>
-      <div class="game-content">用"I have a..."介绍物品，发语音到后台。</div>
-    </div>
-    <div class="pass-title">通关口令：在评论区发送"hot pot通关"领取电子单词卡。</div>
-  </div>
-
-  <div class="stage stage-mid">
-    <div class="stage-title">MID STAGE · 中阶 · 家长加油站</div>
-    <div class="stage-subtitle">陪读故事 + 思维导图 + 词源小知识</div>
-
-    <div class="section-title">微型故事《The Hot Pot》</div>
-    <div class="story">小明有一个火锅，他非常珍惜它。"I have a hot pot." 他对同学说。"What do you have?" 同学问。小明举起hot pot："I have a hot pot!" 同学也想有一个："Can I use your hot pot?" 小明说："Yes, please!"</div>
-
-    <div class="section-title">家长提问卡</div>
-    <div class="func-box">
-      <p>• What does 小明 have? (A hot pot)</p>
-      <p>• Can the classmate use the hot pot? (Yes)</p>
-      <p>• 翻翻课本Unit6，找找还有哪些东西可以说"I have..."？</p>
-    </div>
-
-    <div class="section-title">思维导图 · hot pot 世界</div>
-    <div class="mindmap">核心句型: I have... / What do you have?
-物品: hot pot / related items
-动作: point / show / use / like
-归属: mine / yours / his / hers</div>
-
-    <div class="section-title">词源故事：hot pot</div>
-    <div class="story">"hot pot" 是常用英语词汇，来源历史悠久。在古英语中就有类似形式，经过演变成为现代英语常用词。英文词汇往往有丰富的历史内涵，每个词背后都有故事！</div>
-  </div>
-
-  <div class="stage stage-high">
-    <div class="stage-title">HIGH STAGE · 高阶 · 知识珍宝库</div>
-    <div class="stage-subtitle">词源 · 名言 · 文学 · 冷知识</div>
-
-    <div class="section-title">构词密码</div>
-    <p style="font-size:0.9em;margin-bottom:10px;">hot pot 是常见词汇，可与其他词组合成新词。英文复合词规律：名词+名词=新名词，或加后缀变化词性。</p>
-    <div class="table-box">
-      <table>
-        <tr><th>派生词</th><th>意思</th><th>构成</th></tr>
-        <tr><td>hot pot</td><td>火锅</td><td>基础词</td></tr>
-        <tr><td>hot pot's</td><td>火锅s</td><td>+'s复数</td></tr>
-        <tr><td>a hot pot</td><td>一个火锅</td><td>a+名词</td></tr>
-      </table>
-    </div>
-
-    <div class="section-title">名言 & 谚语</div>
-    <div class="quote">"Words are, of course, the most powerful drug used by mankind." — 词汇是人类使用的最强大药物</div>
-    <div class="quote">"A word of encouragement during a failure is worth more than a whole book of praise." — 失败时的一句鼓励胜过一本书的赞美</div>
-
-    <div class="section-title">相关文化</div>
-    <div class="table-box">
-      <table>
-        <tr><th>领域</th><th>内容</th><th>备注</th></tr>
-        <tr><td>语言</td><td>英语</td><td>基础词汇</td></tr>
-        <tr><td>文化</td><td>西方文化</td><td>常见主题</td></tr>
-        <tr><td>教育</td><td>PEP教材</td><td>一年级上册</td></tr>
-      </table>
-    </div>
-
-    <div class="section-title">冷知识</div>
-    <div class="story">你知道吗？hot pot这个词在英语日常用语中非常常见。多掌握基础词汇可以帮助我们更好地理解英语故事和对话！</div>
-  </div>
-
-  <div class="review">
-    <h3>单词复习卡</h3>
-    <p>hot pot /hot pot/</p>
-    <p>释义：火锅</p>
-    <p>课本例句：I have a hot pot.</p>
-    <p>相关词：hot pot, related</p>
-    <p>功能句型：What do you have? I have a word.</p>
-  </div>
-
-  <div class="next">
-    <p>下期预告：下一个单词</p>
-    <p style="margin-top:6px;">翻开课本Unit6，继续学习！</p>
-  </div>
-
-  <div class="footnote">
-    本文完全匹配人教版（一起点）六年级下册 Unit6<br>
-    一课一词，三阶讲透。欢迎留言闯关打卡！
-  </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送"🍲hot pot通关"领取电子单词卡+食物主题词汇表。</p>
 </div>
+
+<!-- ================= 中阶 ================= -->
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Hot Pot Party》</h3>
+    <div class="quote">
+        🇨🇳 Binbin来到北京，导游问："What's your favourite food?" Binbin兴奋地说："I like hot pot. It's delicious!" 导游带他去吃火锅——桌上放着一口大锅，锅里是沸腾的汤。Binbin把肉和菜放进汤里，等了一会儿捞出来，蘸上酱料，咬了一口："Yummy!" 导游问："Do you want to try it?" Binbin大口吃着说："Yes, please! This is amazing!"
+    </div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>
+    • What is Binbin's favourite food? (Hot pot)<br>
+    • What does Binbin say about hot pot? ("It's delicious.")<br>
+    • 翻翻课本P58，找一找导游还问了什么问题？</p>
+
+    <h3>🗺️ 思维导图 · hot pot 世界</h3>
+    <div class="mindmap">
+        ┌── 核心句型 ── What's your favourite food? / I like...<br>
+        ├── 食物特性 ── It's delicious / amazing / hot<br>
+        ├── 相关词汇 ── hot pot / pot / cook / delicious<br>
+        ├── 中国美食 ── hot pot · Beijing duck · dumplings<br>
+        └── 文化拓展 ── 火锅源于四川/北京，各地汤底不同
+    </div>
+
+    <h3>🏛️ 词源故事：pot 从"陶罐"到"锅"</h3>
+    <p>"pot" 来自古英语 <em>pot</em>，最早指陶土做的罐子（和中文"罐"同源）。后来不管什么材质都叫pot。hot pot就是"热的锅"——中国火锅把汤底烧开，边煮边吃，非常热闹！<br>🎯 讲给孩子：英文里把两种常见词拼在一起造新词——hot（热的）+ pot（锅）= hot pot（火锅），就像中文说"火锅"一样简单！</p>
+</div>
+
+<!-- ================= 高阶 ================= -->
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+    <p>hot + pot = hot pot。英文合成词规律：两个常见词合并成新词。<br>同款合成词：</p>
+    <table class="dim-table">
+        <tr><th>合成词</th><th>意思</th><th>构成</th></tr>
+        <tr><td>hot pot</td><td>火锅</td><td>hot + pot</td></tr>
+        <tr><td>homework</td><td>作业</td><td>home + work</td></tr>
+        <tr><td>football</td><td>足球</td><td>foot + ball</td></tr>
+        <tr><td>waterfall</td><td>瀑布</td><td>water + fall</td></tr>
+        <tr><td>rainbow</td><td>彩虹</td><td>rain + bow</td></tr>
+    </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">
+        "The only thing I like about summer is hot pot." — 网络流行语<br>
+        夏天唯一让我喜欢的事就是吃火锅。（幽默反差：hot=热，夏天吃火锅更热，但人们还是爱吃）<br><br>
+        "Food is not just eating, it's an experience." — 美食家语<br>
+        食物不仅仅是吃，更是一种体验。
+    </div>
+
+    <h3>🌍 火锅文化</h3>
+    <p>火锅不仅是美食，更是中国文化的重要符号：</p>
+    <table class="dim-table">
+        <tr><th>种类</th><th>特色</th><th>代表地区</th></tr>
+        <tr><td>四川火锅</td><td>麻辣汤底，花椒辣椒</td><td>成都、重庆</td></tr>
+        <tr><td>北京铜锅</td><td>清汤炭火，涮羊肉</td><td>北京</td></tr>
+        <tr><td>潮汕火锅</td><td>牛肉火锅，现切现涮</td><td>广东潮汕</td></tr>
+    </table>
+
+    <h3>🎵 歌词里的 hot</h3>
+    <p>Katy Perry《Hot N Cold》(2008)：副歌 "hot" 一开口就上头，正好练 /hɒt/ 的口型；备选 Nelly《Hot in Herre》。</p>
+
+    <h3>⚡ 冷知识 · 为什么火锅让人上瘾？</h3>
+    <p>科学研究发现，共享火锅（communal hot pot）会刺激大脑分泌催产素（oxytocin），让人感到归属感和社交愉悦——这就是为什么大家喜欢一起吃火锅！课本里Binbin说"hot pot, it's delicious"，不仅是味道好，还因为吃火锅很开心。</p>
+</div>
+
+<!-- 复习卡 + 下期预告 -->
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🍲 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>hot pot</strong>  /ˈhɒt pɒt/</div>
+        <div>释义：火锅</div>
+        <div>课本例句：I like hot pot. It's delicious.</div>
+        <div>相关词：pot, delicious, favourite</div>
+        <div>功能句型：What's your favourite food?</div>
+    </div>
+    <div style="font-size: 14px; color:#2c3e50;">⬇️ 下期预告 · shopping centre / shopping mall ⬇️ <br>翻开课本P60，"There's a big shopping centre near my home."</div>
+</div>
+
+<div class="footnote">
+    📚 本文完全匹配人教版（一起点）六年级下册 Unit 6<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("hot pot");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("\u5f53\u524d\u6d4f\u89c8\u5668\u4e0d\u652f\u6301\u8bed\u97f3\u5408\u6210"); }
+}
+</script>
 </body>
 </html>

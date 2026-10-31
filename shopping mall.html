@@ -1,227 +1,274 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>一词一宇宙 · shopping mall</title>
-<style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f4f8; padding: 20px; color: #333; }
-.container { max-width: 900px; margin: 0 auto; background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; }
-.header { background: linear-gradient(135deg, #f1c40f, #d4ac0d); color: white; padding: 40px 30px; text-align: center; }
-.header h1 { font-size: 2.5em; margin-bottom: 8px; }
-.header .subtitle { font-size: 1.1em; opacity: 0.9; }
-.info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; padding: 20px 30px; background: #f8fffe; border-bottom: 1px solid #e9ecef; }
-.info-item { display: flex; gap: 8px; }
-.info-label { font-weight: bold; color: #f1c40f; min-width: 60px; }
-.info-value { color: #555; }
-.textbook { padding: 20px 30px; background: #fff; }
-.textbook h2 { color: #1e6f5c; font-size: 1.2em; margin-bottom: 12px; }
-.lesson { background: #ecf8ff; border-left: 4px solid #3498db; padding: 12px 16px; margin-bottom: 10px; border-radius: 4px; }
-.lesson-title { font-weight: bold; color: #3498db; margin-bottom: 6px; font-size: 0.95em; }
-.lesson-content { color: #1f4f6e; font-size: 0.9em; line-height: 1.6; }
-.stage { padding: 24px 30px; }
-.stage-low { background: #e8f8f0; border-top: 3px solid #2ecc71; }
-.stage-mid { background: #fffbf0; border-top: 3px solid #f39c12; }
-.stage-high { background: #fff5f5; border-top: 3px solid #e74c3c; }
-.stage-title { font-size: 1.3em; margin-bottom: 4px; font-weight: bold; }
-.stage-subtitle { font-size: 0.9em; color: #888; margin-bottom: 16px; font-style: italic; }
-.stage-low .stage-title { color: #2ecc71; }
-.stage-mid .stage-title { color: #f39c12; }
-.stage-high .stage-title { color: #e74c3c; }
-.section-title { font-size: 1.05em; font-weight: bold; margin: 14px 0 8px; color: #2c3e50; }
-.table-box { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; margin-bottom: 12px; }
-.table-box table { width: 100%; border-collapse: collapse; }
-.table-box th { background: #e9ecef; padding: 8px 12px; text-align: left; font-size: 0.9em; }
-.table-box td { padding: 8px 12px; border-top: 1px solid #eee; font-size: 0.9em; }
-.table-box tr:first-child td { border-top: none; }
-.func-box { background: #eef4fc; border-radius: 8px; padding: 12px 16px; margin-bottom: 12px; }
-.func-box p { margin-bottom: 6px; font-size: 0.9em; }
-.parent-card { background: #fffbf0; border: 1px solid #f3d89a; border-radius: 8px; padding: 12px 16px; margin-bottom: 12px; }
-.parent-card-title { font-weight: bold; color: #856404; margin-bottom: 6px; }
-.parent-card-content { font-size: 0.9em; color: #555; }
-.game-card { background: #eef4fc; border-radius: 8px; padding: 12px 16px; margin-bottom: 10px; }
-.game-title { font-weight: bold; font-size: 0.95em; color: #3498db; margin-bottom: 4px; }
-.game-content { font-size: 0.88em; color: #555; }
-.pass-title { background: #d4edda; border-radius: 8px; padding: 10px 16px; font-size: 0.9em; color: #27ae60; margin-top: 12px; }
-.mindmap { background: #fff6e0; font-family: Consolas, monospace; padding: 12px 16px; border-radius: 8px; font-size: 0.88em; line-height: 1.6; white-space: pre-wrap; margin-bottom: 12px; }
-.story { font-style: italic; color: #555; line-height: 1.6; font-size: 0.9em; margin-bottom: 12px; }
-.quote { color: #666; line-height: 1.6; font-size: 0.9em; margin-bottom: 8px; font-style: italic; }
-.review { text-align: center; padding: 24px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; }
-.review h3 { font-size: 1.2em; margin-bottom: 12px; }
-.review p { font-size: 0.9em; margin-bottom: 6px; opacity: 0.9; }
-.next { text-align: center; padding: 16px; background: #f8f9fa; color: #888; font-size: 0.9em; }
-.footnote { text-align: center; padding: 12px; color: #aaa; font-size: 0.8em; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>一词一宇宙·shopping mall</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #ffffff;
+            color: #1e2a3e;
+            line-height: 1.6;
+            padding: 20px 16px 48px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            text-align: center;
+            margin: 16px 0 8px;
+            letter-spacing: -0.3px;
+            color: #8e44ad;
+        }
+        .subhead {
+            text-align: center;
+            font-size: 14px;
+            color: #7f8c8d;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+        }
+        .info-grid {
+            background: #f8fafc;
+            border-radius: 20px;
+            padding: 16px;
+            margin-bottom: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: 14px;
+            border: 1px solid #e2e8f0;
+        }
+        .info-item {
+            background: white;
+            padding: 6px 12px;
+            border-radius: 30px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .info-label { font-weight: 600; color: #2c3e50; }
+        .stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+        .stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+        .stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+        .stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+        .stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+        .textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+        .textbook p { margin: 8px 0; }
+        .textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+        .quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+        .dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+        .dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+        .dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+        .game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+        .game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+        .btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+        .parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+        .parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+        .mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+        .func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+        .func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+        .diff-box { background: #fef9e7; border-radius: 16px; padding: 12px 16px; margin: 12px 0; border: 1px solid #fdebd0; font-size: 14px; }
+        .diff-title { font-weight: 700; color: #b9770e; margin-bottom: 6px; }
+        hr { margin: 20px 0; border: none; height: 1px; background: linear-gradient(to right, #ccc, transparent); }
+        .footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+        @media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+    </style>
 </head>
 <body>
-<div class="container">
-  <div class="header">
-    <h1>SHOPPING MALL</h1>
-    <p class="subtitle">人教版（一起点）六年级下册 Unit6</p>
-  </div>
 
-  <div class="info-grid">
-    <div class="info-item"><span class="info-label">单词</span><span class="info-value">shopping mall</span></div>
-    <div class="info-item"><span class="info-label">词性</span><span class="info-value">n. 大型综合商业中心</span></div>
-    <div class="info-item"><span class="info-label">音标</span><span class="info-value">/shopping mall/</span></div>
-    <div class="info-item"><span class="info-label">难度</span><span class="info-value">一星 (六年级)</span></div>
-    <div class="info-item"><span class="info-label">相关词</span><span class="info-value">shopping mall, related words</span></div>
-  </div>
+<h1>🏬 一词一宇宙 · shopping mall</h1>
+<div style="text-align:center;margin:2px 0 14px;"><button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button></div>
+<div class="subhead">📍 人教版（一起点）六年级下册 Unit 6</div>
 
-  <div class="textbook">
-    <h2>课本原文直通车 · Unit6</h2>
-    <div class="lesson">
-      <div class="lesson-title">Unit6 Lesson 1</div>
-      <div class="lesson-content">This is my shopping mall. I like it.<br>What do you have? I have a shopping mall.</div>
+<!-- 单词档案 -->
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> shopping mall</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 大型购物中心</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈʃɒpɪŋ mɔːl/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">英式</span> shopping centre</div>
+    <div class="info-item"><span class="info-label">美式</span> shopping mall</div>
+</div>
+
+<!-- 课本原文 -->
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 6</div>
+    <p><strong>Lesson 2 (P60-61) The Famous Emperor and His Birds</strong><br>
+    Tourist: Is there a big shopping mall near here?<br>
+    Guide: Yes, there is. It's on Mall Street.<br>
+    Tourist: How can I get there?<br>
+    Guide: You can take the bus or the subway.</p>
+    <p><strong>Self-assessment (P64)</strong><br>
+    There is a new shopping mall near my home.<br>
+    I often go there with my parents on weekends.<br>
+    We usually buy food and clothes.</p>
+    <p><strong>Story Time (P56-57)</strong><n>
+    Mum: Let's go to the shopping mall today!<br>
+    Kids: Great! Can we buy a new toy?<br>
+    Mum: Sure, but first let's get some food.</p>
+</div>
+
+<!-- ================= 低阶 ================= -->
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>shopping mall = shopping (购物) + mall (商业街/购物中心)<br>✏️ 口诀：shopping mall 记住 mall 这个词，美国人用 mall，中国大城市里常见"万达广场"就是典型 mall！</td></tr>
+        <tr><th>音·发音</th><td>/ˈʃɒpɪŋ mɔːl/ 三音节 → shop·ping mall<br>mall 押音 /mɔːl/（类似"摸"长音）<br>🎧 跟读：Is there a big shopping mall near here?</td></tr>
+        <tr><th>意·释义</th><td>大型购物中心 —— 室内大型综合购物场所，有好多品牌店 🍭</td></tr>
+        <tr><th>用·句型</th><td>① Is there a shopping mall near here?<br>② Let's go to the shopping mall!<br>③ I often go there with my parents on weekends.<br>④ We usually buy food and clothes.</td></tr>
+        <tr><th>拓·英美</th><td>shopping mall = 美式说法，等于英式 shopping centre<br>课本同一单元会交替出现两者，体现语言多样性</td></tr>
+    </table>
+
+    <h3>📢 课本原句跟读表</h3>
+    <table class="dim-table">
+        <tr><th>教材出处</th><th>原句</th></tr>
+        <tr><td>Lesson2 P60</td><td>Is there a big shopping mall near here?</td></tr>
+        <tr><td>Lesson2 P60</td><td>Yes, there is. It's on Mall Street.</td></tr>
+        <tr><td>Lesson2 P60</td><td>How can I get there?</td></tr>
+        <tr><td>Self-assessment P64</td><td>There is a new shopping mall near my home.</td></tr>
+        <tr><td>Self-assessment P64</td><td>We usually buy food and clothes.</td></tr>
+        <tr><td>Story Time P56</td><td>Let's go to the shopping mall today!</td></tr>
+    </table>
+
+    <!-- 英美差异 -->
+    <div class="diff-box">
+        <div class="diff-title">🌍 英美差异 · centre vs mall vs plaza</div>
+        <p><strong>shopping centre</strong>（英式）：社区型，中等规模</p>
+        <p><strong>shopping mall</strong>（美式）：大型室内封闭购物中心，有空调</p>
+        <p><strong>plaza / shopping plaza</strong>（美式）：开放式购物中心，往往有停车场</p>
+        <p>三者和 shopping centre 基本同义，shopping mall 和 plaza 更大型，shopping centre 更社区化。</p>
     </div>
-    <div class="lesson">
-      <div class="lesson-title">Unit6 Lesson 2</div>
-      <div class="lesson-content">Point to the shopping mall. Show me your shopping mall.<br>This is my shopping mall. That is your shopping mall.</div>
-    </div>
-    <div class="lesson">
-      <div class="lesson-title">Unit6 Lesson 3</div>
-      <div class="lesson-content">I have a shopping mall. It's nice.<br>Whose shopping mall is this? It's mine.</div>
-    </div>
-  </div>
 
-  <div class="stage stage-low">
-    <div class="stage-title">LOW STAGE · 低阶 · 学生自习室</div>
-    <div class="stage-subtitle">背诵 + 自测 | 课本同步跟读</div>
-
-    <div class="section-title">五维拆解法</div>
-    <div class="table-box">
-      <table>
-        <tr><th>维度</th><th>内容</th></tr>
-        <tr><td>形</td><td>shopping mall = 13 letters</td></tr>
-        <tr><td>音</td><td>/shopping mall/</td></tr>
-        <tr><td>意</td><td>大型综合商业中心</td></tr>
-        <tr><td>用</td><td>I have a shopping mall. / This is my shopping mall.</td></tr>
-        <tr><td>拓</td><td>shopping mall (n. 大型综合商业中心)</td></tr>
-      </table>
-    </div>
-
-    <div class="section-title">课本原句跟读表</div>
-    <div class="table-box">
-      <table>
-        <tr><th>出处</th><th>原句</th></tr>
-        <tr><td>Unit6 Lesson1</td><td>This is my shopping mall.</td></tr>
-        <tr><td>Unit6 Lesson2</td><td>Point to the shopping mall.</td></tr>
-        <tr><td>Unit6 Lesson3</td><td>Whose shopping mall is this? It's mine.</td></tr>
-      </table>
-    </div>
-
-    <div class="section-title">功能句总结</div>
     <div class="func-box">
-      <p>句型：What do you have?<br>回答：I have a shopping mall.</p>
-      <p>句型：Whose shopping mall is this?<br>回答：It's mine. / It's yours.</p>
-      <p>句型：Point to the shopping mall.<br>Show me your shopping mall.</p>
+        <div class="func-box-title">📋 功能句总结 · 周末活动</div>
+        <p><strong>句型①：Let's + 动词原形...（让我们...）</strong><br>Let's go to the shopping mall today!</p>
+        <p><strong>句型②：I often go there with...（我经常和...去那里）</strong><br>I often go there with my parents on weekends.</p>
+        <p><strong>句型③：We usually buy...（我们通常买...）</strong><br>We usually buy food and clothes.</p>
     </div>
 
     <div class="parent-card">
-      <div class="parent-card-title">家长指导卡</div>
-      <div class="parent-card-content">本课shopping mall是基础词汇，六年级下册Unit6围绕常见句型展开。建议结合实物练习：Point to your shopping mall. Show me your shopping mall.</div>
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>本课shopping mall的核心是"周末活动"话题，融合了Let's句型（祈使建议）、频率副词（often/usually）和一般现在时。可让孩子描述一次真实的购物经历，练习"We usually buy..."和"What do you usually buy?"的问答。</p>
     </div>
 
-    <div class="section-title">闯关游戏 (5关)</div>
-    <div class="game-card">
-      <div class="game-title">关卡1 · 听音选图</div>
-      <div class="game-content">家长读"shopping mall"，孩子从相关图片中选</div>
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长读"Let's go to the shopping mall!"，孩子从🏖️海滩图 / 🏬购物中心图 / 🏔️山景图中选 → 正确答案：🏬购物中心图</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 课本填空</strong><br>① Let's go to the ______ ______ today! (shopping mall)<br>② I often go there with my ______ on ______. (parents / weekends)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 句型转换</strong><br>把句子改成"Let's"句型：<br>1. "We should go to the shopping mall." → Let's go to the shopping mall!<br>2. "Do you want to go shopping?" → Let's go to the shopping mall!</div>
+        <div class="game-step"><strong>🔍 关卡4 · 课文找词</strong><br>翻开课本P56-64，数一数"mall"这个词出现了几次？ → 答案：5次</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用"I often go to the shopping mall with..."描述你和家人的周末活动，发语音。<br><span class="btn-mimic">🎤 示例：I often go to the shopping mall with my mum on weekends. We usually buy clothes!</span></div>
     </div>
-    <div class="game-card">
-      <div class="game-title">关卡2 · 课本填空</div>
-      <div class="game-content">This is my ______. (shopping mall)</div>
-    </div>
-    <div class="game-card">
-      <div class="game-title">关卡3 · 猜中文意思</div>
-      <div class="game-content">"What do you have?" → 你有什么 / 这是什么</div>
-    </div>
-    <div class="game-card">
-      <div class="game-title">关卡4 · 课文找词</div>
-      <div class="game-content">翻开课本Unit6，shopping mall出现了几次？</div>
-    </div>
-    <div class="game-card">
-      <div class="game-title">关卡5 · 口语大挑战</div>
-      <div class="game-content">用"I have a..."介绍物品，发语音到后台。</div>
-    </div>
-    <div class="pass-title">通关口令：在评论区发送"shopping mall通关"领取电子单词卡。</div>
-  </div>
-
-  <div class="stage stage-mid">
-    <div class="stage-title">MID STAGE · 中阶 · 家长加油站</div>
-    <div class="stage-subtitle">陪读故事 + 思维导图 + 词源小知识</div>
-
-    <div class="section-title">微型故事《The Shopping Mall》</div>
-    <div class="story">小明有一个大型综合商业中心，他非常珍惜它。"I have a shopping mall." 他对同学说。"What do you have?" 同学问。小明举起shopping mall："I have a shopping mall!" 同学也想有一个："Can I use your shopping mall?" 小明说："Yes, please!"</div>
-
-    <div class="section-title">家长提问卡</div>
-    <div class="func-box">
-      <p>• What does 小明 have? (A shopping mall)</p>
-      <p>• Can the classmate use the shopping mall? (Yes)</p>
-      <p>• 翻翻课本Unit6，找找还有哪些东西可以说"I have..."？</p>
-    </div>
-
-    <div class="section-title">思维导图 · shopping mall 世界</div>
-    <div class="mindmap">核心句型: I have... / What do you have?
-物品: shopping mall / related items
-动作: point / show / use / like
-归属: mine / yours / his / hers</div>
-
-    <div class="section-title">词源故事：shopping mall</div>
-    <div class="story">"shopping mall" 是常用英语词汇，来源历史悠久。在古英语中就有类似形式，经过演变成为现代英语常用词。英文词汇往往有丰富的历史内涵，每个词背后都有故事！</div>
-  </div>
-
-  <div class="stage stage-high">
-    <div class="stage-title">HIGH STAGE · 高阶 · 知识珍宝库</div>
-    <div class="stage-subtitle">词源 · 名言 · 文学 · 冷知识</div>
-
-    <div class="section-title">构词密码</div>
-    <p style="font-size:0.9em;margin-bottom:10px;">shopping mall 是常见词汇，可与其他词组合成新词。英文复合词规律：名词+名词=新名词，或加后缀变化词性。</p>
-    <div class="table-box">
-      <table>
-        <tr><th>派生词</th><th>意思</th><th>构成</th></tr>
-        <tr><td>shopping mall</td><td>大型综合商业中心</td><td>基础词</td></tr>
-        <tr><td>shopping mall's</td><td>大型综合商业中心s</td><td>+'s复数</td></tr>
-        <tr><td>a shopping mall</td><td>一个大型综合商业中心</td><td>a+名词</td></tr>
-      </table>
-    </div>
-
-    <div class="section-title">名言 & 谚语</div>
-    <div class="quote">"Words are, of course, the most powerful drug used by mankind." — 词汇是人类使用的最强大药物</div>
-    <div class="quote">"A word of encouragement during a failure is worth more than a whole book of praise." — 失败时的一句鼓励胜过一本书的赞美</div>
-
-    <div class="section-title">相关文化</div>
-    <div class="table-box">
-      <table>
-        <tr><th>领域</th><th>内容</th><th>备注</th></tr>
-        <tr><td>语言</td><td>英语</td><td>基础词汇</td></tr>
-        <tr><td>文化</td><td>西方文化</td><td>常见主题</td></tr>
-        <tr><td>教育</td><td>PEP教材</td><td>一年级上册</td></tr>
-      </table>
-    </div>
-
-    <div class="section-title">冷知识</div>
-    <div class="story">你知道吗？shopping mall这个词在英语日常用语中非常常见。多掌握基础词汇可以帮助我们更好地理解英语故事和对话！</div>
-  </div>
-
-  <div class="review">
-    <h3>单词复习卡</h3>
-    <p>shopping mall /shopping mall/</p>
-    <p>释义：大型综合商业中心</p>
-    <p>课本例句：I have a shopping mall.</p>
-    <p>相关词：shopping mall, related</p>
-    <p>功能句型：What do you have? I have a word.</p>
-  </div>
-
-  <div class="next">
-    <p>下期预告：下一个单词</p>
-    <p style="margin-top:6px;">翻开课本Unit6，继续学习！</p>
-  </div>
-
-  <div class="footnote">
-    本文完全匹配人教版（一起点）六年级下册 Unit6<br>
-    一课一词，三阶讲透。欢迎留言闯关打卡！
-  </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送"🏬shopping mall通关"领取电子单词卡+周末活动句型练习。</p>
 </div>
+
+<!-- ================= 中阶 ================= -->
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Weekend at the Mall》</h3>
+    <div class="quote">
+        🛍️ 周六早上，妈妈说："Let's go to the shopping mall today!" 孩子们欢呼："Great! Can we buy a new toy?" 妈妈笑着答应了。他们坐地铁到了 mall，里面好大——有服装店、书店、餐厅、玩具店！妈妈买了衣服，爸爸买了一些书，孩子们终于得到了心仪的玩具。回家的路上，孩子们说："The shopping mall is so amazing!" 妈妈笑了："下次我们再去。"
+    </div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>
+    • Where did they go on Saturday? (The shopping mall)<br>
+    • How did they get there? (By subway)<br>
+    • What did they usually buy? (Food and clothes)<br>
+    • 翻翻课本P64，找一找Self-assessment里关于周末的描述。</p>
+
+    <h3>🗺️ 思维导图 · mall 世界</h3>
+    <div class="mindmap">
+        ┌── 核心句型 ── Let's go to...! / I often go there with...<br>
+        ├── mall 家族 ── shopping mall (美) / shopping centre (英) / plaza<br>
+        ├── 交通方式 ── by subway / by bus / on foot<br>
+        ├── 常买物品 ── food / clothes / books / toys<br>
+        ├── 频率副词 ── often / usually / always / sometimes<br>
+        └── 地点介词 ── on Mall Street / near my home / on weekends
+    </div>
+
+    <h3>🏛️ 词源故事：mall 从"锤球游戏"到"购物中心"</h3>
+    <p>"mall" 的历史很有趣！17世纪英国有一种叫 <em>pall mall</em> 的锤球游戏，贵族们在一条树荫蔽日的宽阔步道上比赛。后来这条散步道变得著名，被称为"the mall"。19世纪，美国人在大型封闭建筑里建起综合商店，命名"shopping mall"，向那条伦敦的著名步道致敬。<br>🎯 讲给孩子：最早的 mall 不是买东西的地方，而是贵族散步聊天的地方！现在 mall 依然是朋友家人相聚的场所——不只是购物，更是社交！</p>
+</div>
+
+<!-- ================= 高阶 ================= -->
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+    <p>shopping + mall = shopping mall。mall 本身也可独立使用：</p>
+    <table class="dim-table">
+        <tr><th>用法</th><th>例句</th><th>中文</th></tr>
+        <tr><td>shopping mall</td><td>Let's go to the shopping mall.</td><td>购物中心</td></tr>
+        <tr><td>the mall</td><td>I'll meet you at the mall.</td><td>在购物中心见</td></tr>
+        <tr><td>mall 单独用</td><td>Kids love the mall.</td><td>孩子们喜欢购物中心</td></tr>
+    </table>
+    <p>mall 还可以指大型停车场、商业街（美式用法）：</p>
+    <table class="dim-table">
+        <tr><th>词组</th><th>意思</th></tr>
+        <tr><td>strip mall</td><td>一排底商（小型商业区）</td></tr>
+        <tr><td>mall rat</td><td>购物中心常客/闲逛者（口语）</td></tr>
+    </table>
+
+    <h3>📜 名言 & 文化</h3>
+    <div class="quote">
+        "The mall is the new town square." — 城市研究者语<br>
+        购物中心就是新时代的城市广场。（现代人社交的主要场所）<br><br>
+        "A sale is a sale, but a mall is a way of life." — 消费文化语<br>
+        打折是打折，但逛购物中心是一种生活方式。
+    </div>
+
+    <h3>🌍 全球知名 mall 盘点</h3>
+    <table class="dim-table">
+        <tr><th>名称</th><th>地点</th><th>特色</th></tr>
+        <tr><td>Dubai Mall</td><td>迪拜</td><td>全球最大，设有水族馆和滑冰场</td></tr>
+        <tr><td>West Edmonton Mall</td><td>加拿大</td><td>室内水上乐园、游乐场</td></tr>
+        <tr><td>Mall of America</td><td>美国明尼苏达</td><td>大型游乐场和水族馆</td></tr>
+        <tr><td>新光天地</td><td>北京</td><td>中国知名高端购物中心</td></tr>
+    </table>
+
+    <h3>🎵 歌词里的 shopping</h3>
+    <p>Smokey Robinson《Shop Around》(1960)：Motown 经典，"You better shop around" 就是让你多逛几家店再买。</p>
+
+    <h3>⚡ 冷知识 · mall 为何让人买更多？</h3>
+    <p>行为经济学家发现，购物中心的设计是有意为之的：<strong>没有窗户、没有时钟</strong>——让人忘记时间；<strong>迷宫般的动线</strong>——让人走更多路、看到更多商品；<strong>中央美食区</strong>——让人休息后继续逛。这些设计让"随便逛逛"变成"满载而归"——这也是为什么英语里叫"mall walk"（慢慢逛）而不是"mall run"（快跑）！</p>
+</div>
+
+<!-- 复习卡 + 下期预告 -->
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🏬 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>shopping mall</strong>  /ˈʃɒpɪŋ mɔːl/</div>
+        <div>释义：大型购物中心（美式）</div>
+        <div>课本例句：Let's go to the shopping mall today!</div>
+        <div>同类词：shopping centre（英式）、plaza</div>
+        <div>功能句型：Let's do... / I often go there with... / We usually buy...</div>
+    </div>
+    <div style="font-size: 14px; color:#2c3e50;">⬇️ 下期预告 · subway ⬇️ <br>翻开课本P60，"You can take the bus or the subway."</div>
+</div>
+
+<div class="footnote">
+    📚 本文完全匹配人教版（一起点）六年级下册 Unit 6<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("shopping mall");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("\u5f53\u524d\u6d4f\u89c8\u5668\u4e0d\u652f\u6301\u8bed\u97f3\u5408\u6210"); }
+}
+</script>
 </body>
 </html>

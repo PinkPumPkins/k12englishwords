@@ -1,227 +1,205 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>一词一宇宙 · invention</title>
-<style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f4f8; padding: 20px; color: #333; }
-.container { max-width: 900px; margin: 0 auto; background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; }
-.header { background: linear-gradient(135deg, #f39c12, #e67e22); color: white; padding: 40px 30px; text-align: center; }
-.header h1 { font-size: 2.5em; margin-bottom: 8px; }
-.header .subtitle { font-size: 1.1em; opacity: 0.9; }
-.info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; padding: 20px 30px; background: #f8fffe; border-bottom: 1px solid #e9ecef; }
-.info-item { display: flex; gap: 8px; }
-.info-label { font-weight: bold; color: #f39c12; min-width: 60px; }
-.info-value { color: #555; }
-.textbook { padding: 20px 30px; background: #fff; }
-.textbook h2 { color: #1e6f5c; font-size: 1.2em; margin-bottom: 12px; }
-.lesson { background: #ecf8ff; border-left: 4px solid #3498db; padding: 12px 16px; margin-bottom: 10px; border-radius: 4px; }
-.lesson-title { font-weight: bold; color: #3498db; margin-bottom: 6px; font-size: 0.95em; }
-.lesson-content { color: #1f4f6e; font-size: 0.9em; line-height: 1.6; }
-.stage { padding: 24px 30px; }
-.stage-low { background: #e8f8f0; border-top: 3px solid #2ecc71; }
-.stage-mid { background: #fffbf0; border-top: 3px solid #f39c12; }
-.stage-high { background: #fff5f5; border-top: 3px solid #e74c3c; }
-.stage-title { font-size: 1.3em; margin-bottom: 4px; font-weight: bold; }
-.stage-subtitle { font-size: 0.9em; color: #888; margin-bottom: 16px; font-style: italic; }
-.stage-low .stage-title { color: #2ecc71; }
-.stage-mid .stage-title { color: #f39c12; }
-.stage-high .stage-title { color: #e74c3c; }
-.section-title { font-size: 1.05em; font-weight: bold; margin: 14px 0 8px; color: #2c3e50; }
-.table-box { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; margin-bottom: 12px; }
-.table-box table { width: 100%; border-collapse: collapse; }
-.table-box th { background: #e9ecef; padding: 8px 12px; text-align: left; font-size: 0.9em; }
-.table-box td { padding: 8px 12px; border-top: 1px solid #eee; font-size: 0.9em; }
-.table-box tr:first-child td { border-top: none; }
-.func-box { background: #eef4fc; border-radius: 8px; padding: 12px 16px; margin-bottom: 12px; }
-.func-box p { margin-bottom: 6px; font-size: 0.9em; }
-.parent-card { background: #fffbf0; border: 1px solid #f3d89a; border-radius: 8px; padding: 12px 16px; margin-bottom: 12px; }
-.parent-card-title { font-weight: bold; color: #856404; margin-bottom: 6px; }
-.parent-card-content { font-size: 0.9em; color: #555; }
-.game-card { background: #eef4fc; border-radius: 8px; padding: 12px 16px; margin-bottom: 10px; }
-.game-title { font-weight: bold; font-size: 0.95em; color: #3498db; margin-bottom: 4px; }
-.game-content { font-size: 0.88em; color: #555; }
-.pass-title { background: #d4edda; border-radius: 8px; padding: 10px 16px; font-size: 0.9em; color: #27ae60; margin-top: 12px; }
-.mindmap { background: #fff6e0; font-family: Consolas, monospace; padding: 12px 16px; border-radius: 8px; font-size: 0.88em; line-height: 1.6; white-space: pre-wrap; margin-bottom: 12px; }
-.story { font-style: italic; color: #555; line-height: 1.6; font-size: 0.9em; margin-bottom: 12px; }
-.quote { color: #666; line-height: 1.6; font-size: 0.9em; margin-bottom: 8px; font-style: italic; }
-.review { text-align: center; padding: 24px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; }
-.review h3 { font-size: 1.2em; margin-bottom: 12px; }
-.review p { font-size: 0.9em; margin-bottom: 6px; opacity: 0.9; }
-.next { text-align: center; padding: 16px; background: #f8f9fa; color: #888; font-size: 0.9em; }
-.footnote { text-align: center; padding: 12px; color: #aaa; font-size: 0.8em; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>一词一宇宙 · invention</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+        h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+        .subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+        .info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+        .info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+        .info-label { font-weight: 600; color: #2c3e50; }
+        .stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+        .stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+        .stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+        .stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+        .stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+        .textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+        .textbook p { margin: 8px 0; }
+        .textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+        .quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+        .dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+        .dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+        .dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+        .game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+        .game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+        .btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+        .parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+        .parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+        .mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+        .func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+        .func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+        .footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+        @media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+    </style>
 </head>
 <body>
-<div class="container">
-  <div class="header">
-    <h1>INVENTION</h1>
-    <p class="subtitle">人教版（一起点）六年级上册 Unit5</p>
-  </div>
 
-  <div class="info-grid">
-    <div class="info-item"><span class="info-label">单词</span><span class="info-value">invention</span></div>
-    <div class="info-item"><span class="info-label">词性</span><span class="info-value">n. 发明</span></div>
-    <div class="info-item"><span class="info-label">音标</span><span class="info-value">/invention/</span></div>
-    <div class="info-item"><span class="info-label">难度</span><span class="info-value">一星 (六年级)</span></div>
-    <div class="info-item"><span class="info-label">相关词</span><span class="info-value">invention, related words</span></div>
-  </div>
+<h1>一词一宇宙 · invention</h1>
+<div style="text-align:center;margin:2px 0 14px;"><button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button></div>
+<div class="subhead">📍 人教版（一起点）六年级下册 Unit 6</div>
 
-  <div class="textbook">
-    <h2>课本原文直通车 · Unit5</h2>
-    <div class="lesson">
-      <div class="lesson-title">Unit5 Lesson 1</div>
-      <div class="lesson-content">This is my invention. I like it.<br>What do you have? I have a invention.</div>
-    </div>
-    <div class="lesson">
-      <div class="lesson-title">Unit5 Lesson 2</div>
-      <div class="lesson-content">Point to the invention. Show me your invention.<br>This is my invention. That is your invention.</div>
-    </div>
-    <div class="lesson">
-      <div class="lesson-title">Unit5 Lesson 3</div>
-      <div class="lesson-content">I have a invention. It's nice.<br>Whose invention is this? It's mine.</div>
-    </div>
-  </div>
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> invention</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 发明；发明物</div>
+    <div class="info-item"><span class="info-label">音标</span> /ɪnˈvenʃən/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">动词</span> invent (发明)</div>
+    <div class="info-item"><span class="info-label">形容词</span> inventive (有创造力的)</div>
+</div>
 
-  <div class="stage stage-low">
-    <div class="stage-title">LOW STAGE · 低阶 · 学生自习室</div>
-    <div class="stage-subtitle">背诵 + 自测 | 课本同步跟读</div>
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 6</div>
+    <p><strong>Lesson 3 (P62-63) The Story of Paper</strong><br>
+    Teacher: What an amazing <u>invention</u>! People invented paper about 2000 years ago.<br>
+    Student: That's amazing! How did people write before paper?<br>
+    Teacher: They wrote on bamboo, silk and other things. That's amazing, too.</p>
+    <p><strong>Lesson 1 (P58-59) A Beautiful, Amazing World</strong><br>
+    Student: There is so much to see in our world.<br>
+    Teacher: Yes! People's <u>inventions</u> make our life better.<br>
+    Student: What a big, beautiful fish!</p>
+</div>
 
-    <div class="section-title">五维拆解法</div>
-    <div class="table-box">
-      <table>
-        <tr><th>维度</th><th>内容</th></tr>
-        <tr><td>形</td><td>invention = 9 letters</td></tr>
-        <tr><td>音</td><td>/invention/</td></tr>
-        <tr><td>意</td><td>发明</td></tr>
-        <tr><td>用</td><td>I have a invention. / This is my invention.</td></tr>
-        <tr><td>拓</td><td>invention (n. 发明)</td></tr>
-      </table>
-    </div>
+<!-- 低阶 -->
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
 
-    <div class="section-title">课本原句跟读表</div>
-    <div class="table-box">
-      <table>
+    <h3 style="margin:12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形</th><td>in·ven·tion = in (进入) + vent (来) + ion (名词) — 引入新事物 → 发明<br>✏️ 口诀：发明invention，就是"引进(vent)来(ion)"新东西！</td></tr>
+        <tr><th>音</th><td>/ɪnˈvenʃən/ 三音节 → in·ven·tion<br>重音在第二音节：/ɪnˈVEN-shən/<br>🎧 跟读：What an amazing invention! People invented paper.</td></tr>
+        <tr><th>意</th><td>发明；发明物、创造 🎨</td></tr>
+        <tr><th>用</th><td>What an amazing invention! (多神奇的发明！)<br>People invented paper 2000 years ago. (人们2000年前发明了纸。)<br>Edison's inventions changed the world. (爱迪生的发明改变了世界。)</td></tr>
+        <tr><th>拓</th><td>invent (v.) → invention (n.) → inventive (adj. 有创造力的)<br>同款：create → creation → creative</td></tr>
+    </table>
+
+    <h3>📢 课本原句跟读表</h3>
+    <table class="dim-table">
         <tr><th>出处</th><th>原句</th></tr>
-        <tr><td>Unit5 Lesson1</td><td>This is my invention.</td></tr>
-        <tr><td>Unit5 Lesson2</td><td>Point to the invention.</td></tr>
-        <tr><td>Unit5 Lesson3</td><td>Whose invention is this? It's mine.</td></tr>
-      </table>
-    </div>
+        <tr><td>Lesson3 P62</td><td>What an amazing invention!</td></tr>
+        <tr><td>Lesson3 P62</td><td>People invented paper about 2000 years ago.</td></tr>
+        <tr><td>Lesson3 P63</td><td>That's amazing!</td></tr>
+        <tr><td>Lesson3 P63</td><td>They wrote on bamboo, silk and other things.</td></tr>
+    </table>
 
-    <div class="section-title">功能句总结</div>
     <div class="func-box">
-      <p>句型：What do you have?<br>回答：I have a invention.</p>
-      <p>句型：Whose invention is this?<br>回答：It's mine. / It's yours.</p>
-      <p>句型：Point to the invention.<br>Show me your invention.</p>
+        <div class="func-box-title">📋 功能句总结 · 感叹句型</div>
+        <p><strong>句型：What an + adj. + n. (单数)！</strong><br>What an amazing invention! / What an amazing day!</p>
+        <p><strong>句型：That's + adj.!</strong><br>That's amazing! / That's interesting!</p>
+        <p><strong>过去时：People invented paper 2000 years ago.</strong><br>(ago = 以前，用于过去时)</p>
     </div>
 
     <div class="parent-card">
-      <div class="parent-card-title">家长指导卡</div>
-      <div class="parent-card-content">本课invention是基础词汇，六年级上册Unit5围绕常见句型展开。建议结合实物练习：Point to your invention. Show me your invention.</div>
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>本课invention的核心场景是"赞叹发明"。建议带孩子了解四大发明的故事（造纸术、印刷术、指南针、火药）。结合感叹句型"What an amazing invention!"练习描述令人赞叹的事物。</p>
     </div>
 
-    <div class="section-title">闯关游戏 (5关)</div>
-    <div class="game-card">
-      <div class="game-title">关卡1 · 听音选图</div>
-      <div class="game-content">家长读"invention"，孩子从相关图片中选</div>
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长读"What an amazing invention!"，孩子从📄纸图 / 🚗汽车图 / 📱手机图中选 → 正确答案：📄纸图（课本语境）</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 课本填空</strong><br>① What an ______ invention! (amazing)<br>② People ______ paper 2000 years ago. (invented)<br>③ That's ______! (amazing)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 感叹句转换</strong><br>将句子改为感叹句：<br>1. Paper is an amazing invention → What an amazing invention!<br>2. The invention is amazing → That's amazing!</div>
+        <div class="game-step"><strong>🔍 关卡4 · 课文找词</strong><br>翻开课本P62-63，数一数"invention"出现了几次？ → 答案：2次</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用"What an amazing invention!"描述一个你认为很棒的发明。<br><span class="btn-mimic">🎤 示例：The phone is an amazing invention! I can talk to my grandma every day.</span></div>
     </div>
-    <div class="game-card">
-      <div class="game-title">关卡2 · 课本填空</div>
-      <div class="game-content">This is my ______. (invention)</div>
-    </div>
-    <div class="game-card">
-      <div class="game-title">关卡3 · 猜中文意思</div>
-      <div class="game-content">"What do you have?" → 你有什么 / 这是什么</div>
-    </div>
-    <div class="game-card">
-      <div class="game-title">关卡4 · 课文找词</div>
-      <div class="game-content">翻开课本Unit5，invention出现了几次？</div>
-    </div>
-    <div class="game-card">
-      <div class="game-title">关卡5 · 口语大挑战</div>
-      <div class="game-content">用"I have a..."介绍物品，发语音到后台。</div>
-    </div>
-    <div class="pass-title">通关口令：在评论区发送"invention通关"领取电子单词卡。</div>
-  </div>
-
-  <div class="stage stage-mid">
-    <div class="stage-title">MID STAGE · 中阶 · 家长加油站</div>
-    <div class="stage-subtitle">陪读故事 + 思维导图 + 词源小知识</div>
-
-    <div class="section-title">微型故事《The Invention》</div>
-    <div class="story">小明有一个发明，他非常珍惜它。"I have a invention." 他对同学说。"What do you have?" 同学问。小明举起invention："I have a invention!" 同学也想有一个："Can I use your invention?" 小明说："Yes, please!"</div>
-
-    <div class="section-title">家长提问卡</div>
-    <div class="func-box">
-      <p>• What does 小明 have? (A invention)</p>
-      <p>• Can the classmate use the invention? (Yes)</p>
-      <p>• 翻翻课本Unit5，找找还有哪些东西可以说"I have..."？</p>
-    </div>
-
-    <div class="section-title">思维导图 · invention 世界</div>
-    <div class="mindmap">核心句型: I have... / What do you have?
-物品: invention / related items
-动作: point / show / use / like
-归属: mine / yours / his / hers</div>
-
-    <div class="section-title">词源故事：invention</div>
-    <div class="story">"invention" 是常用英语词汇，来源历史悠久。在古英语中就有类似形式，经过演变成为现代英语常用词。英文词汇往往有丰富的历史内涵，每个词背后都有故事！</div>
-  </div>
-
-  <div class="stage stage-high">
-    <div class="stage-title">HIGH STAGE · 高阶 · 知识珍宝库</div>
-    <div class="stage-subtitle">词源 · 名言 · 文学 · 冷知识</div>
-
-    <div class="section-title">构词密码</div>
-    <p style="font-size:0.9em;margin-bottom:10px;">invention 是常见词汇，可与其他词组合成新词。英文复合词规律：名词+名词=新名词，或加后缀变化词性。</p>
-    <div class="table-box">
-      <table>
-        <tr><th>派生词</th><th>意思</th><th>构成</th></tr>
-        <tr><td>invention</td><td>发明</td><td>基础词</td></tr>
-        <tr><td>invention's</td><td>发明s</td><td>+'s复数</td></tr>
-        <tr><td>a invention</td><td>一个发明</td><td>a+名词</td></tr>
-      </table>
-    </div>
-
-    <div class="section-title">名言 & 谚语</div>
-    <div class="quote">"Words are, of course, the most powerful drug used by mankind." — 词汇是人类使用的最强大药物</div>
-    <div class="quote">"A word of encouragement during a failure is worth more than a whole book of praise." — 失败时的一句鼓励胜过一本书的赞美</div>
-
-    <div class="section-title">相关文化</div>
-    <div class="table-box">
-      <table>
-        <tr><th>领域</th><th>内容</th><th>备注</th></tr>
-        <tr><td>语言</td><td>英语</td><td>基础词汇</td></tr>
-        <tr><td>文化</td><td>西方文化</td><td>常见主题</td></tr>
-        <tr><td>教育</td><td>PEP教材</td><td>一年级上册</td></tr>
-      </table>
-    </div>
-
-    <div class="section-title">冷知识</div>
-    <div class="story">你知道吗？invention这个词在英语日常用语中非常常见。多掌握基础词汇可以帮助我们更好地理解英语故事和对话！</div>
-  </div>
-
-  <div class="review">
-    <h3>单词复习卡</h3>
-    <p>invention /invention/</p>
-    <p>释义：发明</p>
-    <p>课本例句：I have a invention.</p>
-    <p>相关词：invention, related</p>
-    <p>功能句型：What do you have? I have a word.</p>
-  </div>
-
-  <div class="next">
-    <p>下期预告：下一个单词</p>
-    <p style="margin-top:6px;">翻开课本Unit5，继续学习！</p>
-  </div>
-
-  <div class="footnote">
-    本文完全匹配人教版（一起点）六年级上册 Unit5<br>
-    一课一词，三阶讲透。欢迎留言闯关打卡！
-  </div>
+    <p style="background:#e9f7e1; padding:8px 14px; border-radius:30px; font-size:13px;">💡 通关口令：在评论区发送"🔍invention通关"领取电子单词卡+四大发明英文介绍。</p>
 </div>
+
+<!-- 中阶 -->
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Amazing Paper Scroll》</h3>
+    <div class="quote">
+        📜 古代有个孩子问老师："以前没有纸，人们怎么写字？"老师答："他们用竹子、丝绸！但大约2000年前，蔡伦发明了纸——What an amazing invention！"孩子惊叹："That's amazing！那在没有纸之前，人们岂不是要背很多竹子？" 老师笑了："是啊，所以你要珍惜纸。纸的发明改变了整个世界！"
+    </div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>
+    • What did people use before paper? (Bamboo, silk and other things)<br>
+    • Who invented paper? (Cai Lun — 蔡伦)<br>
+    • How long ago did people invent paper? (About 2000 years ago)<br>
+    • 翻翻课本P62，找一找老师对纸的评价是哪一句？</p>
+
+    <h3>🗺️ 思维导图 · invention 世界</h3>
+    <div class="mindmap">核心句型: What an amazing invention! / That's amazing!
+发明家: Cai Lun (蔡伦) / Edison / Bell
+四大发明: paper / printing / compass / gunpowder
+词族: invent (v.) → invention (n.) → inventive (adj.)</div>
+
+    <h3>🏛️ 词源故事：从"走进"到"发明创造"</h3>
+    <p>invention 来自拉丁语 invenire（发现、找到），由 in（进入）+ venire（来）构成。本意是"走进（未知领域）找到新东西"。想象科学家走进实验室，发现了一个前所未见的东西——这就是 invention（发明）。</p>
+    <p>🎯 讲给孩子：in-是"进入"，vent是"来"——走进一个领域，发现新东西，就是"发明"！</p>
+</div>
+
+<!-- 高阶 -->
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+    <p>in + vent + ion → invention。in-表示"进入"，vent表示"来"，-ion表示"行为及其结果"。</p>
+    <table class="dim-table">
+        <tr><th>单词</th><th>释义</th><th>词根</th></tr>
+        <tr><td>invent</td><td>发明</td><td>in进入 + vent来</td></tr>
+        <tr><td>invention</td><td>发明物</td><td>invent + ion</td></tr>
+        <tr><td>inventive</td><td>有创造力的</td><td>invent + ive</td></tr>
+        <tr><td>prevent</td><td>阻止</td><td>pre前 + vent来 → 先来一步 → 阻止</td></tr>
+    </table>
+
+    <h3>🏛️ 中国四大发明</h3>
+    <table class="dim-table">
+        <tr><th>发明</th><th>英文</th><th>影响</th></tr>
+        <tr><td>造纸术</td><td>Papermaking</td><td>推动人类文明传播</td></tr>
+        <tr><td>印刷术</td><td>Printing</td><td>让书籍大规模生产成为可能</td></tr>
+        <tr><td>指南针</td><td>Compass</td><td>推动大航海时代</td></tr>
+        <tr><td>火药</td><td>Gunpowder</td><td>改变了战争方式</td></tr>
+    </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">
+        "Innovation distinguishes between a leader and a follower." — Steve Jobs<br>创新决定你是领导者还是追随者。<br><br>
+        "The inventor is a person who is not thinking of the existing methods." — Thomas Edison<br>发明家是不满足于现有方法的人。
+    </div>
+
+    <h3>🎵 歌词里的 invention</h3>
+    <p>Daft Punk《Harder, Better, Faster, Stronger》(2001)：歌词像机器人层层升级，正是"发明迭代"的感觉，后被 Kanye 采样成《Stronger》更爆红。</p>
+
+    <h3>⚡ 冷知识 · 蔡伦：改变世界的发明家</h3>
+    <p>蔡伦是东汉时期的宦官，他在公元105年改进了造纸术，用树皮、破布等便宜材料制作纸张，成本低、质量好，迅速传播到全世界。没有蔡伦的发明，就不会有今天的书本、报纸和作业本——What an amazing invention!</p>
+</div>
+
+<div style="background:#f1f2f6; border-radius:28px; padding:20px; text-align:center; margin-top:20px;">
+    <div style="font-weight:800; font-size:18px;">🔍 单词复习卡 (可截图保存)</div>
+    <div style="background:white; border-radius:20px; padding:12px; margin:12px 0;">
+        <div><strong>invention</strong>  /ɪnˈvenʃən/</div>
+        <div>释义：发明；发明物</div>
+        <div>课本例句：What an amazing invention!</div>
+        <div>同根词：invent → invention → inventive</div>
+        <div>感叹句型：What an amazing + n.! / That's amazing!</div>
+    </div>
+    <div style="font-size:14px; color:#2c3e50;">⬇️ 下期预告 · market ⬇️ <br>翻开课本P48，"Is there a market near your home?"</div>
+</div>
+
+<div class="footnote">
+    📚 本文完全匹配人教版（一起点）六年级下册 Unit 6<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("invention");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("\u5f53\u524d\u6d4f\u89c8\u5668\u4e0d\u652f\u6301\u8bed\u97f3\u5408\u6210"); }
+}
+</script>
 </body>
 </html>

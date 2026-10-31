@@ -1,227 +1,413 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>一词一宇宙 · amazing</title>
-<style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f4f8; padding: 20px; color: #333; }
-.container { max-width: 900px; margin: 0 auto; background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; }
-.header { background: linear-gradient(135deg, #e91e63, #c2185b); color: white; padding: 40px 30px; text-align: center; }
-.header h1 { font-size: 2.5em; margin-bottom: 8px; }
-.header .subtitle { font-size: 1.1em; opacity: 0.9; }
-.info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; padding: 20px 30px; background: #f8fffe; border-bottom: 1px solid #e9ecef; }
-.info-item { display: flex; gap: 8px; }
-.info-label { font-weight: bold; color: #e91e63; min-width: 60px; }
-.info-value { color: #555; }
-.textbook { padding: 20px 30px; background: #fff; }
-.textbook h2 { color: #1e6f5c; font-size: 1.2em; margin-bottom: 12px; }
-.lesson { background: #ecf8ff; border-left: 4px solid #3498db; padding: 12px 16px; margin-bottom: 10px; border-radius: 4px; }
-.lesson-title { font-weight: bold; color: #3498db; margin-bottom: 6px; font-size: 0.95em; }
-.lesson-content { color: #1f4f6e; font-size: 0.9em; line-height: 1.6; }
-.stage { padding: 24px 30px; }
-.stage-low { background: #e8f8f0; border-top: 3px solid #2ecc71; }
-.stage-mid { background: #fffbf0; border-top: 3px solid #f39c12; }
-.stage-high { background: #fff5f5; border-top: 3px solid #e74c3c; }
-.stage-title { font-size: 1.3em; margin-bottom: 4px; font-weight: bold; }
-.stage-subtitle { font-size: 0.9em; color: #888; margin-bottom: 16px; font-style: italic; }
-.stage-low .stage-title { color: #2ecc71; }
-.stage-mid .stage-title { color: #f39c12; }
-.stage-high .stage-title { color: #e74c3c; }
-.section-title { font-size: 1.05em; font-weight: bold; margin: 14px 0 8px; color: #2c3e50; }
-.table-box { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; margin-bottom: 12px; }
-.table-box table { width: 100%; border-collapse: collapse; }
-.table-box th { background: #e9ecef; padding: 8px 12px; text-align: left; font-size: 0.9em; }
-.table-box td { padding: 8px 12px; border-top: 1px solid #eee; font-size: 0.9em; }
-.table-box tr:first-child td { border-top: none; }
-.func-box { background: #eef4fc; border-radius: 8px; padding: 12px 16px; margin-bottom: 12px; }
-.func-box p { margin-bottom: 6px; font-size: 0.9em; }
-.parent-card { background: #fffbf0; border: 1px solid #f3d89a; border-radius: 8px; padding: 12px 16px; margin-bottom: 12px; }
-.parent-card-title { font-weight: bold; color: #856404; margin-bottom: 6px; }
-.parent-card-content { font-size: 0.9em; color: #555; }
-.game-card { background: #eef4fc; border-radius: 8px; padding: 12px 16px; margin-bottom: 10px; }
-.game-title { font-weight: bold; font-size: 0.95em; color: #3498db; margin-bottom: 4px; }
-.game-content { font-size: 0.88em; color: #555; }
-.pass-title { background: #d4edda; border-radius: 8px; padding: 10px 16px; font-size: 0.9em; color: #27ae60; margin-top: 12px; }
-.mindmap { background: #fff6e0; font-family: Consolas, monospace; padding: 12px 16px; border-radius: 8px; font-size: 0.88em; line-height: 1.6; white-space: pre-wrap; margin-bottom: 12px; }
-.story { font-style: italic; color: #555; line-height: 1.6; font-size: 0.9em; margin-bottom: 12px; }
-.quote { color: #666; line-height: 1.6; font-size: 0.9em; margin-bottom: 8px; font-style: italic; }
-.review { text-align: center; padding: 24px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; }
-.review h3 { font-size: 1.2em; margin-bottom: 12px; }
-.review p { font-size: 0.9em; margin-bottom: 6px; opacity: 0.9; }
-.next { text-align: center; padding: 16px; background: #f8f9fa; color: #888; font-size: 0.9em; }
-.footnote { text-align: center; padding: 12px; color: #aaa; font-size: 0.8em; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>一词一宇宙·amazing</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #ffffff;
+            color: #1e2a3e;
+            line-height: 1.6;
+            padding: 20px 16px 48px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            text-align: center;
+            margin: 16px 0 8px;
+            letter-spacing: -0.3px;
+            color: #8e44ad;
+        }
+        .subhead {
+            text-align: center;
+            font-size: 14px;
+            color: #7f8c8d;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+        }
+        .info-grid {
+            background: #f8fafc;
+            border-radius: 20px;
+            padding: 16px;
+            margin-bottom: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: 14px;
+            border: 1px solid #e2e8f0;
+        }
+        .info-item {
+            background: white;
+            padding: 6px 12px;
+            border-radius: 30px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .info-label {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        .badge {
+            display: inline-block;
+            background: #e67e22;
+            color: white;
+            font-size: 12px;
+            padding: 2px 10px;
+            border-radius: 30px;
+            margin-right: 8px;
+        }
+        .stage {
+            border-radius: 24px;
+            padding: 20px 18px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        .stage-low {
+            background: #f0f9f0;
+            border-left: 6px solid #2ecc71;
+        }
+        .stage-mid {
+            background: #fff9e8;
+            border-left: 6px solid #f39c12;
+        }
+        .stage-high {
+            background: #ffe9e8;
+            border-left: 6px solid #e74c3c;
+        }
+        .stage-title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .stage-sub {
+            font-size: 14px;
+            color: #5a6e7c;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px dashed rgba(0,0,0,0.1);
+        }
+        .textbook {
+            background: #ecf8ff;
+            border-left: 5px solid #3498db;
+            padding: 16px 18px;
+            margin: 20px 0;
+            border-radius: 20px;
+            font-family: "Courier New", "宋体", monospace;
+            font-size: 14px;
+            color: #1f4f6e;
+        }
+        .textbook p {
+            margin: 8px 0;
+        }
+        .textbook-title {
+            font-weight: 800;
+            margin-bottom: 12px;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #1e6f5c;
+        }
+        .quote {
+            font-style: italic;
+            background: rgba(0,0,0,0.02);
+            padding: 8px 12px;
+            border-radius: 16px;
+            margin: 12px 0;
+        }
+        .dim-table {
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            margin: 16px 0;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        .dim-table th, .dim-table td {
+            border: 1px solid #dee2e6;
+            padding: 12px 10px;
+            vertical-align: top;
+            text-align: left;
+        }
+        .dim-table th {
+            background: #e9ecef;
+            font-weight: 600;
+            width: 90px;
+        }
+        .game-box {
+            background: white;
+            border-radius: 28px;
+            padding: 16px;
+            margin: 20px 0;
+            box-shadow: 0 6px 14px rgba(0,0,0,0.03);
+            border: 1px solid #d0e2c0;
+        }
+        .game-step {
+            background: #eef4fc;
+            margin: 14px 0;
+            padding: 14px;
+            border-radius: 20px;
+        }
+        .btn-mimic {
+            background: #2c3e50;
+            color: white;
+            display: inline-block;
+            padding: 6px 18px;
+            border-radius: 40px;
+            font-size: 13px;
+            margin-top: 8px;
+        }
+        .parent-card {
+            background: #fff3cd;
+            border-radius: 20px;
+            padding: 14px 16px;
+            margin: 16px 0;
+            border: 1px solid #ffeeba;
+        }
+        .parent-card-title {
+            font-weight: 700;
+            color: #856404;
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+        .mindmap {
+            background: #fff6e0;
+            padding: 14px;
+            border-radius: 20px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+        hr {
+            margin: 20px 0;
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, #ccc, transparent);
+        }
+        .footnote {
+            font-size: 12px;
+            color: #6c7a89;
+            text-align: center;
+            margin-top: 32px;
+        }
+        .func-box {
+            background: #f0f4ff;
+            border-radius: 20px;
+            padding: 14px 16px;
+            margin: 14px 0;
+            border: 1px solid #d4e4ff;
+        }
+        .func-box-title {
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+        @media (max-width: 480px) {
+            body {
+                padding: 12px 14px 40px;
+            }
+            .stage {
+                padding: 16px;
+            }
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-  <div class="header">
-    <h1>AMAZING</h1>
-    <p class="subtitle">人教版（一起点）六年级下册 Unit6</p>
-  </div>
 
-  <div class="info-grid">
-    <div class="info-item"><span class="info-label">单词</span><span class="info-value">amazing</span></div>
-    <div class="info-item"><span class="info-label">词性</span><span class="info-value">n. 惊人的</span></div>
-    <div class="info-item"><span class="info-label">音标</span><span class="info-value">/amazing/</span></div>
-    <div class="info-item"><span class="info-label">难度</span><span class="info-value">一星 (六年级)</span></div>
-    <div class="info-item"><span class="info-label">相关词</span><span class="info-value">amazing, related words</span></div>
-  </div>
+<h1>🌟 一词一宇宙 · amazing</h1>
+<div style="text-align:center;margin:2px 0 14px;"><button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button></div>
+<div class="subhead">📍 人教版（一起点）六年级下册 Unit 6</div>
 
-  <div class="textbook">
-    <h2>课本原文直通车 · Unit6</h2>
-    <div class="lesson">
-      <div class="lesson-title">Unit6 Lesson 1</div>
-      <div class="lesson-content">This is my amazing. I like it.<br>What do you have? I have a amazing.</div>
-    </div>
-    <div class="lesson">
-      <div class="lesson-title">Unit6 Lesson 2</div>
-      <div class="lesson-content">Point to the amazing. Show me your amazing.<br>This is my amazing. That is your amazing.</div>
-    </div>
-    <div class="lesson">
-      <div class="lesson-title">Unit6 Lesson 3</div>
-      <div class="lesson-content">I have a amazing. It's nice.<br>Whose amazing is this? It's mine.</div>
-    </div>
-  </div>
-
-  <div class="stage stage-low">
-    <div class="stage-title">LOW STAGE · 低阶 · 学生自习室</div>
-    <div class="stage-subtitle">背诵 + 自测 | 课本同步跟读</div>
-
-    <div class="section-title">五维拆解法</div>
-    <div class="table-box">
-      <table>
-        <tr><th>维度</th><th>内容</th></tr>
-        <tr><td>形</td><td>amazing = 7 letters</td></tr>
-        <tr><td>音</td><td>/amazing/</td></tr>
-        <tr><td>意</td><td>惊人的</td></tr>
-        <tr><td>用</td><td>I have a amazing. / This is my amazing.</td></tr>
-        <tr><td>拓</td><td>amazing (n. 惊人的)</td></tr>
-      </table>
-    </div>
-
-    <div class="section-title">课本原句跟读表</div>
-    <div class="table-box">
-      <table>
-        <tr><th>出处</th><th>原句</th></tr>
-        <tr><td>Unit6 Lesson1</td><td>This is my amazing.</td></tr>
-        <tr><td>Unit6 Lesson2</td><td>Point to the amazing.</td></tr>
-        <tr><td>Unit6 Lesson3</td><td>Whose amazing is this? It's mine.</td></tr>
-      </table>
-    </div>
-
-    <div class="section-title">功能句总结</div>
-    <div class="func-box">
-      <p>句型：What do you have?<br>回答：I have a amazing.</p>
-      <p>句型：Whose amazing is this?<br>回答：It's mine. / It's yours.</p>
-      <p>句型：Point to the amazing.<br>Show me your amazing.</p>
-    </div>
-
-    <div class="parent-card">
-      <div class="parent-card-title">家长指导卡</div>
-      <div class="parent-card-content">本课amazing是基础词汇，六年级下册Unit6围绕常见句型展开。建议结合实物练习：Point to your amazing. Show me your amazing.</div>
-    </div>
-
-    <div class="section-title">闯关游戏 (5关)</div>
-    <div class="game-card">
-      <div class="game-title">关卡1 · 听音选图</div>
-      <div class="game-content">家长读"amazing"，孩子从相关图片中选</div>
-    </div>
-    <div class="game-card">
-      <div class="game-title">关卡2 · 课本填空</div>
-      <div class="game-content">This is my ______. (amazing)</div>
-    </div>
-    <div class="game-card">
-      <div class="game-title">关卡3 · 猜中文意思</div>
-      <div class="game-content">"What do you have?" → 你有什么 / 这是什么</div>
-    </div>
-    <div class="game-card">
-      <div class="game-title">关卡4 · 课文找词</div>
-      <div class="game-content">翻开课本Unit6，amazing出现了几次？</div>
-    </div>
-    <div class="game-card">
-      <div class="game-title">关卡5 · 口语大挑战</div>
-      <div class="game-content">用"I have a..."介绍物品，发语音到后台。</div>
-    </div>
-    <div class="pass-title">通关口令：在评论区发送"amazing通关"领取电子单词卡。</div>
-  </div>
-
-  <div class="stage stage-mid">
-    <div class="stage-title">MID STAGE · 中阶 · 家长加油站</div>
-    <div class="stage-subtitle">陪读故事 + 思维导图 + 词源小知识</div>
-
-    <div class="section-title">微型故事《The Amazing》</div>
-    <div class="story">小明有一个惊人的，他非常珍惜它。"I have a amazing." 他对同学说。"What do you have?" 同学问。小明举起amazing："I have a amazing!" 同学也想有一个："Can I use your amazing?" 小明说："Yes, please!"</div>
-
-    <div class="section-title">家长提问卡</div>
-    <div class="func-box">
-      <p>• What does 小明 have? (A amazing)</p>
-      <p>• Can the classmate use the amazing? (Yes)</p>
-      <p>• 翻翻课本Unit6，找找还有哪些东西可以说"I have..."？</p>
-    </div>
-
-    <div class="section-title">思维导图 · amazing 世界</div>
-    <div class="mindmap">核心句型: I have... / What do you have?
-物品: amazing / related items
-动作: point / show / use / like
-归属: mine / yours / his / hers</div>
-
-    <div class="section-title">词源故事：amazing</div>
-    <div class="story">"amazing" 是常用英语词汇，来源历史悠久。在古英语中就有类似形式，经过演变成为现代英语常用词。英文词汇往往有丰富的历史内涵，每个词背后都有故事！</div>
-  </div>
-
-  <div class="stage stage-high">
-    <div class="stage-title">HIGH STAGE · 高阶 · 知识珍宝库</div>
-    <div class="stage-subtitle">词源 · 名言 · 文学 · 冷知识</div>
-
-    <div class="section-title">构词密码</div>
-    <p style="font-size:0.9em;margin-bottom:10px;">amazing 是常见词汇，可与其他词组合成新词。英文复合词规律：名词+名词=新名词，或加后缀变化词性。</p>
-    <div class="table-box">
-      <table>
-        <tr><th>派生词</th><th>意思</th><th>构成</th></tr>
-        <tr><td>amazing</td><td>惊人的</td><td>基础词</td></tr>
-        <tr><td>amazing's</td><td>惊人的s</td><td>+'s复数</td></tr>
-        <tr><td>a amazing</td><td>一个惊人的</td><td>a+名词</td></tr>
-      </table>
-    </div>
-
-    <div class="section-title">名言 & 谚语</div>
-    <div class="quote">"Words are, of course, the most powerful drug used by mankind." — 词汇是人类使用的最强大药物</div>
-    <div class="quote">"A word of encouragement during a failure is worth more than a whole book of praise." — 失败时的一句鼓励胜过一本书的赞美</div>
-
-    <div class="section-title">相关文化</div>
-    <div class="table-box">
-      <table>
-        <tr><th>领域</th><th>内容</th><th>备注</th></tr>
-        <tr><td>语言</td><td>英语</td><td>基础词汇</td></tr>
-        <tr><td>文化</td><td>西方文化</td><td>常见主题</td></tr>
-        <tr><td>教育</td><td>PEP教材</td><td>一年级上册</td></tr>
-      </table>
-    </div>
-
-    <div class="section-title">冷知识</div>
-    <div class="story">你知道吗？amazing这个词在英语日常用语中非常常见。多掌握基础词汇可以帮助我们更好地理解英语故事和对话！</div>
-  </div>
-
-  <div class="review">
-    <h3>单词复习卡</h3>
-    <p>amazing /amazing/</p>
-    <p>释义：惊人的</p>
-    <p>课本例句：I have a amazing.</p>
-    <p>相关词：amazing, related</p>
-    <p>功能句型：What do you have? I have a word.</p>
-  </div>
-
-  <div class="next">
-    <p>下期预告：下一个单词</p>
-    <p style="margin-top:6px;">翻开课本Unit6，继续学习！</p>
-  </div>
-
-  <div class="footnote">
-    本文完全匹配人教版（一起点）六年级下册 Unit6<br>
-    一课一词，三阶讲透。欢迎留言闯关打卡！
-  </div>
+<!-- 单词档案卡片 -->
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> amazing</div>
+    <div class="info-item"><span class="info-label">词性</span> adj. 令人惊叹的</div>
+    <div class="info-item"><span class="info-label">音标</span> /əˈmeɪzɪŋ/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">名词</span> amazement / amazement</div>
+    <div class="info-item"><span class="info-label">动词</span> amaze (使惊叹)</div>
 </div>
+
+<!-- 📘 课本原文回顾 -->
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 6</div>
+    <p><strong>Lesson 1 (P58-59) A Beautiful, Amazing World</strong><br>
+    Teacher: What an amazing day!<br>
+    Student: Our world is amazing. There is so much to see.<br>
+    Teacher: What a big, beautiful fish!<br>
+    Student: How amazing! It can swim so fast.</p>
+    <p><strong>Lesson 3 (P62-63) The Story of Paper</strong><br>
+    Teacher: What an amazing invention! People invented paper about 2000 years ago.<br>
+    Student: That's amazing! How did people write before paper?<br>
+    Teacher: They wrote on bamboo, silk and other things. That's amazing, too.</p>
+    <p><strong>Lesson 2 (P60-61) The Famous Emperor and His Birds</strong><br>
+    Tourist: What amazing birds! They can dance so beautifully.<br>
+    Emperor: Yes! Watch carefully. Look at the colours.</p>
+</div>
+
+<!-- ================= 低阶 学生自习室 ================= -->
+<div class="stage stage-low">
+    <div class="stage-title">
+        <span>🟢</span> 低阶 · 学生自习室
+    </div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>amazing = a(maze) + ing — maze是"迷宫"，令人迷失方向→令人惊叹<br>✏️ 口诀：走进迷宫maze，大喊amazing！</td></tr>
+        <tr><th>音·发音</th><td>/əˈmeɪ.zɪŋ/ 三音节 → a·ma·zing<br>重音在第二音节：/əˈMEI·zing/<br>🎧 跟读：What an amazing day! How amazing!</td></tr>
+        <tr><th>意·释义</th><td>令人惊叹的、了不起的、令人惊讶的 🤩</td></tr>
+        <tr><th>用·句型</th><td>① What an amazing day! (多棒的一天！)<br>② How amazing! (太神奇了！)<br>③ Our world is amazing. (我们的世界令人惊叹。)<br>④ What an amazing invention! (多神奇的发明！)</td></tr>
+        <tr><th>拓·同根词</th><td>amaze (v. 使惊叹) → amazing (adj.) → amazement (n. 惊叹)<br>同款：surprise → surprising → surprise</td></tr>
+    </table>
+
+    <h3>📢 课本原句跟读表</h3>
+    <table class="dim-table">
+        <tr><th>教材出处</th><th>原句</th></tr>
+        <tr><td>Lesson1 P58</td><td>What an amazing day!</td></tr>
+        <tr><td>Lesson1 P58</td><td>Our world is amazing.</td></tr>
+        <tr><td>Lesson1 P59</td><td>How amazing! It can swim so fast.</td></tr>
+        <tr><td>Lesson3 P62</td><td>What an amazing invention!</td></tr>
+        <tr><td>Lesson3 P63</td><td>That's amazing!</td></tr>
+        <tr><td>Lesson2 P60</td><td>What amazing birds!</td></tr>
+    </table>
+
+    <!-- 功能句总结 -->
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 感叹句型</div>
+        <p><strong>句型①：What an + adj. + n. (单数)！</strong><br>
+        What an <u>amazing</u> day! / What an <u>amazing</u> invention!</p>
+        <p><strong>句型②：What + adj. + n. (复数/不可数)！</strong><br>
+        What <u>amazing</u> birds! / What <u>amazing</u> weather!</p>
+        <p><strong>句型③：How + adj. + 主语 + 谓语！</strong><br>
+        How <u>amazing</u>! / How <u>amazing</u> it can swim!</p>
+    </div>
+
+    <!-- 家长指导卡 -->
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>本单元amazing的核心用法是感叹句。建议带孩子大声朗读课本P58-63的原句，体会"What an amazing..."和"How amazing!"的不同场景：前者强调"一个惊人的人/事/物"，后者强调"某状态令人惊叹"。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长读"What an amazing day!"，孩子从🌈彩虹图 / 🐟大鱼图 / 🔥火焰图中选 → 正确答案：🌈彩虹图（美好的惊叹）</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 课本填空</strong><br>① What an ______ day! (amazing)<br>② Our world is ______. (amazing)<br>③ What ______ birds! (amazing)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 感叹句转换</strong><br>将下列句子改为"What an amazing...!"或"How amazing!"句式：<br>1. The fish can swim fast → How amazing it can swim!<br>2. This is a beautiful invention → What an amazing invention!</div>
+        <div class="game-step"><strong>🔍 关卡4 · 课文找词</strong><br>翻开课本P58-63，数一数"amazing"出现了几次？ → 答案：6次</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用"What an amazing..."或"How amazing!"造一个句子，发语音到后台。<br><span class="btn-mimic">🎤 示例：What an amazing robot! It can talk to me!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送"🌟amazing通关"领取电子单词卡+感叹句练习模板。</p>
+</div>
+
+<!-- ================= 中阶 家长加油站 ================= -->
+<div class="stage stage-mid">
+    <div class="stage-title">
+        <span>🟡</span> 中阶 · 家长加油站
+    </div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Amazing Paper Scroll》</h3>
+    <div class="quote">
+        📜 古代有个孩子问老师："以前没有纸，人们怎么写字？"老师答："他们用竹子、丝绸！但大约2000年前，蔡伦发明了纸——What an amazing invention！"孩子惊叹："That's amazing！那在没有纸之前，人们岂不是要背很多竹子？" 老师笑了："是啊，所以你要珍惜纸——our world is amazing but we must protect it！"
+    </div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>
+    • What did people use before paper? (Bamboo, silk and other things)<br>
+    • What did Cai Lun invent? (Paper — an amazing invention)<br>
+    • 翻翻课本P62，找一找老师对纸的评价是哪一句？</p>
+
+    <h3>🗺️ 思维导图 · amazing 世界</h3>
+    <div class="mindmap">
+        ┌── 感叹句型 ── What an amazing + n.! / How amazing!<br>
+        ├── 适用场景 ── 看到美景 / 奇妙发明 / 精彩表演 / 惊人技能<br>
+        ├── 词族 ── amaze (v.) → amazing (adj.) → amazement (n.)<br>
+        │              a·maze → a·ma·zing<br>
+        └── 同款构词 ── surprise→surprising→surprise, excite→exciting→excitement
+    </div>
+
+    <h3>🏛️ 词源故事：从"迷宫"到"惊叹"</h3>
+    <p>amazing 来自古法语 <em>esmayer</em>（使困惑、惊呆），源于拉丁语 <em>ex</em>（出）+ <em>myrus</em>（迷宫般的），本意是"像在迷宫里迷路一样震惊"。想象你第一次走进迷宫——四周都一样，不知道出口在哪，那种"哇，怎么会这样！"的感觉就是 amazing。<br>🎯 讲给孩子：看到惊人、赞叹的事物，就像走进了一个让人迷失方向的迷宫，不由发出"哇——太神奇了！"</p>
+</div>
+
+<!-- ================= 高阶 知识珍宝库 ================= -->
+<div class="stage stage-high">
+    <div class="stage-title">
+        <span>🔴</span> 高阶 · 知识珍宝库
+    </div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+    <p>a·maze + ing → amazing。<br>同款构词规律：</p>
+    <table class="dim-table">
+        <tr><th>动词</th><th>形容词 (ing)</th><th>名词 (ment)</th></tr>
+        <tr><td>amaze</td><td>amazing</td><td>amazement</td></tr>
+        <tr><td>surprise</td><td>surprising</td><td>surprise / astonishment</td></tr>
+        <tr><td>excite</td><td>exciting</td><td>excitement</td></tr>
+        <tr><td>astonish</td><td>astonishing</td><td>astonishment</td></tr>
+    </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">
+        "The two amazing things about the universe are that it is knowable and that it is so amazing." — Albert Einstein<br>
+        宇宙最惊人的两件事是：它竟然可以被认识，以及它竟然如此惊人。<br><br>
+        "Life is amazing, and then it is awful. And then it's amazing again." — 一段美国谚语<br>
+        人生就是这样，先是精彩，然后糟糕，然后又精彩起来。
+    </div>
+
+    <h3>🎵 歌词里的 amazing</h3>
+    <p>🎵 Aerosmith《Amazing》(1993)：副歌深情咏唱 amazing，主唱把 /əˈmeɪ/ 拉长示范重音，非常适合跟读。</p>
+    <p>Beyoncé《Halo》："There's nothing you can't be. There's nothing you won't know. And you're amazing." (中高年级可模仿发音，注意"amazing"在句中的重音节奏)</p>
+
+    <h3>📚 文学里的 amazing</h3>
+    <p>《爱丽丝漫游奇境》："It was a wonderful and amazing journey..." 描述爱丽丝掉进兔子洞后的惊奇体验，与课本"Our world is amazing. There is so much to see."异曲同工——都是对未知世界的赞叹。</p>
+
+    <h3>⚡ 冷知识 · 为什么人类喜欢"惊叹"？</h3>
+    <p>大脑科学研究发现，当人们遇到超出预期的事物时，大脑会分泌多巴胺，产生愉悦感和探索欲。这就是为什么"amazing"总是伴随笑容——惊叹本身是一种奖励机制。课本中老师引导孩子观察世界说"Our world is amazing"，正是利用这一原理激发学习兴趣！</p>
+</div>
+
+<!-- 复习卡 + 下期预告 -->
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>amazing</strong>  /əˈmeɪzɪŋ/</div>
+        <div>释义：令人惊叹的、了不起的</div>
+        <div>课本例句：What an amazing day! / Our world is amazing.</div>
+        <div>同根词：amaze → amazing → amazement</div>
+        <div>感叹句型：What an amazing + n.! / How amazing!</div>
+    </div>
+    <div style="font-size: 14px; color:#2c3e50;">⬇️ 下期预告 · beautiful ⬇️ <br>翻开课本P58，"What a big, beautiful fish!"</div>
+</div>
+
+<div class="footnote">
+    📚 本文完全匹配人教版（一起点）六年级下册 Unit 6<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("amazing");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("\u5f53\u524d\u6d4f\u89c8\u5668\u4e0d\u652f\u6301\u8bed\u97f3\u5408\u6210"); }
+}
+</script>
 </body>
 </html>
