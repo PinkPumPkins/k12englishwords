@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·monkey</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · monkey</h1>
+<div class="subhead">📍 人教版（一起点）一年级上册 Unit 3 Animals</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> monkey</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 猴子</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈmʌŋki/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> monkeys</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 3 Animals</div>
+    <p><strong>Lesson 1 · A/C. Look, listen and chant</strong><br>
+    Cat, cat, what do you see?<br>
+    I see a dog looking at me.<br>
+    Dog, dog, what do you see?<br>
+    I see a bird looking at me.<br>
+    Bird, bird, what do you see?<br>
+    I see a monkey looking at me.<br>
+    （歌谣动物继续轮换：monkey→tiger）</p>
+    <p><strong>Lesson 2 · Look, listen and repeat</strong><br>
+    — What's this?<br>
+    — It's a tiger.<br>
+    — What's this?<br>
+    — It's a dog.</p>
+    <p><strong>Lesson 3 · A. Play &amp; B. Sing</strong><br>
+    — What's this? — It's a bird.<br>
+    Two little blackbirds sitting on a hill,<br>
+    one named Jack, one named Jill.<br>
+    Fly away Jack, fly away Jill.<br>
+    Come back Jack, come back Jill.</p>
+    <p><strong>Story Time</strong><br>
+    — What's this? — It's a monkey!<br>
+    — What's this? — It's a bird!</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经英语朗读宝(51jiaoxi)跟读页、全册教学设计(7cxk)、智慧山知识点归纳与Story Time快照多源交叉核对；Story Time 开场问候语为单源信息未收录。本页聚焦：monkey 在 Lesson 1 歌谣 "I see a monkey looking at me." 与 Story Time "It's a monkey!" 中出现。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>m·o·n·k·e·y 六个字母，本单元最长！结尾的 y 像一条小尾巴<br>✏️ 口诀：monkey 甩着 key 一样的尾巴——结尾是 y 不是 i！</td></tr>
+        <tr><th>音·发音</th><td>/ˈmʌŋki/ 两音节，n 后面跟 k 读 /ŋk/：MUN-kee<br>🎧 跟读：a monkey · two monkeys · Monkey King</td></tr>
+        <tr><th>意·释义</th><td>猴子 🐒（复数 monkeys；注意 y 变 ies！）</td></tr>
+        <tr><th>用·句型</th><td>① What's this? It's a monkey. (课本句！)<br>② I see a monkey looking at me. (歌谣句！)<br>③ The monkey is funny. (猴子很好笑。)<br>④ Act like a monkey. (学猴子做动作！)</td></tr>
+        <tr><th>拓·同族词</th><td>monkey → monkeys（y→ies 规则，同族：baby→babies）；monkey business 胡闹；Monkey King 美猴王孙悟空</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>描述</td><td>The monkey is funny.</td></tr>
+        <tr><td>能力</td><td>The monkey can climb.</td></tr>
+        <tr><td>动作模仿</td><td>Act like a monkey!</td></tr>
+        <tr><td>数量</td><td>Three monkeys jump, jump, jump.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · Act like ... 模仿句</div>
+        课本指令句：<strong>Act like a monkey!</strong>（学猴子做动作！）<br>全身动起来学动物：<br><u>Act like a</u> monkey 🐒 / <u>Act like a</u> cat 🐱 / <u>Act like a</u> tiger 🐯<br>⚠️ like 后面的动物要带 a：act like a monkey
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>monkey 是本单元最长的词，最容易漏掉结尾的 y。建议和孩子玩"学我做"游戏：家长说 Act like a monkey! 孩子做猴子动作并喊 It's a monkey! 再角色轮换。拼读时拆成 mon-key 两段拍手读。顺带对比 baby→babies，帮孩子理解 y 变 ies 的复数规律。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 "It's a monkey"，孩子从 🐒 / 🐦 / 🐶 中选 → 正确答案：🐒</div>
+        <div class="game-step"><strong>✏️ 关卡2 · Act like 填空</strong><br>① ___ like a monkey! (Act)<br>② What's this? ___ a monkey. (It's)<br>③ The monkey can ___ (climb).</div>
+        <div class="game-step"><strong>✅ 关卡3 · 复数变身 y→ies</strong><br>one monkey → two ______ (monkeys)<br>one baby → two ______ (babies)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>在动物园、绘本或生肖玩偶里找猴子，指着说 "It's a monkey!" 说对了得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>边做猴子动作边喊句子并录语音打卡<br><span class='btn-mimic'>🎤 示例：Act like a monkey! It's a monkey! Ooh-ooh-ahh!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟monkey通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Monkey See, Monkey Do》</h3>
+    <div class="quote">🐒 小猴子坐在树上，看见 Joy 举起动物卡片说："It's a monkey!" 它也指指自己："Monkey! Monkey!" Joy 做老虎的动作，小猴子跟着做；Joy 拍拍手，小猴子也拍拍手。Joy 笑了："Monkey see, monkey do!" 小猴子做个鬼脸，摘下一个苹果递给她："A gift for you!" Joy 说："Thank you! You are a funny monkey!"</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What did Joy say about the card? (It's a monkey!)<br>• What did the monkey give Joy? (An apple)<br>• 问问孩子：Act like a monkey! 你会怎么演？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">monkey 树上精灵<br>├── 拼写 ── mon-key · 结尾是 y<br>├── 复数 ── monkey → monkeys（y→ies：baby→babies）<br>├── 指令 ── Act like a monkey!<br>├── 谚语 ── Monkey see, monkey do.<br>└── 拓展 ── Monkey King 美猴王</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>monkey 是个"来历不明"的词——词源学家至今没查清它的祖先！最有名的猜测是：它可能来自中古低地德语里的猴子名字 <em>Moneke</em>，《列那狐故事》里猴子的孩子就叫这个名字；也有学者说和意大利语 monna（夫人）沾亲。16 世纪中叶它才出现在英语里。<br>🎯 讲给孩子：连"猴子"这个单词都像猴子一样古灵精怪，谁也抓不住它的来历！</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>Monkey King</td><td>美猴王（孙悟空的英文名）</td></tr>
+        <tr><td>monkey business</td><td>恶作剧、胡闹</td></tr>
+        <tr><td>monkey bar</td><td>猴架（游乐场的攀爬架）</td></tr>
+        <tr><td>monkey see, monkey do</td><td>有样学样</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Monkey see, monkey do."（有样学样）—— 英语谚语</div>
+
+    <h3>🎵 歌词里的 monkey</h3>
+    <p>🎵 Tones and I《Dance Monkey》(2019)：全球病毒式冠军神曲，曾在多国单曲榜连续霸榜并打破连冠纪录，"dance monkey" 一遍洗脑——歌名里就藏着 monkey。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>吼猴（howler monkey）是地球上嗓门最大的动物之一——它的吼声能传出约 5 公里，隔着几座山都能听见。吼猴的舌骨像个天然共鸣箱，越吼越响，一场"猴吼"就是森林里的演唱会。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>monkey</strong> /ˈmʌŋki/ n. 猴子</div>
+        <div>功能句：Act like a monkey!</div>
+        <div>复数：monkey → monkeys（y 变 ies）</div>
+        <div>谚语：Monkey see, monkey do.</div>
+        <div>拓展：Monkey King 美猴王</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于人教版（一起点）一年级上册 Unit 3 Animals<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("monkey");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

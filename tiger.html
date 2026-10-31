@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·tiger</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · tiger</h1>
+<div class="subhead">📍 人教版（一起点）一年级上册 Unit 3 Animals</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> tiger</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 老虎</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈtaɪɡə(r)/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> tigers</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 3 Animals</div>
+    <p><strong>Lesson 1 · A/C. Look, listen and chant</strong><br>
+    Cat, cat, what do you see?<br>
+    I see a dog looking at me.<br>
+    Dog, dog, what do you see?<br>
+    I see a bird looking at me.<br>
+    Bird, bird, what do you see?<br>
+    I see a monkey looking at me.<br>
+    （歌谣动物继续轮换：monkey→tiger）</p>
+    <p><strong>Lesson 2 · Look, listen and repeat</strong><br>
+    — What's this?<br>
+    — It's a tiger.<br>
+    — What's this?<br>
+    — It's a dog.</p>
+    <p><strong>Lesson 3 · A. Play &amp; B. Sing</strong><br>
+    — What's this? — It's a bird.<br>
+    Two little blackbirds sitting on a hill,<br>
+    one named Jack, one named Jill.<br>
+    Fly away Jack, fly away Jill.<br>
+    Come back Jack, come back Jill.</p>
+    <p><strong>Story Time</strong><br>
+    — What's this? — It's a monkey!<br>
+    — What's this? — It's a bird!</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经英语朗读宝(51jiaoxi)跟读页、全册教学设计(7cxk)、智慧山知识点归纳与Story Time快照多源交叉核对；Story Time 开场问候语为单源信息未收录。本页聚焦：tiger 在 Lesson 1 歌谣轮换句与 Lesson 2 "It's a tiger." 中出现。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>t·i·g·e·r 五个字母，中间的 g-e-r 像老虎身上的花纹<br>✏️ 口诀：先写 t-i，再甩一条 ger 花尾巴！</td></tr>
+        <tr><th>音·发音</th><td>/ˈtaɪɡə(r)/ 两音节，重音在前：TI-ger<br>🎧 跟读：a tiger · two tigers · eye of the tiger</td></tr>
+        <tr><th>意·释义</th><td>老虎 🐯（复数 tigers；森林之王）</td></tr>
+        <tr><th>用·句型</th><td>① What's this? It's a tiger. (课本句！)<br>② I see a tiger looking at me. (歌谣句！)<br>③ The tiger is big. (老虎很大。)<br>④ Roar! The tiger says roar! (拟声句)</td></tr>
+        <tr><th>拓·同族词</th><td>tiger → tigers（直接加 s）；paper tiger 纸老虎；tiger mother 虎妈<br>对比：tiger 大猫 · cat 小猫——都是猫科家族</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>描述</td><td>The tiger is big and strong.</td></tr>
+        <tr><td>能力</td><td>The tiger can run fast.</td></tr>
+        <tr><td>对比</td><td>A tiger is big. A cat is small.</td></tr>
+        <tr><td>拟声</td><td>Roar! The tiger roars!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · What's this? 万能问</div>
+        问眼前的东西都用它：<br><strong>— What's this? — It's a tiger. 🐯</strong><br>换词照样问：<br>— What's this? — It's a dog. / It's a cat.<br>⚠️ What's = What is，读的时候两个词要黏在一起！
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>本课重点是"问—答"配对：What's this? — It's a tiger. 建议家长用布蒙住老虎玩偶的一半问 What's this? 让孩子猜，猜对了全家学老虎吼一声 Roar! 注意 tiger 重音在前（TI-ger），别读成平平的"提格尔"。可以顺带讲"纸老虎 paper tiger"的来历，孩子会记很久。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 "It's a tiger"，孩子从 🐯 / 🐒 / 🐱 中选 → 正确答案：🐯</div>
+        <div class="game-step"><strong>✏️ 关卡2 · It's a 填空</strong><br>① What's this? ___ a tiger. (It's)<br>② The tiger is ___ (big).<br>③ I see a ___ looking at me. (tiger)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数变身</strong><br>one tiger → two ______ (tigers)<br>one big tiger → two big ______ (tigers)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>在动物园、绘本或生肖挂历里找老虎，指着说 "It's a tiger!" 说对了得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 What's this? 问三只动物并录语音打卡<br><span class='btn-mimic'>🎤 示例：— What's this? — It's a tiger! Roar!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟tiger通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Tiger's Roar》</h3>
+    <div class="quote">🐯 森林里，老虎想找朋友。它大喊 "Roar!" 小动物们都吓跑了。"Why?" 老虎很伤心。猫头鹰小声说："You are too loud!" 老虎学着轻轻说："Hi, I'm a tiger. What's this? A party?" 原来森林里在开派对！老虎轻声唱歌，大家跳起舞来。Big tiger, soft heart——大大的老虎，也有软软的心。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Why did the animals run away? (The tiger was too loud!)<br>• What did the tiger find? (A party)<br>• 问问孩子：什么时候该大声，什么时候该小声？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">tiger 森林之王<br>├── 拼写 ── t-i-g-e-r · 重音 TI-ger<br>├── 复数 ── one tiger → two tigers<br>├── 拟声 ── roar（吼）<br>├── 句型 ── What's this? It's a tiger.<br>└── 拓展 ── paper tiger 纸老虎 · tiger mother 虎妈</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>tiger 的老家不在英语——它是一路"旅行"来的：古波斯语叫 <em>tigra-</em>，意思是"尖的、锐利的"，有人说这是形容老虎扑食快得像离弦的箭；后来经希腊语 tigris、拉丁语进入英语。西亚那条湍急的底格里斯河（Tigris）也是同一个词——水流急得像虎。<br>🎯 讲给孩子：tiger 是个"旅行家单词"，从波斯出发，经希腊、罗马，最后住进了你的课本。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>paper tiger</td><td>纸老虎（外强中干）</td></tr>
+        <tr><td>tiger mother</td><td>虎妈（严格育儿的妈妈）</td></tr>
+        <tr><td>tigress</td><td>母老虎（雌虎）</td></tr>
+        <tr><td>Tiger year</td><td>虎年（十二生肖里的寅虎）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"一切反动派都是纸老虎。" All reactionaries are paper tigers. —— 毛泽东 1946 年与美国记者安娜·路易斯·斯特朗的著名谈话，paper tiger（纸老虎）由此走进英语词典。</div>
+
+    <h3>🎵 歌词里的 tiger</h3>
+    <p>🎵 Survivor《Eye of the Tiger》(1982)：《洛奇3》主题曲，Billboard 六周冠军，副歌 "Eye of the tiger" 掷地有声——与 badminton 页同曲互链（那边当"运动斗志曲"用，这边才是"歌名含词"的正主）。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>老虎的条纹像指纹一样独一无二，而且条纹长在皮肤上——把毛剃掉，皮肤上还是条纹！老虎还是猫科动物里的"游泳冠军"，天热时最爱泡在水里，这一点和怕水的大猫们完全不同。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>tiger</strong> /ˈtaɪɡə(r)/ n. 老虎</div>
+        <div>功能句：What's this? — It's a tiger.</div>
+        <div>复数：one tiger → two tigers</div>
+        <div>拟声：Roar! 老虎的吼声</div>
+        <div>短语：paper tiger 纸老虎</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于人教版（一起点）一年级上册 Unit 3 Animals<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("tiger");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

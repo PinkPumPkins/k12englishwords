@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·cat</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · cat</h1>
+<div class="subhead">📍 人教版（一起点）一年级上册 Unit 3 Animals</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> cat</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 猫</div>
+    <div class="info-item"><span class="info-label">音标</span> /kæt/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> cats</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 3 Animals</div>
+    <p><strong>Lesson 1 · A/C. Look, listen and chant</strong><br>
+    Cat, cat, what do you see?<br>
+    I see a dog looking at me.<br>
+    Dog, dog, what do you see?<br>
+    I see a bird looking at me.<br>
+    Bird, bird, what do you see?<br>
+    I see a monkey looking at me.<br>
+    （歌谣动物继续轮换：monkey→tiger）</p>
+    <p><strong>Lesson 2 · Look, listen and repeat</strong><br>
+    — What's this?<br>
+    — It's a tiger.<br>
+    — What's this?<br>
+    — It's a dog.</p>
+    <p><strong>Lesson 3 · A. Play &amp; B. Sing</strong><br>
+    — What's this? — It's a bird.<br>
+    Two little blackbirds sitting on a hill,<br>
+    one named Jack, one named Jill.<br>
+    Fly away Jack, fly away Jill.<br>
+    Come back Jack, come back Jill.</p>
+    <p><strong>Story Time</strong><br>
+    — What's this? — It's a monkey!<br>
+    — What's this? — It's a bird!</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经英语朗读宝(51jiaoxi)跟读页、全册教学设计(7cxk)、智慧山知识点归纳与Story Time快照多源交叉核对；Story Time 开场问候语为单源信息未收录。本页聚焦：cat 是 Lesson 1 歌谣的开场动物——"Cat, cat, what do you see?"</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>c·a·t 三个字母，像小猫拱起的背<br>✏️ 口诀：c-a-t，三秒拼完！加个 s 就是一群猫！</td></tr>
+        <tr><th>音·发音</th><td>/kæt/ 单音节，跟 bat、hat、mat 押韵<br>🎧 跟读：a cat · two cats · a fat cat</td></tr>
+        <tr><th>意·释义</th><td>猫 🐱（复数 cats；也指猫科动物：the big cats 大型猫科动物）</td></tr>
+        <tr><th>用·句型</th><td>① It's a cat. (它是一只猫。)<br>② I see a cat looking at me. (课本歌谣句！)<br>③ The cat is cute. (猫很可爱。)<br>④ Act like a cat. (学猫叫喵~)</td></tr>
+        <tr><th>拓·同族词</th><td>cat → cats（直接加 s）；copycat 爱模仿的人；caterpillar 毛毛虫（古义"多毛的猫"！）<br>cat 和 dog 是英语里最经典的动物 CP</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>指认</td><td>This is a cat.</td></tr>
+        <tr><td>描述</td><td>The cat is white and soft.</td></tr>
+        <tr><td>喜好</td><td>I like cats.</td></tr>
+        <tr><td>拟声</td><td>Meow! The cat says meow!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 动物大点名</div>
+        本单元五只动物一起点名：<br><strong>dog 🐶 · bird 🐦 · tiger 🐯 · monkey 🐒 · cat 🐱</strong><br>指到哪说到哪：<br>— What's this? — It's a cat.<br>— What do you see? — I see a cat looking at me.
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>建议把 cat 和 dog 当"单词搭档"一起复习：家长快速抽动物卡片，孩子抢答 It's a cat! / It's a dog! cat 的押韵家族（cat/bat/hat）可以编成拍手歌。学到 copycat（爱模仿的人）时全家互相笑一笑，孩子会主动用英语说 You are a copycat!</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 "It's a cat"，孩子从 🐱 / 🐯 / 🐶 中选 → 正确答案：🐱</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 押韵填空</strong><br>① a cat / a b___ / a h___ (bat / hat)<br>② What's this? ___ a cat. (It's)<br>③ I see ___ cat looking at me. (a)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数变身</strong><br>one cat → two ______ (cats)<br>one fat cat → two fat ______ (cats)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>找出家里的猫、绘本里的猫或招财猫，指着说 "It's a cat!" 说对了得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 I see a cat looking at me. 造句并录语音打卡<br><span class='btn-mimic'>🎤 示例：I see a cat looking at me. Meow!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟cat通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Copycat》</h3>
+    <div class="quote">🐱 小猫咪看 Joy 做早操，也伸出小爪子学。Joy 拍手，它拍爪；Joy 说 "cat"，它 "meow~"。"You are a copycat!" Joy 笑了。妈妈端来小鱼干，小猫立刻跑过来。"What's this? A gift for me?" 吃完小鱼，小猫蜷在 Joy 腿上呼噜呼噜。爱模仿的小猫，是最好学的小学生。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What did the cat copy? (Joy's actions)<br>• What did Mum give the cat? (小鱼干)<br>• 问问孩子：copycat 是什么意思？你是家里的 copycat 吗？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">cat 呼噜大师<br>├── 拼写 ── c-a-t · 押韵家族 cat/bat/hat<br>├── 复数 ── one cat → two cats<br>├── 拟声 ── meow（喵）<br>├── 句型 ── I see a cat looking at me.<br>└── 拓展 ── copycat 爱模仿的人 · big cats 大猫科</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>cat 来自古英语 <em>catt</em>，往上追是原始日耳曼语 kattuz，再往上很可能是从拉丁语 cattus"借"来的——而拉丁语的 cattus 或许源自北非语言：古埃及人最早把野猫驯化成粮仓守卫，猫跟着运粮船走遍欧洲，名字也一路跟着走。有趣的是 caterpillar（毛毛虫）的古义就是"多毛的猫"！<br>🎯 讲给孩子："猫"这个名字跟着猫走了几千年，从埃及粮仓一直走到你的课本。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>copycat</td><td>模仿者（爱跟风的人）</td></tr>
+        <tr><td>caterpillar</td><td>毛毛虫（古义"多毛的猫"）</td></tr>
+        <tr><td>catnap</td><td>小睡、打盹</td></tr>
+        <tr><td>big cats</td><td>大型猫科动物（狮子、老虎、豹）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Curiosity killed the cat, but satisfaction brought it back."（好奇害死猫，满足又复活）—— 英语谚语<br>"When the cat's away, the mice will play."（猫儿不在，老鼠作怪）</div>
+
+    <h3>🎵 歌词里的 cat</h3>
+    <p>🎵 Al Stewart《Year of the Cat》(1976)：叙事民谣经典，钢琴与萨克斯如猫步般优雅，"Year of the cat" 副歌娓娓道来。备选：Stray Cats《Stray Cat Strut》(1981)，乐队名本身就是"流浪猫"双关。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>猫一生大约 70% 的时间在睡觉，一天能睡 13~16 小时——是世界上最爱睡觉的宠物之一。更神奇的是：猫尝不出"甜"味！猫体内控制甜味受体的基因失效了，所以再甜的蛋糕在它嘴里都没有味道——难怪它对甜品从不心动。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>cat</strong> /kæt/ n. 猫</div>
+        <div>功能句：What's this? — It's a cat.</div>
+        <div>复数：one cat → two cats</div>
+        <div>押韵家族：cat / bat / hat</div>
+        <div>谚语：Curiosity killed the cat.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于人教版（一起点）一年级上册 Unit 3 Animals<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("cat");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

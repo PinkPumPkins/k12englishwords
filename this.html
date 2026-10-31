@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·this</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · this</h1>
+<div class="subhead">📍 人教版（一起点）一年级上册 Unit 2 Face</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> this</div>
+    <div class="info-item"><span class="info-label">词性</span> pron. 这；这个</div>
+    <div class="info-item"><span class="info-label">音标</span> /ðɪs/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>反义词</span> that 那</div><div class='info-item'><span class='info-label'>复数</span> these 这些</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 2 Face</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>本课单词：face 脸 · ear 耳朵 · eye 眼睛 · nose 鼻子 · mouth 嘴巴<br>歌谣以 Touch your ... 指令带着边摸边唱（chant 逐字歌词公开资源未获双源一致，原文待核）</p><p><strong>Lesson 2 · Look, listen and repeat</strong><br>— Touch your mouth. This is my mouth.<br>— Touch your nose. This is my nose.<br>（其余五官同句型替换：Touch your ear/eye/face. This is my ear/eye/face.——逐句原文待核）</p><p><strong>Lesson 3 · Let's sing</strong><br>Two little eyes to look around,<br>Two little ears to hear each sound,<br>One little nose to smell what's sweet,<br>One little mouth that likes to eat.<br>（经典童谣《Two Little Eyes》文本多源可查；课本采用版歌词逐字待核）</p><p><strong>Story Time</strong><br>面具游戏情境，互相指认五官：Look! This is Bill. This is his face. This is his nose ...<br>（奥数网教案节选，台词原文待核）</p><p style='font-size:12px;opacity:.75;'>✅ 原文经智慧山课文快照（Touch your mouth/nose. This is my mouth/nose. + 五官词表）、奥数网 Unit 2 教案（Touch your ... 指令句、五词、This is his face 句型）、朗读宝（Touch your mouth.）、电子课本快照（Lesson 3 歌曲以 Two little 开头）多源交叉核对；未能双源确认的句子已如实标注。本页聚焦：this —— This is my nose. / This is Bill.</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>th·i·s —— 4个字母，th 咬舌开头<br>✏️ 口诀：th-i-s，伸手指近处：这！</td></tr>
+        <tr><th>音·发音</th><td>/ðɪs/ 单音节，th 读浊音 /ð/（声带振动，咬舌出声）<br>🎧 跟读：this is · this is my nose · This is Bill.</td></tr>
+        <tr><th>意·释义</th><td>这；这个 👉（指近处的单个人或物；复数用 these 这些）</td></tr>
+        <tr><th>用·句型</th><td>① This is my nose. (这是我的鼻子。)<br>② This is Bill. (这是比尔。)<br>③ This is a book. (这是一本书。)<br>④ Is this your pen? (这是你的笔吗？)</td></tr>
+        <tr><th>拓·同族词</th><td>this → these（复数）；反义：this 这 ↔ that 那<br>常见搭配：This is... 介绍人或物；Is this...? 提问</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>介绍</td><td>This is my friend.</td></tr>
+        <tr><td>指认</td><td>This is a cat.</td></tr>
+        <tr><td>提问</td><td>Is this your book?</td></tr>
+        <tr><td>回答</td><td>Yes, it is. / No, it isn't.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · This is...（万能介绍句）</div>
+        <p><strong>This is + 人/物：</strong><br>This is my nose. 这是我的鼻子。<br>This is my friend, Lily. 这是我的朋友莉莉。</p><p><strong>提问与回答：</strong><br>— Is this your pen? — Yes, it is. / No, it isn't.<br>⚠️ 回答 this 的问题用 it：Yes, it is.（说 Yes, this is 反而别扭）</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>this 是一年级最重要的'介绍词'。在家门口玩'介绍会'：孩子抱着玩具挨个介绍 This is my bear. This is my ball.，说顺了，This is my nose/ear/eye 课本句自然就会。提醒 th 浊音：轻咬舌尖、喉咙出声，别读成'瑞斯'。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选物</strong><br>家长拿两样东西一近一远，说 'This is a...'，孩子指近处那个 → 选对得星</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 补全单词</strong><br>① ____ is my nose. (This) ② ____ is my friend. (This)<br>边写边念：t-h-i-s, this!</div>
+        <div class="game-step"><strong>✅ 关卡3 · 变身转换</strong><br>单数变复数：this → ______ (these)<br>反义转换：this 这 → ______ (that 那)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>家里'玩具介绍会'：拿5个玩具挨个说 This is a...，说满5个得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 'This is my...' 连说三件身边物（pencil/book/bag），录音打卡<br><span class='btn-mimic'>🎤 示例：This is my pencil. This is my book. This is my bag!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟this通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《This Is My Friend 这是我的朋友》</h3>
+    <div class="quote">开学第一天，豆豆有点害羞。老师牵着他的手说：'This is our classroom.' 又指指同桌：'This is Lily.' 豆豆小声跟读：'This is Lily.' 到了自我介绍，豆豆举起小书包：'This is my schoolbag!' 又拍拍胸口：'This is ME!' 全班都笑了。放学时豆豆拉着莉莉的手：'This is my friend!'——一个 this，把陌生都变成了朋友。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 老师用 This is... 介绍了哪两样？(classroom 和 Lily)<br>• 豆豆拍着胸口说了什么？(This is ME!)<br>• 问问孩子：用 This is my... 介绍你最喜欢的一件东西</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 近指 ── this 这 ↔ that 那（近处 this，远处 that）
+├── 复数 ── this → these 这些
+├── 句型 ── This is... 介绍 · Is this...? 提问
+├── 回答 ── Yes, it is. / No, it isn't.
+└── 高频 ── 英语最常用词前25名</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>this 来自古英语 þes（þ 是古字母 thorn，就是今天 th 的前身）。它和 that 本是一家——同一个词根分出'近指'和'远指'，像手指的近端和远端。英语一千多年都靠这对兄弟指路。<br>🎯 讲给孩子：this 是伸手就能碰到的'这'，that 是要跑过去才够到的'那'。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"This too shall pass." ⏳<br>这一切终将过去。—— 古波斯谚语；林肯在1859年演讲中曾引用它</div>
+
+    <h3>🎵 歌词里的 this</h3>
+    <p>🎵 Keala Settle《This Is Me》(2017)：电影《马戏之王》金曲，金球奖最佳原创歌曲、奥斯卡提名。副歌一句 'This is me'——这就是我，自信从三个词开始，旋律一响孩子跟着喊。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>'This is...' 是英语使用频率最高的开场白之一：打电话自我介绍说 This is...（我是……），介绍朋友说 This is...，展示物品还是 This is...。在牛津英语语料库的高频词榜上，this 稳居前25名——小身板，大流量。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>this</strong> /ðɪs/ pron. 这；这个</div>
+        <div>this /ðɪs/ pron. 这；这个（复数 these）</div>
+        <div>句型：This is my nose. / This is Bill.</div>
+        <div>近指 this ↔ 远指 that</div>
+        <div>提问：Is this your pen? — Yes, it is.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 Unit 2 Face<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("this");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
