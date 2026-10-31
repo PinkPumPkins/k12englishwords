@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·making models</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · making models</h1>
+<div class="subhead">📍 人教版（一起点）四年级下册 Unit 4 Hobbies（爱好）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> making models</div>
+    <div class="info-item"><span class="info-label">词性</span> v-ing. 制作模型</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈmeɪkɪŋ ˈmɒdlz/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (四年级)</div>
+    <div class='info-item'><span class='info-label'>动词原形</span> make（去e加ing）</div>
+</div>
+
+<div class='textbook'>
+    <div class='textbook-title'>📖 课本原文直通车 · Unit 4 Hobbies（爱好）</div>
+    <p><strong>Lesson 1 · A. Look, listen and repeat</strong><br>
+    reading 读书 · doing jigsaw puzzles 拼拼图 · singing and dancing 唱歌跳舞 · skateboarding 玩滑板 · making models 制作模型 · collecting erasers 收集橡皮</p>
+    <p><strong>Lesson 1 · B. Let's play</strong><br>
+    — I like reading and dancing.<br>
+    — Yaoyao likes reading and dancing. I like skateboarding.<br>
+    — Binbin likes skateboarding. I like collecting erasers.</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>
+    — Good afternoon. I'm with School News. Can I ask you a question?<br>
+    — Sure.<br>
+    — What are your hobbies?<br>
+    — I like doing jigsaw puzzles.<br>
+    — What about you?<br>
+    — I like collecting erasers. I have many beautiful erasers.</p>
+    <p><strong>Lesson 2 · B. Do a survey and report</strong><br>
+    — What are your hobbies? — I like singing and dancing. What about you?<br>
+    — I like doing jigsaw puzzles.<br>
+    报告示范：Joy likes singing and dancing. I like doing jigsaw puzzles.</p>
+    <p><strong>Lesson 3 · A. Read and write（家庭爱好书）</strong><br>
+    This is my family's hobby book. I like collecting stamps. I have over 200 stamps. I also like skateboarding. I think it is very cool. My mother likes drawing. She is really good at it. My father likes fishing. He often goes fishing but never catches any fish. My cat likes eating fish. She often goes with my father, but she never gets any fish!</p>
+    <p><strong>Let's Check · A/B（节选）</strong><br>
+    My friends and I have different hobbies. ... We have different hobbies. I like skateboarding. I go to a skateboarding club every week. Mark likes making models. He often makes model planes with his father. Mary likes reading books. She often reads children's stories.</p>
+    <p><strong>Fun Time / Story Time（概要）</strong><br>
+    Fun Time 介绍四个特别的爱好：弹吉他、表演、收集蜘蛛、骑独轮车；Fun Time 歌曲唱 I like listening to music... These are my favourite hobbies. Story Time 讲 Bill 和小狗 Lucky 一起踢足球、画画、唱歌，最后发现 Lucky 也喜欢收集贴纸（stickers）。</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经公开电子课本/跟读资源多源交叉核对（51jiaoxi 逐句跟读页 yyld.51jiaoxi.com/sixia/rjbxqd_danyuan05.html、好多云课文翻译页 m.haoduoyun.cc/fanyi/rjb/4x/4.html，电子课本网 dzkbw.com 确认单元名 Hobbies，知乎教案 zhuanlan.zhihu.com/p/473480051 确认 Lesson 1 词表）；Lesson 1/2/3 课文句两源一致，Fun Time/Story Time 概要以 51jiaoxi 跟读页整理，逐句原文待核。making models 在 Lesson 1 词表出现，Let's Check 里还有 Mark often makes model planes with his father.</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>make 去 e 加 ing → making；model + s（复数）<br>✏️ 口诀：make 的 e 不发音，加 ing 请它离开！</td></tr>
+        <tr><th>音·发音</th><td>/ˈmeɪ.kɪŋ ˈmɒ.dlz/ making 和 models 重音都在前<br>🎧 跟读：I like making models. · make model planes · a model car</td></tr>
+        <tr><th>意·释义</th><td>制作模型 ✈️（make 做 + model 模型 + s：做模型这件事）</td></tr>
+        <tr><th>用·句型</th><td>① I like making models. (我喜欢制作模型。)<br>② Mark often makes model planes with his father. (Mark 常和爸爸做航模。——Let's Check 原句)<br>③ He has 20 model planes. (他有20架航模。——仿 Let's Check)<br>④ Look at my new model! (看我的新模型！)</td></tr>
+        <tr><th>拓·同族词</th><td>make → making（制作）→ maker 制作者<br>model 双义：a model plane 航模 · a model student 模范学生<br>同族爱好：doing jigsaw puzzles 拼拼图</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>爱好</td><td>I like making models in my free time.</td></tr>
+        <tr><td>描述</td><td>Making models needs patience.</td></tr>
+        <tr><td>亲子</td><td>I make model planes with my dad.</td></tr>
+        <tr><td>展示</td><td>Look at my model ship!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · make 的两大本领</div>
+        make = 做/制作：<br>① <u>I like</u> <strong>making models</strong>.（like 后接 making）<br>② make + 名词：make model planes 做航模 · make a card 做贺卡 · make a snowman 堆雪人<br><br>⚠️ make 去不发音的 e 再加 ing：making ✔ makeing ✘
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>making models 是'去 e 加 ing'的活教材。陪孩子做手工时同步说英语：Let's make a model! Look at my model! 顺便对比 model 的两个意思：model plane（模型飞机）和 model student（模范学生）——一个词两个画面，记忆翻倍。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 making models，孩子从 ✈️ / 📖 / 💃 中选 → 正确答案：✈️</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 去 e 变身</strong><br>make → ______ (making)<br>dance → ______ (dancing)<br>write → ______ (writing)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 补全课本句</strong><br>Mark often ______ model planes with his father. (makes) ——Let's Check 原句</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>折一架纸飞机或拼一个模型，举起来说 Look at my model! 得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 I like making models... 介绍你最得意的作品并录语音打卡<br><span class="btn-mimic">🎤 示例：I like making models. This is my model plane!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟making models通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《阳台上的飞机制造厂》</h3>
+    <div class="quote">💫 天天在阳台开'飞机制造厂'：I like making models! 爸爸当'总工程师'，两人一起做了一架 model plane。试飞第一次就栽进花盆，天天不泄气：Step by step! 第三次，小飞机划过整个阳台稳稳落地。爸爸立正敬礼：Captain Tian, your plane is ready for take-off! ✈️</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What does Tiantian like making? (Model planes)<br>• How many tries did it take? (Three)<br>• 问问孩子：做模型失败了怎么办？用英语说一句不放弃的话</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 词形 ── make → making（去 e 加 ing）<br>├── 短语 ── make model planes · make a card<br>├── 双义 ── model 模型 / 模范（model student）<br>├── 句型 ── Look at my model!<br>└── 同族 ── maker 制作者 · model ship 船模</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>model 一路旅行来到英语：拉丁语 modus（尺度、方式）→ 意大利语 modello（小样）→ 法语 modèle → 英语 model。所以 model 的本义是'按真东西缩小的样子'——模型飞机是小小的飞机，model student 则是'大家照着学的样子'（模范）。<br>🎯 讲给孩子：模型和模范是一家人——都值得照着做。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>make → making</td><td>不发音 e 结尾：去 e 加 ing</td></tr>
+        <tr><td>model plane</td><td>模型飞机：与 make a model plane 页互链</td></tr>
+        <tr><td>model student</td><td>模范学生：model 的比喻用法</td></tr>
+        <tr><td>supermodel</td><td>super(超级) + model → 超级模特</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"I hear and I forget. I see and I remember. I do and I understand." ✈️<br>听而忘之，见而记之，做而明之。—— 相传出自孔子。动手做模型，正是最聪明的学习方式。</div>
+
+    <h3>🎵 歌词里的 making models</h3>
+    🎵 John Denver《Leaving on a Jet Plane》(1972)：民谣经典，'jet plane' 唱的正是模型迷最爱的飞机主题。<br>🔗 与 make a model plane 页互链（同曲双词）；making 与 make 的动名词对比也在这一课。
+
+    <h3>⚡ 冷知识</h3>
+    <p>很多飞机设计师小时候都是航模迷。莱特兄弟在造出世界上第一架动力飞机之前，开的是一家自行车铺——天天和机械打交道。做一架模型要经过测量、裁剪、拼装、上色四道工序，跟工程师造真飞机的流程几乎一样，只是缩小了几百倍！</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>making models</strong> /ˈmeɪkɪŋ ˈmɒdlz/ v-ing. 制作模型</div>
+        <div>making models /ˈmeɪkɪŋ ˈmɒdlz/ 制作模型（make 去 e 加 ing）</div>
+        <div>功能句：Mark often makes model planes with his father.（Let's Check 原句）</div>
+        <div>拼写锚点：make→making；model 模型/模范双义</div>
+        <div>名言：I do and I understand. 做而明之</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级下册 Unit 4 Hobbies（爱好）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("making models");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
