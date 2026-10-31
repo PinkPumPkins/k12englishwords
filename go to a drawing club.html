@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·go to a drawing club</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · go to a drawing club</h1>
+<div class="subhead">📍 人教版（一起点）四年级上册 Unit 2 On the Weekend（在周末）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> go to a drawing club</div>
+    <div class="info-item"><span class="info-label">词性</span> 动词短语 去绘画俱乐部</div>
+    <div class="info-item"><span class="info-label">音标</span> /ɡəʊ tə ə ˈdrɔːɪŋ klʌb/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (四年级)</div>
+    <div class='info-item'><span class='info-label'>三单</span> goes to a drawing club</div>
+</div>
+
+<div class='textbook'>
+    <div class='textbook-title'>📖 课本原文直通车 · Unit 2 On the Weekend（在周末）</div>
+    <p><strong>Lesson 1 · A. 词汇</strong><br>
+    visit one's grandparents 看望祖父母 · go to a drawing club 去绘画俱乐部 · climb a hill 爬山 · pick fruit 采摘水果 · play computer games 玩电脑游戏 · go fishing 钓鱼 · go to the cinema 看电影</p>
+    <p><strong>Lesson 1 · B. 对话</strong><br>
+    — Do you often go to the cinema? — No, I don't.<br>
+    — Do you often pick fruit? — Yes, I do.</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>
+    — Do you often pick fruit on the weekend? — Yes, I do.<br>
+    I often go to a drawing club. It's fun.<br>
+    — Lily, do you often go to the cinema on the weekend?</p>
+    <p><strong>Lesson 2 · B. 问答游戏</strong><br>
+    What do you do on the weekend? — 彬彬常去绘画俱乐部；莉莉常看望祖父母。</p>
+    <p><strong>Lesson 3 · 短文（概要）</strong><br>
+    星期六倒霉的一天：看电影被踩了鞋、绘画俱乐部沾了颜料、晚上看望祖父母踩进脏水——poor shoes！希望明天更好。</p>
+    <p><strong>Story Time</strong><br>
+    Bill 周末只爱玩电脑游戏；电脑掉进湖里后，他尝试钓鱼、陪爷爷奶奶聊天，发现现实中的周末也很 fun。</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经公开电子课本/跟读资源多源交叉核对（51jiaoxi 跟读页 yyld.51jiaoxi.com、Scribd 电子课本快照、格灵课堂视频资源）；Lesson 1/2 对话句两源一致，Lesson 3 短文与 Story Time 为多源一致的概要，逐句原文待核。本词为 Lesson 1 核心短语，Lesson 2 对话原句：I often go to a drawing club. It's fun.</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>go + to + a drawing club；drawing = draw + ing（画画这件事）<br>✏️ 口诀：club 俱乐部，词尾 b 别漏</td></tr>
+        <tr><th>音·发音</th><td>/ˈdrɔː.ɪŋ/ 的 -ing 别吞掉；club 读 /klʌb/ 短促有力<br>🎧 跟读：an art club · a music club · two clubs</td></tr>
+        <tr><th>意·释义</th><td>去绘画俱乐部 🎨（也可说 go to a drawing class 去绘画班）</td></tr>
+        <tr><th>用·句型</th><td>① I often go to a drawing club. (我常去绘画俱乐部。)<br>② It's fun. (很有趣。)<br>③ Does he go to a drawing club? (他去绘画俱乐部吗？)<br>④ The drawing club is on Saturday. (绘画俱乐部周六活动。)</td></tr>
+        <tr><th>拓·同族词</th><td>draw → drawing 画/绘画；同型短语：go to a music club 去音乐俱乐部、go to a chess club 去棋类俱乐部</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>喜好</td><td>I like drawing pictures.</td></tr>
+        <tr><td>描述</td><td>My drawing is on the wall.</td></tr>
+        <tr><td>邀请</td><td>Let's go to the drawing club together!</td></tr>
+        <tr><td>评价</td><td>Wow, what a nice picture!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · It's fun! 评价句</div>
+        It's + 形容词：表达感受<br>It's fun! 有趣！/ It's great! 太棒了！/ It's easy! 很简单！<br>⚠️ It's = It is，撇号别丢：Its fun ✘ → It's fun ✔
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>绘画俱乐部是孩子熟悉的场景。可以在家玩'画展游戏'：孩子画画，家长用英语参观——What's this? It's a cat! 一边画一边说 drawing，孩子自然把 draw/drawing 用活。注意 club 的 b 要发音清晰，不能吞掉。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 go to a drawing club，孩子从 🎨 / 🎣 / 🎬 中选 → 正确答案：🎨</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 补全短语</strong><br>go to a ___ club (drawing) / go ___ a drawing club (to) / It'___ fun (s)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数变身</strong><br>one club → two ______ (clubs)<br>one drawing → two ______ (drawings)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>拿出孩子的一幅画，说：This is my drawing. It's fun! 完成得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 I often go to ___. 说说自己的兴趣班并录语音打卡<br><span class='btn-mimic'>🎤 示例：I often go to a drawing club. It's fun!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟go to a drawing club通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《俱乐部的星星》</h3>
+    <div class="quote">🎨 星期六下午，Binbin 去绘画俱乐部。老师说：Today we draw the night sky! Binbin 画了一片深蓝的天，点上一个又一个黄星星。旁边的小妹妹问：Can you draw the moon? Binbin 画了一个大大的香蕉月亮。老师举起画说：Look! Binbin's picture is fun! 全班都笑了。回家路上，Binbin 说：I often go to a drawing club. It's fun! ⭐</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What did Binbin draw? (The night sky — stars and the moon)<br>• What did the teacher say? (Binbin's picture is fun!)<br>• 问问孩子：If you go to a drawing club, what do you want to draw?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 地点 ── club 俱乐部 · class 班 · room 教室<br>├── 动词 ── draw 画线 · paint 涂颜料 · colour 上色<br>├── 作品 ── drawing 画 · picture 图画<br>├── 句型 ── I often go to a drawing club. It's fun.<br>└── 同族 ── music club 音乐社 · chess club 棋艺社</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>draw 是个'拉'出来的词：古英语 dragan 本义就是拖、拉——把笔'拉过'纸面，就成了'画画'。club 更有意思，来自古诺斯语 klubba（大棒子）——一群人'抱成一团'，就像捆在一起的一把棍子，后来专指'俱乐部、社团'。扑克牌里的'梅花'也叫 club，就是那根三叶大棒！<br>🎯 讲给孩子：draw = 拉着笔走，club = 一群人抱团。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>drawing</td><td>draw(画) + ing(名词后缀) → 画/绘画</td></tr>
+        <tr><td>draw pictures</td><td>画画（与 draw pictures 页互链，同源）</td></tr>
+        <tr><td>paint</td><td>用颜料涂画（与 paint 页互链）</td></tr>
+        <tr><td>clubs</td><td>club 的复数；art club / music club / chess club</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Every child is an artist. The problem is how to remain an artist once we grow up." 🎨<br>每个孩子都是艺术家，问题在于长大后如何仍然是艺术家。—— 广泛归于毕加索的流传之语。</div>
+
+    <h3>🎵 歌词里的 go to a drawing club</h3>
+    🎵 Don McLean《Vincent (Starry Starry Night)》(1971)：致敬梵高的传世名曲，开头唱的正是那幅《星月夜》——旋转的星空和绘画俱乐部的画笔最配。<br>🔗 与 draw pictures 页互链（同配 Vincent）。
+
+    <h3>⚡ 冷知识</h3>
+    <p>梵高生前画画几乎无人问津，据流传只卖出过一幅《红色葡萄园》；如今《星月夜》是全世界被临摹最多的画之一，绘画教室里随处可见它的复制品。另外，club 除了'俱乐部'还有'棍棒'和'梅花'两个意思——英语单词一词多义很常见，遇到新意思别慌，看上下文就知道。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>go to a drawing club</strong> /ɡəʊ tə ə ˈdrɔːɪŋ klʌb/ 动词短语 去绘画俱乐部</div>
+        <div>go to a drawing club 去绘画俱乐部（三单 goes）</div>
+        <div>功能句：I often go to a drawing club. It's fun.</div>
+        <div>draw → drawing；club 一词三义：社团/棍棒/梅花</div>
+        <div>名言：Every child is an artist.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级上册 Unit 2 On the Weekend（在周末）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("go to a drawing club");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

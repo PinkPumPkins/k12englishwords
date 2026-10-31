@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·house</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · house</h1>
+<div class="subhead">📍 人教版（一起点）四年级上册 Unit 2 On the Weekend（在周末）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> house</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 房子</div>
+    <div class="info-item"><span class="info-label">音标</span> /haʊs/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (四年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> houses /ˈhaʊzɪz/</div><div class='info-item'><span class='info-label'>家族</span> housework 家务</div>
+</div>
+
+<div class='textbook'>
+    <div class='textbook-title'>📖 课本原文直通车 · Unit 2 On the Weekend（在周末）</div>
+    <p><strong>Lesson 1 · A. 词汇</strong><br>
+    visit one's grandparents 看望祖父母 · go to a drawing club 去绘画俱乐部 · climb a hill 爬山 · pick fruit 采摘水果 · play computer games 玩电脑游戏 · go fishing 钓鱼 · go to the cinema 看电影</p>
+    <p><strong>Lesson 1 · B. 对话</strong><br>
+    — Do you often go to the cinema? — No, I don't.<br>
+    — Do you often pick fruit? — Yes, I do.</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>
+    — Do you often pick fruit on the weekend? — Yes, I do.<br>
+    I often go to a drawing club. It's fun.<br>
+    — Lily, do you often go to the cinema on the weekend?</p>
+    <p><strong>Lesson 2 · B. 问答游戏</strong><br>
+    What do you do on the weekend? — 彬彬常去绘画俱乐部；莉莉常看望祖父母。</p>
+    <p><strong>Lesson 3 · 短文（概要）</strong><br>
+    星期六倒霉的一天：看电影被踩了鞋、绘画俱乐部沾了颜料、晚上看望祖父母踩进脏水——poor shoes！希望明天更好。</p>
+    <p><strong>Story Time</strong><br>
+    Bill 周末只爱玩电脑游戏；电脑掉进湖里后，他尝试钓鱼、陪爷爷奶奶聊天，发现现实中的周末也很 fun。</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经公开电子课本/跟读资源多源交叉核对（51jiaoxi 跟读页 yyld.51jiaoxi.com、Scribd 电子课本快照、格灵课堂视频资源）；Lesson 1/2 对话句两源一致，Lesson 3 短文与 Story Time 为多源一致的概要，逐句原文待核。本词为 Lesson 3 短文与常用词（their house 他们的家）。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>h + ouse（ou 读 /aʊ/）<br>✏️ 口诀：ou 住在房子里，/aʊ/ 是开门声</td></tr>
+        <tr><th>音·发音</th><td>/haʊs/；复数 houses 注意 s 变读 /z/：/ˈhaʊzɪz/<br>🎧 跟读：my house · a big house · housework</td></tr>
+        <tr><th>意·释义</th><td>房子、住宅 🏠（house 房子建筑；home 是'家'的感觉）</td></tr>
+        <tr><th>用·句型</th><td>① This is their house. (这是他们的房子。)<br>② Our house is near the park. (我们家在公园附近。)<br>③ Let's go to my house! (来我家玩！)<br>④ She does housework every day. (她每天做家务。)</td></tr>
+        <tr><th>拓·同族词</th><td>house → housework 家务 · housewife 家庭主妇；husband（丈夫）里竟藏着 house！</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>归属</td><td>This is our house.</td></tr>
+        <tr><td>邀请</td><td>Welcome to my house!</td></tr>
+        <tr><td>描述</td><td>Their house has a red door.</td></tr>
+        <tr><td>家务</td><td>I help with housework.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · house vs home</div>
+        house：房子（建筑物本身）<br>Their house is big. 他们的房子很大。<br>home：家（有家人的温暖感）<br>I go home after school. 放学我回家。<br>⚠️ go home 不加 to！home 在这里是副词：go home ✔ go to home ✘
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>house 是'房子'，home 是'家'——这个区别用故事讲最有效：house 是墙和屋顶，home 是墙里的笑声。回家路上问孩子：Which do you love more, the house or the home? 顺带教 housework（家务），鼓励孩子用英语认领家务：I clean my room every day. 高频易错点 go home：不加 to。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 house，孩子从 🏠 / ⛰️ / 🎣 中选 → 正确答案：🏠</div>
+        <div class="game-step"><strong>✏️ 关卡2 · house vs home</strong><br>房子很大 The ______ is big. (house) / 我放学回家 go ______ (home)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 判断</strong><br>go to home 这个说法对吗？→ ✘（go home 不加 to）</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>回家进门前说 I'm home!（我回来了！）得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>介绍你的家：My house has...<br><span class='btn-mimic'>🎤 示例：My house has a red door and a small garden.</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟house通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《房子和家》</h3>
+    <div class="quote">🏠 小鸟问大树：What's the difference between a house and a home? 大树说：A house is walls and a roof. A home is the laughter inside. 小鸟想了想，飞回树洞——妈妈正等着，窝里有晚餐。小鸟说：I understand! My tree hole is a house. With Mum, it's a home! 大树摇摇叶子笑了。🍃</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What is a house? (Walls and a roof)<br>• What makes a home? (Laughter / Family love)<br>• 问问孩子：你家的哪个角落最有'家的感觉'？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 建筑 ── door 门 · window 窗 · roof 屋顶<br>├── 辨析 ── house 房子（建筑）· home 家（温暖）<br>├── 家族 ── housework 家务 · housewife 主妇<br>├── 句型 ── This is their house. / Welcome to my house!<br>└── 彩蛋 ── husband（丈夫）里藏着 house！</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>house 是日耳曼老家词：古英语 hūs，和德语 Haus、荷兰语 huis 是亲兄弟。它最惊艳的'亲戚'是 husband：古英语 hūs-bōnda = '房子 + 居住者'，本义'管房子的人'（自耕农），后来才变成'丈夫'——所以'丈夫'这个词，字面上就是'房子的主人'。<br>🎯 讲给孩子：husband 住在 house 里——单词里也有'家庭结构'。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>housework</td><td>house + work → 家务活</td></tr>
+        <tr><td>housewife</td><td>house + wife → 家庭主妇</td></tr>
+        <tr><td>husband</td><td>house + bōnda(居住者) → 丈夫（词义演变：管房人→丈夫）</td></tr>
+        <tr><td>houses</td><td>复数注意 /ˈhaʊzɪz/（s 读 /z/）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Home is where the heart is." 💛<br>心之所在即是家。—— 英语谚语。house 可以买，home 用心建。</div>
+
+    <h3>🎵 歌词里的 house</h3>
+    🎵 The Animals《House of the Rising Sun》(1964)：Billboard 冠军民谣摇滚传奇，一首关于'旭日之屋'的百年老民谣被他们唱成了摇滚史经典。<br>🔗 与 living room 页互链（Our House 家族）。
+
+    <h3>⚡ 冷知识</h3>
+    <p>英语有个'神细节'：husband（丈夫）拆开是 house（房子）+ bōndi（居住者）——维京时代的 house-bond 指管房子的自耕农，一千多年后才固定成'丈夫'。还有美国总统官邸 The White House（白宫）、英国议会的 House of Commons（下议院）——一个小小的 house，撑起了家庭、建筑、政治三大场面的词汇。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>house</strong> /haʊs/ n. 房子</div>
+        <div>house 房子（复数 houses /ˈhaʊzɪz/）</div>
+        <div>辨析：house 建筑 vs home 温暖；go home 不加 to</div>
+        <div>家族：housework 家务 / housewife 主妇 / husband 含 house</div>
+        <div>谚语：Home is where the heart is.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级上册 Unit 2 On the Weekend（在周末）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("house");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

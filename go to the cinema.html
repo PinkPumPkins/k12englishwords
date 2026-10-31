@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·go to the cinema</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · go to the cinema</h1>
+<div class="subhead">📍 人教版（一起点）四年级上册 Unit 2 On the Weekend（在周末）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> go to the cinema</div>
+    <div class="info-item"><span class="info-label">词性</span> 动词短语 去看电影</div>
+    <div class="info-item"><span class="info-label">音标</span> /ɡəʊ tə ðə ˈsɪnəmə/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (四年级)</div>
+    <div class='info-item'><span class='info-label'>三单</span> goes to the cinema</div><div class='info-item'><span class='info-label'>美式</span> go to the movies</div>
+</div>
+
+<div class='textbook'>
+    <div class='textbook-title'>📖 课本原文直通车 · Unit 2 On the Weekend（在周末）</div>
+    <p><strong>Lesson 1 · A. 词汇</strong><br>
+    visit one's grandparents 看望祖父母 · go to a drawing club 去绘画俱乐部 · climb a hill 爬山 · pick fruit 采摘水果 · play computer games 玩电脑游戏 · go fishing 钓鱼 · go to the cinema 看电影</p>
+    <p><strong>Lesson 1 · B. 对话</strong><br>
+    — Do you often go to the cinema? — No, I don't.<br>
+    — Do you often pick fruit? — Yes, I do.</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>
+    — Do you often pick fruit on the weekend? — Yes, I do.<br>
+    I often go to a drawing club. It's fun.<br>
+    — Lily, do you often go to the cinema on the weekend?</p>
+    <p><strong>Lesson 2 · B. 问答游戏</strong><br>
+    What do you do on the weekend? — 彬彬常去绘画俱乐部；莉莉常看望祖父母。</p>
+    <p><strong>Lesson 3 · 短文（概要）</strong><br>
+    星期六倒霉的一天：看电影被踩了鞋、绘画俱乐部沾了颜料、晚上看望祖父母踩进脏水——poor shoes！希望明天更好。</p>
+    <p><strong>Story Time</strong><br>
+    Bill 周末只爱玩电脑游戏；电脑掉进湖里后，他尝试钓鱼、陪爷爷奶奶聊天，发现现实中的周末也很 fun。</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经公开电子课本/跟读资源多源交叉核对（51jiaoxi 跟读页 yyld.51jiaoxi.com、Scribd 电子课本快照、格灵课堂视频资源）；Lesson 1/2 对话句两源一致，Lesson 3 短文与 Story Time 为多源一致的概要，逐句原文待核。本词为 Lesson 1 核心短语，Lesson 2 对话原句：Lily, do you often go to the cinema on the weekend?</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>go + to + the + cinema（ci-ne-ma）<br>✏️ 口诀：特指那家电影院，the 不能少</td></tr>
+        <tr><th>音·发音</th><td>/ˈsɪ.nə.mə/ 重音在第一音节；c 读 /s/ 不读 /k/<br>🎧 跟读：go to the cinema = go to the movies（美式）</td></tr>
+        <tr><th>意·释义</th><td>去电影院看电影 🎬（英式常说 cinema，美式常说 movies）</td></tr>
+        <tr><th>用·句型</th><td>① Do you often go to the cinema on the weekend? (你周末常去看电影吗？)<br>② Yes, I do. I like cartoons. (是的，我爱看动画片。)<br>③ Let's go to the cinema! (我们去看电影吧！)<br>④ The film begins at six. (电影六点开始。)</td></tr>
+        <tr><th>拓·同族词</th><td>cinema 电影院/电影艺术；film 电影（英）· movie 电影（美）；see a film 看一场电影</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>频率</td><td>Do you often go to the cinema?</td></tr>
+        <tr><td>喜好</td><td>I like funny films.</td></tr>
+        <tr><td>邀请</td><td>Let's go to the cinema after dinner!</td></tr>
+        <tr><td>约定</td><td>See you at the cinema at six!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · the 的特指</div>
+        go to the cinema：the 指双方都知道的那个场所（像 go to the park / go to the zoo）<br>英式：go to the cinema 🇬🇧<br>美式：go to the movies 🇺🇸<br>电影本身：see a film（看一场电影用 a）
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>看电影是全家最容易执行的周末活动。出发前玩'电影预告'游戏：What do you want to see? A cartoon or an animal film? 孩子用英语选片，进影院前说 Let's go to the cinema! 顺势教 the 的用法——去的是'我们都说的那家电影院'，所以要加 the。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 go to the cinema，孩子从 🎬 / ⛰️ / 🎣 中选 → 正确答案：🎬</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 英美连线</strong><br>cinema—British 🇬🇧 / movies—American 🇺🇸（连连看）</div>
+        <div class="game-step"><strong>✅ 关卡3 · the 填空</strong><br>Let's go to ___ cinema. (the)<br>I want to see ___ film. (a)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>全家看一部动画片，开场前齐说 Let's go to the cinema! 得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>邀请朋友看电影并约定时间地点<br><span class='btn-mimic'>🎤 示例：Let's go to the cinema! See you at six!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟go to the cinema通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《露天电影院的星星》</h3>
+    <div class="quote">🎬 夏天的晚上，小镇广场放露天电影。Lily 和妈妈带着小板凳来了：Let's go to the cinema! 天上的星星眨眼，幕布上的动画片开演。小狗也来看，看到小猫就汪汪叫，全场都笑。散场时，Lily 说：This is the best cinema — stars on the screen AND in the sky! 妈妈说：And popcorn in your hand! 🍿</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Where was the cinema? (On the square 露天广场)<br>• Who barked at the cat on the screen? (The little dog)<br>• 问问孩子：你最喜欢的一部电影是什么？用 I like... 说说为什么</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 场所 ── cinema 电影院（英）· movie theater（美）<br>├── 片型 ── cartoon 动画片 · animal film 动物片<br>├── 零食 ── popcorn 爆米花 · juice 果汁<br>├── 句型 ── Do you often go to the cinema? — Yes, I do.<br>└── 同族 ── see a film 看电影 · film / movie 电影</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>cinema 是希腊血统：来自希腊语 kinēma（运动），词根 kinein（移动）。1895 年卢米埃尔兄弟发明电影放映机，法国人把它叫 cinématographe（活动放映机），后来缩略成 cinéma——'会动的画面'就是电影！英语里 cinematic（电影感的）也带着这个'运动'基因。<br>🎯 讲给孩子：cinema 的老家意思是'运动'——电影就是会动的照片。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>go to the cinema</td><td>去看电影（英式；与 see a film 页互链，同配 Skyfall）</td></tr>
+        <tr><td>go to the movies</td><td>美式说法</td></tr>
+        <tr><td>film / movie</td><td>英式'电影' / 美式'电影'</td></tr>
+        <tr><td>cinematic</td><td>cinema 家族形容词：电影感的</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Drama is life with the dull bits cut out." 🎬<br>戏剧（电影）就是剪掉无聊部分的生活。—— 悬疑大师阿尔弗雷德·希区柯克（Alfred Hitchcock）。</div>
+
+    <h3>🎵 歌词里的 go to the cinema</h3>
+    🎵 Adele《Skyfall》(2012)：007 电影《大破天幕杀机》主题曲，奥斯卡最佳原创歌曲——在电影院听 Skyfall 前奏响起，是很多影迷的'高光记忆'。<br>🔗 与 see a film 页互链（同配 Skyfall）。
+
+    <h3>⚡ 冷知识</h3>
+    <p>1895 年 12 月 28 日，卢米埃尔兄弟在巴黎一家咖啡馆的地下室举行了世界上第一场售票电影放映——那天放的短片里有一列驶进车站的火车，据说观众吓得往后排躲，因为从没见过'会动的大火车'扑面而来！电影从那天起正式登上历史舞台，cinema 这个词也从此走遍世界。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>go to the cinema</strong> /ɡəʊ tə ðə ˈsɪnəmə/ 动词短语 去看电影</div>
+        <div>go to the cinema 去看电影（三单 goes；英式说法）</div>
+        <div>功能句：Do you often go to the cinema on the weekend?</div>
+        <div>英 cinema / 美 movies；see a film 看一场电影</div>
+        <div>名言：Drama is life with the dull bits cut out.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级上册 Unit 2 On the Weekend（在周末）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("go to the cinema");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

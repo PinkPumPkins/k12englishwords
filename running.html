@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·running</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · running</h1>
+<div class="subhead">📍 人教版（一起点）四年级上册 Unit 1 Sports and Games（运动与游戏）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> running</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 跑步（run 的 -ing 形式）</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈrʌnɪŋ/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐（四年级）</div>
+    <div class='info-item'><span class='info-label'>动词原形</span> run → running（双写 n）</div>
+</div>
+
+<div class='textbook'>
+    <div class='textbook-title'>📖 课本原文直通车 · Unit 1 Sports and Games（运动与游戏）</div>
+    <p><strong>Lesson 1 · A. Look, listen and chant（词汇课）</strong><br>
+    running 跑步 · basketball 篮球 · roller skating 滑旱冰 · jumping rope 跳绳 · ping-pong 乒乓球<br>
+    — I like basketball. It's interesting.（原文待核）</p>
+    <p><strong>Lesson 2 · Look, listen and repeat（句型课）</strong><br>
+    — Do you often play basketball? — Yes, I do.（原文待核）<br>
+    — Are you good at it? — What about you?（原文待核）</p>
+    <p><strong>Lesson 3 · A. Read and match（短文课）</strong><br>
+    All my friends like sports.<br>
+    Yaoyao is good at roller skating.<br>
+    Joy is good at jumping rope.<br>
+    Binbin: I often play ping-pong with my father. We are both good at it.<br>
+    Mike often plays basketball after school. He is good at it.（原文待核）<br>
+    I often run from home to school, because I often get up late. I am good at running.</p>
+    <p><strong>单元Chant（教案转述·原文待核）</strong><br>
+    All my friends like sports. What about me? I often play badminton, badminton...</p>
+    <p><strong>Story Time（内容梗概）</strong><br>
+    小伙伴们在公园组队踢足球：找场地、用书包当球门、凑球员、分两队——最后以一个幽默的“借口”收场。</p>
+    <p style='font-size:12px;opacity:.75;'>✅ Lesson 3 短文核心句经英语朗读宝(yyld.51jiaoxi.com)、人教版教师网(renjiaoshe.com)教案、电子课本PDF摘要多源交叉核对；标注（原文待核）处为单源转述。running 与 late、get up 在课本短文同句复现：I often run from home to school, because I often get up late.</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>run·ning —— run 是重读闭音节（辅+元+辅），双写 n 再加 ing<br>✏️ 口诀：闭音节尾巴短，双写字母再加 ing！</td></tr>
+        <tr><th>音·发音</th><td>/ˈrʌn.ɪŋ/ 两音节，重音在前：RUN-ning<br>🎧 跟读：I like running. · go running · running shoes</td></tr>
+        <tr><th>意·释义</th><td>跑步 🏃（run 跑 + ing，动作变成名词）</td></tr>
+        <tr><th>用·句型</th><td>① I like running. (我喜欢跑步。)<br>② Running is fun. (跑步很有趣。)<br>③ He is good at running. (他擅长跑步。)<br>④ I often go running in the park. (我常去公园跑步。)</td></tr>
+        <tr><th>拓·同族词</th><td>run → running（动名词）→ runner（跑步者；跑鞋）<br>同单元运动词：jumping rope 跳绳 · roller skating 滑旱冰 · ping-pong 乒乓球</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>喜好</td><td>I like running very much.</td></tr>
+        <tr><td>频率</td><td>I often run after school.</td></tr>
+        <tr><td>描述</td><td>Running makes me strong.</td></tr>
+        <tr><td>邀请</td><td>Let's go running together!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · like + doing（喜欢做某事）</div>
+        <p><strong>like / love / enjoy + 动词ing：</strong><br><u>I like running</u> 🏃 / I love swim<u>ming</u> 🏊 / I enjoy read<u>ing</u> 📖</p><p><strong>⚠️ 三单别忘了：</strong><br>He like<u>s</u> running. / She love<u>s</u> jumping rope.</p><p>💡 like 后面的动词要穿 ing 这件外衣，主语三单时 like 要加 s！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>四年级上册 Unit 1 第一课就是运动词汇。建议在家玩“运动模仿秀”：家长说 running 全家原地跑，说 jumping rope 假装跳绳，说 roller skating 踮脚滑——单词和动作绑在一起记得最快。纠正重点：running 双写 n，别写成 runing。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听指令做动作</strong><br>家长喊 Run! 孩子原地跑，喊 Stop! 定住。反应错一次做 3 个开合跳，坚持 1 分钟得一颗星</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 动词变身</strong><br>① run → ______ (running)<br>② swim → ______ (swimming)<br>③ jump → ______ (jumping)</div>
+        <div class="game-step"><strong>🔍 关卡3 · 课本句连读</strong><br>跟读课本短文句：I often run from home to school, because I often get up late. 连读顺 3 遍过关</div>
+        <div class="game-step"><strong>🎵 关卡4 · 节奏小跑</strong><br>放《Born to Run》，全家跟着鼓点原地小跑，音乐一停谁先笑谁说一句 I like running!</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 I like running. 造句并录语音打卡<br><span class='btn-mimic'>🎤 示例：I like running. It makes me strong!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟running通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Boy Who Runs to School》</h3>
+    <div class="quote">🏃 小杰每天都 <strong>get up</strong> 晚。闹钟响第一遍，他把头埋进被子：Five more minutes! 等他跳下床，早饭只来得及咬一口面包。于是每天清晨，小区里都能看见一道风——小杰一路 <strong>running</strong> 冲向学校。体育课跑步比赛，他竟然拿了第一名！老师问他秘诀，他喘着气说：Because I <strong>get up</strong> late every day! 全班都笑了。妈妈说：那明天我们试试 <strong>get up</strong> early，看看你还能不能得第一？</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Why does the boy run to school every day? (Because he gets up late)<br>• What did he win at school? (A running race)<br>• 问问孩子：What time do you get up? Is it early or late?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 动作 ── run fast / go running / run to school<br>├── 频率 ── often 经常 / every day 每天 / sometimes 有时<br>├── 装备 ── running shoes 跑鞋<br>├── 家族 ── runner 跑步者 · 双写 n 加 ing 规则<br>└── 课本句 ── I often run from home to school, because I often get up late.</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>run 是英语里最古老的动词之一，古英语里写作 <em>rinnan</em>，已经“跑”了上千年。running 由 run 双写 n 加 ing 构成——因为 run 是重读闭音节，尾巴要“踩实”。有趣的是，run 还是英语含义最多的动词之一：run a company（经营公司）、run out of milk（牛奶喝完了）、My nose is running（流鼻涕）——一个词跑遍生活。<br>🎯 讲给孩子：run 不只会跑步，还会“经营”和“流鼻涕”！</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>run → running</td><td>双写 n + ing（重读闭音节规则）</td></tr>
+        <tr><td>runner</td><td>跑步者；跑鞋（running shoes）</td></tr>
+        <tr><td>run out of</td><td>用完（We ran out of milk. 牛奶喝完了）</td></tr>
+        <tr><td>run into</td><td>偶遇（I ran into my friend. 我碰见了朋友）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">Faster, Higher, Stronger – Together.<br>更快、更高、更强——更团结。—— 奥林匹克格言，写给每一个爱奔跑的人。</div>
+
+    <h3>🎵 歌词里的 running</h3>
+    🎵 Bruce Springsteen《Born to Run》(1975)：摇滚工人皇帝的传世名曲，歌名就是“生来奔跑”，副歌的鼓点像脚步一样追着人跑。<span style='opacity:.7'>🔗 与 run 页互链（同歌）</span>
+
+    <h3>⚡ 冷知识</h3>
+    <p>马拉松为什么不多不少正好 42.195 公里？1908 年伦敦奥运会，为了让英国王室在包厢里看到起跑，赛道从温莎城堡一直量到皇家包厢正前方——这个“将错就错”的距离后来成了全世界马拉松的标准。科学家还说：人类天生是长跑高手——论冲刺跑不过猎豹，但论“跑得久”，我们靠全身出汗降温，能把猎物一直“耗”到跑不动。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>running</strong> /ˈrʌnɪŋ/ n. 跑步（run 的 -ing 形式）</div>
+        <div>running /ˈrʌnɪŋ/ n. 跑步（run 双写 n + ing）</div>
+        <div>课本句：I often run from home to school.</div>
+        <div>功能句：I like running. / He is good at running.</div>
+        <div>歌曲：Born to Run — Bruce Springsteen（与 run 页互链）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级上册 Unit 1 Sports and Games（运动与游戏）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("running");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

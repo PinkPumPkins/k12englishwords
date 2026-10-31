@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·ping-pong</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · ping-pong</h1>
+<div class="subhead">📍 人教版（一起点）四年级上册 Unit 1 Sports and Games（运动与游戏）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> ping-pong</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 乒乓球</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈpɪŋ pɒŋ/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐（四年级）</div>
+    <div class='info-item'><span class='info-label'>正式名称</span> table tennis</div>
+</div>
+
+<div class='textbook'>
+    <div class='textbook-title'>📖 课本原文直通车 · Unit 1 Sports and Games（运动与游戏）</div>
+    <p><strong>Lesson 1 · A. Look, listen and chant（词汇课）</strong><br>
+    running 跑步 · basketball 篮球 · roller skating 滑旱冰 · jumping rope 跳绳 · ping-pong 乒乓球<br>
+    — I like basketball. It's interesting.（原文待核）</p>
+    <p><strong>Lesson 2 · Look, listen and repeat（句型课）</strong><br>
+    — Do you often play basketball? — Yes, I do.（原文待核）<br>
+    — Are you good at it? — What about you?（原文待核）</p>
+    <p><strong>Lesson 3 · A. Read and match（短文课）</strong><br>
+    All my friends like sports.<br>
+    Yaoyao is good at roller skating.<br>
+    Joy is good at jumping rope.<br>
+    Binbin: I often play ping-pong with my father. We are both good at it.<br>
+    Mike often plays basketball after school. He is good at it.（原文待核）<br>
+    I often run from home to school, because I often get up late. I am good at running.</p>
+    <p><strong>单元Chant（教案转述·原文待核）</strong><br>
+    All my friends like sports. What about me? I often play badminton, badminton...</p>
+    <p><strong>Story Time（内容梗概）</strong><br>
+    小伙伴们在公园组队踢足球：找场地、用书包当球门、凑球员、分两队——最后以一个幽默的“借口”收场。</p>
+    <p style='font-size:12px;opacity:.75;'>✅ Lesson 3 短文核心句经英语朗读宝(yyld.51jiaoxi.com)、人教版教师网(renjiaoshe.com)教案、电子课本PDF摘要多源交叉核对；标注（原文待核）处为单源转述。ping-pong 在课本短文复现：Binbin often plays ping-pong with his father.</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>ping-pong —— 别忘了中间的连字符！它来自球声拟声词<br>✏️ 口诀：ping 一下，pong 一下，小球桌上开了花</td></tr>
+        <tr><th>音·发音</th><td>/ˈpɪŋ.pɒŋ/ 两个响亮音节，重音在前：PING-pong<br>🎧 跟读：play ping-pong · a ping-pong ball</td></tr>
+        <tr><th>意·释义</th><td>乒乓球 🏓（正式名称 table tennis，桌上网球）</td></tr>
+        <tr><th>用·句型</th><td>① I often play ping-pong with my father. (我常和爸爸打乒乓。)<br>② Binbin is good at ping-pong. (彬彬擅长乒乓。)<br>③ Let's play ping-pong after class! (下课后打乒乓吧！)<br>④ We are both good at it. (我们俩都很擅长。)</td></tr>
+        <tr><th>拓·同族词</th><td>国球家族：ping-pong ball 乒乓球 · ping-pong paddle 球拍 · ping-pong table 球台<br>正式名：table tennis</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>频率</td><td>I often play ping-pong with my father.</td></tr>
+        <tr><td>技能</td><td>We are both good at it.</td></tr>
+        <tr><td>提议</td><td>Let's play ping-pong after class!</td></tr>
+        <tr><td>器材</td><td>I need a ping-pong paddle and a ball.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · play + 球类（零冠词复现）</div>
+        <p><strong>球类前不加 the：</strong><br><u>play ping-pong</u> 🏓 / <u>play basketball</u> 🏀 / <u>play football</u> ⚽</p><p><strong>问答链：</strong><br>— Do you often play ping-pong?<br>— Yes, I do. I'm good at it!</p><p>💡 乒乓球是两个人的运动，with my father / with my friend 这样的双人句用起来！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>乒乓球是中国孩子的“主场”。打球时用英语报分：one, two, three...；赢球喊 Good! 输球说 Good game! 顺便给孩子讲讲“乒乓外交”：一颗小球曾打开两个大国交流的大门——这是乒乓球最骄傲的历史。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 拟声接龙</strong><br>家长说 ping 孩子接 pong，来回 10 组不出错过关——顺便用声音记住单词</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 连字符检查</strong><br>三种写法哪个对？pingpong ✗ / ping pong ✗ / ping-pong ✓——说对原因得两颗星</div>
+        <div class="game-step"><strong>🔍 关卡3 · 课本句跟读</strong><br>跟读课本短文句：I often play ping-pong with my father. We are both good at it.</div>
+        <div class="game-step"><strong>🏓 关卡4 · 颠球数数</strong><br>颠乒乓球边颠边用英语数数，数到 20 不断过关</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>当小解说员：用英语解说一回合对打<br><span class='btn-mimic'>🎤 示例：Binbin plays ping-pong. Ping! Pong! Good job!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟ping-pong通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Ping! Pong!》</h3>
+    <div class="quote">🏓 彬彬和爸爸是球台上的老对手。今天彬彬连输三局，把拍子一放：I don't want to play <strong>ping-pong</strong> anymore! 爸爸不急，把球轻轻颠起来：Ping... pong... 你听，球的声音多简单，输了就再来一颗。第四局，彬彬眼睛盯紧小球，Ping! Pong! Ping! — 11 比 9，他赢了！爸爸竖起大拇指：We are <strong>both good at</strong> it, but tonight you are better. 彬彬抱着爸爸说：Tomorrow, <strong>ping-pong</strong> again!</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Who did Binbin play with? (His father)<br>• What was the score of the last game? (11 to 9)<br>• 问问孩子：Who do you often play ping-pong with?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 器材 ── ping-pong ball / paddle 球拍 / table 球台<br>├── 动词 ── play ping-pong（零冠词）<br>├── 伙伴 ── with my father / with my friend<br>├── 别名 ── table tennis 正式名称<br>└── 课本句 ── I often play ping-pong with my father.</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>ping-pong 是个“听得见”的词：ping 模仿球拍击球声，pong 模仿球落台声——1900 年前后的英国商家把它注册成商标 Ping-Pong，从此这名字响遍世界。也正因为它是注册商标，国际比赛的正式名称改用 table tennis（桌上网球）。<br>🎯 讲给孩子：打球的声音，变成了单词本身。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>ping + pong</td><td>拟声词：击球声 + 落台声</td></tr>
+        <tr><td>table tennis</td><td>正式名称（因商标而来）</td></tr>
+        <tr><td>ping-pong paddle</td><td>乒乓球拍</td></tr>
+        <tr><td>Ping-Pong</td><td>商标写法大写连字；日常小写加连字符</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">小球转动大球。<br>1971 年，中美两国以一支乒乓球队的互访打开交流大门，史称“乒乓外交”——一颗小小的乒乓球，转动了地球。</div>
+
+    <h3>🎵 歌词里的 ping-pong</h3>
+    🎵 Europe《The Final Countdown》(1986)：全球赛场使用率最高的氛围神曲，决胜局倒计时标配——乒乓球无冠名曲，按主题关联如实标注。
+
+    <h3>⚡ 冷知识</h3>
+    <p>1959 年，容国团在世界乒乓球锦标赛上夺冠——那是新中国体育史上第一个世界冠军，项目正是乒乓球。从此乒乓球有了“国球”的地位：公园里、楼道里、学校的球台边，随处能听见 ping! pong! 的声音。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>ping-pong</strong> /ˈpɪŋ pɒŋ/ n. 乒乓球</div>
+        <div>ping-pong /ˈpɪŋ pɒŋ/ n. 乒乓球（正式名 table tennis）</div>
+        <div>课本句：I often play ping-pong with my father.</div>
+        <div>功能句：play ping-pong（零冠词）/ We are both good at it.</div>
+        <div>历史点：乒乓外交——小球转动大球</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级上册 Unit 1 Sports and Games（运动与游戏）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("ping-pong");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

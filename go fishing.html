@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·go fishing</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · go fishing</h1>
+<div class="subhead">📍 人教版（一起点）四年级上册 Unit 2 On the Weekend（在周末）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> go fishing</div>
+    <div class="info-item"><span class="info-label">词性</span> 动词短语 钓鱼</div>
+    <div class="info-item"><span class="info-label">音标</span> /ɡəʊ ˈfɪʃɪŋ/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (四年级)</div>
+    <div class='info-item'><span class='info-label'>三单</span> goes fishing</div><div class='info-item'><span class='info-label'>句型</span> go + doing 去做某事</div>
+</div>
+
+<div class='textbook'>
+    <div class='textbook-title'>📖 课本原文直通车 · Unit 2 On the Weekend（在周末）</div>
+    <p><strong>Lesson 1 · A. 词汇</strong><br>
+    visit one's grandparents 看望祖父母 · go to a drawing club 去绘画俱乐部 · climb a hill 爬山 · pick fruit 采摘水果 · play computer games 玩电脑游戏 · go fishing 钓鱼 · go to the cinema 看电影</p>
+    <p><strong>Lesson 1 · B. 对话</strong><br>
+    — Do you often go to the cinema? — No, I don't.<br>
+    — Do you often pick fruit? — Yes, I do.</p>
+    <p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>
+    — Do you often pick fruit on the weekend? — Yes, I do.<br>
+    I often go to a drawing club. It's fun.<br>
+    — Lily, do you often go to the cinema on the weekend?</p>
+    <p><strong>Lesson 2 · B. 问答游戏</strong><br>
+    What do you do on the weekend? — 彬彬常去绘画俱乐部；莉莉常看望祖父母。</p>
+    <p><strong>Lesson 3 · 短文（概要）</strong><br>
+    星期六倒霉的一天：看电影被踩了鞋、绘画俱乐部沾了颜料、晚上看望祖父母踩进脏水——poor shoes！希望明天更好。</p>
+    <p><strong>Story Time</strong><br>
+    Bill 周末只爱玩电脑游戏；电脑掉进湖里后，他尝试钓鱼、陪爷爷奶奶聊天，发现现实中的周末也很 fun。</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经公开电子课本/跟读资源多源交叉核对（51jiaoxi 跟读页 yyld.51jiaoxi.com、Scribd 电子课本快照、格灵课堂视频资源）；Lesson 1/2 对话句两源一致，Lesson 3 短文与 Story Time 为多源一致的概要，逐句原文待核。本词为 Lesson 1 核心短语；Story Time 里爷爷带 Bill 钓鱼，是单元故事的转折点。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>go + fishing（fish + ing）<br>✏️ 口诀：go + doing = 去做什么（去钓、去游、去购）</td></tr>
+        <tr><th>音·发音</th><td>/ˈfɪ.ʃɪŋ/ 两个音节，sh 咝音别读成 /s/<br>🎧 跟读：go swimming · go shopping · go skating</td></tr>
+        <tr><th>意·释义</th><td>钓鱼 🎣（fish 名词'鱼'、动词'钓鱼'，fishing 是钓鱼这项活动）</td></tr>
+        <tr><th>用·句型</th><td>① Let's go fishing! (我们去钓鱼吧！)<br>② I often go fishing with my grandpa. (我常和爷爷去钓鱼。)<br>③ He goes fishing on Sundays. (他周日去钓鱼。)<br>④ How many fish did you catch? (你钓到几条鱼？)</td></tr>
+        <tr><th>拓·同族词</th><td>fish 单复数同形（two fish）；fishes 指不同种类；fisherman 渔夫；go + doing 家族：go swimming / go shopping / go camping</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>邀请</td><td>Let's go fishing this Sunday!</td></tr>
+        <tr><td>频率</td><td>I go fishing twice a month.</td></tr>
+        <tr><td>描述</td><td>The fish is small but lovely.</td></tr>
+        <tr><td>耐心</td><td>Shh! Be quiet, the fish is coming.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · go + doing 去做某事</div>
+        go + 动词ing 表示'去从事某活动'：<br>go fishing 🎣 钓鱼 / go swimming 🏊 游泳 / go shopping 🛒 购物<br>⚠️ fish 的复数：两条鱼 two fish（fishes 指多种鱼类）
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>钓鱼是练英语+练耐心的双料活动。出发前教装备英语：fishing rod（鱼竿）、bucket（桶）。等鱼的安静时刻可以复习数字英语。回家后用 How many fish...? 复盘，把一般疑问句和数字一起巩固。切记：鱼单复数同形，two fish 不是 two fishes！</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 go fishing，孩子从 🎣 / 🎨 / 🎮 中选 → 正确答案：🎣</div>
+        <div class="game-step"><strong>✏️ 关卡2 · go+doing 连连看</strong><br>fishing—钓鱼 / swimming—游泳 / shopping—购物（打乱配对）</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数陷阱</strong><br>I caught two ______. (fish)<br>There are many kinds of ______ in the sea. (fishes)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>说出钓鱼三件套英语：rod（竿）· line（线）· bucket（桶），得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>邀请家人去钓鱼并录语音<br><span class='btn-mimic'>🎤 示例：Let's go fishing! I want to catch a big fish!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟go fishing通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《第85天的大鱼》</h3>
+    <div class="quote">🎣 老渔夫已经 84 天没钓到鱼了。第 85 天，小船划进深海，大鱼上钩了！老人对自己说：Fish, I'll stay with you day and night! 大鱼拖着船走了两天两夜，老人手磨破了也不松绳。第三天，他终于把大鱼拉上水面——好大的鱼！回家路上鱼被鲨鱼吃了大半，可老人还是赢了自己。这是《老人与海》的故事，也是每个钓鱼人都懂的坚持。🐟</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• How many days did the old man go without fish? (84 days)<br>• Who ate the big fish? (Sharks)<br>• 问问孩子：如果钓鱼很久没鱼上钩，你会坚持吗？为什么？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 装备 ── rod 鱼竿 · line 鱼线 · bucket 水桶<br>├── 地点 ── lake 湖 · river 河 · sea 海<br>├── 动作 ── catch 抓 · pull 拉 · release 放流<br>├── 句型 ── Let's go fishing! · How many fish did you catch?<br>└── 品质 ── patient 有耐心 · quiet 安静 · careful 小心</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>fish 是日耳曼语族的老词：古英语 fisc，和德语 Fisch 是亲兄弟，几千年前是一家。fishing 就是 fish + ing——把动词'钓鱼'变成活动名。英语里'go + doing'是套万能句式：go swimming 去游泳、go shopping 去购物、go camping 去露营——去哪儿玩，套上去就行。<br>🎯 讲给孩子：go fishing = go + 钓鱼这件事，英语的'去玩'都这么拼。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>go fishing</td><td>go + doing 结构（与 fish 页互链）</td></tr>
+        <tr><td>fisherman</td><td>fisher(捕鱼者) + man → 渔夫</td></tr>
+        <tr><td>fish tank</td><td>鱼缸</td></tr>
+        <tr><td>two fish</td><td>fish 单复数同形；fishes 指多种鱼类</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime." 🎣<br>授人以鱼，不如授人以渔。—— 英语谚语。会钓鱼，比有鱼更重要。</div>
+
+    <h3>🎵 歌词里的 go fishing</h3>
+    🎵 Nitty Gritty Dirt Band《Fishin' in the Dark》(1987)：乡村冠军经典，星空下提着鱼竿散步的浪漫，歌词里 you and me goin' fishin' in the dark 田园感拉满。<br>🔗 与 fish 页互链。
+
+    <h3>⚡ 冷知识</h3>
+    <p>海明威的《老人与海》里，老渔夫桑地亚哥连续 84 天一条鱼都没钓到，第 85 天才遇到那条大马林鱼——这个'84 天'成了文学史上最有名的数字之一。现实中的钓鱼人有'catch and release（钓后放流）'的环保传统：拍张照、量个长，把鱼放回水里，让下一个人也能享受钓鱼的乐趣。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>go fishing</strong> /ɡəʊ ˈfɪʃɪŋ/ 动词短语 钓鱼</div>
+        <div>go fishing 钓鱼（三单 goes；go + doing 结构）</div>
+        <div>功能句：Let's go fishing! / How many fish did you catch?</div>
+        <div>fish 单复数同形；fisherman 渔夫</div>
+        <div>谚语：授人以鱼，不如授人以渔</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）四年级上册 Unit 2 On the Weekend（在周末）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("go fishing");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
