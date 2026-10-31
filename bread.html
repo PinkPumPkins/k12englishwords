@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·bread</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · bread</h1>
+<div class="subhead">📍 人教版（一起点）三年级上册 Unit 3 Food</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> bread</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 面包</div>
+    <div class="info-item"><span class="info-label">音标</span> /bred/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (三年级)</div>
+    <div class="info-item"><span class="info-label">特点</span> 不可数名词</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 3 Food</div>
+    <p><strong>Lesson 1 · A. Look, listen and talk</strong><br>
+    本课词汇：bread 面包 · cake 蛋糕 · fruit 水果 · ice-cream 冰淇淋 · meat 肉 · potato 土豆（复数 potatoes）<br>
+    核心句型：— What do you want? — I want bread and cake.（逐字对话原文待核）</p>
+    <p><strong>Lesson 2 · 句型与词汇拓展</strong><br>
+    单元其余词汇：tomato 西红柿 · vegetables 蔬菜 · cola 可乐 · shopping list 购物单 · buy 买<br>
+    问答句型持续操练：What do you want? / I want...（各课词汇分布以课本为准，逐字原文待核）</p>
+    <p><strong>Lesson 3 / Project Time · 综合运用</strong><br>
+    制作 shopping list 购物单：bread · eggs · fruit · vegetables…，用 buy 说出要买的东西（逐字原文待核）</p>
+    <p><strong>拓展活动 · 空中课堂第五课时</strong><br>
+    学做三明治（make a sandwich），并用英语说出制作的基本步骤</p>
+    <p style="font-size:12px;opacity:.75;">✅ 单元名 Food 与 Lesson 1 词汇、核心句型 What do you want? / I want... 经 docin 教学课件、北京空中课堂（人大附中航天城学校）、单元知识点归纳多源交叉核对；各课逐字对话原文待核。本页聚焦：bread 不可数——some bread ✔，a bread ✘。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>b·r·ea·d —— 注意是 ea 不是 ee！ea 组合同族：head · eat · seat<br>✏️ 口诀：面包里住着 ea，短音 /e/ 别读长</td></tr>
+        <tr><th>音·发音</th><td>/bred/ 单音节，ea 发短音 /e/（同 head）<br>🎧 跟读：some bread · a slice of bread · bread and butter</td></tr>
+        <tr><th>意·释义</th><td>面包 🍞（不可数名词；bread and butter 黄油面包，也引申"生计"）</td></tr>
+        <tr><th>用·句型</th><td>① I want some bread. (我想要一些面包。)<br>② The bread smells good. (面包闻起来真香。)<br>③ Would you like some bread? (你想来点面包吗？)<br>④ Mum buys bread every morning. (妈妈每天早上买面包。)</td></tr>
+        <tr><th>拓·同族词</th><td>gingerbread 姜饼 · sandwich 三明治（bread 夹在里面！）；breadwinner 养家的人；toast 吐司 · bun 小圆面包</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>指认</td><td>This is a loaf of bread.</td></tr>
+        <tr><td>想要</td><td>I want some bread, please.</td></tr>
+        <tr><td>描述</td><td>The bread is fresh and soft.</td></tr>
+        <tr><td>购物</td><td>Let's buy some bread for breakfast.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · some 的用法</div>
+        <p><strong>some + 不可数名词 / 复数：</strong><br><u>some</u> bread 🍞 / <u>some</u> water 💧 / <u>some</u> cake 🍰</p><p><strong>a/an + 可数名词单数：</strong><br><u>an</u> apple / <u>a</u> banana</p><p>⚠️ bread 前不能加 a，也不能加 s！要说"一片面包"，用 a slice of bread。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>本单元是购物主题。建议在家把面包、蛋糕、水果摆上桌当"货架"，孩子当顾客说 I want some bread，家长当售货员回答 Here you are，玩"小小采购员"。重点纠正常见错误：把 bread 说成 breads、漏掉 some。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 "some bread"，孩子从 🍞 / 🍰 / 🍎 中选 → 正确答案：🍞</div>
+        <div class="game-step"><strong>✏️ 关卡2 · some 填空</strong><br>① I want ___ bread. (some)<br>② I want ___ apple. (an)<br>③ She wants ___ cake. (some)</div>
+        <div class="game-step"><strong>🔍 关卡3 · 生活找一找</strong><br>在厨房里找出 bread，指着它说 "I want some bread!" 说对了得一颗星</div>
+        <div class="game-step"><strong>🛒 关卡4 · 购物单游戏</strong><br>在纸上写 shopping list：bread · eggs · milk，孩子扮顾客买东西，每买一样说 "I want bread"</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 "I want some bread." 造句并录语音打卡<br><span class="btn-mimic">🎤 示例：I want some bread. It smells good!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟bread通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Bread Run》</h3>
+    <div class="quote">🍞 早上，Tom 发现家里没有面包了。"We need bread!" 他拿着购物单（shopping list）跟妈妈去超市。第一排货架是 cake——"I want cake!" 妈妈摇摇头："The list says bread." 第二排是水果——"Fruit is on the list too!" 最后 Tom 抱着面包、水果和牛奶排队结账。收银员问："Anything else?" Tom 摇摇头："Bread, fruit and milk. That's all!"——按单购物，一样不落。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What did Tom want to buy first? (Cake)<br>• What was on the shopping list? (Bread, fruit and milk)<br>• 问问孩子：Why did Mum say "The list says bread"? 如果购物单上没有你想买的，可以买吗？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 数量 ── some bread · a slice of bread（不可数！）
+├── 搭配 ── bread and butter · toast 吐司 · sandwich
+├── 场景 ── shopping list · supermarket · breakfast
+├── 句型 ── I want some bread. / Would you like some bread?
+└── 谚语 ── Bread is the staff of life. 民以食为天</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>bread 来自古英语 brēad，最初的意思竟是"小块、碎屑"——古人把烤好的面饼掰成小块分着吃，"掰下来的那一块"慢慢就成了面包的名字。它与 brew（酿造）是否同源，学者尚无定论（一说），可以肯定的是：这个词在英语里已经活了一千多年。<br>🎯 讲给孩子：面包的名字来自"掰开的一小块"。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>bread and butter</td><td>黄油面包（引申：生计、谋生之道）</td></tr>
+        <tr><td>breadwinner</td><td>养家糊口的人（bread + winner，"把面包赢回家的人"）</td></tr>
+        <tr><td>gingerbread</td><td>姜饼（ginger 姜 + bread）</td></tr>
+        <tr><td>daily bread</td><td>日常生计（"每天的面包"）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Bread is the staff of life." 🍞<br>民以食为天。—— 英语世界的古老谚语；另一句 "Man cannot live by bread alone"（人活着不单靠面包）出自《圣经》。</div>
+
+    <h3>🎵 歌词里的 bread</h3>
+    🎵 The Newbeats《Bread and Butter》(1964)：洗脑老歌，"Bread and butter" 用高音假声唱出来超好玩，整首歌就是一份点单——"Bread and butter, and toast and jam"。<br>🔗 与 cake 页互链：本单元购物主题系列页。
+
+    <h3>⚡ 冷知识</h3>
+    <p>1928年，美国发明家罗韦德尔（Otto Rohwedder）造出世界第一台切面包机，"切片面包"轰动一时。英语里夸某样东西了不起，就说 "the best thing since sliced bread"（自切片面包以来最棒的发明）——可见面包在英语世界的地位有多高。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>bread</strong> /bred/ n. 面包</div>
+        <div>功能句：I want some bread. / Would you like some bread?</div>
+        <div>不可数：some bread ✔ · a bread ✘（说 a slice of bread）</div>
+        <div>谚语：Bread is the staff of life.</div>
+        <div>歌谣：Bread and Butter — The Newbeats (1964)</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）三年级上册 Unit 3 Food<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("bread");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

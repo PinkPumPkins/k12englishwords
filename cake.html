@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·cake</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · cake</h1>
+<div class="subhead">📍 人教版（一起点）三年级上册 Unit 3 Food</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> cake</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 蛋糕</div>
+    <div class="info-item"><span class="info-label">音标</span> /keɪk/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (三年级)</div>
+    <div class="info-item"><span class="info-label">复数</span> cakes</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 3 Food</div>
+    <p><strong>Lesson 1 · A. Look, listen and talk</strong><br>
+    本课词汇：bread 面包 · cake 蛋糕 · fruit 水果 · ice-cream 冰淇淋 · meat 肉 · potato 土豆（复数 potatoes）<br>
+    核心句型：— What do you want? — I want bread and cake.（逐字对话原文待核）</p>
+    <p><strong>Lesson 2 · 句型与词汇拓展</strong><br>
+    单元其余词汇：tomato 西红柿 · vegetables 蔬菜 · cola 可乐 · shopping list 购物单 · buy 买<br>
+    问答句型持续操练：What do you want? / I want...（各课词汇分布以课本为准，逐字原文待核）</p>
+    <p><strong>Lesson 3 / Project Time · 综合运用</strong><br>
+    制作 shopping list 购物单：bread · eggs · fruit · vegetables…，用 buy 说出要买的东西（逐字原文待核）</p>
+    <p><strong>拓展活动 · 空中课堂第五课时</strong><br>
+    学做三明治（make a sandwich），并用英语说出制作的基本步骤</p>
+    <p style="font-size:12px;opacity:.75;">✅ 单元名 Food 与 Lesson 1 词汇、核心句型 What do you want? / I want... 经 docin 教学课件、北京空中课堂（人大附中航天城学校）、单元知识点归纳多源交叉核对；各课逐字对话原文待核。本页聚焦：cake 可数、不可数两用——a cake（整个）vs some cake（一块）。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>c·a·ke —— 词尾不发音的 magic e，让 a 读字母本音 /eɪ/<br>✏️ 口诀：magic e 在尾，a 要读 A 音（cake / make / take 一家）</td></tr>
+        <tr><th>音·发音</th><td>/keɪk/ 单音节，词尾 k 轻轻爆破<br>🎧 跟读：a cake · some cake · birthday cake</td></tr>
+        <tr><th>意·释义</th><td>蛋糕 🍰（可数指"一整个"，不可数指"一块"）</td></tr>
+        <tr><th>用·句型</th><td>① I want a cake. (我想要一个蛋糕。)<br>② The cake is delicious. (蛋糕很好吃。)<br>③ Let's make a cake! (我们做蛋糕吧！)<br>④ Would you like some cake? (你想来点蛋糕吗？)</td></tr>
+        <tr><th>拓·同族词</th><td>cupcake 纸杯蛋糕 · pancake 薄煎饼 · cheesecake 芝士蛋糕；习语：a piece of cake 小菜一碟</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>指认</td><td>This is a birthday cake.</td></tr>
+        <tr><td>想要</td><td>I want some cake, please.</td></tr>
+        <tr><td>描述</td><td>The cake is sweet and soft.</td></tr>
+        <tr><td>提议</td><td>Let's make a fruit cake!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · a cake 还是 some cake？</div>
+        <p><strong>整个蛋糕（可数）：</strong>a cake → two cakes<br>🎂 I made a cake. (我做了个蛋糕。)</p><p><strong>盘中一块（不可数）：</strong>some cake / a piece of cake<br>🍰 Would you like some cake?</p><p>⚠️ 像 cake 这样"可数 + 不可数"两用的还有 chicken（鸡 / 鸡肉）！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>和孩子开"英语蛋糕店"：橡皮泥捏蛋糕，练习 a cake / two cakes / some cake 三种说法。生日是最好的记忆钩子——每次家人过生日，都让孩子说一遍 Happy birthday! Let's cut the cake!</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 "a cake"，孩子从 🍞 / 🍰 / 🍎 中选 → 正确答案：🍰</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 变身填空</strong><br>① one cake → two ______ (cakes)<br>② Would you like some ______? (cake)<br>③ It's a birthday ______! (cake)</div>
+        <div class="game-step"><strong>🔍 关卡3 · 生活找一找</strong><br>在超市海报或厨房里找出 cake 图案，说 "I want a cake!" 得一颗星</div>
+        <div class="game-step"><strong>🛒 关卡4 · 购物单游戏</strong><br>把 cake 加进 shopping list，扮演购物："I want some cake, please."</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 "Let's make a cake!" 录语音打卡<br><span class="btn-mimic">🎤 示例：Let's make a cake for Grandma!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟cake通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Birthday Cake》</h3>
+    <div class="quote">🎂 小狗 Lucky 要过生日了。兔妈妈说："Let's make a cake!" 小熊搬来蜂蜜，小猴端来水果。蛋糕做好后，Lucky 闭眼许愿，一睁眼——蛋糕上插满了蜡烛。"Make a wish!" 大家一起喊。Lucky 吹灭蜡烛，大声说："My wish? More cake for everyone!"——分享让蛋糕更甜。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Whose birthday was it? (Lucky's)<br>• What did Lucky wish for? (More cake for everyone)<br>• 问问孩子：If you make a cake, who will you share it with?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 数量 ── a cake（整个）· some cake（一块）· two cakes
+├── 种类 ── birthday cake · cupcake · cheesecake · pancake
+├── 场景 ── Happy birthday! · Make a wish! · cut the cake
+├── 习语 ── a piece of cake 小菜一碟
+└── 谚语 ── You can't have your cake and eat it too.</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>cake 来自古诺尔斯语（维京人的语言）kaka，一千多年前维京人把这个词带到了英国，kaka 原本指烤成块状的面饼。德语 Kuchen、瑞典语 kaka 都是它的亲戚——一门语言里的蛋糕，全家都是一个味。<br>🎯 讲给孩子：cake 是"维京人带来的词"，一口蛋糕里藏着海盗史。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>a piece of cake</td><td>小菜一碟（字面"一块蛋糕"）</td></tr>
+        <tr><td>icing on the cake</td><td>锦上添花（蛋糕上的糖霜）</td></tr>
+        <tr><td>cupcake</td><td>纸杯蛋糕；也作昵称"小甜心"</td></tr>
+        <tr><td>pancake</td><td>薄煎饼（pan 平底锅 + cake）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"You can't have your cake and eat it too." 🍰<br>鱼与熊掌不可兼得。—— 直译"不能既留着蛋糕又把它吃掉"，英语世界最常用的谚语之一。</div>
+
+    <h3>🎵 歌词里的 cake</h3>
+    🎵 DNCE《Cake by the Ocean》(2015)：魔性副歌 "Cake by the ocean" 全民传唱。彩蛋：据乐队自述，歌名来自外国制作人把鸡尾酒名 Sex on the Beach 误听成 Cake by the Ocean 的美丽误会——孩子记住 cake 的 /keɪk/ 音就够了。<br>🔗 与 bread 页互链：本单元食物购物系列。
+
+    <h3>⚡ 冷知识</h3>
+    <p>过生日吹蜡烛的习俗，一说可追溯到古希腊：人们给月亮女神阿尔忒弥斯（Artemis）供上插满蜡烛的圆蛋糕，烛光象征月亮。吹灭蜡烛前许愿的传统流传至今——下一块生日蛋糕，记得用英语喊 Make a wish!</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>cake</strong> /keɪk/ n. 蛋糕</div>
+        <div>功能句：I want a cake. / Would you like some cake?</div>
+        <div>两用：a cake（整个）· some cake（一块）</div>
+        <div>习语：a piece of cake 小菜一碟</div>
+        <div>歌谣：Cake by the Ocean — DNCE (2015)</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）三年级上册 Unit 3 Food<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("cake");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

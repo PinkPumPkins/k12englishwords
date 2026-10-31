@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·pet</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · pet</h1>
+<div class="subhead">📍 人教版（一起点）三年级上册 Unit 4 Pets</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> pet</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 宠物</div>
+    <div class="info-item"><span class="info-label">音标</span> /pet/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (三年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> pets</div>
+</div>
+
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 4 Pets</div>
+    <p><strong>Lesson 1 · Look, listen and chant</strong><br>
+    a rabbit · a duck · a small chicken · a long snake · a turtle<br>
+    I have a turtle. It's green. I have a rabbit. It's white.<br>
+    I have a duck. It's yellow. I have a snake. It's long.<br>
+    I have a chicken. It's small.<br>
+    We have five great pets. And we love them all.</p>
+    <p><strong>Lesson 1 · B. Listen and do</strong><br>
+    I have a chicken. It's yellow. / I have a dog. It's small.<br>
+    I have a snake. It's long.</p>
+    <p><strong>Lesson 2 · Look, listen and repeat</strong><br>
+    — Wow! What a pretty dog! — Thank you.<br>
+    — Do you have a dog? — No, but I have a rabbit.<br>
+    — What does it look like? — It's white. It has long ears and red eyes.<br>
+    — Do you have a pet? — Yes. I have a duck. It's yellow. It's big, but it has short legs.</p>
+    <p><strong>Lesson 3 · Reading: Looking for My Dog</strong><br>
+    She is a small dog. She is black, but she has two white legs.<br>
+    She has big ears and a short tail. She can dance.<br>
+    — Please call me at 8730…（完整号码见课本插图） — Hello. Your dog is here.</p>
+    <p><strong>Let's Check</strong><br>
+    I'm looking for my duck. It is small.<br>
+    I'm looking for my rabbit.</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经51教习网课文跟读页（yyld.51jiaoxi.com/sanshang/rjbxqd_danyuan05.html）、万字诀新起点同步课程页（wanwords.com C016 Unit 4 Pets）与电子课本/课时习题检索摘要多源交叉核对；单元名以课本实际为准：Unit 4 Pets。pet 是本单元主题词：Do you have a pet? — Yes. I have a duck. / We have five great pets. And we love them all.</p>
+</div>
+
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>p·et —— p 像小朋友牵着绳，et 是绳子另一头的毛孩子。✏️ 口诀：p 牵绳，et 是宝，宠物跟我跑！（对比 pen 钢笔、net 网，中间换字母）</td></tr>
+        <tr><th>音·发音</th><td>/pet/ 单音节，和'拍一拍'同音好记——宠物要轻轻 pet（抚摸）。🎧 跟读：a pet · my pet · five great pets</td></tr>
+        <tr><th>意·释义</th><td>宠物 🐶🐱（也作动词：pet the dog 摸摸狗；pet name 昵称）</td></tr>
+        <tr><th>用·句型</th><td>① Do you have a pet? (你养宠物吗？)<br>② Yes. I have a duck. (是的，我养了一只鸭子。)<br>③ We have five great pets. (我们有五只很棒的宠物。)<br>④ I love my pet. (我爱我的宠物。)</td></tr>
+        <tr><th>拓·同族词</th><td>pets（复数）· pet shop 宠物店 · pet dog 宠物狗 · teacher's pet 老师的宠儿（戏称）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>询问</td><td>Do you have a pet?</td></tr>
+        <tr><td>回答</td><td>Yes. I have a duck.</td></tr>
+        <tr><td>喜爱</td><td>I love my pet.</td></tr>
+        <tr><td>总计</td><td>We have five great pets.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · Do you have a ...?（你有……吗？）</div>
+        <p><strong>询问拥有：</strong>— Do you have a pet? — Yes. I have a duck. / — No, but I have a rabbit.</p><p><strong>答句三板斧：</strong>① Yes. I have a ... ✔ ② No. ✘ ③ No, but I have a ...（没有A但有B，转折更高级）</p><p><strong>⚠️ 单数带 a，复数不带：</strong>Do you have <u>a pet</u>? · We have five great <u>pets</u>.</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>本单元主题词就是 pet。建议晚饭后和孩子互相采访：Do you have a pet? 想养真宠物的家庭可以定'宠物契约'——先用毛绒玩具当 pet 练句型，孩子能坚持一周说 I have a pet. It's ... 再谈真宠物。易错点：Do you have...? 里主语是 you，用 have 原形，别写成 has。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音抢答</strong><br>家长问 'Do you have a pet?'，孩子用 Yes. I have a ... 抢答自己想要的宠物</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① Do you ___ a pet? (have)<br>② I have a ___. It's yellow. (duck)<br>③ We have five great ___. (pets)</div>
+        <div class="game-step"><strong>✅ 关卡3 · have 变身</strong><br>I have a pet. → She ______ a pet. (has)<br>It has long ears. → They ______ long ears. (have)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 宠物小调查</strong><br>用 Do you have a pet? 问三位家人/同学，记下答案，汇报 We have ... pets!</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 'Do you have a pet? Yes. I have a ...' 和家长对唱问答并录音<br><span class='btn-mimic'>🎤 示例：— Do you have a pet? — Yes. I have a turtle!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟pet通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Five Great Pets》</h3>
+    <div class="quote">🐶 班里开宠物分享会。Bill 举起照片：'I have a dog. It's big.' Yaoyao 说：'I have a rabbit. It's white.' 轮到 Sue，她神秘地伸出手心——一只小乌龟！'I have a turtle. It's green.' 最后 Lily 站起来：'I can't have a pet at home, but we have five great pets in our classroom!'——原来自然角的鱼缸里，五条小金鱼摆着尾巴，正在当全班的宠物呢。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• How many pets does the classroom have? (Five)<br>• Whose pet is a turtle? (Sue's)<br>• 问问孩子：如果班级要选一只 pet，你想选什么？用 Do you have a pet? 采访一下同学。</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">pet 宠物
+├── 问答 ── Do you have a pet? · Yes. I have a duck.
+├── 复数 ── one pet · five great pets
+├── 单元宠物 ── rabbit 兔子 · duck 鸭子 · turtle 乌龟 · snake 蛇 · chicken 小鸡
+├── 搭配 ── pet shop 宠物店 · pet dog 宠物狗
+└── 趣语 ── teacher's pet 老师的宠儿</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>pet 大约在16世纪出现在苏格兰英语里，最初指'被娇惯的孩子、心肝宝贝'，18世纪才正式用来指'养熟的宠物'。所以老师最喜欢的学生被戏称 teacher's pet（老师的宠儿），给家人起的昵称叫 pet name——先有'宠爱'，后有'宠物'。至于 pet the dog（摸摸小狗）的动词用法，正是'宠'的动作化。🎯 讲给孩子：pet 的本质不是动物，而是'被宠着'。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>pets</td><td>pet 的复数：five great pets 五只很棒的宠物</td></tr>
+        <tr><td>pet shop</td><td>宠物店：buy food for your pet 给宠物买粮</td></tr>
+        <tr><td>pet name</td><td>昵称：Mum's pet name for me is 'Doudou'</td></tr>
+        <tr><td>teacher's pet</td><td>戏称：老师的宠儿（可别用来自夸哦）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Love me, love my dog." 🐕<br>爱屋及乌——字面是"爱我就要爱我的狗"。这句话几百年来提醒大家：接纳一个人，也要接纳他心爱的 pet。</div>
+
+    <h3>🎵 歌词里的 pet</h3>
+    <p>🎵 Elvis Presley《Hound Dog》(1956)：猫王11周冠军传奇，歌里那只被数落的猎犬正是全球最著名的'宠物歌'。</p><p>🎵 互链：与 dog 页互链——同用这首《Hound Dog》，pet 页讲'宠物'，dog 页讲'狗狗'。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>1975年，美国人加里·达尔发明了史上最离谱的宠物——Pet Rock（宠物石头）：一块装在纸盒里、带着呼吸孔和'训练手册'的普通石头，几个月卖出上百万块。手册第一条写道：'你的石头不会死，也不会不听话。'人们这才明白：所谓 pet，宠的是那份陪伴的心情。今天宠物猫狗过生日、拍写真，都是这场'石头传奇'的远房子孙。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>pet</strong> /pet/ n. 宠物</div>
+        <div>pet /pet/ n. 宠物（复数 pets）</div>
+        <div>功能句：Do you have a pet? — Yes. I have a duck.</div>
+        <div>本单元宠物词：rabbit · duck · turtle · snake · chicken</div>
+        <div>互链：dog 页（《Hound Dog》同曲）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）三年级上册 Unit 4 Pets<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("pet");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

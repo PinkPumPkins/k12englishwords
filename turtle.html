@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·turtle</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · turtle</h1>
+<div class="subhead">📍 人教版（一起点）三年级上册 Unit 4 Pets</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> turtle</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 乌龟；海龟</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈtɜːtl/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (三年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> turtles</div><div class='info-item'><span class='info-label'>区分</span> tortoise 陆龟</div>
+</div>
+
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 4 Pets</div>
+    <p><strong>Lesson 1 · Look, listen and chant</strong><br>
+    a rabbit · a duck · a small chicken · a long snake · a turtle<br>
+    I have a turtle. It's green. I have a rabbit. It's white.<br>
+    I have a duck. It's yellow. I have a snake. It's long.<br>
+    I have a chicken. It's small.<br>
+    We have five great pets. And we love them all.</p>
+    <p><strong>Lesson 1 · B. Listen and do</strong><br>
+    I have a chicken. It's yellow. / I have a dog. It's small.<br>
+    I have a snake. It's long.</p>
+    <p><strong>Lesson 2 · Look, listen and repeat</strong><br>
+    — Wow! What a pretty dog! — Thank you.<br>
+    — Do you have a dog? — No, but I have a rabbit.<br>
+    — What does it look like? — It's white. It has long ears and red eyes.<br>
+    — Do you have a pet? — Yes. I have a duck. It's yellow. It's big, but it has short legs.</p>
+    <p><strong>Lesson 3 · Reading: Looking for My Dog</strong><br>
+    She is a small dog. She is black, but she has two white legs.<br>
+    She has big ears and a short tail. She can dance.<br>
+    — Please call me at 8730…（完整号码见课本插图） — Hello. Your dog is here.</p>
+    <p><strong>Let's Check</strong><br>
+    I'm looking for my duck. It is small.<br>
+    I'm looking for my rabbit.</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经51教习网课文跟读页（yyld.51jiaoxi.com/sanshang/rjbxqd_danyuan05.html）、万字诀新起点同步课程页（wanwords.com C016 Unit 4 Pets）与电子课本/课时习题检索摘要多源交叉核对；单元名以课本实际为准：Unit 4 Pets。turtle 是课文第一句的主角：I have a turtle. It's green. —— 五只宠物的开场白。</p>
+</div>
+
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>tur·tle —— tur 像龟壳上的花纹，tle 是它慢吞吞的小尾巴。✏️ 口诀：壳上 tur 纹，tle 尾巴慢，乌龟不着急！（对比 little，同为 -tle 结尾）</td></tr>
+        <tr><th>音·发音</th><td>/ˈtɜː.tl/ 两音节，重音在前：TUR-tle。🎧 跟读：a turtle · a green turtle · three turtles</td></tr>
+        <tr><th>意·释义</th><td>乌龟；海龟 🐢（严格说 turtle 多指海龟，tortoise 指陆龟，terrapin 指淡水龟——三年级统一记'龟'即可）</td></tr>
+        <tr><th>用·句型</th><td>① I have a turtle. (我有一只乌龟。)<br>② It's green. (它是绿色的。)<br>③ The turtle walks slowly. (乌龟走得很慢。)<br>④ The turtle can swim. (乌龟会游泳。)</td></tr>
+        <tr><th>拓·同族词</th><td>turtles（复数）· sea turtle 海龟 · tortoise 陆龟 · Ninja Turtles 忍者神龟</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>描述</td><td>I have a turtle. It's green.</td></tr>
+        <tr><td>能力</td><td>The turtle can swim.</td></tr>
+        <tr><td>对比</td><td>The turtle is slow. The rabbit is fast.</td></tr>
+        <tr><td>数量</td><td>One turtle, two turtles, three turtles!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · but 转折句（……但是……）</div>
+        <p><strong>课本示范：</strong>It's big, but it has short legs. 它很大，但是腿很短。</p><p><strong>but 的用法：</strong>前后两个意思反着说，中间用 but：The turtle is slow, <u>but</u> it can swim.</p><p><strong>⚠️ but 后面还是完整句子：</strong>...but it has... ✔（it 不能丢）</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>乌龟是本单元第一句 I have a turtle. It's green. 的主角，也是教 but 转折句的好素材：It's slow, but it can swim. 建议在家看一小段海龟视频，边看边说 slow / swim / green。孩子容易把 turtle 读成'特头'，重音 TUR 要读足。顺势用英语讲一遍龟兔赛跑：slow but steady，孩子最记这种反差。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 'I have a turtle. It's green.'，孩子从 🐢/🐍/🦆 中选 → 正确答案：🐢</div>
+        <div class="game-step"><strong>✏️ 关卡2 · but 连句</strong><br>① The turtle is slow, ___ it can swim. (but)<br>② It's big, ___ it has short legs. (but)<br>③ I'm small, ___ I'm strong! (but)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数变身</strong><br>one turtle → two ______ (turtles)<br>one snake → two ______ (snakes)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 龟兔赛跑</strong><br>英语角色扮演：兔子说 I'm fast!，乌龟说 I'm slow, but I win! 演完得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 'I have a turtle. It's ...' 录语音打卡<br><span class='btn-mimic'>🎤 示例：I have a turtle. It's green. It's slow, but it can swim!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟turtle通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Turtle's Race with the Fan》</h3>
+    <div class="quote">🐢 班级运动会上，Sue 的乌龟 Greeny 被请来当'最慢选手'。发令枪响，Greeny 半天才挪一步。Jack 急了，掏出小风扇对着它吹：'Go go go!' 没想到 Greeny 把头一缩，稳稳停住：'I'm slow, but I never stop.' 一圈、两圈……风扇没电了，Greeny 还在爬。最后，连跑来助威的兔子 Whitey 都竖起大拇指：'You win, my friend——slow but never stop!' 这正是《龟兔赛跑》的新版结局：乌龟赢了，赢在坚持。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Who helped the turtle? (Jack)<br>• What did the turtle say? (I'm slow, but I never stop)<br>• 问问孩子：如果乌龟和兔子再赛一次，你想当谁的啦啦队？用 It's slow, but ... 说一句加油词。</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">turtle 乌龟
+├── 句型 ── I have a turtle. · It's green.
+├── 特点 ── slow 慢 · but 转折：slow but never stop
+├── 家族 ── sea turtle 海龟 · tortoise 陆龟
+├── 能力 ── The turtle can swim.
+└── 文化 ── 《龟兔赛跑》 · 忍者神龟</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>英语里 turtle 最早专指海里的龟；陆地上慢吞吞的龟叫 tortoise，来自法语 tortue。有趣的是，turtle dove（斑鸠）里的 turtle 是另一个完全不相干的词——它来自拉丁语 turtur，模拟斑鸠'图-图'的叫声，纯属同名巧合。海龟妈妈每年会游几百公里回到自己出生的沙滩产卵，导航本领至今仍是科学之谜。🎯 讲给孩子：turtle 和 tortoise 的区别，一个下海，一个上岸。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>turtles</td><td>turtle 的复数：three green turtles</td></tr>
+        <tr><td>sea turtle</td><td>海龟：回出生沙滩产卵的航海家</td></tr>
+        <tr><td>tortoise</td><td>陆龟：《龟兔赛跑》的主角是 tortoise</td></tr>
+        <tr><td>Ninja Turtles</td><td>忍者神龟：爱吃披萨的四只卡通龟</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Slow and steady wins the race." 🐢<br>稳扎稳打，赢得比赛。——伊索寓言《龟兔赛跑》的寓意，全世界的教室都在讲这只不肯停下的乌龟。</div>
+
+    <h3>🎵 歌词里的 turtle</h3>
+    <p>🎵 Elton John《Crocodile Rock》(1972)：与 snake 页同曲互链——爬行动物家族的摇滚主题曲，龟壳一背就是舞池。</p><p>🎵 互链：与 rabbit 页互链——伊索寓言《龟兔赛跑》，《Run Rabbit Run》的兔子这次输给了乌龟。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>目前在世的最长寿陆生动物是一只叫 Jonathan 的塞舌尔巨龟：它出生于1832年前后，住在圣赫勒拿岛，已经190多岁，见证了从蒸汽机到智能手机的整个时代。海龟认路靠'磁性地图'——地球磁场就是它们的导航仪。龟壳是它的骨头，长在身体外面，所以乌龟永远背着家出门。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>turtle</strong> /ˈtɜːtl/ n. 乌龟；海龟</div>
+        <div>turtle /ˈtɜːtl/ n. 乌龟；海龟（复数 turtles）</div>
+        <div>功能句：I have a turtle. It's green. / slow, but ...</div>
+        <div>区分：turtle 海龟 · tortoise 陆龟</div>
+        <div>互链：snake、reptile 页（同曲）；rabbit 页（龟兔赛跑）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）三年级上册 Unit 4 Pets<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("turtle");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

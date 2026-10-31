@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·shopping list</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · shopping list</h1>
+<div class="subhead">📍 人教版（一起点）三年级上册 Unit 3 Food</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> shopping list</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 购物单；购物清单</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈʃɒpɪŋ lɪst/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (三年级)</div>
+    <div class="info-item"><span class="info-label">构成</span> shop + ping + list</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 3 Food</div>
+    <p><strong>Lesson 1 · A. Look, listen and talk</strong><br>
+    本课词汇：bread 面包 · cake 蛋糕 · fruit 水果 · ice-cream 冰淇淋 · meat 肉 · potato 土豆（复数 potatoes）<br>
+    核心句型：— What do you want? — I want bread and cake.（逐字对话原文待核）</p>
+    <p><strong>Lesson 2 · 句型与词汇拓展</strong><br>
+    单元其余词汇：tomato 西红柿 · vegetables 蔬菜 · cola 可乐 · shopping list 购物单 · buy 买<br>
+    问答句型持续操练：What do you want? / I want...（各课词汇分布以课本为准，逐字原文待核）</p>
+    <p><strong>Lesson 3 / Project Time · 综合运用</strong><br>
+    制作 shopping list 购物单：bread · eggs · fruit · vegetables…，用 buy 说出要买的东西（逐字原文待核）</p>
+    <p><strong>拓展活动 · 空中课堂第五课时</strong><br>
+    学做三明治（make a sandwich），并用英语说出制作的基本步骤</p>
+    <p style="font-size:12px;opacity:.75;">✅ 单元名 Food 与 Lesson 1 词汇、核心句型 What do you want? / I want... 经 docin 教学课件、北京空中课堂（人大附中航天城学校）、单元知识点归纳多源交叉核对；各课逐字对话原文待核。本页聚焦：本单元综合运用担当——课本购物环节靠它串起全部食物词。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>shop(p)ing list —— shop 双写 p 再加 ing，list 是清单<br>✏️ 口诀：买东西 shop，双 p 加 ing，一张 list 列到家</td></tr>
+        <tr><th>音·发音</th><td>/ˈʃɒpɪŋ lɪst/ 重音在前：SHOP-ping LIST<br>🎧 跟读：make a shopping list · on the shopping list</td></tr>
+        <tr><th>意·释义</th><td>购物单 📝（买东西前列的清单，防止漏买乱买）</td></tr>
+        <tr><th>用·句型</th><td>① Let's make a shopping list. (我们来列个购物单吧。)<br>② Bread is on the shopping list. (面包在购物单上。)<br>③ Don't forget the shopping list! (别忘了购物单！)<br>④ What's on your shopping list? (你的购物单上有什么？)</td></tr>
+        <tr><th>拓·同族词</th><td>shop 商店/购物 → shopping 购物 → go shopping 去购物；list 清单 → word list 单词表 · to-do list 待办清单</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>制作</td><td>Let's make a shopping list first.</td></tr>
+        <tr><td>查看</td><td>What's on the shopping list? — Bread and milk.</td></tr>
+        <tr><td>提醒</td><td>Don't forget the shopping list!</td></tr>
+        <tr><td>购物</td><td>I want bread, eggs and fruit. That's my list.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · Let's... 提议句</div>
+        <p><strong>提议一起做：</strong>Let's make a shopping list!（咱们列购物单吧）</p><p><strong>应答：</strong>Good idea! / OK!</p><p><strong>同族提议：</strong>Let's go shopping. / Let's buy some bread.</p><p>⚠️ Let's = Let us，后面跟动词原形：Let's <u>make</u>（不说 Let's making）！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>这是本单元最实用的词——把学英语变成真家务！每周超市采购前，让孩子用英语口述购物单：bread, milk, fruit...你负责写，他负责核对。说不出英文的，正好补学。坚持一个月，食物词 + 句型全滚动复习。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 "shopping list"，孩子从 📝🛒 / 🍦 / 🥤 中选 → 正确答案：📝🛒</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① Let's ___ a shopping list. (make)<br>② Bread is ___ the list. (on)<br>③ Don't ___ the shopping list! (forget)</div>
+        <div class="game-step"><strong>🔍 关卡3 · 记忆挑战</strong><br>看购物单10秒（bread · milk · eggs），合上纸复述：What's on the list?</div>
+        <div class="game-step"><strong>🛒 关卡4 · 真实任务</strong><br>超市采购让孩子口述英文购物单，买对一样得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 "Bread, milk and fruit — that's my shopping list!" 录音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟shopping list通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Missing List》</h3>
+    <div class="quote">📝 妈妈写好购物单去超市，到了门口一摸口袋——单子忘了带！"What was on the list?" Tom 闭眼回忆："Bread, eggs, milk...and fruit!" 妈妈半信半疑地按单买回家，打开冰箱一检查：五样全对，只多了一盒冰淇淋。Tom 挠头笑："Ice-cream is on my list!"——好记性不如烂笔头，更不如好英语！</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What did Mum forget? (The shopping list)<br>• How many things did they buy right? (Five)<br>• 问问孩子：What would be on YOUR shopping list? 用英语说三样！</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 构成 ── shop → shopping（双写p）+ list 清单
+├── 动作 ── make a list · check the list · forget the list
+├── 内容 ── bread · milk · eggs · fruit · vegetables
+├── 句型 ── What's on your shopping list?
+└── 同族 ── word list 单词表 · to-do list 待办清单</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>shop 来自古英语 scoppa，本义是"棚子、摊位"——最早的"店"就是街边搭的木棚。list 来自古法语 liste，原义"布条边饰"，古人在布边上写字列表，"清单"由此得名。shop + list，就是"把要买的东西写在纸条上"。<br>🎯 讲给孩子：shop 原来是"小棚子"，list 原来是"花布边"——两个词凑一起，就是购物单。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>go shopping</td><td>去购物</td></tr>
+        <tr><td>shopping mall</td><td>购物中心</td></tr>
+        <tr><td>shopping cart</td><td>购物车（1937年美国人戈德曼发明）</td></tr>
+        <tr><td>word list</td><td>单词表（同源：list 清单）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Never go shopping on an empty stomach." 🛒<br>别饿着肚子去购物。—— 英语世界口口相传的生活智慧：饿着肚子逛超市，买回来的东西会比购物单多一倍！</div>
+
+    <h3>🎵 歌词里的 shopping list</h3>
+    🎵 Macklemore & Ryan Lewis《Thrift Shop》(2012)：格莱美获奖神曲，讲的就是去旧货店（thrift shop）淘货——"Only got twenty dollars in my pocket" 洗脑无比。<br>🔗 与 buy 页互链（同歌）；与 shop / supermarket 页同歌互链。
+
+    <h3>⚡ 冷知识</h3>
+    <p>购物车是1937年美国人西尔万·戈德曼（Sylvan Goldman）发明的——他发现顾客拎着篮子买不了几样东西，就把椅子装上轮子改成购物车。最初大家嫌它像婴儿车不好意思用，戈德曼只好雇人推着车假装购物，顾客才纷纷效仿！</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>shopping list</strong> /ˈʃɒpɪŋ lɪst/ n. 购物单；购物清单</div>
+        <div>功能句：Let's make a shopping list. / What's on the list?</div>
+        <div>构成：shop（双写p）+ ping + list</div>
+        <div>搭配：make / check / forget the list</div>
+        <div>歌谣：Thrift Shop — Macklemore & Ryan Lewis (2012)</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）三年级上册 Unit 3 Food<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("shopping list");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
