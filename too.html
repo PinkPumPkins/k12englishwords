@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·too</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · too</h1>
+<div class="subhead">📍 人教版（一起点）二年级上册 Unit 6 Christmas</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> too</div>
+    <div class="info-item"><span class="info-label">词性</span> adv. 也</div>
+    <div class="info-item"><span class="info-label">音标</span> /tuː/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (二年级)</div>
+    <div class="info-item"><span class="info-label">同音词</span> two 二 · to 到</div>
+</div>
+
+<div class="textbook"><div class="textbook-title">📖 课本原文直通车 · Unit 6 Christmas（节日主题单元）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>— Merry Christmas! — You too!<br>— Here is a present for you. — Thank you!<br>（chant 三场景：送礼 present → 送贺卡 card → 送圣诞树 Christmas tree；<br>'Thank you, Father Christmas. We all love you!'<br>本课单词：Christmas 圣诞节 · Father Christmas 圣诞老人 · Christmas tree 圣诞树 · card 贺卡 · present 礼物）</p><p><strong>Lesson 2 · A. Look, listen and chant</strong><br>— Happy New Year! — You too!<br>— Here is a card for you. — Thank you.</p><p><strong>Lesson 3 · A. Act and say</strong><br>— Merry Christmas! — You too!<br>— Here is a plane for you. — Thank you.<br>— Do you like the plane? — Yes, I do.</p><p><strong>Story Time</strong><br>— Merry Christmas! — Here's a present for you.<br>— Thank you, Father Christmas!</p><p><strong>单元歌曲</strong><br>We Wish You a Merry Christmas：'We wish you a merry Christmas and a happy New Year!' 🎄</p><p style="font-size:12px;opacity:.75;">✅ 原文经智慧山二年级上册知识点归纳（zhihuishan.com/article/6936.html：单元重点词 Christmas/Father Christmas/Christmas tree/card/present/New Year）、51jiaoxi 同步跟读页（yyld.51jiaoxi.com/ershang/rjbxqd_danyuan07.html：Lesson 1-3 逐句转写）、同桌100课程页多源交叉核对：核心句型 Merry Christmas! / Here's a present for you. / Thank you. / You too! / Happy New Year! 为两源以上一致；Lesson 1 chant 三场景、Lesson 3 Act and say 细节与 Story Time 对话为跟读页单源收录，标注待进一步核对。⚠️ 多数公开资源该单元名作 Happy Holidays，本页沿用任务书 Christmas 口径，待主控面核定。too 是回应祝福的万能词：Lesson 1 的 'Merry Christmas, Mum! — You too!'、Lesson 2 的 'Happy New Year! — You too!' 都靠它接话。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>t·oo —— t 加两个 o，像两只并排的小脚<br>✏️ 口诀：too 两个 o，two 也有两个 o——同音三兄弟 two / to / too！</td></tr>
+        <tr><th>音·发音</th><td>/tuː/ 单音节长元音，和 two、to 完全同音<br>🎧 跟读：Me too · You too · I like apples, too.</td></tr>
+        <tr><th>意·释义</th><td>也 😊（放在句尾：Me too. 我也是）；也作'太'：too hot 太烫（高年级用法）</td></tr>
+        <tr><th>用·句型</th><td>① — Happy New Year! — You too! (新年快乐！——也祝你！)<br>② — I like Christmas. — Me too! (我喜欢圣诞节。——我也是！)<br>③ Thank you, too. (也谢谢你。)<br>④ See you tomorrow, too. (明天也见。)</td></tr>
+        <tr><th>拓·同族词</th><td>Me too 我也是 · You too 你也是 · also 也(更正式，放句中) · too...to... 太…而不能(高阶)</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>附和</td><td>Me too!</td></tr>
+        <tr><td>回应祝福</td><td>You too!</td></tr>
+        <tr><td>补充</td><td>I like Christmas, too.</td></tr>
+        <tr><td>感谢</td><td>Thanks to you, too!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · '也'的两副面孔</div>
+        <p><strong>too 放句尾：</strong>I like Christmas, too. / Me too! —— 口语最常用</p><p><strong>also 放句中：</strong>I also like Christmas. —— 稍正式</p><p>⚠️ too 还有'太'的意思：too hot 太烫、too big 太大——两个意思都考，靠语境分辨。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>too 是孩子最容易在生活里用的词：家人说什么喜好，孩子接一句 Me too! 就是完整对话。教 'You too!' 的礼貌功能——别人祝你节日快乐，回 You too! 比 Yes 得体得多。易混点先按下不表：two（二）、to（到）、too（也）同音不同字，二年级先掌握 too='也'，'太'的用法高年级再系统学。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 同音三兄弟</strong><br>家长说 too / two / to，孩子举两根手指（two）、指门（to）、竖大拇指（too=我也）</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 拼写挑战</strong><br>① '也'：______ (too) ② two 和 too 差在哪里？(t-w-o 是数字二) ③ 默写 Me too!</div>
+        <div class="game-step"><strong>✅ 关卡3 · 课本句填空</strong><br>① — Merry Christmas! — ______ too! (You) ② — Happy New Year! — You ______! (too)</div>
+        <div class="game-step"><strong>🔍 关卡4 · Me too 接龙</strong><br>一人说 I like Christmas. I like presents. 另一人句句接 Me too! 看能接多长</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>跟唱 Meghan Trainor《Me Too》副歌一句并录语音打卡<br><span class="btn-mimic">🎤 示例：If I was you, I'd wanna be me too!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟too通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Me Too Twins》</h3>
+    <div class="quote">👶 乐乐班上来了对双胞胎。老师问谁喜欢 Christmas，左边立刻喊 'I like Christmas!'，右边马上喊 'Me too!'。老师说谁会唱 We wish you a merry Christmas，又是一个 'I can sing!' — 'Me too!'。全班笑作一团。放学时双胞胎一起喊 'Bye, Miss Li!' 老师也笑着回了一句：'Me too!... Oh wait — See you tomorrow!' 连老师都被带得说顺口了。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 双胞胎用哪个词附和对方？(Me too!)<br>• 老师最后说了什么？(See you tomorrow!)<br>• 问问孩子：What do you like about Christmas? 家长答 Me too! 角色互换再玩一次</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 身份一 ── '也'：Me too · You too（放句尾）<br>├── 身份二 ── '太'：too hot 太烫（高年级）<br>├── 同音三兄弟 ── two 二 · to 到 · too 也<br>├── 近义 ── also 也（放句中）<br>└── 课本句 ── Happy New Year! — You too!</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>too 和 to 是亲兄弟：都来自古英语 tō。它最早表示'此外、再者'，后来才和 to 的'朝向'义分工，各自拿走一个拼写。所以 two / to / too 三个词同音不是巧合——too 本来就写着 tō，加上一个 o 变成'另外还有一个 o'，恰好就是'也'的意思。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>Me too</td><td>我也是——口语第一高频附和</td></tr>
+        <tr><td>You too</td><td>你也是——回应祝福的礼貌句</td></tr>
+        <tr><td>too hot / too big</td><td>too 的'太'义（高年级）</td></tr>
+        <tr><td>also</td><td>也（近义词，放句中）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">'Two heads are better than one.' 🧠<br>两个脑袋总比一个强（人多智广）。—— 英语谚语。两个 two 的智慧，接一句 Me too! 就是三个啦。</div>
+
+    <h3>🎵 歌词里的 too</h3>
+    <p>🎵 Meghan Trainor《Me Too》(2016)：歌名含词。格莱美提名流行热单，副歌 'If I was you, I'd wanna be me too' 节奏跳跃极易上口，Me too 在歌里反复弹出。</p><p>🎵 彩蛋：also 词条同配此曲（CSV 同源），too 与 also 的'也'字分工在两页之间互链对照。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>too 的'太'义是英语考试常客，但它的本义其实是'也'。两个意思怎么区分？看位置：放句尾（I like it, too）是'也'，放形容词前（too hot）是'太'。two / to / too 同音不同形，是英语最经典的'听得出、写得分'三兄弟——分清它们，你就赢过不少大人。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>too</strong> /tuː/ adv. 也</div>
+        <div>单词：too /tuː/ adv. 也（句尾）</div>
+        <div>课本句：Happy New Year! — You too!</div>
+        <div>同音三兄弟：two 二 · to 到 · too 也</div>
+        <div>歌曲：Meghan Trainor《Me Too》</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级上册 Unit 6 Christmas<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("too");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

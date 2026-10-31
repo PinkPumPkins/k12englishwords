@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·for</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · for</h1>
+<div class="subhead">📍 人教版（一起点）二年级上册 Unit 6 Christmas</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> for</div>
+    <div class="info-item"><span class="info-label">词性</span> prep. 给；为</div>
+    <div class="info-item"><span class="info-label">音标</span> /fɔː/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (二年级)</div>
+    <div class="info-item"><span class="info-label">同音词</span> four 四</div>
+</div>
+
+<div class="textbook"><div class="textbook-title">📖 课本原文直通车 · Unit 6 Christmas（节日主题单元）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>— Merry Christmas! — You too!<br>— Here is a present for you. — Thank you!<br>（chant 三场景：送礼 present → 送贺卡 card → 送圣诞树 Christmas tree；<br>'Thank you, Father Christmas. We all love you!'<br>本课单词：Christmas 圣诞节 · Father Christmas 圣诞老人 · Christmas tree 圣诞树 · card 贺卡 · present 礼物）</p><p><strong>Lesson 2 · A. Look, listen and chant</strong><br>— Happy New Year! — You too!<br>— Here is a card for you. — Thank you.</p><p><strong>Lesson 3 · A. Act and say</strong><br>— Merry Christmas! — You too!<br>— Here is a plane for you. — Thank you.<br>— Do you like the plane? — Yes, I do.</p><p><strong>Story Time</strong><br>— Merry Christmas! — Here's a present for you.<br>— Thank you, Father Christmas!</p><p><strong>单元歌曲</strong><br>We Wish You a Merry Christmas：'We wish you a merry Christmas and a happy New Year!' 🎄</p><p style="font-size:12px;opacity:.75;">✅ 原文经智慧山二年级上册知识点归纳（zhihuishan.com/article/6936.html：单元重点词 Christmas/Father Christmas/Christmas tree/card/present/New Year）、51jiaoxi 同步跟读页（yyld.51jiaoxi.com/ershang/rjbxqd_danyuan07.html：Lesson 1-3 逐句转写）、同桌100课程页多源交叉核对：核心句型 Merry Christmas! / Here's a present for you. / Thank you. / You too! / Happy New Year! 为两源以上一致；Lesson 1 chant 三场景、Lesson 3 Act and say 细节与 Story Time 对话为跟读页单源收录，标注待进一步核对。⚠️ 多数公开资源该单元名作 Happy Holidays，本页沿用任务书 Christmas 口径，待主控面核定。for 是送礼句的点睛介词：Here's a present/card/Christmas tree for you. 里的 for you（给你），Lesson 1/2/3 全都绕不开它。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>f·or —— f 加 or，三根线条写完<br>✏️ 口诀：for 给你 for 为你，f 打头 or 收尾（同音 four 四也是 f 开头）</td></tr>
+        <tr><th>音·发音</th><td>/fɔː/ 单音节长元音，和 four 四同音<br>🎧 跟读：a present for you · a card for Mum · thank you for the card</td></tr>
+        <tr><th>意·释义</th><td>给；为；为了 🎁（for you 给你；for Mum 给妈妈——表示'送给谁/为谁'）</td></tr>
+        <tr><th>用·句型</th><td>① Here's a present for you. (这是给你的礼物。)<br>② This card is for Mum. (这张卡片是给妈妈的。)<br>③ Thank you for the present. (谢谢你的礼物。)<br>④ The present is for my friend. (这份礼物是给我朋友的。)</td></tr>
+        <tr><th>拓·同族词</th><td>for you 给你 · for example 例如 · thank you for... 谢谢你的… · four 四(同音)</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>送礼</td><td>This card is for Mum.</td></tr>
+        <tr><td>感谢</td><td>Thank you for the present.</td></tr>
+        <tr><td>举例</td><td>For example, this one.</td></tr>
+        <tr><td>归属</td><td>The gift is for my friend.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · for you 送礼万能介词</div>
+        <p><strong>物 + for + 人</strong> = 给谁的…</p><p>a present for you 给你的礼物 · a card for Mum 给妈妈的卡片 · a tree for you 给你的树</p><p><strong>Thank you for + 物</strong> = 谢谢你的…：Thank you for the card. 对方回应 You're welcome. 不客气。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>for 是本单元句子里的'隐形主角'——每句送礼都靠它把礼物交到人手里。生活练习：递东西时让孩子说完整版 This is for you. 或 Here's a present for you.，比只说单词完整得多。同音提醒：for 和 four 同音，'四支蜡烛给妈妈'就是 four candles for Mum，一句话复习两个词。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音辨义</strong><br>家长说 for you / four，孩子伸4根手指或做递礼物动作</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 拼写挑战</strong><br>① 介词'给'：______ (for) ② 数字'四'：______ (four) ③ 默写 Here's a present for you.</div>
+        <div class="game-step"><strong>✅ 关卡3 · 课本句填空</strong><br>① Here's a present ______ you. (for) ② This card is ______ Mum. (for)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 礼物分配</strong><br>桌上摆3样物品，孩子逐一分配：This is for Mum. This is for Dad. This is for me!</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 Thank you for the card. 造感谢句并录语音打卡<br><span class="btn-mimic">🎤 示例：Thank you for the present, Santa!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟for通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《For You, For You, For You》</h3>
+    <div class="quote">🎁 圣诞夜，乐乐做了三张卡片：一张画雪人，一张画圣诞树，一张画小狗。他挨个发：'This is for Mum.' 'This is for Dad.' 最后一张举到小狗面前：'And this is for you, Wang Wang!' 小狗一口叼住卡片就跑，全家追了三圈。妈妈喘着气笑：'The card is for the dog — but the dog wants it for lunch!' 乐乐赶紧换了一张新卡：'OK, this one is for play, not for lunch!'</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 乐乐一共做了几张卡片？(三张)<br>• 小狗把卡片当什么了？(午饭)<br>• 问问孩子：Who is your next card for? 用 This is for ______. 演一遍分配</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 本义 ── 给；为（for + 人 = 给谁）<br>├── 课本句 ── Here's a present for you.<br>├── 感谢 ── Thank you for the card.<br>├── 高频搭配 ── for example 例如<br>└── 同音 ── four 四</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>for 是古英语就有的老词，拼写一千年没变过，是英语里最勤恳的功能词之一。它和 four（四）同音纯属巧合：four 来自更古老的数词系统。for 的万能程度看搭配就知道：for you（给你）、for example（例如）、wait for（等待）、thank you for（为…感谢）——一个三字母小词，撑起半个英语句子。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>for you</td><td>给你——送礼句标配</td></tr>
+        <tr><td>Thank you for...</td><td>为…谢谢你：Thank you for the card.</td></tr>
+        <tr><td>for example</td><td>例如</td></tr>
+        <tr><td>four</td><td>四（同音词）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">'Ask not what your country can do for you — ask what you can do for your country.' 🇺🇸<br>不要问国家能为你做什么，要问你能为国家做什么。—— 肯尼迪1961年就职演说名句，两个 for 一正一反，是英语演讲史上的传世对仗。</div>
+
+    <h3>🎵 歌词里的 for</h3>
+    <p>🎵 Stevie Wonder《For Once in My Life》(1968)：歌名含词。传奇歌手的经典金曲，'For once in my life I have someone who needs me'——终于有个人需要我，for 的'为了'义在歌名里就能体会。</p><p>🎵 彩蛋：for 与 four 同音——说 'for you' 时，英语耳朵里也飘过一个小小的'4'。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>for 是英语最高频的词之一，但几乎没有'实物意思'——它的作用像螺丝钉，把名词和句子拧在一起。二年级先掌握 for+人（给你/给妈妈）这一种，就吃下了它最高频的用法。至于 for 和 four 同音：'四个人为你唱歌'就是 four people sing for you——一句话里藏了两个 /fɔː/。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>for</strong> /fɔː/ prep. 给；为</div>
+        <div>单词：for /fɔː/ prep. 给；为（同音 four）</div>
+        <div>课本句：Here's a present for you.</div>
+        <div>感谢句：Thank you for the card.</div>
+        <div>歌曲：Stevie Wonder《For Once in My Life》</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级上册 Unit 6 Christmas<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("for");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

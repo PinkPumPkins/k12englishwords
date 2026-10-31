@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·tree</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · tree</h1>
+<div class="subhead">📍 人教版（一起点）二年级上册 Unit 5 In the Park</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> tree</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 树</div>
+    <div class="info-item"><span class="info-label">音标</span> /triː/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (二年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> trees</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 5 In the Park（公园与自然）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>The boy is on a boat.<br>The boat is on the lake.<br>The lake is in the park.<br>They are all in the park!<br>The flower is in the grass.<br>The grass is under the tree.<br>The tree is on the hill.<br>The hill is in the park.<br>（本课单词：grass 草 · tree 树 · flower 花 · boat 小船 · lake 湖 · hill 小山）</p><p><strong>Lesson 1 · B. Act and say</strong><br>— What's this? — It's ...</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— Look, there is a boat on the lake.<br>— There are trees in the park.</p><p><strong>Lesson 3 · A. Look and say</strong><br>There is a ruler on the desk.<br>There are pencils in the schoolbag.<br><strong>B. Listen and repeat</strong>（字母发音）：q q q /kw/ /kw/ /kw/ q for queen</p><p><strong>Story Time</strong><br>I like trees. Look! There are trees in the park.<br>I like boats. Look! There is a boat on the lake.<br>And I like flowers. Look! There are flowers in the grass.<br>I like birds.</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi同步跟读页（yyld.51jiaoxi.com/ershang/rjbxqd_danyuan06.html）、智慧山二年级上册知识点归纳（zhihuishan.com/article/6935.html：Unit 5 In the Park 六词+重点句 There is a boat on the lake.）与公开电子课本快照（scribd.com/document/703782216：Lesson 1 歌谣 The grass is under the tree / The tree is on the hill 交叉一致）多源交叉核对；课本单元名即 In the Park，与任务书一致。Lesson 1 歌谣与 Lesson 2 核心句多源一致；Lesson 3 与 Story Time 细节目前为51jiaoxi单源收录，标注待进一步核。tree 是本单元的'顶梁柱'：Lesson 1 歌谣 The grass is under the tree. / The tree is on the hill.，Lesson 2 There are trees in the park.，Story Time 开场第一句 I like trees.——三课全勤。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>t + r + ee —— 结尾 ee 像两根树枝直直冲天；和数字 three（三）只差一个字母 h！<br>✏️ 口诀：去掉 h 是小树，加上 h 变成三（tree ↔ three）</td></tr>
+        <tr><th>音·发音</th><td>/triː/ 单音节，tr- 连读，ee 读长音 /iː/<br>🎧 跟读：under the tree · on the hill · trees in the park</td></tr>
+        <tr><th>意·释义</th><td>树 🌳：比草高、比花大的大植物；树干叫 trunk，树枝叫 branch，树叶叫 leaf（复数 leaves）</td></tr>
+        <tr><th>用·句型</th><td>① The tree is on the hill. (树在小山上。)<br>② There are trees in the park. (公园里有树。)<br>③ I like trees. (我喜欢树。)<br>④ The birds are in the tree. (鸟在树上。)</td></tr>
+        <tr><th>拓·同族词</th><td>tree 家族：family tree 家谱 · Christmas tree 圣诞树 · tree house 树屋 · leaf 树叶（复数 leaves）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>课本</td><td>There are trees in the park.</td></tr>
+        <tr><td>喜好</td><td>I like trees. They are tall.</td></tr>
+        <tr><td>描述</td><td>The tree is big and green.</td></tr>
+        <tr><td>观察</td><td>I can see birds in the tree.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 树上用 on 还是 in？</div>
+        <p><strong>树上长的用 on：</strong>apples on the tree 树上的苹果 / flowers on the tree 树上的花——本来就在树上，贴着树。</p><p><strong>外来客用 in：</strong>birds in the tree 树上的鸟 / a kite in the tree 树上的风筝——后来落进去、藏在枝叶间。</p><p>⚠️ 记住口诀：'土生土长用 on，飞来飞去用 in'！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>tree 是孩子早就'见过面'的词——一年级读过的 three（三）和它只差一个 h，正好用'一个 h 的距离'把两个词一起巩固。公园里玩'大树三连问'：How many trees? 数数练复数 trees；What's in the tree? 练 in the tree；Is the tree big or small? 练形容词。最后让孩子对着大树说一句 I like trees.——Story Time 的第一句就落地了。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · tree还是three</strong><br>家长说单词，孩子听辨 tree（树）/ three（三）——读音几乎一样，靠语境判断</div>
+        <div class="game-step"><strong>✏️ 关卡2 · h去哪了</strong><br>① tree 比 three 少哪个字母？(h) ② tree 的复数怎么写？(trees)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 课本句填空</strong><br>① The grass is under the ______. (tree) ② There are ______ in the park. (trees)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 大树寻宝</strong><br>在公园找一棵树，说出树上的东西：Birds in the tree! / Flowers on the tree!</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>学 Story Time 说 I like trees. 并加一句理由，录语音打卡<br><span class='btn-mimic'>🎤 示例：I like trees. They are tall and green!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟tree通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Tree Has Four Coats》</h3>
+    <div class="quote">🌳 院子里的大树是妞妞的好朋友。春天，树穿上嫩绿的'新外套'：'How beautiful!' 夏天，外套变成深绿色，知了在树上开演唱会。秋天，外套变成金黄色，风一吹，叶子飘下来铺成地毯。冬天，树叶全掉了，妞妞有点难过。妈妈指着光光的树枝说：'Look! The tree has a white coat now.'（看，树换上雪白的斗篷啦。）妞妞笑了：'I like trees in every season!'（一年四季我都爱这棵树！）</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 大树春天的外套是什么颜色？(嫩绿色)<br>• 冬天树的'新外套'是什么？(雪白雪白的)<br>• 问问孩子：What colour is the tree now? 用 The tree is... 回答</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 辨音 ── tree 树 ↔ three 三（差一个 h）<br>├── 课本 ── The tree is on the hill. / There are trees in the park.<br>├── 介词 ── 长在树上 on · 外来客 in<br>├── 部位 ── trunk 树干 · branch 枝 · leaf 叶（复数 leaves）<br>└── 家族 ── family tree 家谱 · Christmas tree · tree house</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>tree 来自古英语 trēow。它在几千年前和一个'性格词'是一家：true（真实的、可靠的）。古人的逻辑很实在——树干笔直结实，'像树一样站得住'的东西就是可靠的，于是 true、trust（信任）、timber（木材）都从同一个表示'坚固'的古老词根里长了出来。一棵 tree，站出了英语里最有骨气的一族词。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>tree</td><td>树（古英语 trēow）</td></tr>
+        <tr><td>family tree</td><td>家谱（家族像树枝一样展开的图）</td></tr>
+        <tr><td>tree house</td><td>树屋（童话标配，与 tree 同族复合词）</td></tr>
+        <tr><td>true / trust / timber</td><td>真实/信任/木材——与 tree 同根的'坚固'家族</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"The best time to plant a tree was twenty years ago. The second best time is now."<br>种一棵树最好的时间是二十年前，其次是现在。—— 英语世界广泛引用的东方谚语：想做的事，现在开始就不晚。</div>
+
+    <h3>🎵 歌词里的 tree</h3>
+    <p>🎵 Tony Orlando《Tie a Yellow Ribbon Round the Ole Oak Tree》(1973)：1973 年 Billboard 冠军传世金曲，歌名含 tree——Ole Oak Tree 就是大橡树。故事暖心：出狱回家的人在信里问家人'在门口老橡树上系一条黄丝带'当欢迎信号，回家一看，整棵橡树挂满了黄丝带！（歌名含 tree，确定）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>树叶是'绿色小工厂'：白天，叶子用阳光、水和二氧化碳制造养分，同时释放氧气——这个过程叫光合作用，我们每吸一口气，都有植物的功劳。那世界上最高的树有多高？美国加州的一棵红杉'亥伯龙'（Hyperion）超过115米，比30层楼还高——真正的'顶天立地'！</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>tree</strong> /triː/ n. 树</div>
+        <div>tree /triː/ n. 树（复数 trees）</div>
+        <div>课本句：The tree is on the hill. / There are trees in the park.</div>
+        <div>介词：on the tree 长的 · in the tree 落的</div>
+        <div>亲戚：true 真实 · trust 信任 · timber 木材</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级上册 Unit 5 In the Park<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("tree");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

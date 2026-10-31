@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·flower</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · flower</h1>
+<div class="subhead">📍 人教版（一起点）二年级上册 Unit 5 In the Park</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> flower</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 花；花朵</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈflaʊə/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (二年级)</div>
+    <div class='info-item'><span class='info-label'>同音词</span> flour 面粉</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 5 In the Park（公园与自然）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>The boy is on a boat.<br>The boat is on the lake.<br>The lake is in the park.<br>They are all in the park!<br>The flower is in the grass.<br>The grass is under the tree.<br>The tree is on the hill.<br>The hill is in the park.<br>（本课单词：grass 草 · tree 树 · flower 花 · boat 小船 · lake 湖 · hill 小山）</p><p><strong>Lesson 1 · B. Act and say</strong><br>— What's this? — It's ...</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— Look, there is a boat on the lake.<br>— There are trees in the park.</p><p><strong>Lesson 3 · A. Look and say</strong><br>There is a ruler on the desk.<br>There are pencils in the schoolbag.<br><strong>B. Listen and repeat</strong>（字母发音）：q q q /kw/ /kw/ /kw/ q for queen</p><p><strong>Story Time</strong><br>I like trees. Look! There are trees in the park.<br>I like boats. Look! There is a boat on the lake.<br>And I like flowers. Look! There are flowers in the grass.<br>I like birds.</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi同步跟读页（yyld.51jiaoxi.com/ershang/rjbxqd_danyuan06.html）、智慧山二年级上册知识点归纳（zhihuishan.com/article/6935.html：Unit 5 In the Park 六词+重点句 There is a boat on the lake.）与公开电子课本快照（scribd.com/document/703782216：Lesson 1 歌谣 The grass is under the tree / The tree is on the hill 交叉一致）多源交叉核对；课本单元名即 In the Park，与任务书一致。Lesson 1 歌谣与 Lesson 2 核心句多源一致；Lesson 3 与 Story Time 细节目前为51jiaoxi单源收录，标注待进一步核。flower 在 Lesson 1 歌谣 The flower is in the grass. 和 Story Time And I like flowers. Look! There are flowers in the grass. 两处出现——单数一朵、复数一片，一句都不浪费。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>f + l + ow + er —— fl 开头像花瓣展开，ow+er 收尾；同音词 flour（面粉）和它长得极像！<br>✏️ 口诀：fl 开头花一片，ow er 收尾记心间</td></tr>
+        <tr><th>音·发音</th><td>/ˈflaʊ.ə/ 两个音节，重音在前：FLOW-er，别吞成一个音<br>🎧 跟读：a red flower · flowers in the grass · Don't pick the flowers</td></tr>
+        <tr><th>意·释义</th><td>花 🌸：植物最漂亮的部分，负责招蜂引蝶；可数名词——a flower 一朵花，flowers 一片花</td></tr>
+        <tr><th>用·句型</th><td>① The flower is in the grass. (花在草丛里。)<br>② There are flowers in the grass. (草丛里有花。)<br>③ I like flowers. (我喜欢花。)<br>④ Don't pick the flowers! (别摘花！)</td></tr>
+        <tr><th>拓·同族词</th><td>flower 家族：flower show 花展（与 flower show 页互链）· sunflower 向日葵（sun+flower 长着'太阳脸'）· flower shop 花店</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>课本</td><td>There are flowers in the grass.</td></tr>
+        <tr><td>喜好</td><td>I like flowers. They smell nice.</td></tr>
+        <tr><td>警示</td><td>Don't pick the flowers!</td></tr>
+        <tr><td>描述</td><td>The flowers are red and yellow.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 一朵花与一片花</div>
+        <p><strong>单数配 is：</strong>The flower is in the grass. 那朵花在草丛里。</p><p><strong>复数配 are：</strong>There are flowers in the grass. 草丛里有（一些）花。</p><p>📌 课本把两种都演了一遍：There is + 单数，There are + 复数——be 动词跟着数量走！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>flower 两个教学重点：① 发音是两个音节 FLOW-er，孩子常吞成一个音，用拍手打节奏：拍-拍（flow-er）；② 单复数正好对应课本句型：一朵 The flower is...，一片 There are flowers...。公园里请孩子'找三种颜色的花'，用英语报颜色；看见告示牌 Don't pick the flowers，顺势讲'花是公园的，大家看才都开心'——公德教育与英语一起长。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 拍手数音节</strong><br>flow-er 拍两下手读两个音节，家长检查重音是否在第一拍</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 同音词对对碰</strong><br>① 花怎么拼？(flower) ② 和 flower 同音的'面粉'怎么拼？(flour)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数变身</strong><br>① The flower is in the grass. → There are ______ in the grass. (flowers) ② 一朵花 → ______ (a flower)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 花园颜色官</strong><br>公园找花，说出 Red flower! / Yellow flower! / Purple flower!</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>说一句护花宣言 Don't pick the flowers! 并说出为什么，录语音打卡<br><span class='btn-mimic'>🎤 示例：Flowers are for everyone!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟flower通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《A Flower That Never Wilts》</h3>
+    <div class="quote">🌸 乐乐想把公园里的花摘回家送妈妈。好朋友拉住他：'Don't pick the flowers! The flowers are for everyone.'（花是给大家看的。）乐乐点点头。回家后他想了想，捡来落叶和松果，又画了一朵大大的花，拼成一幅画。妈妈收到'花'高兴地说：'This flower never wilts!'（这朵花永远不会谢！）第二年春天，乐乐和好朋友在花坛边种下了一排新的小花苗。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 乐乐一开始想做什么？(摘花送妈妈)<br>• 最后他送给妈妈什么？(一幅不会谢的'花'画)<br>• 问问孩子：If you want to give Mum flowers, what can you do?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 音节 ── FLOW-er 两拍，重音在前<br>├── 同音 ── flower 花 ↔ flour 面粉（本是一家亲）<br>├── 课本 ── The flower is in the grass. / There are flowers in the grass.<br>├── 公德 ── Don't pick the flowers! 花是大家的<br>└── 家族 ── sunflower 向日葵 · flower show 花展 · flower shop 花店</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>flower 和 flour（面粉）居然是一家人！这个词先从拉丁语 flos（花）走进古法语 flour，中世纪进入英语时既指'花'，也指'谷物里最好的部分'——面粉正是'麦子的精华之花'，两个意思后来才分成两个拼写。所以 flower 里藏着一句老观念：花是植物开出的'最精彩的部分'。它和 bloom（开花）还是远房亲戚，都来自表示'开花'的古老词根。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>flower</td><td>花（拉丁语 flos 经古法语传入）</td></tr>
+        <tr><td>flour</td><td>面粉（同源同音：原意'谷物的精华之花'）</td></tr>
+        <tr><td>sunflower</td><td>向日葵（sun+flower）</td></tr>
+        <tr><td>flower show</td><td>花展（与 flower show 页互链）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Where flowers bloom, so does hope."<br>花开的地方，希望也在生长。—— 美国前第一夫人伯德·约翰逊夫人（Lady Bird Johnson）广为流传的名言，她一生都在推广种花绿化。</div>
+
+    <h3>🎵 歌词里的 flower</h3>
+    <p>🎵 Miley Cyrus《Flowers》(2023)：全球现象级冠军单曲，'I can buy myself flowers'（我可以给自己买花）横扫各大榜单，歌名含词。核心信息很阳光：爱自己、不依赖别人送花——孩子听到的是节奏，大人听到的是态度。（歌名含 flower 的复数 flowers，确定）</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>世界上最大的花叫大王花（Rafflesia），直径能到1米左右——但它不走'香'路子：气味像腐臭的肉，专门招苍蝇帮它传粉，所以人称'腐尸花'。花为什么不摘？摘下的花几小时就蔫了，留在枝头能开满一季，还能结出果实和种子——把花留在公园，等于把春天留在公园。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>flower</strong> /ˈflaʊə/ n. 花；花朵</div>
+        <div>flower /ˈflaʊə/ n. 花（复数 flowers）</div>
+        <div>课本句：There are flowers in the grass.</div>
+        <div>同音词：flour 面粉（本是'精华之花'）</div>
+        <div>公德句：Don't pick the flowers!</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级上册 Unit 5 In the Park<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("flower");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

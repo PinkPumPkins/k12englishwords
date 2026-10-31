@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·card</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · card</h1>
+<div class="subhead">📍 人教版（一起点）二年级上册 Unit 6 Christmas</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> card</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 贺卡</div>
+    <div class="info-item"><span class="info-label">音标</span> /kɑːd/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (二年级)</div>
+    <div class="info-item"><span class="info-label">复数</span> cards</div>
+</div>
+
+<div class="textbook"><div class="textbook-title">📖 课本原文直通车 · Unit 6 Christmas（节日主题单元）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>— Merry Christmas! — You too!<br>— Here is a present for you. — Thank you!<br>（chant 三场景：送礼 present → 送贺卡 card → 送圣诞树 Christmas tree；<br>'Thank you, Father Christmas. We all love you!'<br>本课单词：Christmas 圣诞节 · Father Christmas 圣诞老人 · Christmas tree 圣诞树 · card 贺卡 · present 礼物）</p><p><strong>Lesson 2 · A. Look, listen and chant</strong><br>— Happy New Year! — You too!<br>— Here is a card for you. — Thank you.</p><p><strong>Lesson 3 · A. Act and say</strong><br>— Merry Christmas! — You too!<br>— Here is a plane for you. — Thank you.<br>— Do you like the plane? — Yes, I do.</p><p><strong>Story Time</strong><br>— Merry Christmas! — Here's a present for you.<br>— Thank you, Father Christmas!</p><p><strong>单元歌曲</strong><br>We Wish You a Merry Christmas：'We wish you a merry Christmas and a happy New Year!' 🎄</p><p style="font-size:12px;opacity:.75;">✅ 原文经智慧山二年级上册知识点归纳（zhihuishan.com/article/6936.html：单元重点词 Christmas/Father Christmas/Christmas tree/card/present/New Year）、51jiaoxi 同步跟读页（yyld.51jiaoxi.com/ershang/rjbxqd_danyuan07.html：Lesson 1-3 逐句转写）、同桌100课程页多源交叉核对：核心句型 Merry Christmas! / Here's a present for you. / Thank you. / You too! / Happy New Year! 为两源以上一致；Lesson 1 chant 三场景、Lesson 3 Act and say 细节与 Story Time 对话为跟读页单源收录，标注待进一步核对。⚠️ 多数公开资源该单元名作 Happy Holidays，本页沿用任务书 Christmas 口径，待主控面核定。card 在 Lesson 1 chant 第二场景 'Here's a card for you.' 和 Lesson 2 'Here is a card for you.' 两处出现，是本单元出镜率第二的送礼句主角。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>c·ar·d —— 一个 c 一个 d 护住中间的 ar<br>✏️ 口诀：c 开头 d 收尾，ar 中间站，card 卡片到手边（d 别写成 g）</td></tr>
+        <tr><th>音·发音</th><td>/kɑːd/ 单音节，ar 发长音 /ɑː/，d 轻收<br>🎧 跟读：a card · a Christmas card · Here's a card for you.</td></tr>
+        <tr><th>意·释义</th><td>贺卡；卡片 📮（圣诞卡 Christmas card、生日卡 birthday card、明信片 postcard、银行卡 bank card）</td></tr>
+        <tr><th>用·句型</th><td>① Here's a card for you. (这张贺卡送给你。)<br>② This is a Christmas card. (这是一张圣诞卡。)<br>③ I make a card for Mum. (我为妈妈做了一张卡片。)<br>④ The card is beautiful. (这张卡片很漂亮。)</td></tr>
+        <tr><th>拓·同族词</th><td>postcard 明信片 · birthday card 生日卡 · New Year card 贺年卡 · ID card 身份证 · bank card 银行卡</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>送礼</td><td>Here's a card for you.</td></tr>
+        <tr><td>制作</td><td>I make a card for Mum.</td></tr>
+        <tr><td>描述</td><td>The card is beautiful.</td></tr>
+        <tr><td>喜好</td><td>I like your card!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · card 一词两义</div>
+        <p><strong>贺卡义（本单元）：</strong>Christmas card 圣诞卡 · New Year card 贺年卡 · make a card 做卡片</p><p><strong>牌类义：</strong>play cards 打牌 · a pack of cards 一副牌 · card games 纸牌游戏</p><p>⚠️ 判断意思看场景：节日贺卡是'卡'，游戏桌上是'牌'！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>card 是本单元最省钱的教学道具：一张白纸对折就是贺卡。让孩子画圣诞树、写 Merry Christmas!，送到家人手里时说 Here's a card for you.，一晚上把核心句型和拼写都练了。进阶玩法：讲 card 的两副面孔——节日里是贺卡，游戏时是纸牌（Kenny Rogers 那首《The Gambler》唱的正是打牌）。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音找卡</strong><br>家长说 Christmas card / postcard / bank card，孩子从家里卡片堆挑出对应那张</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 拼写挑战</strong><br>① 贺卡：______ (card) ② 明信片：______ card (post) ③ 默写 Here's a card for you.</div>
+        <div class="game-step"><strong>✅ 关卡3 · 课本句填空</strong><br>① Here's a ______ for you. (card) ② — ______ you! (Thank)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 自制圣诞卡</strong><br>孩子手绘一张卡片写上 Merry Christmas!，亲手送出并说 Here's a card for you.</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 This is a Christmas card. I like it. 介绍自己的作品并录语音打卡<br><span class="btn-mimic">🎤 示例：Look! My Christmas card!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟card通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Crooked Card》</h3>
+    <div class="quote">📮 乐乐给奶奶做圣诞卡，画了一棵歪歪扭扭的圣诞树，写着 Merry Christmas!。递卡片时他有点不好意思：'Here's a card for you. The tree is... a little small.' 奶奶戴上眼镜看了半天，把它贴在了冰箱最中间：'This is the best card in the world!' 第二天，全家的圣诞卡都被收进抽屉，只有那张歪卡在冰箱上站了一整个冬天。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 乐乐的卡片画了什么？(一棵歪歪的圣诞树)<br>• 奶奶把卡片贴在哪里？(冰箱正中间)<br>• 问问孩子：Who do you want to make a card for? 用 Here's a card for ______! 演一演</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 节日 ── Christmas card 圣诞卡 · New Year card 贺年卡<br>├── 家族 ── postcard 明信片 · ID card 身份证 · bank card 银行卡<br>├── 动作 ── make a card 做卡 · send a card 寄卡<br>├── 课本句 ── Here's a card for you.<br>└── 另一面 ── play cards 打牌（纸牌义）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>card 走了一条'纸'的旅行路线：希腊语 khartēs（纸草做的一张张叶子）→ 拉丁语 charta（纸页/文书）→ 法语 carte → 英语 card。所以 card 的老本行就是'一张纸'——纸牌、贺卡、明信片、身份证，全是'一张纸'的变形。1843年，世界上第一张商业圣诞卡在伦敦诞生，card 从此在圣诞节有了固定工位。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>Christmas card</td><td>圣诞贺卡</td></tr>
+        <tr><td>postcard</td><td>post(邮政) + card → 明信片</td></tr>
+        <tr><td>New Year card</td><td>贺年卡</td></tr>
+        <tr><td>play cards</td><td>打牌——card 的'纸牌'义</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">'A Merry Christmas and a Happy New Year to you.' 🎄<br>祝你圣诞快乐、新年快乐！—— 这是1843年世界第一张商业圣诞卡上印的原句，170多年后全世界还在说。</div>
+
+    <h3>🎵 歌词里的 card</h3>
+    <p>🎵 Kenny Rogers《The Gambler》(1978)：主题关联（纸牌）。乡村传奇名曲，'know when to hold 'em, know when to fold 'em'（知道何时拿牌、何时弃牌）家喻户晓——这里的 card 是'纸牌'义，与贺卡义同词两用。</p><p>🎵 彩蛋：make a card 词条同配此曲（CSV 同源），两页互链；对比 card 的'贺卡/纸牌'两副面孔。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>世界第一张商业圣诞卡1843年在伦敦印行：民政官亨利·科尔忙得没空手写回信，就请画家霍斯利设计了一张画（画上一家人举杯欢庆）批量印制，一千张很快售罄，每张一先令。今天存世不多的原版在拍卖会上能拍出天价——一张'没时间回信'催生的卡片，成了每年数十亿张贺卡产业的起点。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>card</strong> /kɑːd/ n. 贺卡</div>
+        <div>单词：card /kɑːd/ n. 贺卡（复数 cards）</div>
+        <div>课本句：Here's a card for you. — Thank you!</div>
+        <div>一词两义：贺卡（节日）/ 纸牌（游戏）</div>
+        <div>歌曲：Kenny Rogers《The Gambler》</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）二年级上册 Unit 6 Christmas<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("card");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
