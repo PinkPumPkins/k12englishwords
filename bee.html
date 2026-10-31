@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·bee</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · bee</h1>
+<div class="subhead">📍 人教版（一起点）五年级上册 Unit 3 Animals</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> bee</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 蜜蜂</div>
+    <div class="info-item"><span class="info-label">音标</span> /biː/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (五年级)</div>
+    <div class="info-item"><span class="info-label">复数</span> bees</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 3 Animals</div>
+    <p><strong>Lesson 1 · B. Let's play</strong><br>
+    — We're going to the zoo. What animals do you want to see? Why?<br>
+    — I want to see tigers. They're big.<br>
+    — I want to see pandas. They're cute.<br>
+    — I want to see elephants. They're big and tall. I want to see their long noses.</p>
+    <p><strong>Lesson 2 · A. Look, listen and answer</strong><br>
+    — Hi, Linda. What are you doing?<br>
+    — I'm drawing a picture of my favourite animal. It's a big, grey animal.<br>
+    — Yes, my favourite animal is the elephant.<br>
+    — What's your favourite animal? — Guess!<br>
+    — Wow, that's a beautiful picture! Let me see. Mmm, your favourite animal is the horse?<br>
+    — No. Look. My favourite animal is the bee. — It's lovely!</p>
+    <p><strong>Lesson 3 · A. Let's read（节选）</strong><br>
+    Different children love different animals.<br>
+    Bob likes elephants. An elephant eats leaves and grass. It lives on the grassland or in the forest. It is big and strong. It has two long teeth called tusks and a big nose called a trunk.<br>
+    Amanda loves pandas. A panda lives in a bamboo forest and eats bamboo there. It's black and white.</p>
+    <p><strong>Fun Time · C. Let's sing</strong><br>
+    农场动物歌：小羊、小奶牛、小猪排排站，模仿叫声唱响农场主题 🐑🐮🐷</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经 haoduoyun 课文翻译页、Scribd 电子课本（两份）、Unit 3 教学设计多源交叉核对；Lesson 1 A / Story Time 原文待核。Lesson 2 对话的最终答案：My favourite animal is the bee. It's lovely!</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>b·ee 两个音，ee 长音 /iː/；同韵：see / three<br>✏️ 口诀：小蜜蜂名字最短，两个字母当翅膀</td></tr>
+        <tr><th>音·发音</th><td>/biː/ 长音 /iː/ 拉足<br>🎧 跟读：a busy bee · bees make honey · queen bee</td></tr>
+        <tr><th>意·释义</th><td>蜜蜂 🐝（酿蜜高手；queen bee 蜂后）</td></tr>
+        <tr><th>用·句型</th><td>① My favourite animal is the bee. (课本原句)<br>② It's lovely! (它真可爱！——课本原句)<br>③ Bees make honey. (蜜蜂酿蜜。)<br>④ As busy as a bee. (忙得像小蜜蜂。)</td></tr>
+        <tr><th>拓·同族词</th><td>honey 蜂蜜 · beehive 蜂巢 · queen bee 蜂后 · worker bee 工蜂；习语 the bee's knees 顶尖好物</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>喜好</td><td>My favourite animal is the bee.</td></tr>
+        <tr><td>赞叹</td><td>It's lovely!</td></tr>
+        <tr><td>功能</td><td>Bees make honey.</td></tr>
+        <tr><td>习语</td><td>She is as busy as a bee.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · 猜测与否定更正（Lesson 2 剧本）</div>
+        <p><strong>猜一猜：</strong>Your favourite animal is the horse?</p><p><strong>否定更正：</strong>No. Look. It's the bee!</p><p><strong>揭晓惊喜：</strong>Guess! / Wow, that's a beautiful picture!</p><p>⚠️ 语调要点：猜的时候句尾上扬，揭晓时重读 the bee!</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>Lesson 2 对话是本单元最好玩的"看图猜动物"剧本：画的是小蜜蜂，被猜成马，最后揭晓 It's lovely! 建议和孩子分角色演这段对话，再换动物重来一遍。顺便讨论"蜜蜂虽小也是动物"，复习 animal 主题词。蜂蜜、蜂巢都是生活词，超市看到就说出来。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 "It's small. It makes honey."，孩子从 🐝 / 🐴 / 🐼 中选 → 正确答案：🐝</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 课本对话演一演</strong><br>"What's your favourite animal?" "Guess!" "The horse?" "No! The bee! It's lovely!"</div>
+        <div class="game-step"><strong>🔍 关卡3 · 蜜蜂家族</strong><br>queen bee 蜂后 / worker bee 工蜂 / beehive 蜂巢——配对并各造一句</div>
+        <div class="game-step"><strong>🎤 关卡4 · 8字舞模仿</strong><br>学蜜蜂跳 "waggle dance" 八字舞，边跳边说 "Bees dance to tell friends!"</div>
+        <div class="game-step"><strong>🌟 关卡5 · 口语大挑战</strong><br>用 "My favourite animal is... It's..." 换一种小动物介绍并录语音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟bee通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Busy Little Bee》</h3>
+    <div class="quote">🐝 小蜜蜂 BiBi 一天要飞几百朵花。蝴蝶姐姐问："Why are you so busy?" BiBi 说："Bees make honey for the family!" 它跳起 8 字舞，告诉伙伴们哪里有花田。晚上，蜂巢里大家都喝上了甜甜的 honey。蝴蝶姐姐送来一片花瓣："You're small, but the flowers need you." BiBi 甜甜地睡了——梦里它还嗡嗡地飞呢。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 小蜜蜂为什么忙？(Bees make honey)<br>• 它跳什么舞告诉伙伴？(The waggle dance)<br>• 问问孩子：Why do flowers need bees? (Bees help flowers make seeds)</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 家族 ── queen bee 蜂后 · worker bee 工蜂 · beehive 蜂巢<br>├── 产物 ── honey 蜂蜜 · beeswax 蜂蜡<br>├── 习语 ── as busy as a bee · the bee's knees<br>├── 课文 ── My favourite animal is the bee. It's lovely!<br>└── 盟友 ── butterfly 蝴蝶（同为采蜜昆虫）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>bee 来自古英语 bēo，是英语土生土长的老词。英语里夸人能干就说 as busy as a bee；而 the bee's knees（蜜蜂的膝盖）是 20 世纪 20 年代流行的俏皮话，意思是"顶呱呱"。<br>🎯 讲给孩子：蜜蜂膝盖虽小，在英语里却是"最好"的意思。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>queen bee</td><td>蜂后（蜂巢里唯一产卵的蜂）</td></tr>
+        <tr><td>worker bee</td><td>工蜂（干活的都是雌蜂）</td></tr>
+        <tr><td>beehive</td><td>蜂巢/蜂箱</td></tr>
+        <tr><td>the bee's knees</td><td>顶尖、极好（俚语）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"As busy as a bee."（忙得像蜜蜂一样。）—— 英语最常用的勤劳比喻，莎士比亚时代就有类似的用法。</div>
+
+    <h3>🎵 歌词里的 bee</h3>
+    🎵 里姆斯基-科萨科夫《Flight of the Bumblebee》（野蜂飞舞，1900）：古典名曲，旋律快到像蜜蜂振翅——已标注：这是古典乐而非流行歌，正是"速度感"的听力教材。与 lovely 页互链：课本里蜜蜂被夸 "It's lovely!"！
+
+    <h3>⚡ 冷知识</h3>
+    <p>蜜蜂靠跳"8 字舞"（waggle dance）告诉同伴花蜜的方向和距离——破译这套舞蹈的科学家卡尔·冯·弗里施因此获得诺贝尔奖。一只工蜂一生酿的蜜大约只有一茶匙的十二分之一，所以一罐蜂蜜是几百只蜜蜂的毕生心血。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>bee</strong> /biː/ n. 蜜蜂</div>
+        <div>课本原句：My favourite animal is the bee. It's lovely!</div>
+        <div>句型：Bees make honey. · as busy as a bee</div>
+        <div>家族：queen bee 蜂后 · worker bee 工蜂 · beehive 蜂巢</div>
+        <div>冷知识：8字舞拿诺奖 · 一生只酿 1/12 茶匙蜜</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）五年级上册 Unit 3 Animals<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("bee");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

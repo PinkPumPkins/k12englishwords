@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·pencil sharpener</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · pencil sharpener</h1>
+<div class="subhead">📍 人教版（一起点）五年级上册 Unit 4 Shopping Day（购物日）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> pencil sharpener</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 铅笔刀；卷笔刀</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈpensl ʃɑːpnə(r)/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (五年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> pencil sharpeners</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 4 Shopping Day</div><p><strong>Lesson 1 · 文具店特卖（关键句摘录）</strong><br>Welcome to Xinxin Stationery Shop. Only five yuan just for today.<br>Today they are only five yuan. Do you want a new pencil sharpener?<br>We have some red pencil sharpeners. Only nine yuan for one.<br>We have pencil boxes in different colours.<br>— Do you want new crayons or scissors? — I want to buy a box of crayons. It's 16 yuan.</p><p><strong>Lesson 2 · 买礼物（关键句摘录）</strong><br>— Good morning. Can I help you?<br>— I want to buy a present for my friend.<br>— What about a model car? — How much is it? — It's 30 yuan.<br>— OK, I'll take it. Thanks a lot.</p><p><strong>Lesson 3 · 问价与合计（关键句摘录）</strong><br>— I want to buy a pencil box. — How much is it all together? — It's 25 yuan.<br>Look at the pictures. What do you see? How much do you think they are?</p><p><strong>Let's Spell · th 的清浊两读</strong><br>清音：three · thin · mouth · maths　浊音：this · that · mother · they</p><p><strong>Fun Time · Shopping online（网上购物）</strong><br>Shopping online is an easy way to buy things.<br>First, look for a good website. Then, search for the things you want to buy.<br>You may need a credit card to buy things.</p><p><strong>Let's Check · 问价巩固</strong><br>— How much is the red one? — It's five yuan.<br>Do you have any toy planes? — I'll take the yellow one.</p><p><strong>Story Time · 买小狗</strong><br>— How much is the puppy? — 35 dollars.<br>He only has 25 dollars. He just needs three more dollars.<br>To his surprise, the puppy is gone!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网跟读页、人教社电子课本目录、优质课教案及同步课堂资源多源交叉核对（单元名确认 Unit 4 Shopping Day，13词词表一致）；以上为各课时关键句摘录。Lesson 1 的红色卷笔刀正在特卖：Only nine yuan for one！</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>pencil·sharpener —— pencil（铅笔）+ sharpener（削尖器）<br>✏️ 口诀：铅笔的“削尖器”，就是卷笔刀！</td></tr>
+        <tr><th>音·发音</th><td>/ˈpen.sl ʃɑː.pnə/ sharpener 中间有 /pn/ 辅音连缀，别读成 shapener<br>🎧 跟读：a pencil sharpener · a new pencil sharpener</td></tr>
+        <tr><th>意·释义</th><td>卷笔刀、铅笔刀（把铅笔削尖的工具）</td></tr>
+        <tr><th>用·句型</th><td>① Do you want a new pencil sharpener? (你想要个新卷笔刀吗？)<br>② Can I use your pencil sharpener? (我能用下你的卷笔刀吗？)<br>③ My pencil sharpener is round. (我的卷笔刀是圆的。)<br>④ The pencil is sharp now. (铅笔现在削尖了。)</td></tr>
+        <tr><th>拓·同族词</th><td>sharp 尖的 → sharpen 削尖 → sharpener 卷笔刀 —— 一条词链三件套！</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>购买</td><td>Do you want a new pencil sharpener?</td></tr>
+        <tr><td>借用</td><td>Can I use your pencil sharpener?</td></tr>
+        <tr><td>描述</td><td>My pencil sharpener is small and round.</td></tr>
+        <tr><td>请求</td><td>Pass me the pencil sharpener, please.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · sharp→sharpen→sharpener 词链</div>
+        <p><strong>形容词加后缀变动词，动词加 -er 变工具：</strong><br><u>sharp</u> 尖的 → <u>sharpen</u> 削尖 → <u>sharpener</u> 卷笔刀</p><p>📌 同款 -er 工具：eraser 橡皮（erase 擦）！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>卷笔刀是课堂上最常借的文具之一。教孩子两句救命句：Can I use your pencil sharpener?（借用）和 Pass me..., please.（请递）。拼写的最大坑是 sharpener 中间漏 a——让孩子记住“sharp（尖）+ ener”，先尖后器。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选物</strong><br>家长说 “pencil sharpener”，孩子从 卷笔刀 / 铅笔盒 / 尺子 中选 → 正确答案：卷笔刀</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 词链填空</strong><br>sharp 尖的 → ______ 削尖 (sharpen) → sharpener ______ (卷笔刀)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 拼写找茬</strong><br>下列哪个拼写正确？pencil shapener / pencil sharpener → 后者！中间的 a 别丢</div>
+        <div class="game-step"><strong>🔍 关卡4 · 文具盒找一找</strong><br>找出家里的卷笔刀，转着削一支铅笔，边削边说 “I'm sharpening the pencil!”</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>向同学礼貌借卷笔刀并录音打卡<br><span class='btn-mimic'>🎤 示例：Can I use your pencil sharpener, please?</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟pencil sharpener通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《转呀转，卷笔刀》</h3>
+    <div class="quote">✏️ 小明的铅笔写不出了——铅笔头秃了！“My pencil is not sharp.” 他拿起红色卷笔刀，插进铅笔，转呀转，木屑开出一朵小花。“Now my pencil is sharp!” 铅笔又能画出尖尖的星星啦。卷笔刀打了个饱嗝：今天吃饱啦！</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 铅笔怎么了？(It is not sharp.)<br>• 转完之后铅笔变得怎么样？(It is sharp now.)<br>• 问问孩子：What colour is your pencil sharpener?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">pencil sharpener 卷笔刀<br>├── 构成 ── pencil 铅笔 + sharpener 削尖器<br>├── 词链 ── sharp 尖 → sharpen 削尖 → sharpener<br>├── 动作 ── sharpen the pencil 削铅笔<br>├── 句型 ── Can I use your pencil sharpener?<br>└── 家族 ── pencil 铅笔 · pencil box 铅笔盒</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>pencil 追到拉丁语 penicillus，原意“小尾巴”，罗马人拿它称呼画画的小毛刷——铅笔这个词，比铅笔本身老得多！sharpener 由 sharpen（削尖）加 -er（…的工具）构成。在手摇卷笔刀发明出来之前（19世纪才有），人们一直用小刀削笔。🎯 讲给孩子：工具词多用 -er 结尾。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>sharp</td><td>adj. 尖的（形容词原形）</td></tr>
+        <tr><td>sharpen</td><td>sharp + en → v. 削尖、使变尖</td></tr>
+        <tr><td>sharpener</td><td>sharpen + er → n. 削尖的工具（卷笔刀）</td></tr>
+        <tr><td>eraser</td><td>erase(擦) + er → 橡皮（同款 -er 工具）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“A bad workman always blames his tools.” 手艺不好别怪工具。<br>—— 英语谚语。工具再好再 sharp，也要多练才真棒。</div>
+
+    <h3>🎵 歌词里的 pencil sharpener</h3>
+    <p>🎵 Paolo Nutini《Pencil Full of Lead》(2009)：复古摇摆小调，歌名“装满铅芯的铅笔”——铅笔吃饱了铅芯，可不就需要卷笔刀伺候！<br>🔗 与 pencil 页、pencil box 页互链（同歌同源：pencil 文具三件套）。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>铅笔为什么能写出字？因为笔芯是石墨和黏土做的。1564年英国 Borrowdale 发现大片石墨矿，人们最初把石墨条用绳子缠起来写字；1795年法国人孔泰（Nicolas-Jacques Conté）把石墨粉混黏土烧制，才有了今天又省料又好写的铅笔——铅笔省了，卷笔刀的工作量也轻了！</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>pencil sharpener</strong> /ˈpensl ʃɑːpnə(r)/ n. 铅笔刀；卷笔刀</div>
+        <div><strong>pencil sharpener</strong> /ˈpensl ʃɑːpnə/ n. 卷笔刀（复数 pencil sharpeners）</div>
+        <div>功能句：Can I use your pencil sharpener? / Pass me..., please.</div>
+        <div>词链：sharp → sharpen → sharpener（-er 工具后缀）</div>
+        <div>歌曲：Paolo Nutini《Pencil Full of Lead》· 与 pencil/pencil box 页互链</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）五年级上册 Unit 4 Shopping Day（购物日）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("pencil sharpener");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

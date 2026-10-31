@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·a box of crayons</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · a box of crayons</h1>
+<div class="subhead">📍 人教版（一起点）五年级上册 Unit 4 Shopping Day（购物日）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> a box of crayons</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 一盒蜡笔</div>
+    <div class="info-item"><span class="info-label">音标</span> /ə ˈbɒks əv ˈkreɪənz/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (五年级)</div>
+    <div class='info-item'><span class='info-label'>两盒</span> two boxes of crayons</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 4 Shopping Day</div><p><strong>Lesson 1 · 文具店特卖（关键句摘录）</strong><br>Welcome to Xinxin Stationery Shop. Only five yuan just for today.<br>Today they are only five yuan. Do you want a new pencil sharpener?<br>We have some red pencil sharpeners. Only nine yuan for one.<br>We have pencil boxes in different colours.<br>— Do you want new crayons or scissors? — I want to buy a box of crayons. It's 16 yuan.</p><p><strong>Lesson 2 · 买礼物（关键句摘录）</strong><br>— Good morning. Can I help you?<br>— I want to buy a present for my friend.<br>— What about a model car? — How much is it? — It's 30 yuan.<br>— OK, I'll take it. Thanks a lot.</p><p><strong>Lesson 3 · 问价与合计（关键句摘录）</strong><br>— I want to buy a pencil box. — How much is it all together? — It's 25 yuan.<br>Look at the pictures. What do you see? How much do you think they are?</p><p><strong>Let's Spell · th 的清浊两读</strong><br>清音：three · thin · mouth · maths　浊音：this · that · mother · they</p><p><strong>Fun Time · Shopping online（网上购物）</strong><br>Shopping online is an easy way to buy things.<br>First, look for a good website. Then, search for the things you want to buy.<br>You may need a credit card to buy things.</p><p><strong>Let's Check · 问价巩固</strong><br>— How much is the red one? — It's five yuan.<br>Do you have any toy planes? — I'll take the yellow one.</p><p><strong>Story Time · 买小狗</strong><br>— How much is the puppy? — 35 dollars.<br>He only has 25 dollars. He just needs three more dollars.<br>To his surprise, the puppy is gone!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网跟读页、人教社电子课本目录、优质课教案及同步课堂资源多源交叉核对（单元名确认 Unit 4 Shopping Day，13词词表一致）；以上为各课时关键句摘录。Lesson 1 · I want to buy a box of crayons. It's 16 yuan.</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>a box of crayons —— box（盒）+ crayons（蜡笔，复数）<br>✏️ 口诀：盒子里装一窝蜡笔，复数 s 别忘！</td></tr>
+        <tr><th>音·发音</th><td>/ə ˈbɒks əv ˈkrei.ənz/ crayons 两个音节：CRAY-ons<br>🎧 跟读：a big box of crayons · a new box of crayons</td></tr>
+        <tr><th>意·释义</th><td>一盒蜡笔（crayon 单支是蜡笔，加 s 是一盒里的一群）</td></tr>
+        <tr><th>用·句型</th><td>① I want to buy a box of crayons. (我想买一盒蜡笔。)<br>② It's 16 yuan. (16元。)<br>③ I have a big box of crayons. (我有一大盒蜡笔。)<br>④ Let's draw with crayons. (我们用蜡笔画画吧。)</td></tr>
+        <tr><th>拓·同族词</th><td>a box of + 复数：a box of blocks 一盒积木 · a box of chocolates 一盒巧克力</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>购买</td><td>I want a box of crayons.</td></tr>
+        <tr><td>分享</td><td>Here is a box of crayons for you.</td></tr>
+        <tr><td>描述</td><td>My box of crayons has many colours.</td></tr>
+        <tr><td>数量</td><td>How many crayons are in the box?</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · a box of 量词结构</div>
+        <p><strong>盒装物品用 a box of + 复数：</strong><br><u>a box of</u> crayons 蜡笔 / blocks 积木 / chocolates 巧克力</p><p>📌 两盒要变 boxes：two <u>boxes of</u> crayons。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>蜡笔是画画课的主角。在家画画时用英语报颜色：red, yellow, blue, green...再数一数一盒有几支 crayons。买文具时让孩子自己说 I want a box of crayons. How much is it?——本单元的问价句型就练熟了。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选物</strong><br>家长说 “a box of crayons”，孩子从 🖍️ / ✏️ / 📏 中选 → 正确答案：🖍️</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 量词填空</strong><br>a ______ of crayons (box)<br>a ______ of chocolates (box)<br>two ______ of crayons (boxes)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 颜色报数</strong><br>打开蜡笔盒抽一支说颜色：red! blue! green! 抽10支全说对得一颗星</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>家里找出盒装的东西，用 a box of 说一说：a box of tissues? a box of toys?</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>模拟文具店买蜡笔并录音<br><span class='btn-mimic'>🎤 示例：I want a box of crayons. How much is it?</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟a box of crayons通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《十六元的选择》</h3>
+    <div class="quote">🖍️ 文具店里，小雨盯着货架：“I want a box of crayons.” 店员阿姨笑眯眯：“It's 16 yuan.” 小雨数了数口袋：正好！她挑了一盒24色的，回家画了一条彩虹。妈妈问：How much is it? 小雨骄傲地说：Only 16 yuan! 彩虹免费，快乐免费。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 小雨买了什么？(A box of crayons.)<br>• 多少钱？(16 yuan.)<br>• 问问孩子：What would you draw with your crayons?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">a box of crayons 一盒蜡笔<br>├── 结构 ── a box of + crayons（复数）<br>├── 颜色 ── red · yellow · blue · green<br>├── 动作 ── draw with crayons 用蜡笔画<br>├── 同款 ── a box of blocks/chocolates<br>└── 句型 ── How much is it? — It's 16 yuan.</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>crayon 来自法语 craie（粉笔），追到拉丁语 creta（白垩土）——蜡笔的祖先其实是粉笔！1903年美国 Crayola 公司做出第一盒彩色蜡笔，品牌名就是“craie（粉笔）+ ola（油）”合成的。🎯 讲给孩子：一盒 crayons，半部颜色史。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>a box of crayons</td><td>box(盒) + of + crayons(复数) → 一盒蜡笔</td></tr>
+        <tr><td>crayon</td><td>法语 craie（粉笔）← 拉丁语 creta（白垩）</td></tr>
+        <tr><td>a box of blocks</td><td>同款量词结构：一盒积木</td></tr>
+        <tr><td>two boxes of</td><td>box 变 boxes：盒装物品数量的复数</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Variety is the spice of life.” 多样是生活的调味料。<br>—— 英语谚语。蜡笔盒里的颜色越多，画出来的世界越丰富。</div>
+
+    <h3>🎵 歌词里的 a box of crayons</h3>
+    <p>🎵 Cyndi Lauper《True Colors》(1986)：传奇金曲，副歌 “I see your true colors” 极易上口——彩色蜡笔，画出真我。<br>🔗 与 crayon 页互链（同歌同源：单支 crayon 和整盒 crayons）。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>1903年，美国 Crayola 公司卖出了第一盒蜡笔：一盒8色，只卖5美分（a nickel）。蜡笔是蜡和颜料做的，学名“蜡笔画笔”。为什么叫 crayon？因为它的祖先粉笔是用白垩土做的，而“白垩”在拉丁语里叫 creta——蜡笔的血管里，流着粉笔的血。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>a box of crayons</strong> /ə ˈbɒks əv ˈkreɪənz/ n. 一盒蜡笔</div>
+        <div><strong>a box of crayons</strong> /ə bɒks əv ˈkreɪənz/ 一盒蜡笔（两盒：two boxes）</div>
+        <div>功能句：I want a box of crayons. / How much is it?</div>
+        <div>结构：a box of + 复数（blocks/chocolates）</div>
+        <div>歌曲：Cyndi Lauper《True Colors》· 与 crayon 页互链</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）五年级上册 Unit 4 Shopping Day（购物日）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("a box of crayons");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

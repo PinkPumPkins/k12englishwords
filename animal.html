@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·animal</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · animal</h1>
+<div class="subhead">📍 人教版（一起点）五年级上册 Unit 3 Animals</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> animal</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 动物</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈænɪml/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (五年级)</div>
+    <div class="info-item"><span class="info-label">复数</span> animals</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 3 Animals</div>
+    <p><strong>Lesson 1 · B. Let's play</strong><br>
+    — We're going to the zoo. What animals do you want to see? Why?<br>
+    — I want to see tigers. They're big.<br>
+    — I want to see pandas. They're cute.<br>
+    — I want to see elephants. They're big and tall. I want to see their long noses.</p>
+    <p><strong>Lesson 2 · A. Look, listen and answer</strong><br>
+    — Hi, Linda. What are you doing?<br>
+    — I'm drawing a picture of my favourite animal. It's a big, grey animal.<br>
+    — Yes, my favourite animal is the elephant.<br>
+    — What's your favourite animal? — Guess!<br>
+    — Wow, that's a beautiful picture! Let me see. Mmm, your favourite animal is the horse?<br>
+    — No. Look. My favourite animal is the bee. — It's lovely!</p>
+    <p><strong>Lesson 3 · A. Let's read（节选）</strong><br>
+    Different children love different animals.<br>
+    Bob likes elephants. An elephant eats leaves and grass. It lives on the grassland or in the forest. It is big and strong. It has two long teeth called tusks and a big nose called a trunk.<br>
+    Amanda loves pandas. A panda lives in a bamboo forest and eats bamboo there. It's black and white.</p>
+    <p><strong>Fun Time · C. Let's sing</strong><br>
+    农场动物歌：小羊、小奶牛、小猪排排站，模仿叫声唱响农场主题 🐑🐮🐷</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经 haoduoyun 课文翻译页、Scribd 电子课本（两份）、Unit 3 教学设计多源交叉核对；Lesson 1 A / Story Time 原文待核。animal 是本单元主题词，Lesson 1 对话与 Lesson 3 短文反复出现。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>a·ni·mal 三音节，重音在最前：AN-i-mal；词根 anim- 表"气息/生命"——有气息的才是动物<br>✏️ 口诀：有气(anim)才是活物</td></tr>
+        <tr><th>音·发音</th><td>/ˈænɪml/ 中间弱读 /ɪ/，别读成 an-i-MAL<br>🎧 跟读：wild animals · farm animals · my favourite animal</td></tr>
+        <tr><th>意·释义</th><td>动物 🦁（泛指一切动物；口语里也常指"除人以外的兽类"）</td></tr>
+        <tr><th>用·句型</th><td>① What animals do you want to see? (你想看什么动物？——课本原句)<br>② My favourite animal is the panda. (我最喜欢的动物是熊猫。)<br>③ Different children love different animals. (不同的孩子喜欢不同的动物。——课本原句)<br>④ There are many animals on the farm. (农场上有许多动物。)</td></tr>
+        <tr><th>拓·同族词</th><td>词根 anim-（生命/气息）：animate 使有活力 · animation 动画（"让画活起来"！）<br>分类词：pets 宠物 / wild animals 野生动物 / farm animals 农场动物</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>指认</td><td>Lions are big animals.</td></tr>
+        <tr><td>喜好</td><td>My favourite animal is the elephant.</td></tr>
+        <tr><td>归类</td><td>Farm animals live on the farm.</td></tr>
+        <tr><td>描述</td><td>Different children love different animals.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · 介绍动物三件套</div>
+        <p><strong>是什么：</strong>My favourite animal is... (我最喜欢的动物是……)</p><p><strong>什么特征：</strong>It's big and strong. / They're cute.</p><p><strong>为什么喜欢：</strong>Because it's lovely! (因为它很可爱！)</p><p>⚠️ favourite 拼写：英式 favourite，美式 favorite——课本用英式！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>五年级上册 Unit 3 是动物主题单元。建议在家玩"我最喜欢的动物"问答：What's your favourite animal? Why do you like it? 让孩子用"喜欢什么+什么特征+为什么"三步回答。重点纠正 favourite 拼写和 animal 的重音位置（重音在最前）。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 "farm animals"，孩子从 🐮🐷🐑 / 🦁🐘 / 🐟 中选 → 正确答案：🐮🐷🐑</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 词根连线</strong><br>动画片的英语怎么说？____ (animation)——词根 anim- 让画"活"起来</div>
+        <div class="game-step"><strong>🔍 关卡3 · 分类小能手</strong><br>把 animal 家族分类：pets / wild animals / farm animals，各举两个例子</div>
+        <div class="game-step"><strong>🎤 关卡4 · 课本对话演一演</strong><br>两人一问一答："What animals do you want to see?" "I want to see pandas. They're cute!"</div>
+        <div class="game-step"><strong>🌟 关卡5 · 口语大挑战</strong><br>用 "My favourite animal is... It's..." 介绍一种动物并录语音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟animal通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Animal Class Vote》</h3>
+    <div class="quote">🐾 英语课上投票选"班级最爱动物"。老师说："What's your favourite animal?" 小明说："My favourite animal is the panda. It's black and white!" 小红举手："Mine is the bee!" 全班愣住了。小红接着说："It's small, but it can fly and it makes honey!" 老师笑了："Different children love different animals — just like our class!" 最后蜜蜂和熊猫平票，大家决定把两种动物都画上墙报。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 小红最喜欢的动物是什么？(The bee)<br>• 熊猫长什么样？(It's black and white.)<br>• 问问孩子：What's YOUR favourite animal? Why?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 分类 ── farm animals 农场动物 / wild animals 野生动物 / pets 宠物<br>├── 词根 ── anim- 生命 → animation 动画<br>├── 句型 ── What's your favourite animal? · I want to see...<br>├── 特征 ── big · cute · lovely · fast（本单元高频词）<br>└── 家 ── zoo 动物园 · farm 农场 · forest 森林</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>animal 来自拉丁语 animalis（有气息的），词根 anima 意为"呼吸、灵魂"。古人的逻辑很朴素：能呼吸的就是活物。所以"动物"和"动画"（animation，让画动起来）是亲兄弟——动画就是"被赋予了生命的画"。<br>🎯 讲给孩子：判断是不是 animal，先看它会不会呼吸。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>词根 anim-</td><td>拉丁语 anima（气息/灵魂）→ animal 动物 · animation 动画</td></tr>
+        <tr><td>复数</td><td>animal → animals（直接加 s）</td></tr>
+        <tr><td>习语</td><td>party animal 派对狂人（爱热闹的人）</td></tr>
+        <tr><td>对比</td><td>plant 植物 / animal 动物 / human 人 —— 生物三兄弟</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Animals are such agreeable friends — they ask no questions, they pass no criticisms."（动物是如此令人愉快的朋友——它们不发问，也不批评。）—— 英国作家乔治·艾略特的名句。</div>
+
+    <h3>🎵 歌词里的 animal</h3>
+    🎵 Maroon 5《Animals》(2014)：歌名即本词，全球热单，副歌反复 "Animals" 一词极易上口。备选：Martin Garrix《Animals》(2013) 电音炸场。与 farm 页互链：农场动物都是 animals！
+
+    <h3>⚡ 冷知识</h3>
+    <p>动画片 animation 一词就来自 animal 的词根——最早人们给静止的画画上腿，让它们"活"过来，所以叫"动画"（活起来的画）。另一个冷知识：科学上人也属于动物界 Animalia——课本说 "Different children love different animals"，原来我们自己是"会提问的动物"。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>animal</strong> /ˈænɪml/ n. 动物</div>
+        <div>功能句：What's your favourite animal? — My favourite animal is...</div>
+        <div>词根：anim-（生命）→ animal / animation</div>
+        <div>分类：farm animals · wild animals · pets</div>
+        <div>课本原句：Different children love different animals.</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）五年级上册 Unit 3 Animals<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("animal");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·exercise book</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · exercise book</h1>
+<div class="subhead">📍 人教版（一起点）五年级上册 Unit 4 Shopping Day（购物日）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> exercise book</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 练习本</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈeksəsaɪz bʊk/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (五年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> exercise books</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 4 Shopping Day</div><p><strong>Lesson 1 · 文具店特卖（关键句摘录）</strong><br>Welcome to Xinxin Stationery Shop. Only five yuan just for today.<br>Today they are only five yuan. Do you want a new pencil sharpener?<br>We have some red pencil sharpeners. Only nine yuan for one.<br>We have pencil boxes in different colours.<br>— Do you want new crayons or scissors? — I want to buy a box of crayons. It's 16 yuan.</p><p><strong>Lesson 2 · 买礼物（关键句摘录）</strong><br>— Good morning. Can I help you?<br>— I want to buy a present for my friend.<br>— What about a model car? — How much is it? — It's 30 yuan.<br>— OK, I'll take it. Thanks a lot.</p><p><strong>Lesson 3 · 问价与合计（关键句摘录）</strong><br>— I want to buy a pencil box. — How much is it all together? — It's 25 yuan.<br>Look at the pictures. What do you see? How much do you think they are?</p><p><strong>Let's Spell · th 的清浊两读</strong><br>清音：three · thin · mouth · maths　浊音：this · that · mother · they</p><p><strong>Fun Time · Shopping online（网上购物）</strong><br>Shopping online is an easy way to buy things.<br>First, look for a good website. Then, search for the things you want to buy.<br>You may need a credit card to buy things.</p><p><strong>Let's Check · 问价巩固</strong><br>— How much is the red one? — It's five yuan.<br>Do you have any toy planes? — I'll take the yellow one.</p><p><strong>Story Time · 买小狗</strong><br>— How much is the puppy? — 35 dollars.<br>He only has 25 dollars. He just needs three more dollars.<br>To his surprise, the puppy is gone!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网跟读页、人教社电子课本目录、优质课教案及同步课堂资源多源交叉核对（单元名确认 Unit 4 Shopping Day，13词词表一致）；以上为各课时关键句摘录。exercise book 就藏在 Lesson 1 的文具店特卖里——买来练字、写作业正合适。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>exercise·book —— 两个老朋友握手：exercise（练习）+ book（本）<br>✏️ 口诀：练习装进本子里，练习本到手！</td></tr>
+        <tr><th>音·发音</th><td>/ˈek.sə.saɪz bʊk/ 重音在最前：EX-er-cize book<br>🎧 跟读：an exercise book · a new exercise book</td></tr>
+        <tr><th>意·释义</th><td>练习本（英国常用说法；美国孩子多说 notebook）</td></tr>
+        <tr><th>用·句型</th><td>① I want an exercise book. (我想要一本练习本。)<br>② How much is the exercise book? (这本练习本多少钱？)<br>③ This is my new exercise book. (这是我的新练习本。)<br>④ I write my homework in my exercise book. (我在练习本上写作业。)</td></tr>
+        <tr><th>拓·同族词</th><td>notebook 笔记本 · workbook 练习册 · storybook 故事书 —— +book 家族大团圆！</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>购买</td><td>I want an exercise book.</td></tr>
+        <tr><td>借用</td><td>May I borrow your exercise book, please?</td></tr>
+        <tr><td>描述</td><td>My exercise book is new and clean.</td></tr>
+        <tr><td>数量</td><td>I have two exercise books.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · +book 复合词</div>
+        <p><strong>exercise book = exercise（练习）+ book（本）：</strong><br>英文里“功能+book”能造出一串词：<u>notebook</u> 笔记本 / <u>storybook</u> 故事书 / <u>workbook</u> 练习册 / <u>textbook</u> 教科书</p><p>📌 一本本子管什么，前一个词说了算！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>练习本是本单元第一个要会说的文具词。在家写作业时让孩子用英语点名报文具：exercise book、pencil、ruler、eraser，边拿边说。重点纠正：exercise 有三个音节，别吞成两个；英式 exercise book 与美式 notebook 的差异可顺带一讲。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选物</strong><br>家长说 “an exercise book”，孩子从 📓 / ✏️ / 📏 中选 → 正确答案：📓</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 合成词拆一拆</strong><br>exercise book = ______ + ______ (exercise + book)<br>notebook = ______ + ______ (note + book)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数变身</strong><br>one exercise book → two ______ (exercise books)<br>one notebook → two ______ (notebooks)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 书包找一找</strong><br>打开书包找出 exercise book，说 “This is my exercise book!” 说对得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>模拟买本子：— I want an exercise book. — It's five yuan.<br><span class='btn-mimic'>🎤 示例：I want an exercise book, please!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟exercise book通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《一本练习本的旅行》</h3>
+    <div class="quote">📓 新学期第一天，妈妈带我去文具店。“I want an exercise book.” 店里练习本特卖，Only five yuan! 我挑了一本蓝色的。回家我在第一页写下 My name is Dabao. 第二页画了一朵花。老师说：Practice makes perfect. 我的练习本笑弯了页角——它最喜欢写满字的样子。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 故事里的练习本多少钱？(Only five yuan!)<br>• 孩子在第一页写了什么？(My name is Dabao.)<br>• 问问孩子：If you buy a new exercise book, what will you write first?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">exercise book 练习本<br>├── 构成 ── exercise 练习 + book 本<br>├── 量词 ── an exercise book · two exercise books<br>├── 搭档 ── pencil 铅笔 · ruler 尺子 · eraser 橡皮<br>├── 句型 ── I want an exercise book. · How much is it?<br>└── 亲戚 ── notebook · workbook · storybook</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>exercise 来自拉丁语 exercitium，原意“反复训练”；book 来自古英语 bōc。两个千岁老词一握手，“练习本”就诞生了。有趣的是：英国孩子管它叫 exercise book，美国孩子多说 notebook——同一本本子，两岸各有叫法。🎯 讲给孩子：复合词的意思 = 两个词的意思相加。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>exercise book</td><td>exercise(练习) + book(本) → 练习本</td></tr>
+        <tr><td>notebook</td><td>note(笔记) + book → 笔记本</td></tr>
+        <tr><td>workbook</td><td>work(功课) + book → 练习册</td></tr>
+        <tr><td>storybook</td><td>story(故事) + book → 故事书</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Practice makes perfect.” 熟能生巧。<br>—— 英语谚语。练习本就是为这句话准备的：每多写一页，就离 perfect 近一步。</div>
+
+    <h3>🎵 歌词里的 exercise book</h3>
+    <p>🎵 Olivia Newton-John《Physical》(1981)：Billboard 十周冠军，一句 “Let's get physical” 让 exercise 火遍全球——练习本和锻炼，都是“练”！<br>🔗 与 exercise 页互链（同歌同源：练习本 = exercise + book）。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>为什么英语叫 exercise book？因为本子的本职是“练习”。英式英语的 exercise book 在美式英语里通常叫 notebook，而 workbook 特指和教材配套的练习册。下次买本子，看看封面英文，你能分清它是哪种本吗？</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>exercise book</strong> /ˈeksəsaɪz bʊk/ n. 练习本</div>
+        <div><strong>exercise book</strong> /ˈeksəsaɪz bʊk/ n. 练习本（复数 exercise books）</div>
+        <div>功能句：I want an exercise book. / How much is it?</div>
+        <div>构词：exercise + book；同类 notebook / workbook</div>
+        <div>歌曲：Olivia Newton-John《Physical》· 与 exercise 页互链</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）五年级上册 Unit 4 Shopping Day（购物日）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("exercise book");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

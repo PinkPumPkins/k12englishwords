@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·farm</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · farm</h1>
+<div class="subhead">📍 人教版（一起点）五年级上册 Unit 3 Animals</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> farm</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 农场</div>
+    <div class="info-item"><span class="info-label">音标</span> /fɑːm/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (五年级)</div>
+    <div class="info-item"><span class="info-label">词族</span> farmer 农民 · farms</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 3 Animals</div>
+    <p><strong>Lesson 1 · B. Let's play</strong><br>
+    — We're going to the zoo. What animals do you want to see? Why?<br>
+    — I want to see tigers. They're big.<br>
+    — I want to see pandas. They're cute.<br>
+    — I want to see elephants. They're big and tall. I want to see their long noses.</p>
+    <p><strong>Lesson 2 · A. Look, listen and answer</strong><br>
+    — Hi, Linda. What are you doing?<br>
+    — I'm drawing a picture of my favourite animal. It's a big, grey animal.<br>
+    — Yes, my favourite animal is the elephant.<br>
+    — What's your favourite animal? — Guess!<br>
+    — Wow, that's a beautiful picture! Let me see. Mmm, your favourite animal is the horse?<br>
+    — No. Look. My favourite animal is the bee. — It's lovely!</p>
+    <p><strong>Lesson 3 · A. Let's read（节选）</strong><br>
+    Different children love different animals.<br>
+    Bob likes elephants. An elephant eats leaves and grass. It lives on the grassland or in the forest. It is big and strong. It has two long teeth called tusks and a big nose called a trunk.<br>
+    Amanda loves pandas. A panda lives in a bamboo forest and eats bamboo there. It's black and white.</p>
+    <p><strong>Fun Time · C. Let's sing</strong><br>
+    农场动物歌：小羊、小奶牛、小猪排排站，模仿叫声唱响农场主题 🐑🐮🐷</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经 haoduoyun 课文翻译页、Scribd 电子课本（两份）、Unit 3 教学设计多源交叉核对；Lesson 1 A / Story Time 原文待核。Fun Time 歌曲就唱在这座农场；本单元一半动物都住这儿。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>f·ar·m ar 组合发长音 /ɑː/，rm 连读舌要卷；同族词：arm / harm<br>✏️ 口诀：farm 里有 arm，农民挥手臂干活</td></tr>
+        <tr><th>音·发音</th><td>/fɑːm/ 长音 /ɑː/，嘴张大<br>🎧 跟读：on a farm · farm animals · Old MacDonald's farm</td></tr>
+        <tr><th>意·释义</th><td>农场 🚜（种庄稼、养动物的地方；farm 还可作动词"耕种"）</td></tr>
+        <tr><th>用·句型</th><td>① We're going to the farm. (我们要去农场。)<br>② There are many animals on the farm. (农场上有许多动物。)<br>③ My uncle works on a farm. (我叔叔在农场工作。)<br>④ Old MacDonald had a farm. (老麦克唐纳有个农场。——儿歌)</td></tr>
+        <tr><th>拓·同族词</th><td>farmer 农民（farm + er 人）· farmhouse 农舍 · farming 耕作；注意"在农场"用 on the farm</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>地点</td><td>There are many animals on the farm.</td></tr>
+        <tr><td>人物</td><td>The farmer works on the farm.</td></tr>
+        <tr><td>活动</td><td>We feed the animals on the farm.</td></tr>
+        <tr><td>儿歌</td><td>Old MacDonald had a farm, E-I-E-I-O!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · on the farm / in the forest 介词搭配</div>
+        <p><strong>on the farm：</strong>农场是"平面场地" → 用 on（课本场景高频）</p><p><strong>in a bamboo forest：</strong>森林是立体空间 → 用 in（课本原句）</p><p><strong>at the farm：</strong>把农场当作参观的"一个点"时也常用 at</p><p>⚠️ 记忆口诀：平面场地用 on，立体空间用 in！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>farm 是本单元的"场景词"：Lesson 1 的动物、Fun Time 的歌、一半以上词汇都围绕农场展开。建议带孩子实际去一次农场或宠物园，用英语点名动物：What animals do you see? I see cows and pigs! 在家用 Old MacDonald 儿歌玩接龙：唱到动物就停，让孩子喊出叫声。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 "Farm animals live here."，孩子从 🚜 / 🏙️ / 🌊 中选 → 正确答案：🚜</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 介词填空</strong><br>① The cows are ___ the farm. (on)<br>② A panda lives ___ a bamboo forest. (in)</div>
+        <div class="game-step"><strong>🔍 关卡3 · 词族接龙</strong><br>farm → farmer 农民 → farmhouse 农舍 → farming 耕作，一人一词往下接</div>
+        <div class="game-step"><strong>🎤 关卡4 · 儿歌大合唱</strong><br>唱《Old MacDonald Had a Farm》，轮到谁谁模仿动物叫声</div>
+        <div class="game-step"><strong>🌟 关卡5 · 口语大挑战</strong><br>用 "On the farm, there are..." 说出三种动物并录语音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟farm通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《A Day on Old MacDonald's Farm》</h3>
+    <div class="quote">🚜 周末，孩子们去 Old MacDonald 的农场研学。清早公鸡打鸣，奶牛 Milka 哞哞催早餐；小猪在泥里打滚，绵羊在山坡上"咩咩"开会。老师说："On the farm, animals have jobs, too!" 孩子们帮着捡鸡蛋、喂兔子，累得满头汗。回家路上，大家唱起 Old MacDonald Had a Farm，E-I-E-I-O！有人悄悄说："Farm animals work harder than me!"</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 孩子们去了哪里？(Old MacDonald's farm)<br>• 谁催大家吃早餐？(The cow)<br>• 问问孩子：Which farm animal would you like to feed? Why?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 场景 ── on the farm · farmhouse 农舍 · field 田地<br>├── 人物 ── farmer 农民<br>├── 居民 ── cow · pig · sheep · horse（本单元全家福）<br>├── 词族 ── farm → farmer → farming<br>└── 儿歌 ── Old MacDonald Had a Farm · E-I-E-I-O</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>farm 最初的意思不是"农场"，而是"租金"！中世纪英语里 farm 指"固定的地租"，后来演变成"租来种的地"，再变成今天的"农场"。所以 farm 一词里藏着一部土地租种史。<br>🎯 讲给孩子：farm 的老祖宗是"交租"，种着种着就种成了农场。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>farmer</td><td>农民 = farm + er（人）</td></tr>
+        <tr><td>farmhouse</td><td>农舍；farmyard 农家院子</td></tr>
+        <tr><td>farming</td><td>耕作、务农（动名词）</td></tr>
+        <tr><td>on the farm</td><td>介词搭配：在农场用 on</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Make hay while the sun shines."（晒草要趁太阳好。）—— 出自农事的英语谚语：抓住好时机。hay（干草）正是农场的宝贝。</div>
+
+    <h3>🎵 歌词里的 farm</h3>
+    🎵 传统儿歌《Old MacDonald Had a Farm》：E-I-E-I-O 无敌洗脑，全球英语启蒙农场第一歌。与 farmer 页互链（The Farmer in the Dell）；与 cow / pig / sheep 页互链：歌里全都有！
+
+    <h3>⚡ 冷知识</h3>
+    <p>"Old MacDonald" 的前身早在 18 世纪就已在英语世界流传（一说可追溯到 1706 年），副歌 "E-I-E-I-O" 的原意众说纷纭——两个多世纪过去没人说得清，却全世界都会唱。美国农业公益组织还有个著名口号："No farms, no food"（没有农场，就没有食物）。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>farm</strong> /fɑːm/ n. 农场</div>
+        <div>介词：on the farm（场地） · in the forest（空间）</div>
+        <div>词族：farm → farmer → farming → farmhouse</div>
+        <div>儿歌：Old MacDonald Had a Farm, E-I-E-I-O!</div>
+        <div>冷知识：farm 本义是"租金" · No farms, no food</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）五年级上册 Unit 3 Animals<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("farm");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

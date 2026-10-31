@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·also</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · also</h1>
+<div class="subhead">📍 人教版（一起点）五年级上册 Unit 4 Shopping Day（购物日）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> also</div>
+    <div class="info-item"><span class="info-label">词性</span> adv. 也</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈɔːlsəʊ/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (五年级)</div>
+    
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 4 Shopping Day</div><p><strong>Lesson 1 · 文具店特卖（关键句摘录）</strong><br>Welcome to Xinxin Stationery Shop. Only five yuan just for today.<br>Today they are only five yuan. Do you want a new pencil sharpener?<br>We have some red pencil sharpeners. Only nine yuan for one.<br>We have pencil boxes in different colours.<br>— Do you want new crayons or scissors? — I want to buy a box of crayons. It's 16 yuan.</p><p><strong>Lesson 2 · 买礼物（关键句摘录）</strong><br>— Good morning. Can I help you?<br>— I want to buy a present for my friend.<br>— What about a model car? — How much is it? — It's 30 yuan.<br>— OK, I'll take it. Thanks a lot.</p><p><strong>Lesson 3 · 问价与合计（关键句摘录）</strong><br>— I want to buy a pencil box. — How much is it all together? — It's 25 yuan.<br>Look at the pictures. What do you see? How much do you think they are?</p><p><strong>Let's Spell · th 的清浊两读</strong><br>清音：three · thin · mouth · maths　浊音：this · that · mother · they</p><p><strong>Fun Time · Shopping online（网上购物）</strong><br>Shopping online is an easy way to buy things.<br>First, look for a good website. Then, search for the things you want to buy.<br>You may need a credit card to buy things.</p><p><strong>Let's Check · 问价巩固</strong><br>— How much is the red one? — It's five yuan.<br>Do you have any toy planes? — I'll take the yellow one.</p><p><strong>Story Time · 买小狗</strong><br>— How much is the puppy? — 35 dollars.<br>He only has 25 dollars. He just needs three more dollars.<br>To his surprise, the puppy is gone!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网跟读页、人教社电子课本目录、优质课教案及同步课堂资源多源交叉核对（单元名确认 Unit 4 Shopping Day，13词词表一致）；以上为各课时关键句摘录。购物清单可以一直加：I also want...（我还想要……）</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>also —— all（全）+ so（这样）→ 也<br>✏️ 口诀：all+so=also，你这样，我也这样！</td></tr>
+        <tr><th>音·发音</th><td>/ˈɔːl.səu/ 注意 l 的舌位，别吞成 aso<br>🎧 跟读：I also want a ruler. · She also likes it.</td></tr>
+        <tr><th>意·释义</th><td>也；还（比 too 稍正式，放句中）</td></tr>
+        <tr><th>用·句型</th><td>① I also want a pencil box. (我还想要一个铅笔盒。)<br>② She also likes music. (她也喜欢音乐。)<br>③ I am also a student. (我也是学生。)<br>④ I like it, too. (我也喜欢——口语最常用 too)</td></tr>
+        <tr><th>拓·同族词</th><td>“也”三兄弟：also（句中）· too（句尾）· as well（句尾，稍正式）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>句中</td><td>I also want a ruler.</td></tr>
+        <tr><td>三单</td><td>She also likes music.</td></tr>
+        <tr><td>对照too</td><td>I like it, too.</td></tr>
+        <tr><td>口语</td><td>Me too!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · also / too / as well 三兄弟</div>
+        <p><strong>都能表示“也”，位置不同：</strong><br><u>also</u>：句中（I <u>also</u> want a pen.）<br><u>too</u>：句尾（I want a pen, <u>too</u>.）<br><u>as well</u>：句尾（I want a pen <u>as well</u>.）</p><p>📌 口语最常用 Me too!，正式写作多用 also。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>also、too、as well 意思一样，位置不同，孩子容易混。用购物清单玩“加法游戏”：I want a pencil. I also want a ruler. I want a book, too.——一句话一个文具，also 和 too 轮流上。重点纠正：also 不放句尾，too 不放句中。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音站位</strong><br>家长念句子，孩子说出 also 在句子的前/中/后：I also want it. → 中间</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 三兄弟换装</strong><br>I want a pen. I ______ want a ruler. (also)<br>I want a pen, ______. (too)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 接龙购物清单</strong><br>轮流说 I want... I also want... 清单越接越长</div>
+        <div class="game-step"><strong>🔍 关卡4 · 家庭爱好调查</strong><br>问问家人喜欢什么，汇报：Mum likes singing. Dad also likes singing!</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 also 加两样文具到购物清单并录音<br><span class='btn-mimic'>🎤 示例：I also want a pencil box and crayons!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟also通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《我也想要》</h3>
+    <div class="quote">🛒 周末，小美和妈妈逛文具店。小美说：“I want an exercise book.” 走了两步又说：“I also want a box of crayons.” 看到货架上最后一盒拼图，她拉住妈妈：“Mum, I also want...” 妈妈举起三根手指：“Only three things today!” 小美想了想，把拼图放了回去——also 很好用，但钱包要照顾。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 小美说了几样想要的？(三样。)<br>• 妈妈的规则是什么？(今天只买三样。)<br>• 问问孩子：What do you want? And what do you also want?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">also 也<br>├── 构成 ── all（全）+ so（这样）<br>├── 位置 ── 句中：I also want...<br>├── 兄弟 ── too 句尾 · as well 句尾<br>├── 句型 ── She also likes it.（三单照样用）<br>└── 口语 ── Me too!（最常用的“我也是”）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>also 来自古英语 eallswā，就是 all（全部）+ so（这样）——“全都这样”，自然就是“也”。它和 always（all + ways，所有时候→总是）、altogether（all + together，全在一起→总共）是一个家族，都爱“凑齐”。🎯 讲给孩子：also 的“也”，是“同样如此”。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>also</td><td>all + so → 也（句中）</td></tr>
+        <tr><td>always</td><td>all + ways → 总是（每个时候都）</td></tr>
+        <tr><td>altogether</td><td>all + together → 总共；完全</td></tr>
+        <tr><td>too</td><td>句尾的“也”：I like it, too.</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Great minds think alike.” 英雄所见略同。<br>—— 英语谚语。你想到的，伟大头脑也会同样想到——also 的最高境界。</div>
+
+    <h3>🎵 歌词里的 also</h3>
+    <p>🎵 Meghan Trainor《Me Too》(2016)：副歌 “If I was you I'd wanna be me too” 洗脑级——too 和 also 是“也”字两兄弟，一个口语一个书面。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>英语里说“我也是”，最地道的不是 “Me also”，而是 “Me too”。反过来，书面语里 also 更常见。还有个小窍门：口语里回应别人“我也一样”用 So do I 或 Me too 最顺手，写作文时用 also 最稳妥——三套工具，分场合使用。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>also</strong> /ˈɔːlsəʊ/ adv. 也</div>
+        <div><strong>also</strong> /ˈɔːlsəʊ/ adv. 也（比 too 稍正式）</div>
+        <div>功能句：I also want a ruler. / Me too!</div>
+        <div>位置：also 句中 · too/as well 句尾</div>
+        <div>歌曲：Meghan Trainor《Me Too》· too≈also 词形关联</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）五年级上册 Unit 4 Shopping Day（购物日）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("also");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

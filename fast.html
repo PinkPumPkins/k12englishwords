@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·fast</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · fast</h1>
+<div class="subhead">📍 人教版（一起点）五年级上册 Unit 3 Animals</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> fast</div>
+    <div class="info-item"><span class="info-label">词性</span> adj. & adv. 迅速的（地）；快</div>
+    <div class="info-item"><span class="info-label">音标</span> /fɑːst/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (五年级)</div>
+    <div class="info-item"><span class="info-label">比较级</span> faster · fastest</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 3 Animals</div>
+    <p><strong>Lesson 1 · B. Let's play</strong><br>
+    — We're going to the zoo. What animals do you want to see? Why?<br>
+    — I want to see tigers. They're big.<br>
+    — I want to see pandas. They're cute.<br>
+    — I want to see elephants. They're big and tall. I want to see their long noses.</p>
+    <p><strong>Lesson 2 · A. Look, listen and answer</strong><br>
+    — Hi, Linda. What are you doing?<br>
+    — I'm drawing a picture of my favourite animal. It's a big, grey animal.<br>
+    — Yes, my favourite animal is the elephant.<br>
+    — What's your favourite animal? — Guess!<br>
+    — Wow, that's a beautiful picture! Let me see. Mmm, your favourite animal is the horse?<br>
+    — No. Look. My favourite animal is the bee. — It's lovely!</p>
+    <p><strong>Lesson 3 · A. Let's read（节选）</strong><br>
+    Different children love different animals.<br>
+    Bob likes elephants. An elephant eats leaves and grass. It lives on the grassland or in the forest. It is big and strong. It has two long teeth called tusks and a big nose called a trunk.<br>
+    Amanda loves pandas. A panda lives in a bamboo forest and eats bamboo there. It's black and white.</p>
+    <p><strong>Fun Time · C. Let's sing</strong><br>
+    农场动物歌：小羊、小奶牛、小猪排排站，模仿叫声唱响农场主题 🐑🐮🐷</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经 haoduoyun 课文翻译页、Scribd 电子课本（两份）、Unit 3 教学设计多源交叉核对；Lesson 1 A / Story Time 原文待核。Lesson 1 描述动物特征的高频词；马儿就是 fast 明星。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>f·ast 同族：past / last / task——都含 -ast<br>✏️ 口诀：f 打头，ast 收尾，快人一步</td></tr>
+        <tr><th>音·发音</th><td>/fɑːst/ 长音 /ɑː/ 加清脆的 /st/<br>🎧 跟读：run fast · a fast car · fast food</td></tr>
+        <tr><th>意·释义</th><td>迅速的（形容词）；快地（副词）——一词两用：a fast horse（快马）/ run fast（跑得快）</td></tr>
+        <tr><th>用·句型</th><td>① Horses can run fast. (马跑得快。)<br>② The cheetah is the fastest animal on land. (猎豹是陆地上最快的动物。)<br>③ I like fast food. (我喜欢快餐。)<br>④ Don't run so fast! (别跑那么快！)</td></tr>
+        <tr><th>拓·同族词</th><td>fast food 快餐 · fast asleep 睡得沉 · hold fast 牢牢抓住（这里 fast=牢固！）；反义：slow 慢</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>能力</td><td>A horse can run very fast.</td></tr>
+        <tr><td>比较</td><td>The cheetah runs faster than the horse.</td></tr>
+        <tr><td>提醒</td><td>Don't run so fast!</td></tr>
+        <tr><td>习语</td><td>The baby is fast asleep.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · fast 是"形容词+副词"双面词</div>
+        <p><strong>形容词：</strong>a fast horse（快马）——修饰名词</p><p><strong>副词：</strong>run fast（跑得快）——修饰动词，注意副词不加 ly！</p><p><strong>比较级：</strong>fast → faster → fastest（run faster 跑得更快）</p><p>⚠️ 英语里根本没有 fastly 这个词——fast 的副词还是 fast！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>fast 是五年级重点"双面词"：既能当形容词（a fast car），又能当副词（run fast），而且副词形式不加 -ly——这是孩子最容易犯错的地方。建议玩"快慢口令"游戏：跑步时喊 Run fast! / Walk slowly!，用身体记住两种词性。顺便讲 fast asleep、hold fast 里 fast 的"牢固"义，拓展词感。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 "It can run fast."，孩子从 🐴 / 🐢 / 🐘 中选 → 正确答案：🐴</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 双面词填空</strong><br>① My brother is a ___ runner. (fast)<br>② He runs ___. (fast)</div>
+        <div class="game-step"><strong>🔍 关卡3 · 比较级变身</strong><br>fast → faster → fastest，各造一句：The horse is fast. / ...</div>
+        <div class="game-step"><strong>🏃 关卡4 · 快慢口令</strong><br>家长喊 "Run fast!" / "Walk slowly!"，孩子做动作——身体记单词</div>
+        <div class="game-step"><strong>🌟 关卡5 · 口语大挑战</strong><br>用 "The ... is fast. It can run faster than..." 造句并录语音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟fast通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Fast and Steady》</h3>
+    <div class="quote">🐴 农场运动会，小马宣布："I'm fast! I can run faster than everyone!" 乌龟慢悠悠："Slow and steady wins the race, remember?" 小马大笑："That's just a story!" 比赛开始，小马一路领先，可它太得意，跑错了弯道，等发现时只好掉头往回跑。乌龟一步一步爬过了终点线。小马挠挠头："Maybe fast isn't everything. Next time, fast AND steady!"</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 谁赢了比赛？(The tortoise)<br>• 小马为什么会输？(It took the wrong turn / too proud)<br>• 问问孩子：What does "Slow and steady wins the race" mean?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 双面词 ── a fast horse（形）· run fast（副，不加ly）<br>├── 三级 ── fast → faster → fastest<br>├── 词组 ── fast food 快餐 · fast asleep 睡沉 · hold fast 抓牢<br>├── 反义 ── slow 慢 · slowly 慢慢地<br>└── 伙伴 ── horse 马（本单元的 fast 明星）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>fast 最早的意思是"牢固的"（古英语 fæst）——今天 hold fast（抓牢）、stand fast（站稳）、fast asleep（睡得沉）里还保留这层意思。"快"是从"牢牢地、使劲地"演变来的：跑得又稳又猛，自然就快了。breakfast（早餐）= break + fast（打破一夜不进食的"斋戒"）。<br>🎯 讲给孩子：fast 的本义是"牢"，"快"是它跑出来的新义。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>fast asleep</td><td>睡得沉（fast=牢固地）</td></tr>
+        <tr><td>hold / stand fast</td><td>牢牢抓住 / 坚定不移</td></tr>
+        <tr><td>breakfast</td><td>早餐 = break（打破）+ fast（斋戒）</td></tr>
+        <tr><td>fast food</td><td>快餐</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Slow and steady wins the race."（稳扎稳打才能赢。）—— 出自伊索寓言《龟兔赛跑》，英语世界最著名的励志谚语之一。</div>
+
+    <h3>🎵 歌词里的 fast</h3>
+    🎵 Eagles《Life in the Fast Lane》(1976)：老鹰乐队传奇摇滚，"快车道上的人生"——fast lane 就是高速公路的超车道。与 horse 页互链：马儿跑得 fast！
+
+    <h3>⚡ 冷知识</h3>
+    <p>陆地上最快的动物是猎豹，冲刺时速可超 100 公里——但只能坚持几十秒；鸵鸟是跑得最快的"两脚兽"，时速约 70 公里，却能跑上半小时。英语里 fast 还有个反直觉用法：钟表 "fast" 是指"走快了"（The clock is fast），说的是"超前"，不是"迅速"。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>fast</strong> /fɑːst/ adj. & adv. 迅速的（地）；快</div>
+        <div>双面词：a fast horse（形）· run fast（副，不加 ly）</div>
+        <div>三级：fast → faster → fastest</div>
+        <div>词组：fast food · fast asleep · hold fast</div>
+        <div>冷知识：没有 fastly · 钟表 fast=走快了</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）五年级上册 Unit 3 Animals<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("fast");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
