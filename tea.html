@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·tea</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · tea</h1>
+<div class="subhead">📍 人教版（一起点）一年级下册 Unit 5 Drinks</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> tea</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 茶；茶叶</div>
+    <div class="info-item"><span class="info-label">音标</span> /tiː/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>特点</span> 不可数名词 · 易错：红茶=black tea</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 5 Drink（饮料）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>Can I have water, water, water?<br>Yes, you can. It's good for you.<br>Can I have juice, juice, juice?<br>Yes, you can. It's good for you.<br>Can I have milk, milk, milk?<br>Yes, you can. It's good for you.<br>Can I have tea, tea, tea?<br>No, you can't. It's bad for you.<br>（本课单词：juice 果汁 · tea 茶 · milk 牛奶 · water 水）</p><p><strong>Lesson 1 · B. Do and say</strong><br>— Can I have juice? — Here you are.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— I'm thirsty. 我渴了。<br>— Do you want water? 你想要水吗？<br>— Yes, please. 好的，请给我一些。<br>— No, thanks. I want juice. 不，谢谢，我想要果汁。</p><p><strong>Lesson 2 · B. Let's talk</strong><br>— I'm thirsty. — Do you want juice?<br>— No, thanks. I want water.</p><p><strong>Lesson 3 · Letters in life</strong><br>字母 Q · R · S · T · U<br>巩固句型：— I'm hungry. — Do you want chicken? — No, thanks. I want fish.</p><p><strong>Story Time</strong><br>用 Do you want…? — Yes, please. 依次问遍 fish、chicken、milk、juice、tea，结尾 — Oh! A cat!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经智慧山课文页（zhihuishan.com/article/3314.html）、51教习网课本跟读（yyld.51jiaoxi.com/yixia/rjbxqd_danyuan06.html）、奥数网《Unit 5 Drinks》Lesson 1 教案（aoshu.com）多源交叉核对；核心句型 Can I have…? / Do you want…? / I'm thirsty.。本页聚焦：tea——三个字母一杯茶，老祖宗喝了几千年的单词！</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>t·ea —— 三个字母超好记，ea 组合读 /iː/<br>✏️ 口诀：t-e-a 三个字母一杯茶，越短越好记！</td></tr>
+        <tr><th>音·发音</th><td>/tiː/ 单音节，长长的一杯“tee~”<br>🎧 跟读：green tea · black tea · a cup of tea</td></tr>
+        <tr><th>意·释义</th><td>茶 🍵（也指茶叶；afternoon tea 下午茶是英国人的加餐）</td></tr>
+        <tr><th>用·句型</th><td>① Do you want tea? (你想要茶吗？)<br>② Yes, please. (好的。——礼貌答应)<br>③ No, thanks. I want juice. (不，谢谢，我想要果汁。)<br>④ A cup of tea, please. (请给我一杯茶。)</td></tr>
+        <tr><th>拓·同族词</th><td>green tea 绿茶 · black tea 红茶（不是 red tea！） · milk tea 奶茶<br>同族：teahouse 茶馆 · teapot 茶壶</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>请求</td><td>A cup of tea, please.</td></tr>
+        <tr><td>喜好</td><td>I like milk tea.</td></tr>
+        <tr><td>易错</td><td>I drink black tea. (红茶！)</td></tr>
+        <tr><td>礼貌</td><td>No, thanks. I want water.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · Do you want…?</div>
+        <p><strong>问对方想不想要：</strong><br>— <u>Do you want</u> tea? 🍵<br>— <u>Yes, please.</u> 好的，麻烦你。<br>— <u>No, thanks.</u> 不了，谢谢。</p><p><strong>答应加 please，拒绝加 thanks——礼貌两件套！</strong></p><p>⚠️ No, thanks. 是“礼貌说不”专用句，本单元 Lesson 2 天天在用。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>泡茶时就是英语时间：指茶叶说 tea，指茶壶说 teapot。和孩子玩“茶馆点单”：Do you want tea?——Yes, please. / No, thanks. 重点讲透“红茶=black tea”这个中外差异（英国人看茶叶颜色，中国人看汤色）。奶茶 milk tea 孩子最有共鸣，一学就会。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 tea，孩子从 🍵 / 🧃 / 🥛 中选 → 正确答案：🍵</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 三字母速拼</strong><br>t-e-a！三个字母拼单词，限时10秒挑战</div>
+        <div class="game-step"><strong>✅ 关卡3 · 易错点抢答</strong><br>“红茶”的英文是？→ black tea！答对得一颗星<br>追问题：milk tea 是什么？→ 奶茶</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>找出家里的茶叶/茶杯，指着说 This is tea!</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>和孩子演课本对话：— Do you want tea? — No, thanks. I want juice.<br><span class='btn-mimic'>🎤 录下你们最礼貌的一组问答</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟tea通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Grandma's Tea 奶奶的下午茶》</h3>
+    <div class="quote">🐱 奶奶猫有个小茶壶。下午，小猫口渴了：“I'm thirsty!” 奶奶问：“Do you want tea?” 小猫摇头：“No, thanks. Tea is for grown-ups.” 奶奶倒了杯牛奶：“Have some milk, then.” 小猫喝完，抱抱奶奶：“Thank you, Grandma! It's good for me!” 奶奶抿一口自己的茶：“And tea is good for me!”——原来每张茶桌都装着两代人的口味。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What did the kitten want? (Milk)<br>• What did Grandma drink? (Tea)<br>• 问问孩子：拒绝别人时怎么说才礼貌？(No, thanks.)</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 种类 ── green tea 绿茶 · black tea 红茶 · milk tea 奶茶
+├── 句型 ── Do you want tea? — Yes, please. / No, thanks.
+├── 数量 ── a cup of tea 一杯茶 · some tea 一些茶
+├── 同族 ── teapot 茶壶 · teahouse 茶馆
+└── 文化 ── 英式下午茶 afternoon tea · 红茶=black tea</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>tea 是全世界最有趣的“双语旅行词”：汉字“茶”走出国门时分成两条路——从福建闽南坐荷兰商船去西欧，闽南音 tê 变成了英语 tea、法语 thé、荷兰语 thee；从北方走陆路（丝绸之路）去波斯、俄国、印度，官话 chá 变成了 chai。所以英语的 tea 和印度的 chai 本是一家人！🎯 讲给孩子：一片茶叶的旅行，写下两种读音。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>green tea</td><td>green(绿) + tea → 绿茶，不发酵</td></tr>
+        <tr><td>black tea</td><td>black(黑) + tea → 红茶（看茶叶色不看汤色）</td></tr>
+        <tr><td>milk tea</td><td>milk + tea → 奶茶，孩子最爱点</td></tr>
+        <tr><td>teapot</td><td>tea + pot(壶) → 茶壶；teahouse 茶馆同理</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“开门七件事：柴米油盐酱醋茶。”<br>Firewood, rice, oil, salt, sauce, vinegar and tea——中国老话把 tea 列为过日子必备的第七件，足见茶在生活里的分量。</div>
+
+    <h3>🎵 歌词里的 tea</h3>
+    <p>🎵 《Tea for Two》(1925)：歌名含词。出自音乐剧《No, No, Nanette》的爵士标准曲，“Tea for two and two for tea” 轻盈上口，近百年来被无数爵士大师翻唱——tea 的 /tiː/ 长音跟着唱一遍就记住。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>茶是全球仅次于水的第二大饮品！而且绿茶、红茶、乌龙茶全都长在同一棵茶树上（学名 Camellia sinensis），区别只在发酵程度：不发酵是绿茶，全发酵是红茶。所以“红茶”在英语里按茶叶的颜色叫 black tea——同一杯茶，中国人和英国人看的角度不一样。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>tea</strong> /tiː/ n. 茶；茶叶</div>
+        <div><strong>tea</strong> /tiː/ n. 茶；茶叶（不可数）</div>
+        <div>功能句：Do you want tea? — Yes, please. / No, thanks.</div>
+        <div>易错：红茶=black tea · 奶茶=milk tea</div>
+        <div>词源：闽南语 tê 坐船→tea，北方话 chá 走陆路→chai</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级下册 Unit 5 Drinks<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("tea");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

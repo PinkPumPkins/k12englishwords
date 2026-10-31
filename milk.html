@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·milk</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · milk</h1>
+<div class="subhead">📍 人教版（一起点）一年级下册 Unit 5 Drinks</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> milk</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 奶；牛奶</div>
+    <div class="info-item"><span class="info-label">音标</span> /mɪlk/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (一年级)</div>
+    <div class='info-item'><span class='info-label'>特点</span> 不可数名词 · 同族：milkshake 奶昔</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 5 Drink（饮料）</div><p><strong>Lesson 1 · A. Look, listen and chant</strong><br>Can I have water, water, water?<br>Yes, you can. It's good for you.<br>Can I have juice, juice, juice?<br>Yes, you can. It's good for you.<br>Can I have milk, milk, milk?<br>Yes, you can. It's good for you.<br>Can I have tea, tea, tea?<br>No, you can't. It's bad for you.<br>（本课单词：juice 果汁 · tea 茶 · milk 牛奶 · water 水）</p><p><strong>Lesson 1 · B. Do and say</strong><br>— Can I have juice? — Here you are.</p><p><strong>Lesson 2 · A. Look, listen and repeat</strong><br>— I'm thirsty. 我渴了。<br>— Do you want water? 你想要水吗？<br>— Yes, please. 好的，请给我一些。<br>— No, thanks. I want juice. 不，谢谢，我想要果汁。</p><p><strong>Lesson 2 · B. Let's talk</strong><br>— I'm thirsty. — Do you want juice?<br>— No, thanks. I want water.</p><p><strong>Lesson 3 · Letters in life</strong><br>字母 Q · R · S · T · U<br>巩固句型：— I'm hungry. — Do you want chicken? — No, thanks. I want fish.</p><p><strong>Story Time</strong><br>用 Do you want…? — Yes, please. 依次问遍 fish、chicken、milk、juice、tea，结尾 — Oh! A cat!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经智慧山课文页（zhihuishan.com/article/3314.html）、51教习网课本跟读（yyld.51jiaoxi.com/yixia/rjbxqd_danyuan06.html）、奥数网《Unit 5 Drinks》Lesson 1 教案（aoshu.com）多源交叉核对；核心句型 Can I have…? / Do you want…? / I'm thirsty.。本页聚焦：milk——早餐桌上的白牛奶，Milky Way 银河的同族词！</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>m·i·l·k —— 四个字母，结尾 k 别漏<br>✏️ 口诀：牛奶盒四个字母 m-i-l-k，喝完别乱丢！</td></tr>
+        <tr><th>音·发音</th><td>/mɪlk/ 单音节，l 在中间轻轻带过<br>🎧 跟读：a glass of milk · hot milk · milkshake 奶昔</td></tr>
+        <tr><th>意·释义</th><td>奶；牛奶 🥛（也指各类奶：soy milk 豆奶；作动词是“挤奶”）</td></tr>
+        <tr><th>用·句型</th><td>① Have some milk. (喝点牛奶。)<br>② I want milk. (我想要牛奶。)<br>③ The milk is hot. (牛奶是热的。)<br>④ Milk is good for you. (牛奶对你有益。——课文句式)</td></tr>
+        <tr><th>拓·同族词</th><td>milk → milkshake 奶昔 · Milky Way 银河（牛奶铺成的路！） · milkman 送奶员<br>同单元饮料：juice · tea · water</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>请求</td><td>Can I have some milk?</td></tr>
+        <tr><td>喜好</td><td>I like hot milk.</td></tr>
+        <tr><td>描述</td><td>The milk is white and yummy.</td></tr>
+        <tr><td>礼貌</td><td>Thank you! Milk is good for me.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · Have some…?</div>
+        <p><strong>请别人吃喝，用 Have some…?：</strong><br>— <u>Have some</u> milk, please. 🥛<br>— Thank you!<br><br>— <u>Do you want</u> milk? — Yes, please.</p><p><strong>一句 Have…，请吃请喝都能用：</strong>Have some juice. / Have some water.</p><p>⚠️ milk 不可数：一杯牛奶是 a glass of milk，不说 a milk。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>早餐是 milk 单词的天然课堂：倒牛奶时说 Have some milk.，孩子接 Thank you.。玩“饮料点单”游戏时把 milk 和 juice / water 混着点，练反应力。顺带讲词族彩蛋：银河叫 Milky Way，古人仰望星空想象它是牛奶铺成的路——一杯牛奶连着整个星空。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 milk，孩子从 🥛 / 🍵 / 💧 中选 → 正确答案：🥛</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 字母拼拼乐</strong><br>拼出 m-i-l-k，特别注意结尾的 k！</div>
+        <div class="game-step"><strong>✅ 关卡3 · 词族接龙</strong><br>milk → milkshake(奶昔) → Milky Way(银河)，接上得一颗星</div>
+        <div class="game-step"><strong>🔍 关卡4 · 早餐任务</strong><br>明天早餐喝牛奶时说 I want milk. 说对了全家鼓掌</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 Milk is good for you. 录语音打卡<br><span class='btn-mimic'>🎤 示例：Have some milk! It's good for you!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟milk通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《A Glass of Milk 一杯牛奶》</h3>
+    <div class="quote">🐻 小熊跑步回来，喘着气：“I'm thirsty!” 妈妈端来一杯白白的牛奶：“Have some milk. It's good for you.” 小熊咕咚咕咚：“Mmm! Milk is yummy!” 这时门外传来小小的声音：“Can I have some milk, please?” 原来是小猫。小熊马上倒了一杯递过去：“Here you are!” 小猫：“Thank you! You're so kind!”——牛奶越分越甜，因为里面加了礼貌。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What did the bear drink? (Milk)<br>• Who came to the door? (The cat)<br>• 问问孩子：别人请你喝牛奶，该说什么？(Thank you!)</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 种类 ── hot milk 热牛奶 · soy milk 豆奶 · milkshake 奶昔
+├── 句型 ── Have some milk. · Can I have some milk?
+├── 数量 ── milk 不可数：a glass of milk 一杯牛奶
+├── 同族 ── milkman 送奶员 · Milky Way 银河
+└── 彩蛋 ── 银河=牛奶路：古人把星空想象成奶白色的大河</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>milk 从古英语 meolc 一路传下来，和德语 Milch 是亲兄弟，共同的祖先词根意为“挤奶”——所以 milk 既是名词“奶”，又是动词“挤奶”，一个词管两头。牛奶在英语里还被称作“白色血液”，可见人们多看重它。🎯 讲给孩子：milking a cow 是挤牛奶，别和喝牛奶搞混哟。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>milkshake</td><td>milk(奶) + shake(摇) → 奶昔：摇出来的牛奶</td></tr>
+        <tr><td>Milky Way</td><td>Milky(奶白的) + Way(路) → 银河，传说是牛奶铺成的路</td></tr>
+        <tr><td>milkman</td><td>milk + man → 送奶员；-man 表“做…的人”</td></tr>
+        <tr><td>soy milk</td><td>soy(大豆) + milk → 豆奶/豆浆</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Don't cry over spilled milk.” 🥛<br>牛奶洒了哭也没用。—— 英语谚语：覆水难收，与其懊恼不如往前看。牛奶洒了，孩子一听就懂</div>
+
+    <h3>🎵 歌词里的 milk</h3>
+    <p>🎵 Kelis《Milkshake》(2003)：词根关联（milk→milkshake 奶昔）。“My milkshake brings all the boys to the yard” 是流行乐史上最洗脑的 hook 之一——先记住 milkshake，再拆出词根 milk，一箭双雕。已标注词根关联。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>每年6月1日是世界牛奶日（World Milk Day），联合国粮农组织2001年设立的——和儿童节同一天，牛奶和小朋友一起过节。牛奶还被叫做“白色血液”，因为营养几乎样样都有。冷知识彩蛋：银河系英语叫 Milky Way，源自希腊神话里赫拉洒落人间的“乳汁之路”。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>milk</strong> /mɪlk/ n. 奶；牛奶</div>
+        <div><strong>milk</strong> /mɪlk/ n. 奶；牛奶（不可数）</div>
+        <div>功能句：Have some milk. — Thank you!</div>
+        <div>同族：milkshake 奶昔 · Milky Way 银河</div>
+        <div>谚语：Don't cry over spilled milk. 覆水难收</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）一年级下册 Unit 5 Drinks<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("milk");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
