@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·poet</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · poet</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 5 Famous People（名人）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> poet</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 诗人</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈpəʊɪt/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">同族</span> poem（一首诗）/ poetry（诗歌总称）</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 5 Famous People（名人）</div><p><strong>Lesson 1 · A. Look, listen and learn（名人墙）</strong><br>— Hi children, look at these famous people. They did great things.<br>— This is Li Bai. He was Chinese. He was a poet. He wrote many famous poems. One of his famous poems is 'In the Quiet Night'.（李白·《静夜思》）<br>— This is Hans Christian Andersen. He was Danish. He was a writer. He wrote many stories for children. I like his story 'The Ugly Duckling'.（安徒生·《丑小鸭》）<br>— This is Xu Beihong. He was Chinese. He was an artist. He was good at painting horses.（徐悲鸿善画马）<br>— This is Thomas Edison. He was American. He was an inventor. He invented a lot of things.（爱迪生）<br>— This is Jean-Henri Fabre. He was French. He was a scientist. He studied insects. He is famous for his book named 'The Book of Insects'.（法布尔·《昆虫记》）</p><p><strong>Lesson 2 · A. Look, listen and number（名人问答）</strong><br>— Hi, Sam. Come and look at these pictures.<br>— OK. Who's that man?<br>— He's Thomas Edison. He's famous for his inventions.<br>— Who's this man? What did he do?<br>— He is Jean-Henri Fabre. He was a French scientist.<br>— Who is your favourite famous person, Joy?<br>— It's Hans Christian Andersen. He was a Danish writer.</p><p><strong>Lesson 3 · A. Let's read（名人小传两篇）</strong><br>Helen Keller was born in America in 1880. When she was very young, she got very sick. After that, she could not hear, speak or see. Helen worked very hard. She learned how to read, write and talk. When she was 20, she went to university. She is famous for writing many books and helping the deaf and blind.（海伦·凯勒）<br>Isaac Newton was a famous scientist. He was born in England in 1643. When he was a child, he was very quiet. He was always thinking about things. One day he was reading a book under an apple tree. He saw an apple fall from the tree. He was the first person to find out why.（牛顿·苹果落地）</p><p><strong>Let's Spell · -tion / -ture 的读音</strong><br>station · transportation · dictionary · picture · furniture · temperature · nature · culture · future · action</p><p><strong>Fun Time · Good to know（达·芬奇）</strong><br>Leonardo da Vinci 画了《蒙娜丽莎》与人体、动物素描，还画下直升机、坦克的构想图；他 1502 年设计的桥，直到 2001 年才在挪威建成。</p><p><strong>Story Time · 逆境名人四则</strong><br>J.K. 罗琳被多家出版社拒绝仍坚持写作；乔丹高中落选校队反而更苦练；爱迪生只上过三个月学，由妈妈教导，一生发明上千件；贝多芬失聪后仍坚持作曲。</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教学网跟读页（yyld.51jiaoxi.com，Unit 5 Famous People 各课时原句与翻译）、百度文库课文翻译快照（word.baidu.com，'This is Thomas Edison. He was American. He was an inventor. He invented a lot of things.' 等句印证）、公开单元教案（Lesson 1 词表 inventor/American/artist/scientist/French/poet/poem/writer/Danish 与本单元词表一致）多源交叉核对（单元名确认为 Unit 5 Famous People）；徐悲鸿一句另一转录作 painter，此处按教案词表取 artist；以上为各课时关键句摘录，非逐字照录。本页主角：poet——Lesson 1 里李白 “He was a poet. He wrote many famous poems.”</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>po·et —— 两个音节分开记 po + et；别和 pilot（飞行员）弄混！<br>✏️ 口诀：poet 尾巴 t 是诗人，poem 尾巴 m 是他的诗。</td></tr>
+        <tr><th>音·发音</th><td>/ˈpəʊ.ɪt/ 两个音节，中间的小 /ɪ/ 别吞掉<br>🎧 跟读：a famous poet · Li Bai was a great poet.</td></tr>
+        <tr><th>意·释义</th><td>诗人 ✒️（写 poem（诗）的人；poet 诗人，poem 一首诗，poetry 诗歌总称）</td></tr>
+        <tr><th>用·句型</th><td>① Li Bai was a famous poet. (李白是著名诗人。)<br>② He wrote many famous poems. (他写了许多著名的诗。)<br>③ Who is your favourite poet? (你最喜欢的诗人是谁？)<br>④ A poet paints with words. (诗人用文字作画。)</td></tr>
+        <tr><th>拓·同族词</th><td>poet 诗人 → poem 一首诗（可数）→ poetry 诗歌（不可数）；poetic 诗意的</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>名人介绍</td><td>Li Bai was a famous poet. He wrote many famous poems.</td></tr>
+        <tr><td>作品</td><td>One of his famous poems is 'In the Quiet Night'.</td></tr>
+        <tr><td>喜好</td><td>My favourite poet is Li Bai. My favourite poem is 'In the Quiet Night'.</td></tr>
+        <tr><td>对比</td><td>a poem 一首诗（可数）vs poetry 诗总称（不可数）：I love poetry.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · a poem by ...</div>
+        <p><strong>“谁的诗”用 by：</strong>'In the Quiet Night' is a poem <u>by</u> Li Bai.（《静夜思》是李白写的一首诗。）</p><p><strong>朗诵句：</strong>Let me recite a poem.（我来朗诵一首诗。）recite 背诵、朗诵。</p><p>⚠️ poem 可数：a poem / many poems；poetry 不可数，不说 a poetry。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>诗人李白的介绍就在课本 Lesson 1。最省力的陪学法：睡前和孩子各背一首李白的诗，背完说 “I recited a poem by Li Bai!”。顺带讲课本句 “He wrote many famous poems”——poet 是人，poem 是作品。孩子若问“外国人读得懂李白的诗吗”，告诉他：《静夜思》有几十种英文译本，好诗全世界都想读。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 “He is a poet.”，孩子从 ✒️📖 / 🎨 / 🔬 中选 → 正确答案：✒️📖</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① Li Bai was a famous ______. (poet) ② He wrote many famous ______. (poems) ③ I love ______.（诗的总称）(poetry)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 课本句接龙</strong><br>This is Li Bai. He was ______. He was a ______. (Chinese / poet)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>背一首你学过的古诗，宣布 “This is a poem by Li Bai!”（或别的诗人）说对得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>说出你最喜欢的诗人和诗句并打卡<br><span class='btn-mimic'>🎤 示例：My favourite poem is 'In the Quiet Night'. The poet is Li Bai!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟poet通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《月光下的接龙》</h3>
+    <div class="quote">停电的夜晚，爸爸点起蜡烛：“Let's play a game. One poem, one story!” 他背完《静夜思》，让乐乐用英语讲讲这首诗。乐乐想了一会儿：“A man looks at the moon. He misses his hometown.” 爸爸竖起大拇指：“A thousand years ago, a poet wrote this. Tonight, you told it in English!” 蜡烛摇了摇，好像李白也在点头。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What did Lele do with the poem? (He told it in English.)<br>• Which poem did Dad recite? ('In the Quiet Night'.)<br>• 问问孩子：你会用英语讲哪首古诗？说说它讲了什么。</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">poet 诗人<br>├── 家族 ── poem 一首诗 · poetry 诗歌总称 · poetic 诗意的<br>├── 课本名人 ── Li Bai 李白（In the Quiet Night 静夜思）<br>├── 搭配 ── a poem by... · recite a poem · write poems<br>├── 名人 ── Du Fu 杜甫 · Shakespeare 莎士比亚<br>└── 金句 ── A poet paints with words.</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>poet 来自希腊语 poietes，本义“制作者”（poiein，制作）。在古希腊人眼里，诗人就是用文字“做东西”的工匠——把听来的英雄故事，做成能唱的诗。后来 poem（做出的作品）、poetic（诗意的）都是从这一家分出来的。<br>🎯 讲给孩子：诗人是“文字工匠”，一个词一个词地打磨。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>poem</td><td>一首诗（可数）：a beautiful poem</td></tr>
+        <tr><td>poetry</td><td>诗歌总称（不可数）：I love poetry.</td></tr>
+        <tr><td>recite</td><td>朗诵（v.）：recite a poem 背诗</td></tr>
+        <tr><td>poet laureate</td><td>桂冠诗人：英国授予杰出诗人的称号</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“举头望明月，低头思故乡。” 🌙<br>抬头看月亮，低头想故乡。—— 课本诗人李白《静夜思》里的名句：一千多年后，全世界的课本里还在读它。</div>
+
+    <h3>🎵 歌词里的 poet</h3>
+    <p>🎵 Don McLean《Vincent (Starry Starry Night)》（1971）：致敬画家梵高的传世名曲——“Starry starry night”一开口就是一幅画。梵高用色彩写诗，诗人用文字画画，poet 和 artist 本是一家。<br>🔗 与 poem 页互链：poet（诗人）写 poem（诗歌），两页唱同一首《Vincent》。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>《静夜思》只有 20 个字，英译本却有几十种——“床前明月光”有人译 moonlight，有人译 moonbeams，连“床”是睡床、井栏还是胡床，学者们都讨论了上百年。另一冷知识：英国设有“桂冠诗人”（poet laureate）头衔，由官方任命，从 17 世纪延续至今。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>poet</strong> /ˈpəʊɪt/ n. 诗人</div>
+        <div>poet /ˈpəʊɪt/ n. 诗人（poem / poetry 同族）</div>
+        <div>课本句：Li Bai was a poet. He wrote many famous poems.</div>
+        <div>家族词：poem 一首诗 · poetry 诗歌总称</div>
+        <div>歌：Don McLean《Vincent》（与 poem 页互链）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 5 Famous People（名人）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("poet");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

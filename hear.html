@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·hear</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · hear</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 6 Winter Vacation（寒假）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> hear</div>
+    <div class="info-item"><span class="info-label">词性</span> v. 听到；听说</div>
+    <div class="info-item"><span class="info-label">音标</span> /hɪə(r)/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">过去式</span> heard /hɜːd/</div><div class="info-item"><span class="info-label">彩蛋</span> hear + t = heart 心</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 6 Winter Vacation（寒假）</div><p><strong>Lesson 1 · A. 订计划</strong><br>— What are you doing?<br>— I'm making a plan for my winter vacation. It starts this Monday.<br>— What are you going to do?<br>— From January sixteenth to twenty-eighth, I'm going to skating classes. I'm going to play in the snow there with my cousin.<br>— What else?<br>— Spring Festival is coming in February.</p><p><strong>Lesson 1 · B. 大家的寒假计划</strong><br>— What are you going to do in your winter vacation?<br>— I'm going to learn Chinese painting.<br>— I'm a sports fan. I'm going to train for a basketball match.<br>（计划短语：learn to make dumplings · visit my grandparents · do some chores · go to a maths club · meet my pen pal）</p><p><strong>Lesson 2 · A. 放学最后一天</strong><br>— Lily, today is the last day of school. Where are you going and what are you going to do there?<br>— I'm going to Harbin with my parents. We're going to see ice lanterns and play in the snow.<br>— I don't like cold weather. I'm afraid of getting a cold.<br>（短语：bring back Harbin sausages 带回哈尔滨红肠）</p><p><strong>Lesson 3 · A. Let's read（寒假心愿）</strong><br>I am going to read some books about Canada. I hear there is a lot of snow in Canada, so I want to learn to ski. I think it will be hard, but I want to have a try!<br>I am going to prepare for a Peking Opera competition. I hope I can win the first prize this year.<br>I am looking forward to visiting my uncle. A wonderful winter vacation is waiting for me!</p><p><strong>Let's Spell</strong><br>old 组合：cold · gold · fold · hold · told · sold（goldfish）</p><p><strong>Fun Time · Good to know（过圣诞，南与北）</strong><br>Our Christmas holiday is a summer holiday. We can also have a barbeque on the beach.<br>Canada is in the north, so it is very cold at Christmas time. Skiing is difficult at first, but fun!<br>（歌曲：We Wish You a Merry Christmas）</p><p><strong>Let's Check · 假期计划大不同</strong><br>Tim: I'm going to visit the CN Tower. I'm going to buy a new heavy coat.<br>Kate: I'm going to swim in the sea, play on the sand and eat delicious seafood.<br>Jenny: I'm going to a dance club and learn ballet.</p><p><strong>Story Time · 史密斯一家的圣诞节</strong><br>The Smiths buy a big fat turkey, Christmas cards and presents. Sam decorates the tree with his sister Jane. On Christmas Eve they wrap the presents and put them under the tree… It always feels good to give cards at Christmas!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教学网跟读页（yyld.51jiaoxi.com，Unit 6 各课时原句、短语与翻译）、智慧山六年级上册单元练习资源（zhihuishan.com）、百度文库 Unit 6 Lesson 3 课件（form.baidu.com，look forward to 原句印证）、步步高课程资源（app.eebbk.com，be going to 核心句型）多源交叉核对（单元名确认为 Unit 6 Winter Vacation；词表 fan/bring/hear/prize/broken/pity/dumpling 及 ice lantern/pen pal/be afraid of/look forward to 短语一致）；以上为各课时关键句摘录，非逐字照录。本页主角：hear——Lesson 3 原句 “I hear there is a lot of snow in Canada.”（我听说加拿大雪很多），听来的消息引出滑雪计划。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>hear —— h·e·a·r；加上 t 变成 heart（心）！过去式 heard 与 herd（兽群）同音<br>✏️ 口诀：hear 听，加 t 变心 heart。</td></tr>
+        <tr><th>音·发音</th><td>/hɪə(r)/ 一个音节；过去式 heard 读 /hɜːd/，千万别照拼写读成 /hɪəd/！<br>🎧 跟读：hear the news · I hear that ... · hear from a friend</td></tr>
+        <tr><th>意·释义</th><td>听到；听说（强调听到的结果；listen 强调听的动作）</td></tr>
+        <tr><th>用·句型</th><td>① I hear there is a lot of snow in Canada. (我听说加拿大雪很多。——课本原句！)<br>② Can you hear me? (你能听到我说话吗？)<br>③ I heard a strange sound last night. (昨晚我听到一个奇怪的声音。)<br>④ Nice to hear from you. (很高兴收到你的消息。)</td></tr>
+        <tr><th>拓·同族词</th><td>hear from 收到来信 · hear of/about 听说 · hearing 听力 · overheard 无意听到</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>问答</td><td>Can you hear me? — Yes, loudly and clearly!</td></tr>
+        <tr><td>消息</td><td>I hear that you won the prize!</td></tr>
+        <tr><td>收信</td><td>I heard from my pen pal yesterday.</td></tr>
+        <tr><td>对比</td><td>I listened carefully, but I heard nothing.（认真听了却没听到）</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · hear 家族三分法</div>
+        <p><strong>hear 听到（结果）：</strong>I can <u>hear</u> music.（我能听到音乐。）</p><p><strong>hear from 收到消息：</strong>I <u>heard from</u> my pen pal.（我收到笔友来信了。）</p><p><strong>hear of/about 听说：</strong>I've <u>heard of</u> that singer.（我听说过那个歌手。）</p><p>⚠️ listen to 听（动作），hear 听到（结果）：I listened carefully but heard nothing.</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>“听说”是孩子获取信息的日常：I hear that ... 就是“我听说……”。家长可以玩“小喇叭游戏”：家长小声说一句，孩子喊 I hear that ...! 转述出来；再区分 listen（竖起耳朵的动作）和 hear（声音钻进耳朵的结果）。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 “I hear a bird singing!”，孩子从 🐦 / 🐟 / 🚗 中选 → 正确答案：🐦</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① I ______ there is a lot of snow in Canada. (hear)<br>② Can you ______ me? (hear)<br>③ I ______ from my pen pal yesterday. (heard)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 变形接力</strong><br>hear → 过去式 ______ (heard) → 同音词 ______ (herd 兽群)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>闭眼 10 秒，说出听到了什么 “I hear ______.” 得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 “I hear that ...” 转述一条消息并录语音打卡<br><span class="btn-mimic">🎤 示例：I hear that we're going to Harbin!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟hear通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《冬天里的一声啄木鸟》</h3>
+    <div class="quote">雪后的森林特别安静。小雅跟爸爸去爬山，突然停下脚步：“Wait! I hear something.” 爸爸也停下：嗒嗒、嗒嗒——是啄木鸟！小雅压低声音，兴奋极了：“I hear a woodpecker!” 爸爸说：“Your ears are sharp. In winter, if you listen carefully, you can hear a lot.” 下山路上，小雅听到了踩雪的咯吱声、冰面的咔咔声、风穿过松林的呜呜声。原来冬天不安静，只是要用心 hear。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What did Xiaoya hear? (A woodpecker —— 啄木鸟)<br>• What else can you hear in winter? (踩雪声、冰裂声、风声)<br>• 问问孩子：Close your eyes now — what do you hear?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">hear 听到 👂<br>├── 结果 ── hear 听到 ＜－＞ listen to 听（动作）<br>├── 短语 ── hear from 收到消息 · hear of/about 听说<br>├── 变形 ── hear—heard—heard（与 herd 同音）<br>├── 家族 ── hearing 听力 · overheard 无意听到<br>└── 彩蛋 ── hear + t = heart 心（用“心”听）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>hear 来自古英语 hēran，日耳曼老词，德语 hören 是它表哥；过去式 heard 的发音 /hɜːd/ 千万别照拼写读。它和 heart（心）长得像，词源上却不是一家——heart 有自己的古英语祖先 heorte。不过英语谚语早就替它们认了亲：listen with your heart（用心听）。<br>🎯 讲给孩子：hear 是耳朵的事，heart 是心的事——两个词放一起记，正好提醒我们用心听。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>heard</td><td>过去式（读 /hɜːd/，与 herd 兽群同音）</td></tr>
+        <tr><td>hear from</td><td>收到……的来信/消息（hear from my pen pal）</td></tr>
+        <tr><td>overheard</td><td>无意中听到（over+heard，飘进耳朵的话）</td></tr>
+        <tr><td>hearing</td><td>听力（hearing test 听力测试）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“See no evil, hear no evil, speak no evil.” 🙈🙉🙊<br>非礼勿视，非礼勿听，非礼勿言。—— 三不猴谚语：捂住耳朵的猴子提醒我们，hear 什么，有时候自己能选。</div>
+
+    <h3>🎵 歌词里的 hear</h3>
+    <p>🎵 《Do You Hear What I Hear?》（1963）：传世圣诞金曲，整首歌就是一串温暖的问答——“Said the night wind to the little lamb, do you hear what I hear?”<br>🔗 与 Christmas 页互链：圣诞季的耳朵主题，听到的不只是铃铛，还有善意。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>hear 和 heart 只差一个 t，考试最爱挖这个坑。还有一个同音陷阱：heard（hear 的过去式）和 herd（兽群）读音完全相同——I heard a herd!（我听到了一群兽！）听力小知识：人耳能听到的声音约在 20 到 20000 赫兹之间，狗能听到更高的声音——所以狗总比你先 hear 到门铃。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>hear</strong> /hɪə(r)/ v. 听到；听说</div>
+        <div>hear /hɪə(r)/ v. 听到（过去式 heard /hɜːd/）</div>
+        <div>功能句：I hear there is a lot of snow in Canada. / Can you hear me?</div>
+        <div>辨析：hear 听到（结果） ＜－＞ listen to 听（动作）</div>
+        <div>歌：《Do You Hear What I Hear?》（与 Christmas 页互链）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 6 Winter Vacation（寒假）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("hear");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
