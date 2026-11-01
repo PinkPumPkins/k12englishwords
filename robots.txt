@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /origin/
+Sitemap: https://pinkpumpkins.github.io/k12englishwords/sitemap.xml
