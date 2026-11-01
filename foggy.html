@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·foggy</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · foggy</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> foggy</div>
+    <div class="info-item"><span class="info-label">词性</span> adj. 有雾的</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈfɒɡi/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">比较级</span> foggier · the foggiest</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 1 In China</div><p><strong>Lesson 1 · 暑假去哪儿了（对话关键句）</strong><br>— Where did you go on your summer vacation?（你暑假去了哪里？）<br>— I went to Guangzhou. We ate sea food and drank morning tea.（广州：吃海鲜、喝早茶）<br>— I went to Lhasa. We saw high mountains and visited the Potala Palace.（拉萨：高山与布达拉宫）<br>瑶瑶没去旅行：带表哥去 the Summer Palace 划船、拍照；苏州逛园林、西安看 the Terracotta Army——"非常震撼！"</p><p><strong>Lesson 2 · 城市与方位（对话关键句）</strong><br>— Where is Xining? — It's in the west of China.（西宁在中国西部，夏天凉爽）<br>— What is Xining famous for? — It's famous for temples.（以寺庙闻名）<br>— How did you go there? — We went there by plane, but you can also go by train.<br>城市配对：北京—the Summer Palace / the Great Wall；拉萨—the Potala Palace；西安—the Terracotta Army；广州—morning tea / soup；苏州—gardens / silk；三亚—sea food；哈尔滨—滑雪；杭州—It's famous for West Lake and Longjing tea.（西湖与龙井茶）</p><p><strong>Lesson 3 · 阅读：三城谜语（关键线索摘录）</strong><br>① 这座城市在长江边，常常 foggy，食物以 spicy 闻名——重庆（Chongqing）<br>② 这座城市在上海附近，以园林 gardens 和丝绸 silk 闻名——苏州（Suzhou）<br>③ 这座城市在西南，四季如春、鲜花满城，有 the Stone Forest（石林）——昆明（Kunming）<br>小测验城市：厦门——在中国南部，以海滨闻名（吃海鲜、鼓浪屿、钢琴博物馆）</p><p><strong>Let's Spell · ear / air 的发音</strong><br>pear 梨 · bear 熊 · wear 穿 · hair 头发 · chair 椅子 · stairs 楼梯<br>例句：Mum, can I wear my new T-shirt?</p><p><strong>Fun Time · 中国小百科</strong><br>中国位于东亚；珠穆朗玛峰是世界最高峰；长江、黄河是最长的两条河；人口超14亿，有55个少数民族；北京是首都，以京剧和北京烤鸭闻名。</p><p><strong>Let's Check · 听力与阅读</strong><br>听力：四个人物分别说起杭州、西宁、北京、拉萨；阅读：瑶瑶回信推荐北京（长城、颐和园）、上海（外滩、豫园）、桂林（山水）、拉萨（布达拉宫、雪山）。</p><p><strong>Story Time · 怪兽"年"的故事</strong><br>海里怪兽"年"年前袭击村庄，村民逃上山；一位老爷爷用红纸、灯火和鞭炮的响声吓退"年"——从此贴红纸、点灯放炮成了"过年"的习俗。</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网跟读页（含原文与翻译）、优质课教案（Lesson 1 核心词 morning tea/the Potala Palace/the Summer Palace/苏州园林/the Terracotta Army）、101教育PPT 教案及智慧山六年级上册目录多源交叉核对（单元名确认为 Unit 1 In China，词表一致）；以上为各课时关键句摘录，非逐字照录。本页主角：foggy——Lesson 3 重庆谜语第一条线索：这座城市常常 foggy。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>fog（雾）+ gy → 双写 g 再加 y：foggy！<br>✏️ 口诀：重读闭音节双写辅音：fog→foggy，sun→sunny，run→running</td></tr>
+        <tr><th>音·发音</th><td>/ˈfɒɡ.i/ 两音节，重音在前<br>🎧 跟读：a foggy morning · It's foggy today · fog 雾</td></tr>
+        <tr><th>意·释义</th><td>有雾的 🌫️（It's often foggy there. 那里常有多雾天气；重庆有"雾都"之称）</td></tr>
+        <tr><th>用·句型</th><td>① It's foggy in the morning. (早晨雾蒙蒙的。)<br>② The city is often foggy. (这座城市常常有雾。)<br>③ Be careful on foggy days. (雾天要小心。)<br>④ Chongqing is a foggy city. (重庆是座雾城。)</td></tr>
+        <tr><th>拓·同族词</th><td>天气形容词家族：rainy 下雨的 · snowy 下雪的 · sunny 晴朗的 · windy 有风的 · cloudy 多云的</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>天气</td><td>It's foggy today. Drive slowly!</td></tr>
+        <tr><td>描述</td><td>Chongqing is a foggy city.</td></tr>
+        <tr><td>家族</td><td>It was rainy yesterday, but it's foggy today.</td></tr>
+        <tr><td>安全</td><td>Foggy days are dangerous for driving.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 天气句 It is + 形容词</div>
+        <p><strong>天气万能句：</strong>It's <u>foggy</u> today. / It was <u>rainy</u> yesterday.</p><p><strong>双写规律（重读闭音节）：</strong>fog→fogg<i>y</i> · sun→sunn<i>y</i>；rain/cloud 结尾较"长"，直接加 y：rain<i>y</i> · cloud<i>y</i></p><p>⚠️ 名词变形容词加 y：fog 雾→foggy，snow 雪→snowy，cloud 云→cloudy。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>天气词是本单元阅读谜语里的"线索词"。在家每天晨起问一句：What's the weather like today? — It's sunny/cloudy/foggy... 坚持一周，五个天气词全部滚动掌握。讲双写规则时用"胖瘦口诀"：短促的词（fog/sun）加 y 前要"变胖"（双写 g/n），长长的词（rain/cloud）不用胖。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音做动作</strong><br>家长说 foggy 做摸雾状、sunny 做太阳状、rainy 做下雨状 → 对三次得星</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 双写判断</strong><br>fog→______ (foggy) · rain→______ (rainy) · sun→______ (sunny)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 谜语竞猜</strong><br>"它在长江边，常常 foggy，食物 spicy"——猜城市！→ Chongqing</div>
+        <div class="game-step"><strong>🔍 关卡4 · 天气播报员</strong><br>播报今天天气：Good morning! It's ______ today. 用真实天气填空</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 "It's foggy..." 描述一次天气经历并打卡<br><span class="btn-mimic">🎤 示例：It was foggy this morning. I couldn't see the buildings!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟foggy通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《雾中的山城》</h3>
+    <div class="quote">清晨，重庆的窗外白茫茫一片。"Where are the buildings?"小语惊呼。爸爸笑："雾把它们藏起来了。"早雾慢慢散开，高楼一层层"浮"出来，像从云里长出来。"So this is the foggy city!"小语举起相机。早餐桌上，小面香气扑鼻，爸爸指着菜单："雾锁山城，辣醒清晨——这座城市有两张名片：foggy 和 spicy。"小语咬一口小面："And both make me excited!"</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What hid the buildings? (The fog — 雾。)<br>• What are Chongqing's two "name cards"? (Foggy and spicy.)<br>• 问问孩子：你见过最大的雾有多大？用 It was so foggy... 描述一次！</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">foggy 有雾的<br>├── 构成 ── fog 雾 + gy（双写 g！）<br>├── 家族 ── rainy · snowy · sunny · cloudy · windy<br>├── 句型 ── It's foggy today.<br>├── 城市 ── Chongqing 重庆 = "雾都"<br>└── 安全 ── Be careful on foggy days.</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>fog 这个词的身世是英语词源里的"悬案"——16世纪才出现，词典只好老实写"origin unknown（词源不详）"，一说它来自丹麦语，本义指"喷洒的水雾"。有个有趣的相关词：foggy bottom（雾谷）如今是"美国国务院"的代称，因为国务院所在的华盛顿一隅常被河边雾气笼罩。<br>🎯 讲给孩子：连词典都不知道 fog 从哪儿来——英语也有"无名氏"单词。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>fog</td><td>雾（名词；词源不详的"悬案"单词）</td></tr>
+        <tr><td>foggy bottom</td><td>雾谷（美国国务院代称）</td></tr>
+        <tr><td>foghorn</td><td>雾笛（大雾中给船只报位的号角）</td></tr>
+        <tr><td>mist</td><td>薄雾（比 fog 淡的雾）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"The fog comes / on little cat feet."<br>—— 美国诗人卡尔·桑德堡《雾》开篇：雾来了，踮着小猫的脚。短短两行，让全世界记住了雾的轻与静——下次雾天，你也试试"猫脚步"的想象吧。</div>
+
+    <h3>🎵 歌词里的 foggy</h3>
+    <p>🎵 Flatt & Scruggs《Foggy Mountain Breakdown》（1949）：蓝草双杰名曲，后成为电影《雌雄大盗》的经典飞车配乐——班卓琴一响，雾山之路全是冲刺感。<br>🔗 纯音乐标注：无歌词，靠节奏记词。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>重庆和伦敦都叫"雾都"，但两座城的雾不一样：重庆是山水环抱里的湿润晨雾，伦敦曾经的雾却是燃煤烟雾——1952年那场"伦敦烟雾事件"夺去数千人生命，直接推动了《清洁空气法》。今天的伦敦蓝天回来了，重庆的雾也成了旅游名片：晨雾中的洪崖洞，像现实版的"千与千寻"。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>foggy</strong> /ˈfɒɡi/ adj. 有雾的</div>
+        <div>foggy /ˈfɒɡi/ adj. 有雾的（fog 双写 g + y）</div>
+        <div>功能句：It's foggy today. Be careful!</div>
+        <div>拼写点：重读闭音节加 y 要双写：fog→foggy · sun→sunny</div>
+        <div>知识：重庆、伦敦都称"雾都"</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("foggy");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

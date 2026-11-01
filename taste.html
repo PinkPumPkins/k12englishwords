@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·taste</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · taste</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> taste</div>
+    <div class="info-item"><span class="info-label">词性</span> v. 品尝；n. 味道</div>
+    <div class="info-item"><span class="info-label">音标</span> /teɪst/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">同族</span> tasty 美味的</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 1 In China</div><p><strong>Lesson 1 · 暑假去哪儿了（对话关键句）</strong><br>— Where did you go on your summer vacation?（你暑假去了哪里？）<br>— I went to Guangzhou. We ate sea food and drank morning tea.（广州：吃海鲜、喝早茶）<br>— I went to Lhasa. We saw high mountains and visited the Potala Palace.（拉萨：高山与布达拉宫）<br>瑶瑶没去旅行：带表哥去 the Summer Palace 划船、拍照；苏州逛园林、西安看 the Terracotta Army——"非常震撼！"</p><p><strong>Lesson 2 · 城市与方位（对话关键句）</strong><br>— Where is Xining? — It's in the west of China.（西宁在中国西部，夏天凉爽）<br>— What is Xining famous for? — It's famous for temples.（以寺庙闻名）<br>— How did you go there? — We went there by plane, but you can also go by train.<br>城市配对：北京—the Summer Palace / the Great Wall；拉萨—the Potala Palace；西安—the Terracotta Army；广州—morning tea / soup；苏州—gardens / silk；三亚—sea food；哈尔滨—滑雪；杭州—It's famous for West Lake and Longjing tea.（西湖与龙井茶）</p><p><strong>Lesson 3 · 阅读：三城谜语（关键线索摘录）</strong><br>① 这座城市在长江边，常常 foggy，食物以 spicy 闻名——重庆（Chongqing）<br>② 这座城市在上海附近，以园林 gardens 和丝绸 silk 闻名——苏州（Suzhou）<br>③ 这座城市在西南，四季如春、鲜花满城，有 the Stone Forest（石林）——昆明（Kunming）<br>小测验城市：厦门——在中国南部，以海滨闻名（吃海鲜、鼓浪屿、钢琴博物馆）</p><p><strong>Let's Spell · ear / air 的发音</strong><br>pear 梨 · bear 熊 · wear 穿 · hair 头发 · chair 椅子 · stairs 楼梯<br>例句：Mum, can I wear my new T-shirt?</p><p><strong>Fun Time · 中国小百科</strong><br>中国位于东亚；珠穆朗玛峰是世界最高峰；长江、黄河是最长的两条河；人口超14亿，有55个少数民族；北京是首都，以京剧和北京烤鸭闻名。</p><p><strong>Let's Check · 听力与阅读</strong><br>听力：四个人物分别说起杭州、西宁、北京、拉萨；阅读：瑶瑶回信推荐北京（长城、颐和园）、上海（外滩、豫园）、桂林（山水）、拉萨（布达拉宫、雪山）。</p><p><strong>Story Time · 怪兽"年"的故事</strong><br>海里怪兽"年"年前袭击村庄，村民逃上山；一位老爷爷用红纸、灯火和鞭炮的响声吓退"年"——从此贴红纸、点灯放炮成了"过年"的习俗。</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网跟读页（含原文与翻译）、优质课教案（Lesson 1 核心词 morning tea/the Potala Palace/the Summer Palace/苏州园林/the Terracotta Army）、101教育PPT 教案及智慧山六年级上册目录多源交叉核对（单元名确认为 Unit 1 In China，词表一致）；以上为各课时关键句摘录，非逐字照录。本页主角：taste——旅行就是边走边"尝"，Lesson 1 的美食关键词。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>tast + e；taste/test 只差一个字母——尝味道不是考试！<br>✏️ 口诀：taste 里住着 tea 的 t，尝一口就知道</td></tr>
+        <tr><th>音·发音</th><td>/teɪst/ 单音节，词尾 /st/ 干脆<br>🎧 跟读：taste the soup · taste sweet · tasty food · sweet taste</td></tr>
+        <tr><th>意·释义</th><td>品尝（动词）；味道、口味（名词）👅（It tastes sweet. 它尝起来是甜的。）</td></tr>
+        <tr><th>用·句型</th><td>① Come and taste the soup. (来尝尝这汤。)<br>② It tastes sweet. (它尝起来是甜的。)<br>③ I like the taste of morning tea. (我喜欢早茶的味道。)<br>④ Sugar has a sweet taste. (糖有甜味。)</td></tr>
+        <tr><th>拓·同族词</th><td>taste → tasty 美味的（近义 delicious）；五感动词家族：look 看起来 · sound 听起来 · taste 尝起来 · smell 闻起来 · feel 摸起来</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>邀请</td><td>Would you like to taste it?</td></tr>
+        <tr><td>感官</td><td>The mooncake tastes sweet.</td></tr>
+        <tr><td>名词</td><td>Sugar has a sweet taste.</td></tr>
+        <tr><td>五感</td><td>The song sounds beautiful.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 五感系动词 look/sound/taste/smell/feel</div>
+        <p><strong>taste + 形容词：</strong>It tastes <u>sweet</u>.（尝起来甜）</p><p><strong>五感全家福：</strong>The flower smells <u>nice</u>. / The music sounds <u>great</u>. / The bed feels <u>soft</u>. / You look <u>happy</u>.</p><p>⚠️ 系动词后接形容词：It tastes sweet（✔）≠ It tastes sweetly（✘）。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>本单元一路"吃"过去：早茶、海鲜、辣菜。在家玩"闭眼猜味"：蒙眼尝食物说 It tastes sweet / sour / spicy。重点提醒：taste 后面接形容词，不加 be 动词也不加副词——It tastes good. 是最高频的正确表达。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音做动作</strong><br>家长说 "taste"，孩子做舔嘴唇 👅 动作；说 "sound" 指耳朵 → 做对得星</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 五感连线</strong><br>taste→尝 · smell→闻 · sound→听 · feel→摸，连线全对得星</div>
+        <div class="game-step"><strong>✅ 关卡3 · 填形容词</strong><br>The lemon tastes ______. (sour) · The cake tastes ______. (sweet)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 厨房品鉴师</strong><br>尝两种食物，分别说 It tastes... 一句得星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 "It tastes..." 描述今天的晚饭并打卡<br><span class="btn-mimic">🎤 示例：The fish tastes delicious!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟taste通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《成都的第一次辣》</h3>
+    <div class="quote">到成都的第二天，安迪指着红油火锅："Can I taste it?"朋友小周摇头："It's spicy! 你不行。"安迪不服："Just a little."一小口下去，他"呼——"地扇着舌头，眼泪汪汪却竖起大拇指："Spicy... but... it tastes great!"全桌笑翻。小周递来一碗冰粉："Sweet food for the spicy mouth."安迪一边吹气一边点头：这就是成都——又辣又甜，就像旅行本身。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What did Andy taste in Chengdu? (Spicy hot pot — 火锅。)<br>• What did Xiaozhou give him after? (Sweet bingfen 冰粉。)<br>• 问问孩子：What food tastes spicy in your family? 说说它！</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">taste 品尝<br>├── 动词 ── taste the soup 尝汤<br>├── 名词 ── a sweet taste 甜味<br>├── 系动词 ── It tastes sweet.（+形容词）<br>├── 家族 ── tasty 美味的 · tasty ≈ delicious<br>└── 五感 ── look / sound / taste / smell / feel</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>taste 来自古法语 taster，本义是"用手摸、试探"——先"摸"后"尝"，13世纪才从"用手检验"变成"用舌头检验"。所以 taste 的家谱里写着：人类认识世界，从手到嘴。同源的 tasty、tasteful（有品位的）如今一个管舌尖、一个管审美。<br>🎯 讲给孩子：taste 原来是"用手摸"的意思。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>tasty</td><td>美味的（taste + y）</td></tr>
+        <tr><td>tasteful</td><td>有品位的（管审美，不管舌头）</td></tr>
+        <tr><td>aftertaste</td><td>余味（after + taste）</td></tr>
+        <tr><td>sweet tooth</td><td>爱吃甜食的口味（习语：have a sweet tooth）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"There is no accounting for taste."<br>—— 英语谚语：人的口味没法解释（萝卜青菜，各有所爱）。你觉得最辣的火锅是美味，他只爱一碗清汤——这句谚语替全世界"吃货"和"清淡党"签了停战协议。</div>
+
+    <h3>🎵 歌词里的 taste</h3>
+    <p>🎵 Fergie《Fergalicious》（2006）：整首歌都在玩"-licious"后缀梗（delicious 美味→Fergalicious），副歌洗脑，正好练 taste/delicious 一族。<br>🔗 与 delicious 页互链（同曲同源：taste 的好味道搭档）。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>舌头上有大约一万个味蕾，但"舌尖管甜、舌根管苦"的"味觉地图"其实是个流传了上百年的误会——1901年一位德国科学家的论文被误读，上世纪70年代起被科学家陆续纠正：舌头的每个区域都能尝出五味。真正的"第五种味道"叫 umami（鲜），这个词正是日语"旨味"进入英语的借词！</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>taste</strong> /teɪst/ v. 品尝；n. 味道</div>
+        <div>taste /teɪst/ v. 品尝；n. 味道（It tastes sweet.）</div>
+        <div>功能句：Come and taste the soup.</div>
+        <div>语法点：taste + 形容词（系动词）</div>
+        <div>家族词：tasty 美味的 · aftertaste 余味</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("taste");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

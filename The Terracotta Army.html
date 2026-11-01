@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·The Terracotta Army</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · The Terracotta Army</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> The Terracotta Army</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 兵马俑</div>
+    <div class="info-item"><span class="info-label">音标</span> /ðə ˌterəˈkɒtə ˈɑːmi/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">地点</span> 陕西西安</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 1 In China</div><p><strong>Lesson 1 · 暑假去哪儿了（对话关键句）</strong><br>— Where did you go on your summer vacation?（你暑假去了哪里？）<br>— I went to Guangzhou. We ate sea food and drank morning tea.（广州：吃海鲜、喝早茶）<br>— I went to Lhasa. We saw high mountains and visited the Potala Palace.（拉萨：高山与布达拉宫）<br>瑶瑶没去旅行：带表哥去 the Summer Palace 划船、拍照；苏州逛园林、西安看 the Terracotta Army——"非常震撼！"</p><p><strong>Lesson 2 · 城市与方位（对话关键句）</strong><br>— Where is Xining? — It's in the west of China.（西宁在中国西部，夏天凉爽）<br>— What is Xining famous for? — It's famous for temples.（以寺庙闻名）<br>— How did you go there? — We went there by plane, but you can also go by train.<br>城市配对：北京—the Summer Palace / the Great Wall；拉萨—the Potala Palace；西安—the Terracotta Army；广州—morning tea / soup；苏州—gardens / silk；三亚—sea food；哈尔滨—滑雪；杭州—It's famous for West Lake and Longjing tea.（西湖与龙井茶）</p><p><strong>Lesson 3 · 阅读：三城谜语（关键线索摘录）</strong><br>① 这座城市在长江边，常常 foggy，食物以 spicy 闻名——重庆（Chongqing）<br>② 这座城市在上海附近，以园林 gardens 和丝绸 silk 闻名——苏州（Suzhou）<br>③ 这座城市在西南，四季如春、鲜花满城，有 the Stone Forest（石林）——昆明（Kunming）<br>小测验城市：厦门——在中国南部，以海滨闻名（吃海鲜、鼓浪屿、钢琴博物馆）</p><p><strong>Let's Spell · ear / air 的发音</strong><br>pear 梨 · bear 熊 · wear 穿 · hair 头发 · chair 椅子 · stairs 楼梯<br>例句：Mum, can I wear my new T-shirt?</p><p><strong>Fun Time · 中国小百科</strong><br>中国位于东亚；珠穆朗玛峰是世界最高峰；长江、黄河是最长的两条河；人口超14亿，有55个少数民族；北京是首都，以京剧和北京烤鸭闻名。</p><p><strong>Let's Check · 听力与阅读</strong><br>听力：四个人物分别说起杭州、西宁、北京、拉萨；阅读：瑶瑶回信推荐北京（长城、颐和园）、上海（外滩、豫园）、桂林（山水）、拉萨（布达拉宫、雪山）。</p><p><strong>Story Time · 怪兽"年"的故事</strong><br>海里怪兽"年"年前袭击村庄，村民逃上山；一位老爷爷用红纸、灯火和鞭炮的响声吓退"年"——从此贴红纸、点灯放炮成了"过年"的习俗。</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网跟读页（含原文与翻译）、优质课教案（Lesson 1 核心词 morning tea/the Potala Palace/the Summer Palace/苏州园林/the Terracotta Army）、101教育PPT 教案及智慧山六年级上册目录多源交叉核对（单元名确认为 Unit 1 In China，词表一致）；以上为各课时关键句摘录，非逐字照录。本页主角：The Terracotta Army——Lesson 1 西安站的"世界第八大奇迹"。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>terra（土）+ cotta（烧过的）= 陶；army 军队<br>✏️ 口诀：陶做的军队——兵马俑，一支两千年不解散的 army！</td></tr>
+        <tr><th>音·发音</th><td>/ˌter.əˈkɒt.ə/ 重音在第三个音节 cot<br>🎧 跟读：the Terracotta Army · the Terracotta Warriors · Qin Shi Huang</td></tr>
+        <tr><th>意·释义</th><td>兵马俑 ⚔️（秦始皇陵的陶制军队，1974年被发现，被称为"世界第八大奇迹"）</td></tr>
+        <tr><th>用·句型</th><td>① We saw the Terracotta Army in Xi'an. (我们在西安看到了兵马俑。)<br>② It was amazing! (太震撼了！)<br>③ The soldiers are all different. (士兵俑都不一样。)<br>④ Xi'an is famous for the Terracotta Army. (西安以兵马俑闻名。)</td></tr>
+        <tr><th>拓·同族词</th><td>army 陆军 · soldier 士兵 · warrior 武士（the Terracotta Warriors 是兵马俑的另一种说法）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>经历</td><td>I saw the Terracotta Army last year.</td></tr>
+        <tr><td>感叹</td><td>How amazing the Terracotta Army is!</td></tr>
+        <tr><td>描述</td><td>Each soldier has a different face.</td></tr>
+        <tr><td>名气</td><td>It is called the Eighth Wonder of the World.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 感叹句 How + 形容词</div>
+        <p><strong>How + 形容词（+ 主谓）：</strong><u>How</u> amazing! / <u>How</u> old the Terracotta Army is!</p><p><strong>同款感叹：</strong>How beautiful! / How interesting! / How tall the buildings are!</p><p>⚠️ 与 What 感叹句区分：What a great place!（What + a + 名词），How 直接接形容词。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>兵马俑是"每个俑都不一样"的古代大军。在家可以玩"猜城市"游戏：家长描述 It's an old city. It's famous for the Terracotta Army. 孩子猜 Xi'an! 顺便讲1974年农民打井挖出陶片的故事——世界大发现有时就藏在一锹土里。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 猜城市</strong><br>家长说 "It's famous for the Terracotta Army." 孩子猜 → Xi'an!</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 感叹句改造</strong><br>amazing → ______ ! (How amazing!) · a great place → ______ ! (What a great place!)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 皇帝连线</strong><br>兵马俑属于哪位皇帝？说 Qin Shi Huang（秦始皇），说对得星</div>
+        <div class="game-step"><strong>🔍 关卡4 · 不同找一找</strong><br>画三个小人，让每个表情不一样，边画边说 different faces</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 "It was amazing!" 形容一次参观经历并打卡<br><span class="btn-mimic">🎤 示例：I saw the Terracotta Army. It was amazing!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟The Terracotta Army通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《两千年前的点名》</h3>
+    <div class="quote">西安之行最后一站是俑坑。安迪趴在栏杆上数："One, two, three... 太多了，数不过来！"讲解员阿姨说："这里大约有八千个俑，而且每个脸都不一样。"安迪惊了："Different faces? Who made them?"阿姨说："两千多年前的工匠，照着真人捏的。"安迪盯着一位留着小胡子的俑，忽然肃然起敬："They are still standing — 像在等将军点名。"爸爸轻声说："所以它叫 the Eighth Wonder of the World。"</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• How many terracotta soldiers are there? (About 8,000.)<br>• Are their faces the same? (No, each is different.)<br>• 问问孩子：如果你是工匠，你会给俑捏什么表情？</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">The Terracotta Army 兵马俑<br>├── 构成 ── terra 陶 + cotta 烧制 + army 军队<br>├── 位置 ── in Xi'an 西安 · 秦始皇陵<br>├── 发现 ── 1974年农民打井发现<br>├── 之最 ── 约8000个俑，个个脸不同<br>└── 荣誉 ── "世界第八大奇迹"·世界遗产（1987）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>terracotta 是意大利语，terra 是"土"，cotta 是"烧过的"（和 cook 烹饪同源）——"烧过的土"就是陶。古罗马人用 terracotta 做雕像，两千年后英语借这个词命名中国的陶俑大军。一支 army 用"陶土"作前缀，世界立刻明白：这不是真士兵，是永恒的陶土军团。<br>🎯 讲给孩子：terracotta = baked earth（烤过的土）。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>terra cotta</td><td>意大利语"烤土"→ 陶土</td></tr>
+        <tr><td>terracotta warriors</td><td>兵马俑的另一种英文名（warrior 武士）</td></tr>
+        <tr><td>mausoleum</td><td>陵墓（/ˌmɔːsəˈliːəm/，秦始皇陵）</td></tr>
+        <tr><td>the Eighth Wonder</td><td>世界第八大奇迹（兵马俑的别称）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"秦王扫六合，虎视何雄哉！"<br>—— 李白《古风》。扫平六国的秦王何等威风！他留下的这支陶土军队，两千年后仍让全世界惊叹——诗仙的惊叹，跨越了时间。</div>
+
+    <h3>🎵 歌词里的 The Terracotta Army</h3>
+    <p>🎵 Carl Douglas《Kung Fu Fighting》（1974）：Billboard 冠军曲，"funky Chinese kung fu"的节奏一响，仿佛听见陶俑军队踏步而来。<br>🔗 与 the Great Wall 页互链（同曲同源：中国地标家族）。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>兵马俑出土时其实是彩色的——紫的、红的、绿的都有，接触空气后彩绘很快卷曲脱落，所以今天看到的多是"素颜"陶土色，科学家到现在仍在和氧气"抢时间"。俑身上还刻着工匠的名字，这叫"物勒工名"：谁做的，谁负责——两千年前就有质量追溯制！</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>The Terracotta Army</strong> /ðə ˌterəˈkɒtə ˈɑːmi/ n. 兵马俑</div>
+        <div>The Terracotta Army /ðə ˌterəˈkɒtə ˈɑːmi/ n. 兵马俑（在西安秦始皇陵）</div>
+        <div>功能句：How amazing the Terracotta Army is!</div>
+        <div>构词：terra 土 + cotta 烧过的 = 陶</div>
+        <div>之最：约8000个俑、个个脸不同、"世界第八大奇迹"</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("The Terracotta Army");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

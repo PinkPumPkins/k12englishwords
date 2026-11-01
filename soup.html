@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·soup</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · soup</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> soup</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 汤</div>
+    <div class="info-item"><span class="info-label">音标</span> /suːp/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">易混词</span> soap 肥皂</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 1 In China</div><p><strong>Lesson 1 · 暑假去哪儿了（对话关键句）</strong><br>— Where did you go on your summer vacation?（你暑假去了哪里？）<br>— I went to Guangzhou. We ate sea food and drank morning tea.（广州：吃海鲜、喝早茶）<br>— I went to Lhasa. We saw high mountains and visited the Potala Palace.（拉萨：高山与布达拉宫）<br>瑶瑶没去旅行：带表哥去 the Summer Palace 划船、拍照；苏州逛园林、西安看 the Terracotta Army——"非常震撼！"</p><p><strong>Lesson 2 · 城市与方位（对话关键句）</strong><br>— Where is Xining? — It's in the west of China.（西宁在中国西部，夏天凉爽）<br>— What is Xining famous for? — It's famous for temples.（以寺庙闻名）<br>— How did you go there? — We went there by plane, but you can also go by train.<br>城市配对：北京—the Summer Palace / the Great Wall；拉萨—the Potala Palace；西安—the Terracotta Army；广州—morning tea / soup；苏州—gardens / silk；三亚—sea food；哈尔滨—滑雪；杭州—It's famous for West Lake and Longjing tea.（西湖与龙井茶）</p><p><strong>Lesson 3 · 阅读：三城谜语（关键线索摘录）</strong><br>① 这座城市在长江边，常常 foggy，食物以 spicy 闻名——重庆（Chongqing）<br>② 这座城市在上海附近，以园林 gardens 和丝绸 silk 闻名——苏州（Suzhou）<br>③ 这座城市在西南，四季如春、鲜花满城，有 the Stone Forest（石林）——昆明（Kunming）<br>小测验城市：厦门——在中国南部，以海滨闻名（吃海鲜、鼓浪屿、钢琴博物馆）</p><p><strong>Let's Spell · ear / air 的发音</strong><br>pear 梨 · bear 熊 · wear 穿 · hair 头发 · chair 椅子 · stairs 楼梯<br>例句：Mum, can I wear my new T-shirt?</p><p><strong>Fun Time · 中国小百科</strong><br>中国位于东亚；珠穆朗玛峰是世界最高峰；长江、黄河是最长的两条河；人口超14亿，有55个少数民族；北京是首都，以京剧和北京烤鸭闻名。</p><p><strong>Let's Check · 听力与阅读</strong><br>听力：四个人物分别说起杭州、西宁、北京、拉萨；阅读：瑶瑶回信推荐北京（长城、颐和园）、上海（外滩、豫园）、桂林（山水）、拉萨（布达拉宫、雪山）。</p><p><strong>Story Time · 怪兽"年"的故事</strong><br>海里怪兽"年"年前袭击村庄，村民逃上山；一位老爷爷用红纸、灯火和鞭炮的响声吓退"年"——从此贴红纸、点灯放炮成了"过年"的习俗。</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网跟读页（含原文与翻译）、优质课教案（Lesson 1 核心词 morning tea/the Potala Palace/the Summer Palace/苏州园林/the Terracotta Army）、101教育PPT 教案及智慧山六年级上册目录多源交叉核对（单元名确认为 Unit 1 In China，词表一致）；以上为各课时关键句摘录，非逐字照录。本页主角：soup——Lesson 1/2 里广州的另一张美食名片，一盅老火靓汤。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>s·oup —— sou + p；ou 发长音 /uː/<br>✏️ 口诀：so 好喝的一碗 soup，p 是小勺柄！</td></tr>
+        <tr><th>音·发音</th><td>/suːp/ 单音节，/uː/ 拉长<br>🎧 跟读：hot soup · chicken soup · tomato soup · a bowl of soup</td></tr>
+        <tr><th>意·释义</th><td>汤 🍲（英语里 soup 泛指所有汤；广东老火靓汤这种"慢炖汤"英语说 slow-cooked soup）</td></tr>
+        <tr><th>用·句型</th><td>① Guangzhou is famous for its soup. (广州的汤很有名。)<br>② I want a bowl of soup. (我想要一碗汤。)<br>③ The soup is too hot. (汤太烫了。)<br>④ Mum makes delicious soup. (妈妈做的汤很好喝。)</td></tr>
+        <tr><th>拓·同族词</th><td>soup → soupy 汤多的；同音陷阱：soap 肥皂（/səʊp/）——soup 汤与 soap 皂，发音一字之差，别点错了！</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>点餐</td><td>I'd like a bowl of chicken soup.</td></tr>
+        <tr><td>描述</td><td>The soup smells good.</td></tr>
+        <tr><td>关心</td><td>Have some hot soup. It's cold outside.</td></tr>
+        <tr><td>对比</td><td>Guangzhou soup is slow-cooked.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 量词 a bowl of</div>
+        <p><strong>汤要用碗量：</strong>a bowl of soup 一碗汤</p><p><strong>同款量词家族：</strong>a cup of tea 一杯茶 / a glass of milk 一杯牛奶 / a bottle of water 一瓶水 / a plate of dumplings 一盘饺子</p><p>⚠️ 英语里汤一般不可数：要"两碗汤"就说 two bowls of soup，不直接说 two soups。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>本单元里广州有两大"汤"名片：早茶配点心，饭桌上还有老火靓汤。在家让孩子点菜式练英语：What soup would you like? I'd like tomato soup. 重点纠正 soup/soap 发音：汤是 /suːp/（乌—），肥皂是 /səʊp/（欧—），读错了可就"喝肥皂"啦。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音辨词</strong><br>家长随机说 soup 或 soap，孩子举碗 🍲 或举肥皂 🧼 → 听对三次得星</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 量词填空</strong><br>① ___ of soup (a bowl)<br>② ___ of tea (a cup)<br>③ ___ of milk (a glass)</div>
+        <div class="game-step"><strong>✅ 关卡3 · too 用法</strong><br>The soup is too hot. 仿句：The tea is too ______ (hot/cold)，孩子用手势表示烫/冷</div>
+        <div class="game-step"><strong>🔍 关卡4 · 厨房找一找</strong><br>在厨房找出能做成 soup 的食材，说 vegetable soup / chicken soup，说对一个得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 "I like... soup best." 录语音打卡<br><span class="btn-mimic">🎤 示例：I like tomato soup best. It's sweet!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟soup通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《一碗汤的温度》</h3>
+    <div class="quote">安迪到广州同学阿杰家做客。阿杰奶奶端出一盅炖了三小时的老火汤："Try my soup."安迪吹了吹，喝了一大口："The soup is sweet!"（汤是甜的？）阿杰笑："广东汤不加糖，是食材自己的甜。"奶奶用英语慢慢说："Good soup needs time."安迪忽然明白了——原来"慢慢来"的味道，全世界都懂。他学着说："Best soup in China!"逗得全家直乐。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Who made the soup? (Jiejie's grandma.)<br>• Why does the soup taste sweet? (食材自己的甜，不加糖。)<br>• 问问孩子：What soup does your family love? 试着用英语说说它的味道！</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">soup 汤<br>├── 量词 ── a bowl of soup · two bowls of soup<br>├── 口味 ── hot soup 热汤 · cold soup 凉汤 · sweet soup<br>├── 家族 ── chicken soup · tomato soup · vegetable soup<br>├── 易混 ── soap 肥皂（发音一字之差）<br>└── 习语 ── soup up 改装提速</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>soup 来自古法语 soupe，再往前追到拉丁语 suppa——本义是"泡在肉汤里的面包片"。中世纪的欧洲人往浓汤里掰面包当主食，"汤泡面包"就是 soup 的老祖宗。英语里给车"soup up（改装提速）"的说法，也来自"往汤里加料提味"的比喻——汤，管的可不只是胃。<br>🎯 讲给孩子：soup 的祖先是一碗"汤泡面包"。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>soup up</td><td>改装提速（比喻"加料"让车更有劲）</td></tr>
+        <tr><td>from soup to nuts</td><td>从头到尾、全套（美式习语：宴席从汤上到坚果）</td></tr>
+        <tr><td>soup kitchen</td><td>施粥所（给困难者供餐的慈善点）</td></tr>
+        <tr><td>chicken soup for the soul</td><td>心灵鸡汤（书名，已成英语固定说法）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Too many cooks spoil the broth."<br>—— 英语谚语：厨师太多煮坏汤（人多手杂反误事）。broth 就是清汤，跟 soup 是一家。煮汤如此，做小组作业也一样：分工明确，汤才鲜！</div>
+
+    <h3>🎵 歌词里的 soup</h3>
+    <p>🎵 《Food Glorious Food》（音乐剧《雾都孤儿》，1968）：一群孩子高唱"食物，光荣的食物"，梦想一碗热汤管饱——歌声里有饥饿，也有希望。<br>🔗 与 sandwich 页互链（同曲同源：都是"食物家族"成员）。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>英语字母汤 alphabet soup 本指"通心粉字母汤"，后来专指"一堆看不懂的缩写"——机构名称缩写排成一锅粥时，英国人就笑称它是一碗 alphabet soup！另外喝汤的礼貌也不同：英语国家多用勺子由内向外舀、尽量不出声；广东的老火汤讲究趁热——同一碗汤，各有各的讲究。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>soup</strong> /suːp/ n. 汤</div>
+        <div>soup /suːp/ n. 汤（不可数；两碗汤 two bowls of soup）</div>
+        <div>功能句：I'd like a bowl of chicken soup.</div>
+        <div>易混词：soap 肥皂 /səʊp/ ≠ soup 汤 /suːp/</div>
+        <div>习语：soup up 改装提速 · from soup to nuts 全套</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("soup");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

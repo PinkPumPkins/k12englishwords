@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·silk</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · silk</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> silk</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 丝绸</div>
+    <div class="info-item"><span class="info-label">音标</span> /sɪlk/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">文化</span> the Silk Road 丝绸之路</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 1 In China</div><p><strong>Lesson 1 · 暑假去哪儿了（对话关键句）</strong><br>— Where did you go on your summer vacation?（你暑假去了哪里？）<br>— I went to Guangzhou. We ate sea food and drank morning tea.（广州：吃海鲜、喝早茶）<br>— I went to Lhasa. We saw high mountains and visited the Potala Palace.（拉萨：高山与布达拉宫）<br>瑶瑶没去旅行：带表哥去 the Summer Palace 划船、拍照；苏州逛园林、西安看 the Terracotta Army——"非常震撼！"</p><p><strong>Lesson 2 · 城市与方位（对话关键句）</strong><br>— Where is Xining? — It's in the west of China.（西宁在中国西部，夏天凉爽）<br>— What is Xining famous for? — It's famous for temples.（以寺庙闻名）<br>— How did you go there? — We went there by plane, but you can also go by train.<br>城市配对：北京—the Summer Palace / the Great Wall；拉萨—the Potala Palace；西安—the Terracotta Army；广州—morning tea / soup；苏州—gardens / silk；三亚—sea food；哈尔滨—滑雪；杭州—It's famous for West Lake and Longjing tea.（西湖与龙井茶）</p><p><strong>Lesson 3 · 阅读：三城谜语（关键线索摘录）</strong><br>① 这座城市在长江边，常常 foggy，食物以 spicy 闻名——重庆（Chongqing）<br>② 这座城市在上海附近，以园林 gardens 和丝绸 silk 闻名——苏州（Suzhou）<br>③ 这座城市在西南，四季如春、鲜花满城，有 the Stone Forest（石林）——昆明（Kunming）<br>小测验城市：厦门——在中国南部，以海滨闻名（吃海鲜、鼓浪屿、钢琴博物馆）</p><p><strong>Let's Spell · ear / air 的发音</strong><br>pear 梨 · bear 熊 · wear 穿 · hair 头发 · chair 椅子 · stairs 楼梯<br>例句：Mum, can I wear my new T-shirt?</p><p><strong>Fun Time · 中国小百科</strong><br>中国位于东亚；珠穆朗玛峰是世界最高峰；长江、黄河是最长的两条河；人口超14亿，有55个少数民族；北京是首都，以京剧和北京烤鸭闻名。</p><p><strong>Let's Check · 听力与阅读</strong><br>听力：四个人物分别说起杭州、西宁、北京、拉萨；阅读：瑶瑶回信推荐北京（长城、颐和园）、上海（外滩、豫园）、桂林（山水）、拉萨（布达拉宫、雪山）。</p><p><strong>Story Time · 怪兽"年"的故事</strong><br>海里怪兽"年"年前袭击村庄，村民逃上山；一位老爷爷用红纸、灯火和鞭炮的响声吓退"年"——从此贴红纸、点灯放炮成了"过年"的习俗。</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网跟读页（含原文与翻译）、优质课教案（Lesson 1 核心词 morning tea/the Potala Palace/the Summer Palace/苏州园林/the Terracotta Army）、101教育PPT 教案及智慧山六年级上册目录多源交叉核对（单元名确认为 Unit 1 In China，词表一致）；以上为各课时关键句摘录，非逐字照录。本页主角：silk——Lesson 3 苏州谜语关键词：以园林和 silk 闻名。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>s·il·k —— l 后面藏个 k，别写成 slik！<br>✏️ 口诀：sil-k 三音连读，像蚕丝一样顺滑</td></tr>
+        <tr><th>音·发音</th><td>/sɪlk/ 单音节<br>🎧 跟读：a silk scarf · the Silk Road · soft as silk</td></tr>
+        <tr><th>意·释义</th><td>丝绸 🎎（苏州以丝绸闻名；the Silk Road 丝绸之路连接东西方）</td></tr>
+        <tr><th>用·句型</th><td>① Suzhou is famous for silk. (苏州以丝绸闻名。)<br>② This scarf is made of silk. (这条围巾是丝绸做的。)<br>③ Silk feels soft. (丝绸摸起来很软。)<br>④ The Silk Road is very famous. (丝绸之路很有名。)</td></tr>
+        <tr><th>拓·同族词</th><td>silkworm 蚕（silk + worm）· silky 丝滑的 · the Silk Road 丝绸之路</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>城市</td><td>Suzhou is famous for silk.</td></tr>
+        <tr><td>材质</td><td>The dress is made of silk.</td></tr>
+        <tr><td>触感</td><td>Silk feels soft and cool.</td></tr>
+        <tr><td>历史</td><td>The Silk Road connected China and the West.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · be made of 材质表达</div>
+        <p><strong>be made of + 材料：</strong>The scarf is <u>made of</u> silk.（看得见材料的"制成"）</p><p><strong>对比 be made from：</strong>Paper is made <u>from</u> wood.（看不出原材料的"制成"）</p><p>⚠️ 能看出原料用 of，看不出用 from——丝绸围巾一眼见丝，用 of。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>苏州 silk 是"指尖上的中国"。在家玩"材质小侦探"：摸围巾、T恤、毛巾，说 It's made of silk/cotton/wool。再讲丝绸之路：两千年前，中国的丝绸沿这条路走到罗马，罗马贵族视若珍宝。孩子记住：一条路因一种布得名——silk 的分量，就是这么重。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音摸物</strong><br>家长说 silk，孩子摸丝绸质地物品；说 cotton 摸T恤 → 对两次得星</div>
+        <div class="game-step"><strong>✏️ 关卡2 · of/from 填空</strong><br>① The scarf is made ___ silk. (of)<br>② Paper is made ___ wood. (from)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 合成词拆拆</strong><br>silkworm = ______ + ______ (silk + worm 蚕)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 路线小地图</strong><br>在地图上指出丝绸之路：长安（西安）→ 西域 → 罗马，边指边说 the Silk Road</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 "Suzhou is famous for silk." 打卡<br><span class="btn-mimic">🎤 示例：Suzhou is famous for silk and gardens!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟silk通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《一条丝巾的丝路旅行》</h3>
+    <div class="quote">奶奶的樟木箱里躺着一条旧丝巾。"It's Suzhou silk, 五十年前的嫁妆。"奶奶说。朵朵把丝巾举到灯下，经纬闪着柔光。"两千年前，骆驼驮着丝绸从长安出发，走过沙漠、雪山，一直走到罗马。"朵朵眨眨眼："罗马人也爱这条巾？""罗马贵妇为了 silk，愿意花上等重的黄金！"奶奶笑。朵朵小心地叠好丝巾："So it's not just a scarf — it's history!"</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Where is the silk scarf from? (Suzhou.)<br>• Where did silk travel 2,000 years ago? (From Chang'an to Rome.)<br>• 问问孩子：如果丝绸会说话，它会对你说什么？编一句给它！</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">silk 丝绸<br>├── 合成 ── silkworm 蚕 · the Silk Road 丝绸之路<br>├── 句型 ── be made of silk 丝制的<br>├── 城市 ── Suzhou = silk + gardens<br>├── 触感 ── silky 丝滑的 · soft as silk<br>└── 历史 ── 两千年前走向罗马</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>silk 是个"跟着货物走"的词：古英语 sioloc，经拉丁语 sericum，源自希腊语 serikos——而 Seres（赛里斯）是古希腊人对"产丝之国"中国的称呼，一说正来自汉字"丝"的音。也就是说：silk 这个词本身，就是两千年前"中国制造"留在英语里的签名。<br>🎯 讲给孩子：silk 一词，就是古代西方对中国的称呼。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>silkworm</td><td>蚕（silk + worm 吐丝的"虫"）</td></tr>
+        <tr><td>the Silk Road</td><td>丝绸之路（连接东西方的古代商路）</td></tr>
+        <tr><td>silky</td><td>丝滑的（引申"柔滑顺畅"）</td></tr>
+        <tr><td>Seres</td><td>赛里斯（希腊语"丝之国"，即中国）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"春蚕到死丝方尽，蜡炬成灰泪始干。"<br>—— 李商隐《无题》。春蚕吐丝到生命尽头才停止——诗人写的是痴情，也是中国人数千年缫丝养蚕的执着。一根丝的尽头，是另一根丝的开始。</div>
+
+    <h3>🎵 歌词里的 silk</h3>
+    <p>🎵 David Bowie《China Girl》（1983）：传奇名曲里的东方想象——temple、silk、the Yangtze River，都藏在歌的画卷里。<br>🔗 与 Chinese 页互链（同曲同源：China 词族）；丝路历史是本页专属趣味点。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>一个蚕茧能抽出上千米的连续蚕丝——这就是丝绸曾经贵比黄金的底气。传说养蚕缫丝是黄帝之妻嫘祖发明的（传说成分居多），但考古证明中国的养蚕史超过五千年。两千年前，罗马贵族为一件丝绸衣裳花的钱，够买下等重的黄金——一条丝巾，半个世界的贸易史。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>silk</strong> /sɪlk/ n. 丝绸</div>
+        <div>silk /sɪlk/ n. 丝绸（the Silk Road 丝绸之路）</div>
+        <div>功能句：Suzhou is famous for silk.</div>
+        <div>语法点：be made of silk（看得见原料）</div>
+        <div>词源点：Seres 赛里斯 = 希腊语"丝之国"（中国）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("silk");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

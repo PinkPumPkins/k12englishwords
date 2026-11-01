@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·spicy</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · spicy</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> spicy</div>
+    <div class="info-item"><span class="info-label">词性</span> adj. 辣的</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈspaɪsi/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">同族</span> spice 香料</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 1 In China</div><p><strong>Lesson 1 · 暑假去哪儿了（对话关键句）</strong><br>— Where did you go on your summer vacation?（你暑假去了哪里？）<br>— I went to Guangzhou. We ate sea food and drank morning tea.（广州：吃海鲜、喝早茶）<br>— I went to Lhasa. We saw high mountains and visited the Potala Palace.（拉萨：高山与布达拉宫）<br>瑶瑶没去旅行：带表哥去 the Summer Palace 划船、拍照；苏州逛园林、西安看 the Terracotta Army——"非常震撼！"</p><p><strong>Lesson 2 · 城市与方位（对话关键句）</strong><br>— Where is Xining? — It's in the west of China.（西宁在中国西部，夏天凉爽）<br>— What is Xining famous for? — It's famous for temples.（以寺庙闻名）<br>— How did you go there? — We went there by plane, but you can also go by train.<br>城市配对：北京—the Summer Palace / the Great Wall；拉萨—the Potala Palace；西安—the Terracotta Army；广州—morning tea / soup；苏州—gardens / silk；三亚—sea food；哈尔滨—滑雪；杭州—It's famous for West Lake and Longjing tea.（西湖与龙井茶）</p><p><strong>Lesson 3 · 阅读：三城谜语（关键线索摘录）</strong><br>① 这座城市在长江边，常常 foggy，食物以 spicy 闻名——重庆（Chongqing）<br>② 这座城市在上海附近，以园林 gardens 和丝绸 silk 闻名——苏州（Suzhou）<br>③ 这座城市在西南，四季如春、鲜花满城，有 the Stone Forest（石林）——昆明（Kunming）<br>小测验城市：厦门——在中国南部，以海滨闻名（吃海鲜、鼓浪屿、钢琴博物馆）</p><p><strong>Let's Spell · ear / air 的发音</strong><br>pear 梨 · bear 熊 · wear 穿 · hair 头发 · chair 椅子 · stairs 楼梯<br>例句：Mum, can I wear my new T-shirt?</p><p><strong>Fun Time · 中国小百科</strong><br>中国位于东亚；珠穆朗玛峰是世界最高峰；长江、黄河是最长的两条河；人口超14亿，有55个少数民族；北京是首都，以京剧和北京烤鸭闻名。</p><p><strong>Let's Check · 听力与阅读</strong><br>听力：四个人物分别说起杭州、西宁、北京、拉萨；阅读：瑶瑶回信推荐北京（长城、颐和园）、上海（外滩、豫园）、桂林（山水）、拉萨（布达拉宫、雪山）。</p><p><strong>Story Time · 怪兽"年"的故事</strong><br>海里怪兽"年"年前袭击村庄，村民逃上山；一位老爷爷用红纸、灯火和鞭炮的响声吓退"年"——从此贴红纸、点灯放炮成了"过年"的习俗。</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网跟读页（含原文与翻译）、优质课教案（Lesson 1 核心词 morning tea/the Potala Palace/the Summer Palace/苏州园林/the Terracotta Army）、101教育PPT 教案及智慧山六年级上册目录多源交叉核对（单元名确认为 Unit 1 In China，词表一致）；以上为各课时关键句摘录，非逐字照录。本页主角：spicy——Lesson 3 重庆谜语第二条线索：这里的食物 spicy！</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>spice（香料）→ 去掉 e 加 y = spicy<br>✏️ 口诀：spice 变 spicy，e 让位给 y</td></tr>
+        <tr><th>音·发音</th><td>/ˈspaɪ.si/ 两音节，i 发 /aɪ/<br>🎧 跟读：spicy food · hot and spicy · a spicy hot pot</td></tr>
+        <tr><th>意·释义</th><td>辣的 🌶️（spicy food 辣的食物；重庆、四川以 spicy food 闻名）</td></tr>
+        <tr><th>用·句型</th><td>① The food is too spicy for me. (这菜对我来说太辣了。)<br>② I love spicy hot pot. (我爱辣火锅。)<br>③ Chongqing is famous for spicy food. (重庆以辣闻名。)<br>④ — Is it spicy? — Just a little. (辣吗？——一点点。)</td></tr>
+        <tr><th>拓·同族词</th><td>spice 香料 · hot 辣的（口语常用）· peppery 胡椒味的；味觉家族：sweet 甜 · sour 酸 · bitter 苦 · salty 咸</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>味觉</td><td>The hot pot is too spicy for me.</td></tr>
+        <tr><td>提问</td><td>Is the food spicy?</td></tr>
+        <tr><td>城市</td><td>Chongqing is famous for spicy food.</td></tr>
+        <tr><td>家族</td><td>Sweet, sour, salty, bitter, spicy — five tastes!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · 五味全家福与 too 的用法</div>
+        <p><strong>五味齐报：</strong>sweet 甜 / sour 酸 / salty 咸 / bitter 苦 / spicy 辣</p><p><strong>too + 形容词：</strong>It's <u>too</u> spicy.（太辣了）——too 表"超出承受"。</p><p><strong>礼貌拒辣：</strong>Not too spicy, please.（请别太辣。）——旅行点餐金句。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>辣是本单元最有"画面感"的味觉词。在家玩"五味盲盒"：准备甜、酸、咸、辣四样小食物，蒙眼尝后用 sweet/sour/salty/spicy 报告。告诉孩子一个科学冷知识：辣其实不是味觉，而是辣椒素刺激的"痛觉"——所以"辣得流泪"是真的，舌头在报警呢！</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音做表情</strong><br>家长说 spicy，孩子做辣到的表情；说 sweet 做微笑 → 各对两次得星</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 五味连线</strong><br>sweet→甜 · sour→酸 · salty→咸 · spicy→辣，连线全对得星</div>
+        <div class="game-step"><strong>✅ 关卡3 · 谜语竞猜</strong><br>"长江边，常 foggy，食物 spicy"→ 猜城市：Chongqing！</div>
+        <div class="game-step"><strong>🔍 关卡4 · 点餐小剧场</strong><br>模拟点餐：Not too spicy, please. / Is it spicy? 各说一遍得星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 "I love/ can't eat spicy food." 表态并打卡<br><span class="btn-mimic">🎤 示例：I love spicy food, but my mum can't eat it!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟spicy通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《辣椒的红色旅程》</h3>
+    <div class="quote">安迪去重庆朋友家吃饭，桌上全是红色：红油、辣椒、花椒。"Are you OK?"朋友小杨问。"I... want... to taste!"安迪夹起一片毛肚，三秒后眼泪汪汪："Spicy! Spicy!"小杨递上酸奶："我们从小吃辣，辣是家乡的味道。"回家后，安迪把辣椒画进旅行日记：一颗红艳艳的辣椒原产美洲，明朝末年才漂洋过海来到中国安家——"原来辣椒也是移民！"全家笑作一团。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What made Andi cry? (The spicy food — 辣。)<br>• What did Xiaoyang give him? (Yogurt — 酸奶。)<br>• 问问孩子：你家最爱的一道菜是什么味道？用英语说说它的 spicy/sweet/sour！</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">spicy 辣的<br>├── 构成 ── spice 香料 → spicy<br>├── 五味 ── sweet 甜 · sour 酸 · salty 咸 · bitter 苦 · spicy 辣<br>├── 城市 ── Chongqing = spicy food 之都<br>├── 句型 ── It's too spicy. / Not too spicy, please.<br>└── 科学 ── 辣是痛觉，不是味觉！</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>spicy 的祖先是 spice（香料），而 spice 来自拉丁语 species——本义是"种类、外形"。古罗马人把"各色货物"也叫 species，其中最抢手的就是东方运来的香辛料，词义渐渐专指"香料"。同根的 species（物种）、special（特别的）如今还在常用词榜上——一粒胡椒，把"特别"和"香料"系在了一根藤上。<br>🎯 讲给孩子：spice 和 special 是"一根藤上的亲戚"。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>spice</td><td>香料（spicy 的名词）</td></tr>
+        <tr><td>species</td><td>物种（同根：拉丁语"种类"）</td></tr>
+        <tr><td>hot</td><td>辣的（口语常用：the food is hot）</td></tr>
+        <tr><td>Scoville scale</td><td>史高维尔指数（测量辣度的标尺）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Variety is the spice of life."<br>—— 英语谚语：变化是生活的香料（生活因多彩而有趣）。这句出自18世纪诗人威廉·柯珀的诗行——人生的"辣味"，正来自那些不一样的事。</div>
+
+    <h3>🎵 歌词里的 spicy</h3>
+    <p>🎵 Donna Summer《Hot Stuff》（1979）：迪斯科女王的 Billboard 冠军曲，"我要那滚烫的东西"——hot 与 spicy 的双关热情，节奏一响就想跳舞。<br>🔗 与 hot 页互链（同曲同源：辣与热，一词双关）。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>辣椒不是中国的"原住民"——它原产美洲，大约明朝末年才漂洋过海来到中国，四百年就征服了半个中国的餐桌。世界上还有一个"辣度标尺"叫史高维尔指数（Scoville Scale）：甜椒约0，普通辣椒几千，最辣的"卡罗来纳死神椒"超过150万——敢不敢挑战，你说了算！</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>spicy</strong> /ˈspaɪsi/ adj. 辣的</div>
+        <div>spicy /ˈspaɪsi/ adj. 辣的（spice 去e加y）</div>
+        <div>功能句：Chongqing is famous for spicy food.</div>
+        <div>五味点：sweet · sour · salty · bitter · spicy</div>
+        <div>科学点：辣是痛觉；史高维尔指数量辣度</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("spicy");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

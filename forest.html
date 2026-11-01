@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·forest</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · forest</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> forest</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 树林；森林</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈfɒrɪst/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">复数</span> forests</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 1 In China</div><p><strong>Lesson 1 · 暑假去哪儿了（对话关键句）</strong><br>— Where did you go on your summer vacation?（你暑假去了哪里？）<br>— I went to Guangzhou. We ate sea food and drank morning tea.（广州：吃海鲜、喝早茶）<br>— I went to Lhasa. We saw high mountains and visited the Potala Palace.（拉萨：高山与布达拉宫）<br>瑶瑶没去旅行：带表哥去 the Summer Palace 划船、拍照；苏州逛园林、西安看 the Terracotta Army——"非常震撼！"</p><p><strong>Lesson 2 · 城市与方位（对话关键句）</strong><br>— Where is Xining? — It's in the west of China.（西宁在中国西部，夏天凉爽）<br>— What is Xining famous for? — It's famous for temples.（以寺庙闻名）<br>— How did you go there? — We went there by plane, but you can also go by train.<br>城市配对：北京—the Summer Palace / the Great Wall；拉萨—the Potala Palace；西安—the Terracotta Army；广州—morning tea / soup；苏州—gardens / silk；三亚—sea food；哈尔滨—滑雪；杭州—It's famous for West Lake and Longjing tea.（西湖与龙井茶）</p><p><strong>Lesson 3 · 阅读：三城谜语（关键线索摘录）</strong><br>① 这座城市在长江边，常常 foggy，食物以 spicy 闻名——重庆（Chongqing）<br>② 这座城市在上海附近，以园林 gardens 和丝绸 silk 闻名——苏州（Suzhou）<br>③ 这座城市在西南，四季如春、鲜花满城，有 the Stone Forest（石林）——昆明（Kunming）<br>小测验城市：厦门——在中国南部，以海滨闻名（吃海鲜、鼓浪屿、钢琴博物馆）</p><p><strong>Let's Spell · ear / air 的发音</strong><br>pear 梨 · bear 熊 · wear 穿 · hair 头发 · chair 椅子 · stairs 楼梯<br>例句：Mum, can I wear my new T-shirt?</p><p><strong>Fun Time · 中国小百科</strong><br>中国位于东亚；珠穆朗玛峰是世界最高峰；长江、黄河是最长的两条河；人口超14亿，有55个少数民族；北京是首都，以京剧和北京烤鸭闻名。</p><p><strong>Let's Check · 听力与阅读</strong><br>听力：四个人物分别说起杭州、西宁、北京、拉萨；阅读：瑶瑶回信推荐北京（长城、颐和园）、上海（外滩、豫园）、桂林（山水）、拉萨（布达拉宫、雪山）。</p><p><strong>Story Time · 怪兽"年"的故事</strong><br>海里怪兽"年"年前袭击村庄，村民逃上山；一位老爷爷用红纸、灯火和鞭炮的响声吓退"年"——从此贴红纸、点灯放炮成了"过年"的习俗。</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网跟读页（含原文与翻译）、优质课教案（Lesson 1 核心词 morning tea/the Potala Palace/the Summer Palace/苏州园林/the Terracotta Army）、101教育PPT 教案及智慧山六年级上册目录多源交叉核对（单元名确认为 Unit 1 In China，词表一致）；以上为各课时关键句摘录，非逐字照录。本页主角：forest——中国山河的绿色底色，Lesson 3 石林的好搭档。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>fo·rest —— 中间藏着 rest（休息）：森林是大自然的休息室<br>✏️ 口诀：forest 里有个 rest，树在林中休息</td></tr>
+        <tr><th>音·发音</th><td>/ˈfɒr.ɪst/ 两音节，重音在前<br>🎧 跟读：a big forest · in the forest · rainforest 雨林</td></tr>
+        <tr><th>意·释义</th><td>树林；森林 🌲（a big forest 大片树林；西双版纳有热带雨林）</td></tr>
+        <tr><th>用·句型</th><td>① There is a forest near the city. (城市附近有一片树林。)<br>② Many animals live in the forest. (许多动物住在森林里。)<br>③ We walked through the forest. (我们穿过树林。)<br>④ The forest is called "the lung of the earth". (森林被称为"地球之肺"。)</td></tr>
+        <tr><th>拓·同族词</th><td>rainforest 雨林 · forestry 林学 · deforest 毁林；同根：foreign（foris"外面"）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>地点</td><td>There is a forest behind the mountain.</td></tr>
+        <tr><td>动物</td><td>Wild animals live in the forest.</td></tr>
+        <tr><td>活动</td><td>We camped in the forest.</td></tr>
+        <tr><td>环保</td><td>We should protect the forests.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · there be 与穿越表达</div>
+        <p><strong>there be 句型：</strong>There <u>is</u> a forest near the lake.（就近原则：is/are 看第一个名词）</p><p><strong>穿过树林：</strong>walk <u>through</u> the forest（从内部穿过）/ go <u>across</u> the road（从表面横过）</p><p>⚠️ through 用于立体空间内部，across 用于平面表面。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>本单元的地图上有雪山、江水，也有森林。在家聊"森林是地球之肺"：森林制造氧气、涵养水土。周末去郊野公园时玩"森林五感"：看（green trees）、听（birds sing）、闻（fresh air）、摸（bark 树皮），把英语和自然连起来。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 "forest"，孩子从 🌲 / 🌊 / 🏜️ 中选 → 正确答案：🌲</div>
+        <div class="game-step"><strong>✏️ 关卡2 · through/across 填空</strong><br>① We walked ______ the forest. (through)<br>② Don't run ______ the road. (across)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 合成词拆拆</strong><br>rainforest = ______ + ______ (rain + forest 雨林)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 自然找一找</strong><br>公园里找出"森林三宝"：tree 树、bird 鸟、leaf 叶，各用英语说一遍</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 "The forest is..." 或 "We should protect..." 打卡<br><span class="btn-mimic">🎤 示例：We should protect the forests. They are the lungs of the earth!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟forest通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《西双版纳的一天》</h3>
+    <div class="quote">暑假，小雨一家飞到西双版纳。清晨的热带 forest 里，高大的望天树直插云霄，藤蔓像秋千。"Look up — 树顶在云里！"爸爸轻声说。向导阿姨指着树洞："这里是动物的家。"忽然，一只孔雀开屏从路边走过，小雨屏住呼吸。回程路上，向导说："森林是地球之肺，我们只带走照片。"小雨郑重点头，在笔记本上画了一棵大树，写下：Keep the forest green. Keep the earth breathing.</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Where did Xiaoyu visit? (A tropical forest in Xishuangbanna.)<br>• What did the guide say they could take away? (Only photos.)<br>• 问问孩子：为什么说森林是"地球之肺"？用英语说出你的理由！</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">forest 森林<br>├── 复数 ── forest → forests<br>├── 合成 ── rainforest 雨林 · forest park 森林公园<br>├── 搭配 ── walk through the forest · in the forest<br>├── 环保 ── the lung of the earth 地球之肺<br>└── 动物 ── Many animals live in the forest.</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>forest 经古法语进入英语，一般认为来自中世纪拉丁语 forestis——"圈外的林地"。它出自拉丁语 foris"门外"（foreign 外国的也同根）：对城堡里的人来说，森林就是"走出大门外"的那片野地。中世纪欧洲的"皇家森林"其实是王室狩猎场，专门有"森林法"保护国王打猎的乐趣。<br>🎯 讲给孩子：forest 的本义是"门外的大地"。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>rainforest</td><td>雨林（rain + forest）</td></tr>
+        <tr><td>forestry</td><td>林学、林业（forest + ry）</td></tr>
+        <tr><td>deforest</td><td>砍伐森林（de- 去掉 + forest）</td></tr>
+        <tr><td>foreign</td><td>外国的（同根：foris 门外）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"In every walk with nature one receives far more than he seeks."<br>—— 美国国家公园之父约翰·缪尔：每一次走进自然，收获远比寻找的多。forest 正是这句话最好的教室——你去找一棵树，却带回了一整个下午的宁静。</div>
+
+    <h3>🎵 歌词里的 forest</h3>
+    <p>🎵 The Cure《A Forest》（1980）：后朋克经典（知名度中上，已如实标注），重复的吉他线像走进一片望不到边的树林——"在森林深处，只有一场梦"。<br>🔗 备选主题关联曲：迪士尼《森林王子》The Bare Necessities（更欢快，适合跟唱）。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>联合国把每年3月21日定为"国际森林日"。中国的森林覆盖率已从新中国初期的约8%回升到24%以上——塞罕坝三代人把荒原种成百万亩林海，2017年获联合国"地球卫士奖"。下次去森林公园，记得这句话：今天脚下的树荫，是别人几十年前种下的清晨。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>forest</strong> /ˈfɒrɪst/ n. 树林；森林</div>
+        <div>forest /ˈfɒrɪst/ n. 森林；树林（复数 forests）</div>
+        <div>功能句：We should protect the forests.</div>
+        <div>语法点：walk through the forest（内部穿过）</div>
+        <div>环保点：the lung of the earth 地球之肺</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("forest");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

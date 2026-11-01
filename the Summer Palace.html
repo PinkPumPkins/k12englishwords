@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·the Summer Palace</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · the Summer Palace</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> the Summer Palace</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 颐和园</div>
+    <div class="info-item"><span class="info-label">音标</span> /ðə ˈsʌmə(r) ˈpæləs/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">地点</span> 北京海淀</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 1 In China</div><p><strong>Lesson 1 · 暑假去哪儿了（对话关键句）</strong><br>— Where did you go on your summer vacation?（你暑假去了哪里？）<br>— I went to Guangzhou. We ate sea food and drank morning tea.（广州：吃海鲜、喝早茶）<br>— I went to Lhasa. We saw high mountains and visited the Potala Palace.（拉萨：高山与布达拉宫）<br>瑶瑶没去旅行：带表哥去 the Summer Palace 划船、拍照；苏州逛园林、西安看 the Terracotta Army——"非常震撼！"</p><p><strong>Lesson 2 · 城市与方位（对话关键句）</strong><br>— Where is Xining? — It's in the west of China.（西宁在中国西部，夏天凉爽）<br>— What is Xining famous for? — It's famous for temples.（以寺庙闻名）<br>— How did you go there? — We went there by plane, but you can also go by train.<br>城市配对：北京—the Summer Palace / the Great Wall；拉萨—the Potala Palace；西安—the Terracotta Army；广州—morning tea / soup；苏州—gardens / silk；三亚—sea food；哈尔滨—滑雪；杭州—It's famous for West Lake and Longjing tea.（西湖与龙井茶）</p><p><strong>Lesson 3 · 阅读：三城谜语（关键线索摘录）</strong><br>① 这座城市在长江边，常常 foggy，食物以 spicy 闻名——重庆（Chongqing）<br>② 这座城市在上海附近，以园林 gardens 和丝绸 silk 闻名——苏州（Suzhou）<br>③ 这座城市在西南，四季如春、鲜花满城，有 the Stone Forest（石林）——昆明（Kunming）<br>小测验城市：厦门——在中国南部，以海滨闻名（吃海鲜、鼓浪屿、钢琴博物馆）</p><p><strong>Let's Spell · ear / air 的发音</strong><br>pear 梨 · bear 熊 · wear 穿 · hair 头发 · chair 椅子 · stairs 楼梯<br>例句：Mum, can I wear my new T-shirt?</p><p><strong>Fun Time · 中国小百科</strong><br>中国位于东亚；珠穆朗玛峰是世界最高峰；长江、黄河是最长的两条河；人口超14亿，有55个少数民族；北京是首都，以京剧和北京烤鸭闻名。</p><p><strong>Let's Check · 听力与阅读</strong><br>听力：四个人物分别说起杭州、西宁、北京、拉萨；阅读：瑶瑶回信推荐北京（长城、颐和园）、上海（外滩、豫园）、桂林（山水）、拉萨（布达拉宫、雪山）。</p><p><strong>Story Time · 怪兽"年"的故事</strong><br>海里怪兽"年"年前袭击村庄，村民逃上山；一位老爷爷用红纸、灯火和鞭炮的响声吓退"年"——从此贴红纸、点灯放炮成了"过年"的习俗。</p><p style='font-size:12px;opacity:.75;'>✅ 原文经51教习网跟读页（含原文与翻译）、优质课教案（Lesson 1 核心词 morning tea/the Potala Palace/the Summer Palace/苏州园林/the Terracotta Army）、101教育PPT 教案及智慧山六年级上册目录多源交叉核对（单元名确认为 Unit 1 In China，词表一致）；以上为各课时关键句摘录，非逐字照录。本页主角：the Summer Palace——Lesson 1 里瑶瑶带表哥划船拍照的皇家园林。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>summer（夏天）+ palace（宫殿）→ 夏天的宫殿 = 颐和园<br>✏️ 口诀：皇家夏天避暑的花园，就是 Summer Palace！</td></tr>
+        <tr><th>音·发音</th><td>/ˈsʌm.ə ˈpæl.əs/ 两个词重音都在前<br>🎧 跟读：boating on Kunming Lake · the Long Corridor 长廊</td></tr>
+        <tr><th>意·释义</th><td>颐和园 🚣（北京西郊的皇家园林，有昆明湖和万寿山，清朝皇家夏天来这里避暑）</td></tr>
+        <tr><th>用·句型</th><td>① We went boating on Kunming Lake. (我们在昆明湖划船了。)<br>② The Summer Palace is a royal garden. (颐和园是皇家园林。)<br>③ I took many photos there. (我在那里拍了很多照片。)<br>④ Beijing is famous for the Summer Palace. (北京以颐和园闻名。)</td></tr>
+        <tr><th>拓·同族词</th><td>园林三姐妹：the Summer Palace 颐和园 · the Potala Palace 布达拉宫 · Beihai Park 北海公园；summer camp 夏令营 · summer vacation 暑假</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>经历</td><td>I went boating in the Summer Palace.</td></tr>
+        <tr><td>描述</td><td>The lake is big and beautiful.</td></tr>
+        <tr><td>建议</td><td>Let's visit the Summer Palace this weekend.</td></tr>
+        <tr><td>名气</td><td>It is a famous royal garden in Beijing.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">📋 功能句总结 · go + doing 户外活动</div>
+        <p><strong>go boating 去划船：</strong>We went <u>boating</u> on the lake.</p><p><strong>同款家族：</strong>go swimming 去游泳 / go skating 去滑冰 / go fishing 去钓鱼 / go shopping 去购物</p><p>⚠️ 结构固定为 go + 动词ing，表示"去从事某项活动"。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>瑶瑶带表哥去颐和园"划船、拍照"，正是本单元过去式的活教材。在家玩"假期照片册"：翻出出游照片，用 Last summer I went to... I took photos. I went boating. 复述一天。有余力可讲颐和园长廊：728米，一万四千多幅彩画，每一幅都不重样——边逛边找画，孩子逛园子像寻宝。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 "the Summer Palace"，孩子从 🚣 / 🚄 / 🏝️ 中选 → 正确答案：🚣</div>
+        <div class="game-step"><strong>✏️ 关卡2 · go+ing 连线</strong><br>go ___（boating/swimming/fishing）家长念中文孩子说英文短语，三个全对得星</div>
+        <div class="game-step"><strong>✅ 关卡3 · 过去式闯关</strong><br>go → ______ (went) · take photos → ______ (took photos) · is → ______ (was)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>找出一张全家出游的照片，用英语说 Where did we go? What did we do? 各说一句得星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 "I went to... and..." 说一句假期经历并打卡<br><span class="btn-mimic">🎤 示例：I went to the Summer Palace and went boating!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟the Summer Palace通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《昆明湖上的两个摄影师》</h3>
+    <div class="quote">表哥从广州来北京，瑶瑶当起了导游。"Today we'll visit the Summer Palace!"两人先爬万寿山，再下到昆明湖边租了一条脚踏船。表哥举着相机拍个不停："Wow, the lake is like a mirror!"瑶瑶指着远处一条"大石船"："Look, that's a stone boat — 石舫，永远不开的船！"表哥笑得差点把相机掉进湖里。傍晚，两人数照片：127张！瑶瑶挑出一张湖上夕阳："This one is the best — 湖光山色都在里面啦。"</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Where did the cousins go? (To the Summer Palace.)<br>• What is a "stone boat"? (石舫——永远不开的船。)<br>• 问问孩子：If you visit the Summer Palace, what will you take photos of first?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">the Summer Palace 颐和园<br>├── 位置 ── in Beijing 北京西郊<br>├── 组成 ── Kunming Lake 昆明湖 · Longevity Hill 万寿山<br>├── 活动 ── go boating 划船 · take photos 拍照<br>├── 之最 ── 长廊728米，彩画一万四千多幅<br>└── 荣誉 ── 世界文化遗产（1998）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>颐和园原名清漪园，1888年重修后改名"颐和"——"颐养冲和"，意思是修养身心、平和安顺，翻译成英语就是皇家版 Summer Palace：皇帝夏天来"躲太阳"的行宫。北京一城有三座著名"宫"：紫禁城管办公，颐和园管度假，圆明园曾是"万园之园"——一座城，装下三种人生。<br>🎯 讲给孩子：Summer Palace 是"皇家避暑行宫"式命名，欧洲王室也有同款夏宫。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>Kunming Lake</td><td>昆明湖（名字借自汉武帝在长安开凿的昆明池）</td></tr>
+        <tr><td>Longevity Hill</td><td>万寿山（longevity 长寿）</td></tr>
+        <tr><td>the Long Corridor</td><td>长廊（728米，世界最长的画廊之一）</td></tr>
+        <tr><td>royal garden</td><td>皇家园林（royal 王室的）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"知者乐水，仁者乐山。"<br>—— 《论语·雍也》。聪明的人爱水，仁厚的人爱山。颐和园一座园子同时装下昆明湖的水与万寿山的山——古人造园，原来是把这半部《论语》搬进了风景里。</div>
+
+    <h3>🎵 歌词里的 the Summer Palace</h3>
+    <p>🎵 Lana Del Rey《Summertime Sadness》（2012）：全球热单，"夏天式的忧伤"也美得像湖面上的夕阳——颐和园的夏天，正是这首歌的画面感。<br>🔗 与 summer 页互链（同曲同源：Summer Palace 的主角就是 summer）。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>颐和园的石舫"清晏舫"有两大冷知识：一是慈禧修园曾挪用海军经费，那条石船常被后人当作"大清海军"的注脚；二是长廊的每一根梁上都画着故事——西游记、三国、民间传说，走完728米等于读完一屋子连环画。1998年，颐和园以"世界级皇家园林"的身份列入《世界遗产名录》。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>the Summer Palace</strong> /ðə ˈsʌmə(r) ˈpæləs/ n. 颐和园</div>
+        <div>the Summer Palace /ðə ˈsʌmə ˈpæləs/ n. 颐和园（北京皇家园林）</div>
+        <div>功能句：We went boating on Kunming Lake.</div>
+        <div>结构点：go boating / go swimming / go fishing</div>
+        <div>荣誉：世界文化遗产（1998）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 1 In China（中国之旅）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("the Summer Palace");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

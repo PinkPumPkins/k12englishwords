@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·the Opera House</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · the Opera House</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 2 Around the World</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> the Opera House</div>
+    <div class="info-item"><span class="info-label">词性</span> n. （悉尼）歌剧院</div>
+    <div class="info-item"><span class="info-label">音标</span> /ði ˈɒpərə haʊs/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class='info-item'><span class='info-label'>城市</span> Sydney 悉尼</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 2 Around the World</div><p><strong>Get ready · 热身</strong><br>What do you know about these countries?<br>（看地图认一认：the UK 英国 · Canada 加拿大 · the USA 美国 · Australia 澳大利亚）</p><p><strong>Lesson 1 · B. Let's talk</strong><br>— Where do you want to go this winter vacation?<br>— I want to go to Washington D.C. I want to see the White House and visit the museums there.</p><p><strong>Lesson 2 · A. Look, listen and say</strong><br>Canada is famous for maple leaves. Canadians speak English and French.<br>The CN Tower in Toronto is very famous.<br>Australia is famous for koalas and kangaroos. The Opera House in Sydney is famous.</p><p><strong>Lesson 3 · A. Let's read（四国漫游短文 · 要点辑录）</strong><br>the UK：visit the British Museum（250多年历史）· Tower Bridge · the London Eye<br>Canada：mountains and lakes · hiking and fishing · 登CN塔看日出<br>the USA：Washington D.C. · the White House · Disneyland<br>Australia：Sydney · 海滩游泳吃海鲜 · 给koalas和kangaroos拍照</p><p><strong>Fun Time · C. Let's sing（问答歌 · 要点辑录）</strong><br>What is Washington D.C. famous for? — The White House!<br>What is London famous for? — Big Ben!<br>What is Toronto famous for? — The CN Tower!<br>What is Sydney famous for? — The Opera House!<br>What is Beijing famous for? — The Summer Palace!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经haoduoyun课文翻译页（m.haoduoyun.cc/fanyi/rjb/6s/2.html）、读书郎eebbk单元词条、跟读音频资源、Scribd电子课本快照多源交叉核对；Get ready、Lesson 3与Fun Time为要点辑录，个别措辞以课本为准。the Opera House在本单元Lesson 2（The Opera House in Sydney is famous）与Fun Time问答歌中出现；与theatre页同歌互链（同配《The Phantom of the Opera》）。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>the Opera House＝Opera（歌剧）+ House（房子）；o-pe-ra三音节。✏️口诀：唱歌的大房子＝歌剧院</td></tr>
+        <tr><th>音·发音</th><td>/ði ˈɒ.pə.rə ˈhaʊs/ the读/ði/（后面是元音）。<br>🎧 跟读：the Opera House · at the Opera House</td></tr>
+        <tr><th>意·释义</th><td>（悉尼）歌剧院🎭，白色“贝壳、白帆”屋顶，20世纪最著名的建筑之一。</td></tr>
+        <tr><th>用·句型</th><td>① The Opera House in Sydney is famous.<br>② I want to see the Opera House.<br>③ What is Sydney famous for?<br>④ The Opera House looks like white shells.</td></tr>
+        <tr><th>拓·同族词</th><td>opera歌剧→the Opera House歌剧院；同族建筑：the White House · museum；相关词：music音乐 · theatre剧院</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>地点</td><td>The Opera House is in Sydney.</td></tr>
+        <tr><td>外观</td><td>It looks like white shells.</td></tr>
+        <tr><td>活动</td><td>Let's see the Opera House!</td></tr>
+        <tr><td>愿望</td><td>I want to watch a show at the Opera House.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · the在元音前读/ði/</div>
+        <p><strong>the在元音音素前读/ði/：</strong><br><u>the</u> Opera House /ði/ · <u>the</u> London Eye /ði/</p><p><strong>辅音音素前读/ðə/：</strong><br><u>the</u> White House /ðə/ · <u>the</u> CN Tower /ðə/</p><p>⚠️ 和a/an一个道理：看发音不看字母！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>悉尼歌剧院的屋顶像“贝壳”还是“风帆”？设计师乌松说灵感像剥开的橙子瓣！和孩子一起剥个橙子观察弧线，再让孩子画歌剧院——形状记忆比死记硬背牢固十倍。可以一起听一小段《歌剧魅影》，感受“歌剧”的声音。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选城</strong><br>家长说 “White shells on the blue sea!”，孩子答出Sydney和the Opera House</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① The ______ ______ in Sydney is famous. (Opera House)<br>② It looks like white ______. (shells)</div>
+        <div class="game-step"><strong>✅ 关卡3 · the读音变身</strong><br>the Opera House(/ði/) · the White House(/ðə/) · the CN Tower(/ðə/)——读对得星</div>
+        <div class="game-step"><strong>🔍 关卡4 · 剥橙子实验</strong><br>剥开橙子看瓣的弧线，说 “The Opera House looks like orange pieces!”</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>录音介绍：“The Opera House is in Sydney. It is white. It looks like shells. I want to see it.”</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟the Opera House通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Orange That Became a Building》</h3>
+    <div class="quote">🎭 小设计师果果在剥橙子，橘子瓣排成一道弧。爸爸说：“Guess what? The man who designed the Sydney Opera House loved this shape!” 果果问：“He built an orange?” 爸爸笑：“He made roofs like orange pieces — white and shining.” 果果举起橙子：“Then Sydney has the biggest orange in the world!” 爸爸说：“And the most beautiful one!”——伟大的设计，常始于最普通的一刻。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What fruit inspired the Opera House design? (An orange / orange pieces)<br>• Where is the Opera House? (In Sydney, Australia)<br>• 问问孩子：What would your dream building look like?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 城市 ── Sydney 悉尼（澳大利亚）
+├── 外观 ── white shells白贝壳 · sails白风帆
+├── 设计师 ── Jørn Utzon乌松（丹麦建筑师）
+├── 句型 ── The Opera House in Sydney is famous.
+└── 声音 ── opera歌剧 · music音乐 · theatre剧院</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>opera来自意大利语，词根是拉丁语opus——“作品”。歌剧把音乐、戏剧、舞蹈、美术合在一起，是真正的“综合作品”，所以用“作品”一词命名。House在这里指“供人聚集的场所”，就像the White House。悉尼歌剧院由丹麦建筑师乌松设计，2003年获建筑界最高奖普利兹克奖，1973年正式启用。<br>🎯 讲给孩子：opera＝作品——最好的建筑，本身也是一件作品。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>opera</td><td>源自拉丁语opus（作品）</td></tr>
+        <tr><td>Jørn Utzon</td><td>设计师乌松（2003年普利兹克奖）</td></tr>
+        <tr><td>shells / sails</td><td>人们形容屋顶的两个比喻：贝壳、风帆</td></tr>
+        <tr><td>UNESCO</td><td>2007年列入世界文化遗产</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Music is the universal language of mankind.”（音乐是人类共同的语言。）——美国诗人朗费罗；歌剧院不说话，却让全世界听懂了悉尼。</div>
+
+    <h3>🎵 歌词里的 the Opera House</h3>
+    🎵 音乐剧《The Phantom of the Opera》（歌剧魅影，1986）：同名主题曲一开嗓，管风琴轰然而至——它讲的是巴黎歌剧院，但“歌剧”的震撼是一样的。<br>🎵 与theatre页同歌互链——剧院的魂是音乐。
+
+    <h3>⚡ 冷知识</h3>
+    <p>悉尼歌剧院屋顶由超过100万块自洁瓷砖拼成，雨水一冲就干净，几十年不用“洗脸”。它1973年启用，2007年列入世界文化遗产。设计师乌松因工程争议中途辞职离开澳大利亚，终生没有亲眼看过完工的歌剧院——建筑史上最令人遗憾的彩蛋。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>the Opera House</strong> /ði ˈɒpərə haʊs/ n. （悉尼）歌剧院</div>
+        <div>功能句：The Opera House in Sydney is famous.</div>
+        <div>发音：the Opera House 读/ði/</div>
+        <div>外观：looks like white shells / sails</div>
+        <div>冷知识：屋顶瓷砖超过100万块，会“自己变干净”</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 2 Around the World<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("the Opera House");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

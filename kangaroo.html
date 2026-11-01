@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·kangaroo</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · kangaroo</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 2 Around the World</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> kangaroo</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 袋鼠</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˌkæŋɡəˈruː/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> kangaroos</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 2 Around the World</div><p><strong>Get ready · 热身</strong><br>What do you know about these countries?<br>（看地图认一认：the UK 英国 · Canada 加拿大 · the USA 美国 · Australia 澳大利亚）</p><p><strong>Lesson 1 · B. Let's talk</strong><br>— Where do you want to go this winter vacation?<br>— I want to go to Washington D.C. I want to see the White House and visit the museums there.</p><p><strong>Lesson 2 · A. Look, listen and say</strong><br>Canada is famous for maple leaves. Canadians speak English and French.<br>The CN Tower in Toronto is very famous.<br>Australia is famous for koalas and kangaroos. The Opera House in Sydney is famous.</p><p><strong>Lesson 3 · A. Let's read（四国漫游短文 · 要点辑录）</strong><br>the UK：visit the British Museum（250多年历史）· Tower Bridge · the London Eye<br>Canada：mountains and lakes · hiking and fishing · 登CN塔看日出<br>the USA：Washington D.C. · the White House · Disneyland<br>Australia：Sydney · 海滩游泳吃海鲜 · 给koalas和kangaroos拍照</p><p><strong>Fun Time · C. Let's sing（问答歌 · 要点辑录）</strong><br>What is Washington D.C. famous for? — The White House!<br>What is London famous for? — Big Ben!<br>What is Toronto famous for? — The CN Tower!<br>What is Sydney famous for? — The Opera House!<br>What is Beijing famous for? — The Summer Palace!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经haoduoyun课文翻译页（m.haoduoyun.cc/fanyi/rjb/6s/2.html）、读书郎eebbk单元词条、跟读音频资源、Scribd电子课本快照多源交叉核对；Get ready、Lesson 3与Fun Time为要点辑录，个别措辞以课本为准。kangaroo在本单元Lesson 2（Australia is famous for koalas and kangaroos）与Lesson 3（给袋鼠拍照）中出现；与Sydney页同歌互链（同配《Down Under》）。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>kan-ga-roo三音节，尾巴是双o；复数直接+s：kangaroos。✏️口诀：袋鼠跳跳“roo roo”响，两个o别丢</td></tr>
+        <tr><th>音·发音</th><td>/ˌkæŋ.ɡəˈruː/ 重音在最后的roo。<br>🎧 跟读：a kangaroo · two kangaroos · a baby kangaroo</td></tr>
+        <tr><th>意·释义</th><td>袋鼠🦘，澳大利亚的国宝动物，妈妈肚子上有个口袋（pouch），宝宝叫joey。</td></tr>
+        <tr><th>用·句型</th><td>① Australia is famous for kangaroos.<br>② I want to take photos of kangaroos.<br>③ Look! A baby kangaroo!<br>④ Kangaroos can jump very far.</td></tr>
+        <tr><th>拓·同族词</th><td>澳洲动物双宝：kangaroo袋鼠 · koala考拉；动物宝宝词：joey小袋鼠</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>家乡</td><td>Kangaroos live in Australia.</td></tr>
+        <tr><td>能力</td><td>Kangaroos can jump very far.</td></tr>
+        <tr><td>观察</td><td>Look at the baby kangaroo in the pouch!</td></tr>
+        <tr><td>愿望</td><td>I want to see kangaroos in Australia.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · 动物复数</div>
+        <p><strong>可数名词复数直接+s：</strong><br>one kangaroo → two kangaroo<u>s</u><br>one koala → two koalas</p><p><strong>提问动物：</strong><br>— What animals live in Australia?<br>— Kangaroos and koalas.</p><p>⚠️ o结尾的词有的加es（tomatoes），kangaroo只加s：kangaroos！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>袋鼠是最适合“演”出来的单词：让孩子蹲下、双手在肚子前围成小口袋，跳三下说“I'm a kangaroo! I can jump!”。顺带讲冷知识——袋鼠几乎不能倒着跳，所以澳大利亚国徽上画着它，是“永远向前”的意思。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音跳一跳</strong><br>家长说 “Jump like a kangaroo!”，孩子边跳边喊 “I'm a kangaroo!”</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① Australia is famous for ______. (kangaroos)<br>② Look! A baby ______! (kangaroo)</div>
+        <div class="game-step"><strong>✅ 关卡3 · 单复数变身</strong><br>one kangaroo → two ______ (kangaroos)；one koala → two ______ (koalas)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 国徽找一找</strong><br>看澳大利亚国徽：袋鼠和鸸鹋站两边——它们都几乎不会倒着走！</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>录音说三句：“Kangaroos live in Australia. They can jump very far. I want to take photos of them.”</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟kangaroo通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Joey Who Would Not Hop Back》</h3>
+    <div class="quote">🦘 小袋鼠Joey跟妈妈学跳：“Follow me, but remember — kangaroos don't hop backwards!” Joey问：“Why, Mum?” 妈妈说：“Because we always go forward!” Joey跳进灌木丛，遇到一只倒着爬的甲虫。“Hello! Why don't you jump forward?” 甲虫叹气：“I'm a beetle, not a kangaroo.” Joey笑弯了腰：“Then follow me — forward is fun!”——永远向前的，不止是袋鼠。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What can kangaroos NOT do well? (Hop backwards)<br>• What is a baby kangaroo called? (A joey)<br>• 问问孩子：If you make a mistake, will you hop forward or backwards?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 家乡 ── Australia 澳大利亚
+├── 特点 ── pouch育儿袋 · jump very far · 几乎不能倒跳
+├── 家族 ── joey小袋鼠 · mob一群袋鼠
+├── 句型 ── Australia is famous for kangaroos.
+└── 朋友 ── koala考拉 · emu鸸鹋（国徽搭档）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>kangaroo来自澳大利亚原住民Guugu Yimithirr语的gangurru，1770年库克船长的探险队记录下这个词。流传很广的“袋鼠＝我不知道”是个假故事：传说探险家问原住民“这是什么”，对方回答的其实是“我不懂你的话”——语言学家后来证实，gangurru就是那种大灰袋鼠的真名。<br>🎯 讲给孩子：一个词的“谣言”能传遍世界，而真相比故事更有趣。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>gangurru</td><td>kangaroo的源头（原住民语言）</td></tr>
+        <tr><td>joey</td><td>袋鼠宝宝的专属英文名</td></tr>
+        <tr><td>pouch</td><td>袋鼠妈妈的育儿袋</td></tr>
+        <tr><td>kangaroo court</td><td>“袋鼠法庭”——不公正的法庭（英语习语）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">澳大利亚国歌《Advance Australia Fair》唱道：“Australians all let us rejoice, for we are young and free.”——而澳大利亚国徽上，袋鼠和鸸鹋摆出“向前”的姿势：因为它们几乎不会倒着走。</div>
+
+    <h3>🎵 歌词里的 kangaroo</h3>
+    🎵 Men at Work《Down Under》(1981)：澳洲国宝级乐队唱国宝动物——副歌“Land down under”就是Australia的绰号，袋鼠是那片土地最著名的“居民”。<br>🎵 与Sydney页同歌互链——一首歌里装下澳大利亚。
+
+    <h3>⚡ 冷知识</h3>
+    <p>袋鼠几乎不能倒着跳——尾巴又粗又长，向后发力极难，所以澳大利亚国徽选它和同样不会倒走的鸸鹋，象征“永远前进”。袋鼠宝宝出生时只有花生米大小，爬进妈妈的育儿袋里继续长大好几个月。一群袋鼠的英文叫“mob”，是不是很有画面感？</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>kangaroo</strong> /ˌkæŋɡəˈruː/ n. 袋鼠</div>
+        <div>功能句：Australia is famous for kangaroos.</div>
+        <div>复数：kangaroo → kangaroos（直接+s）</div>
+        <div>冷知识：袋鼠几乎不能倒着跳</div>
+        <div>宝宝词：小袋鼠叫joey</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 2 Around the World<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("kangaroo");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

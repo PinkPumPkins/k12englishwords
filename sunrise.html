@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·sunrise</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · sunrise</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 2 Around the World</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> sunrise</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 日出</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈsʌnraɪz/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class='info-item'><span class='info-label'>反义词</span> sunset 日落</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 2 Around the World</div><p><strong>Get ready · 热身</strong><br>What do you know about these countries?<br>（看地图认一认：the UK 英国 · Canada 加拿大 · the USA 美国 · Australia 澳大利亚）</p><p><strong>Lesson 1 · B. Let's talk</strong><br>— Where do you want to go this winter vacation?<br>— I want to go to Washington D.C. I want to see the White House and visit the museums there.</p><p><strong>Lesson 2 · A. Look, listen and say</strong><br>Canada is famous for maple leaves. Canadians speak English and French.<br>The CN Tower in Toronto is very famous.<br>Australia is famous for koalas and kangaroos. The Opera House in Sydney is famous.</p><p><strong>Lesson 3 · A. Let's read（四国漫游短文 · 要点辑录）</strong><br>the UK：visit the British Museum（250多年历史）· Tower Bridge · the London Eye<br>Canada：mountains and lakes · hiking and fishing · 登CN塔看日出<br>the USA：Washington D.C. · the White House · Disneyland<br>Australia：Sydney · 海滩游泳吃海鲜 · 给koalas和kangaroos拍照</p><p><strong>Fun Time · C. Let's sing（问答歌 · 要点辑录）</strong><br>What is Washington D.C. famous for? — The White House!<br>What is London famous for? — Big Ben!<br>What is Toronto famous for? — The CN Tower!<br>What is Sydney famous for? — The Opera House!<br>What is Beijing famous for? — The Summer Palace!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经haoduoyun课文翻译页（m.haoduoyun.cc/fanyi/rjb/6s/2.html）、读书郎eebbk单元词条、跟读音频资源、Scribd电子课本快照多源交叉核对；Get ready、Lesson 3与Fun Time为要点辑录，个别措辞以课本为准。sunrise在本单元Lesson 3加拿大段落（登CN塔看日出）中出现；与here页同歌互链（同配《Here Comes the Sun》）。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>sun + rise＝sunrise（太阳+升起），合成词一目了然。✏️口诀：太阳升起来，单词自己拼</td></tr>
+        <tr><th>音·发音</th><td>/ˈsʌn.raɪz/。<br>🎧 跟读：watch the sunrise · at sunrise · a beautiful sunrise</td></tr>
+        <tr><th>意·释义</th><td>日出🌅；反义词sunset日落；常用短语see、watch the sunrise。</td></tr>
+        <tr><th>用·句型</th><td>① I want to watch the sunrise.<br>② The sunrise is beautiful.<br>③ We got up early to see the sunrise.<br>④ The CN Tower is a good place to watch the sunrise.</td></tr>
+        <tr><th>拓·同族词</th><td>sunset日落（反义词）；sunshine阳光；sunflower向日葵；sunglasses太阳镜；Sunday星期日</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>活动</td><td>Let's watch the sunrise!</td></tr>
+        <tr><td>描述</td><td>The sunrise is beautiful.</td></tr>
+        <tr><td>时间</td><td>We got up at sunrise.</td></tr>
+        <tr><td>对比</td><td>sunrise 日出 · sunset 日落</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · sun前要加the</div>
+        <p><strong>天体唯一，sun前加the：</strong><br>watch <u>the</u> sunrise · the sun rises in the east</p><p><strong>方位句：</strong><br>The sun rises in the east and sets in the west.</p><p>⚠️ 太阳、月亮、天空都要the：the sun · the moon · the sky！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>sunrise是教“合成词”的最佳例子：sun+rise，孩子一眼看懂就永远会拼。早起看一次日出，回来说一句“The sunrise is beautiful!”——体验+句型，记忆翻倍。可以延伸反义词sunset，一起记。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 图片配对</strong><br>家长说 “sunrise / sunset”，孩子指对日出、日落两张图</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 合成词拼装</strong><br>sun + rise = ______; sun + set = ______; sun + glasses = ______</div>
+        <div class="game-step"><strong>✅ 关卡3 · 填空</strong><br>① I want to watch ______ ______. (the sunrise)<br>② The sun ______ in the east. (rises)</div>
+        <div class="game-step"><strong>🔍 关卡4 · 早起挑战</strong><br>周末早起看一次日出，说 “What a beautiful sunrise!”</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>录音说：“The CN Tower is a good place to watch the sunrise. The sunrise is beautiful.”</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟sunrise通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《Sun + Rise = Wow》</h3>
+    <div class="quote">🌅 凌晨，豆豆趴在窗边等天亮。“Why is the sky pink now?” 爸爸说：“The sun is coming. Watch!” 一轮红日跳出楼顶，豆豆喊：“Sun plus rise — sunrise! I can spell it!” 爸爸笑：“The sky is the best teacher.” 豆豆说：“Tomorrow can we watch the sunset?” 爸爸说：“Sure — learning is a loop, like the sun.”——拼出来的单词，会自己发光。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What colors did the sky turn? (Pink / red)<br>• How do you spell “sunrise”? (S-u-n-r-i-s-e)<br>• 问问孩子：What time does the sun rise today? 查一查！</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 合成 ── sun + rise = sunrise 日出
+├── 反义 ── sunset 日落（sun + set）
+├── 太阳家族 ── sunshine阳光 · sunflower向日葵 · Sunday周日
+├── 句型 ── I want to watch the sunrise.
+└── 常识 ── 太阳从东边升起（in the east）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>sunrise是典型的合成词：sun（太阳）+rise（升起）。rise来自古英语rīsan（起身）。英语里“太阳家族”的合成词特别多：sunset日落、sunshine阳光、sunflower向日葵、sunglasses太阳镜——记住sun，就拿到了一把开锁的钥匙。<br>🎯 讲给孩子：合成词＝两个小词手拉手，看懂一次，永远认识。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>sun + rise</td><td>日出（合成词）</td></tr>
+        <tr><td>sunset</td><td>日落（反义词对）</td></tr>
+        <tr><td>sunshine</td><td>阳光（sun + shine）</td></tr>
+        <tr><td>Sunday</td><td>星期日（Sun之日的名字）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Early to bed and early to rise makes a man healthy, wealthy and wise.”（早睡早起使人健康、富有、聪明。）——本杰明·富兰克林；想看sunrise，就得先赢过被窝。</div>
+
+    <h3>🎵 歌词里的 sunrise</h3>
+    🎵 The Beatles《Here Comes the Sun》(1969)：“Here comes the sun, and I say it's alright...”乔治·哈里森在冬日写下的歌，唱的就是太阳升起那一刻的喜悦。<br>🎵 与here页同歌互链——太阳来啦，单词也来啦。
+
+    <h3>⚡ 冷知识</h3>
+    <p>阳光从太阳到地球要走8分20秒——你看日出时，太阳的位置其实比看起来更低。日出为什么是红色的？清晨阳光斜穿大气层，蓝光被散射掉，剩下的红光橙光才到达眼睛——这就是“朝霞红”。在北极的极夜结束后，第一次日出格外珍贵，那里的人会专门庆祝。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>sunrise</strong> /ˈsʌnraɪz/ n. 日出</div>
+        <div>功能句：I want to watch the sunrise.</div>
+        <div>合成词：sun + rise = sunrise</div>
+        <div>反义词：sunrise日出 · sunset日落</div>
+        <div>冷知识：阳光从太阳到地球要走8分20秒</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 2 Around the World<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("sunrise");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
