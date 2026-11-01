@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·learned to walk</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · learned to walk</h1>
+<div class="subhead">📍 人教版（一起点）五年级下册 Unit 6 Growing Up（成长经历）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> learned to walk</div>
+    <div class="info-item"><span class="info-label">词性</span> v.phr. 学会走路（learn to do 的过去式）</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈlɜːnɪd tə wɔːk/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (五年级)</div>
+    <div class='info-item'><span class='info-label'>原形</span> learn to walk</div><div class='info-item'><span class='info-label'>英式</span> learnt to walk（两种过去式都对）</div>
+</div>
+
+<div class='textbook'>
+    <div class='textbook-title'>📖 课本原文直通车 · Unit 6 Growing Up</div>
+    <p><strong>Get ready · 词表</strong><br>
+    成长经历词组：was born · started to speak · learned to walk · learned to ride a bike · went to kindergarten · went to school · learned to swim<br>
+    核心句型：I was born on/in... · When did you start to...? · When I was five, I learned to...</p>
+    <p><strong>Lesson 1 · 听一听，连一连（成长故事分享）</strong><br>
+    — Joy, please tell us one of your growing-up stories.<br>
+    — I was born on May 15th, 2004.（Joy 十个月大开始说话，第一个词是 mama；Andy 三岁上幼儿园，第一天哭、第二天就玩得开心；Lily 四岁学会骑自行车；Yaoyao 六岁上学并喜欢吴老师 Miss Wu——四人的自述段为两源大意还原）</p>
+    <p><strong>Lesson 2 · A. Look, listen and number</strong><br>
+    — When did you start to use a computer, Joy?<br>
+    — When I was four. What about you?<br>
+    — I started when I was six.<br>
+    — When did you start to buy things, Bill?<br>
+    — When I was five. I bought an ice cream. It was delicious. What did you learn to do when you were five?<br>
+    — When I was five, I learned to swim and started to study English.<br>
+    — When did you go to kindergarten?<br>
+    — Oh, I went to kindergarten when I was three.<br>
+    — Me too.</p>
+    <p><strong>Lesson 3 · A. Let's read（Nancy 成长自述）</strong><br>
+    My name is Nancy. I was born on April 5th, 2004. I learned to speak at six months old. I learned to climb when I was eight months old. I climbed out of my bed and hurt my head. I learned to walk when I was one year old. One day I walked out of my home and into the street! I learned to eat with chopsticks when I was three. I got food all over my face! I learned to swim when I was four, but I only went swimming in the bath. When I was five I learned to wash clothes, but I got myself all wet! In grade four I learned to cook – I cooked eggs, but they tasted very bad!! Now I'm in grade five.</p>
+    <p><strong>Let's Spell · Fun Time</strong><br>
+    拼读：sp-/sk- 家族 sports · spring · speak · skate · ski · skirt · spin<br>
+    Fun Time A 动物宝宝成长知识（大象宝宝一出生就能站立等）；C 部分单元歌曲唱爷爷小时候也学走路、学说话、上学，如今教我（歌词大意，不引原文）</p>
+    <p><strong>Story Time · The Ugly Duckling（丑小鸭）</strong><br>
+    Once there was a mother duck. She was sitting on seven little eggs. One by one, six little yellow ducklings came out of the eggs. ... Two days later, out came a duckling. But this duckling wasn't yellow. It was grey, and it had a long, thin neck. ... Summer came. The ducklings all grew bigger, and the ugly duckling was the biggest. ... Finally, spring came. 'Look at the swan,' she said, 'It's beautiful!' ... He was a swan, a white swan with a long neck. He wasn't ugly. He was beautiful!</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi英语朗读宝Unit6跟读页、好读云课文翻译页、同桌100 Story Time页与Scribd电子课本PDF片段多源交叉核对（智慧山源页访问故障未采信）。本词为 Get ready 词表词；Lesson 3 Nancy 说 I learned to walk when I was one year old. One day I walked out of my home and into the street!</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>learn + ed + to walk —— learn 直接加 ed；英式写 learnt，课本用 learned<br>✏️ 口诀：学会的事都加 ed，learned 里藏着故事</td></tr>
+        <tr><th>音·发音</th><td>/ˈlɜːnɪd tə wɔːk/ learned 两音节，ed 别吞掉；walk 的 l 不发音<br>🎧 跟读：learned to walk · learned to ride a bike · learned to swim</td></tr>
+        <tr><th>意·释义</th><td>学会走路：learn to do 强调“通过练习掌握”，walk 行走。婴儿从爬到站到走，就是 learned to walk</td></tr>
+        <tr><th>用·句型</th><td>① I learned to walk when I was one year old. (我一岁时学会走路。)<br>② She learned to walk at ten months. (她十个月就学会走了。)<br>③ The baby is learning to walk now. (宝宝正在学走路。)<br>④ — When did you learn to walk? — When I was about one.</td></tr>
+        <tr><th>拓·同族词</th><td>learn 家族：learned to ride a bike · learned to swim · learned to speak（同在本单元）；learner 学习者</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>成长</td><td>I learned to walk when I was one year old.</td></tr>
+        <tr><td>观察</td><td>The little baby learned to walk last month.</td></tr>
+        <tr><td>问答</td><td>— When did you learn to walk? — When I was about one.</td></tr>
+        <tr><td>现在</td><td>He is learning to walk like a little penguin.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · learn to do</div>
+        <p><strong>学会做：</strong>learn to walk / learn to swim / learn to cook——learn 后接 to do，表示“学（会）做某事”。</p><p><strong>对比：</strong>started to speak 强调“开始”，learned to walk 强调“学会”。</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>建议在家翻出孩子学步期的照片或视频，边看边说：Look! You were learning to walk! 再让孩子用 I learned to walk when I was... 复述。可顺带对比 start to do（开始做）和 learn to do（学着做）的差别——两个句型在本单元课文里反复出现，是本单元语法核心。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 动作还原</strong><br>家长说 start to walk / learn to walk，孩子先做“迈第一步”再做“稳稳走”，体会两词差别</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 过去式填空</strong><br>① I ___ (learn) to walk when I was one. → learned<br>② She ___ (start) to walk at ten months. → started</div>
+        <div class="game-step"><strong>✅ 关卡3 · 静音L门诊</strong><br>walk 里哪个字母不发音？→ l！读 /wɔːk/ 不是“沃-奥-克”</div>
+        <div class="game-step"><strong>🔍 关卡4 · 学步访谈</strong><br>问家长自己几个月学会走路，用 I learned to walk when I was... 汇报</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>模仿 Nancy 把学走路讲成小冒险并录音打卡<br><span class='btn-mimic'>🎤 示例：I learned to walk when I was one — and walked into the street!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟learned to walk通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Great Escape》</h3>
+    <div class="quote">一岁的 Nancy 扶着沙发站起来，摇摇晃晃迈出第一步：One step, two steps! 她越走越有劲，推开门一直走到街上，把全家人吓得追出来。奶奶抱着她说：You learned to walk when you were one — and your first long walk gave us a big fright! Nancy 长大后每次说起，都笑自己人生第一次冒险就是“走出门去”。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• How old was Nancy when she learned to walk? (One year old)<br>• Where did she walk to? (Into the street)<br>• 问问孩子：Who taught you to walk?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 结构 ── learned（learn+ed）+ to walk<br>├── 变体 ── 英式 learnt（两种都对）<br>├── 句型 ── learn to do 学会做…<br>├── 课本 ── Nancy 一岁学步，走出家门上了街<br>└── 成长家族 ── speak → walk → ride → swim</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>learn 来自古英语 leornian，词根与“足迹”相关——最早的“学习”就是顺着脚印往前走。walk 来自古英语 wealcan，本义是“翻滚、行走”。英语里 toddler（学步幼儿）来自 toddle（蹒跚摇摆），一步三晃的样子全在词里。🎯 讲给孩子：learn 的老祖宗和“跟着足迹走”有关，学走路正是人生第一场“跟走”。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>learn to do</td><td>学着做某事</td></tr>
+        <tr><td>learner</td><td>n. 学习者（learn + er）</td></tr>
+        <tr><td>walk—walked—walked</td><td>walk 的动词三态（规则变化）</td></tr>
+        <tr><td>toddler</td><td>n. 学步幼儿（来自 toddle 蹒跚）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“A journey of a thousand miles begins with a single step.” 🚶<br>千里之行，始于足下。——老子《道德经》英译名句。学会走路的那一步，就是人生所有旅程的第一步。</div>
+
+    <h3>🎵 歌词里的 learned to walk</h3>
+    <p>🎵 The Rolling Stones《Start Me Up》(1981)：与 started to speak 同曲——滚石乐队用一句 Start me up 把“开始”唱成点火。学会走路是人生无数个“开始”里的第一个大动作，正配这首点火之歌。</p><p>🎵 互链：与 started to speak 页互链（同曲《Start Me Up》），learn 家族另见 learned to swim 页。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>婴儿学步的平均年龄是12个月左右，但范围可以从9个月跨到18个月。小象出生两小时就能走路，人类宝宝却要练上一年多——因为我们要把“站立+平衡+迈步”三套系统同时练会。课本 Fun Time 里说大象宝宝一出生就能站立，就是这个原因。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>learned to walk</strong> /ˈlɜːnɪd tə wɔːk/ v.phr. 学会走路（learn to do 的过去式）</div>
+        <div>learned to walk 学会走路（原形 learn to walk，英式 learnt）</div>
+        <div>句型：I learned to walk when I was one year old.</div>
+        <div>发音：walk 的 l 不发音</div>
+        <div>歌曲：Start Me Up 与 started to speak 页同曲互链</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）五年级下册 Unit 6 Growing Up（成长经历）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("learned to walk");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

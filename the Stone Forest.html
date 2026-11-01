@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·the Stone Forest</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · the Stone Forest</h1>
+<div class="subhead">📍 人教版（一起点）五年级下册 Unit 5 Have a Great Trip</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> the Stone Forest</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 石林（云南昆明的著名景区）</div>
+    <div class="info-item"><span class="info-label">音标</span> /ðə ˌstəʊn ˈfɒrɪst/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (五年级)</div>
+    <div class='info-item'><span class='info-label'>地点</span> 云南昆明（喀斯特地貌）</div><div class='info-item'><span class='info-label'>荣誉</span> 世界自然遗产（2007）</div>
+</div>
+
+<div class='textbook'>
+    <div class='textbook-title'>📖 课本原文直通车 · Unit 5 Have a Great Trip</div>
+    <p><strong>Get ready · 词表</strong><br>
+    核心句型：How was your vacation? — It was great.<br>
+    词表：went to the beach · drank cold drinks · swam · ate ice cream · went to the Stone Forest · bought some gifts · took photos · saw flowers</p>
+    <p><strong>Lesson 1 · 听力对话</strong><br>
+    — What did you do there? — I went to the beach and swam in the sea.<br>
+    It was hot there, so I drank cold drinks and ate ice cream.（去三亚看海：I went to the beach in Sanya with my parents.）<br>
+    昆明之行：I went to the Stone Forest with my uncle's family. It's a beautiful park. We saw many beautiful flowers there. We took lots of photos and bought some gifts. I felt very happy.</p>
+    <p><strong>Lesson 2 · 对话（细节句原文待核）</strong><br>
+    — I went to Beijing with my parents.<br>
+    We went to Beijing Zoo and saw many lovely animals there. We took lots of photos in Tian'anmen Square. We also ate Beijing duck. It was delicious!</p>
+    <p><strong>Lesson 3 · 读一读（Betty日记，原文待核）</strong><br>
+    I was sad when we left. Then we had some French fries and hamburgers for lunch. We were very happy.</p>
+    <p><strong>Let's Spell · Story Time</strong><br>
+    -le 结尾发音：apple · maple · bottle · turtle · table · bubble · purple · double（Story Time：聪明的 Quick 救起落水的 Anna 并叼回相机，原文待核）</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi课文跟读页、知乎教案页（p/518964108）、电子课本与智慧山跟读资源多源交叉核对；Get ready 词表与 Lesson 1 核心句多源一致，Lesson 2/3 细节句为单源整理、已标注待核。本词为本单元 Get ready 词表词，Lesson 1 原句 I went to the Stone Forest. It is a beautiful park. 多源一致；昆明之行也是 Lesson 2 对话主题。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>the Stone Forest = stone（石头）+ forest（森林），石头长成的森林；前面的 the 别丢——专有地名带定冠词。<br>✏️ 口诀：石头站成林，the 帽要戴稳。</td></tr>
+        <tr><th>音·发音</th><td>/ðə ˌstəʊn ˈfɒrɪst/ 重音落在 ˈfɒrɪst，stone 读 /stəʊn/。<br>🎧 跟读：the Stone Forest · went to the Stone Forest · in Yunnan</td></tr>
+        <tr><th>意·释义</th><td>石林（云南昆明的世界自然遗产，两亿七千万年的海底岩石被水刻成森林）</td></tr>
+        <tr><th>用·句型</th><td>① I went to the Stone Forest. (我去了石林。)<br>② The Stone Forest is in Yunnan, near Kunming. (石林在云南昆明附近。)<br>③ It's a beautiful park. (那是个美丽的公园。)<br>④ We took lots of photos there. (我们在那儿拍了很多照片。)</td></tr>
+        <tr><th>拓·同族词</th><td>石头家族：stone→stony 多石的 · Stone Age 石器时代；课本地标家族：the Great Wall 长城 · West Lake 西湖 · the Potala Palace 布达拉宫</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>去过</td><td>I went to the Stone Forest with my uncle's family.</td></tr>
+        <tr><td>介绍</td><td>The Stone Forest is in Yunnan, near Kunming.</td></tr>
+        <tr><td>描述</td><td>It's a beautiful park of stone pillars.</td></tr>
+        <tr><td>提问</td><td>Where is the Stone Forest? — In Yunnan.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · 介绍一处景观</div>
+        <p><strong>在哪：</strong>The Stone Forest is in Yunnan, near Kunming.（石林在云南昆明附近。）</p><p><strong>什么样：</strong>It's a beautiful park. Stones stand like a forest!（那是座美丽的公园，石头站得像森林！）</p><p><strong>去过没：</strong>Have you been to the Stone Forest? — I went there last year!</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>石林是本单元唯一的中国景点词，建议和孩子一起在地图上找云南昆明，再搜石林照片看『石头森林』。语法点：专有地名前 the 不丢（the Stone Forest）；过去式连讲：went there · saw stones · took photos。有机会旅行时让孩子用 I went to... 汇报行程。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音指图</strong><br>家长说 the Stone Forest，孩子在云南地图/石林照片上指出来 → 说对了得一颗星</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填 the</strong><br>① I went to ___ Stone Forest. → the<br>② We saw ___ beautiful stones. → 不填（泛指不用the）</div>
+        <div class="game-step"><strong>✅ 关卡3 · 过去式接龙</strong><br>去石林可以做什么？用过去式接龙：I went... I saw... I took photos... I bought...</div>
+        <div class="game-step"><strong>🔍 关卡4 · 中国地标连连看</strong><br>the Stone Forest→昆明 · the Great Wall→北京 · West Lake→杭州，配对全对得两颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>当小导游介绍石林并录音打卡<br><span class='btn-mimic'>🎤 示例：The Stone Forest is in Yunnan. It's a beautiful park of stones!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟the Stone Forest通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Singing Stones》</h3>
+    <div class="quote">导游阿姨说：The stones here can sing. 小满不信。风一吹，石缝里响起呜呜的声音，像大地的口琴。阿姨说：两亿多年前这里是海底，水一滴一滴把石头刻成了森林。小满摸着石柱说：So the sea <strong>went</strong> home, and the stones <strong>stayed</strong>. 阿姨笑了：彝族传说里，姑娘阿诗玛就变成了这里的石峰，回声就是她在唱歌。小满对着石林喊了一声——石林真的回答了他。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• What can the stones do in the story? (They can sing / make sounds.)<br>• What was this place long ago? (The sea.)<br>• 问问孩子：If you go to the Stone Forest, what will you do there?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 地点 ── 云南昆明（Yunnan · Kunming）<br>├── 地貌 ── karst 喀斯特 · stone pillars 石柱<br>├── 句型 ── I went to the Stone Forest.<br>├── 传说 ── 阿诗玛化为石峰<br>└── 歌曲 ── Bob Dylan《Like a Rolling Stone》</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>stone 在古英语里写作 stān，一亿年不化的东西，单词也一千年没怎么变。forest 经古法语进入英语，一般认为源自拉丁语 foris（门外）——中世纪的『森林』原指城堡门外的猎场。🎯 讲给孩子：the Stone Forest 直译就是『石头的森林』，名字朴素得像一场两亿年的耐心。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>stone</td><td>n. 石头（与 stone 页互链）</td></tr>
+        <tr><td>stony</td><td>adj. 多石的（stone + y）</td></tr>
+        <tr><td>Stone Age</td><td>石器时代</td></tr>
+        <tr><td>karst</td><td>n. 喀斯特（岩溶地貌，石林属于它）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Constant dripping wears away the stone." 💧<br>水滴石穿。——英语谚语。石林就是水用两亿七千万年刻出来的作品。</div>
+
+    <h3>🎵 歌词里的 the Stone Forest</h3>
+    <p>🎵 Bob Dylan《Like a Rolling Stone》(1965)：《滚石》杂志『史上最伟大500首歌曲』第1名，How does it feel? 一问问了两亿年——正好问石林：从海底到石林，how does it feel?</p><p>🎵 互链：与 stone 页同曲互链（stone→the Stone Forest）；迪伦2016年获诺贝尔文学奖，歌词也是文学。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>云南石林2007年作为『中国南方喀斯特』第一期被列入《世界遗产名录》；这里的石头是两亿七千万年前的海底石灰岩，被水溶蚀成林。彝族撒尼人的经典传说《阿诗玛》就发生在石林——传说姑娘阿诗玛变成了一座石峰，景区里那座亭亭玉立的山峰就叫阿诗玛石。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>the Stone Forest</strong> /ðə ˌstəʊn ˈfɒrɪst/ n. 石林（云南昆明的著名景区）</div>
+        <div>the Stone Forest 石林（云南昆明，世界自然遗产）</div>
+        <div>句型：I went to the Stone Forest. It is a beautiful park.</div>
+        <div>拼写：the 别丢，stone→stony 多石的</div>
+        <div>歌曲：Bob Dylan《Like a Rolling Stone》史上最伟大歌曲第1名</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）五年级下册 Unit 5 Have a Great Trip<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("the Stone Forest");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
