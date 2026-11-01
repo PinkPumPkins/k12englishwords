@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·fan</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · fan</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 3 Animal World</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> fan</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 扇子；迷</div>
+    <div class="info-item"><span class="info-label">音标</span> /fæn/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class='info-item'><span class='info-label'>一词两义</span> 扇子 / 粉丝</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 3 Animal World</div><p><strong>Get ready · 热身</strong><br>— Do you often go to the zoo? What is your favourite animal?<br>— I like butterflies. They are insects. They can fly.</p><p><strong>Lesson 1 · 课文短文（节选）</strong><br>Lily and her classmates are going to see the animals in the zoo.<br>First, they are going to see the sharks. Sharks are fish. They can swim under the water. They are very big and like to eat small animals in the sea.<br>Then they want to see the snakes and the butterflies. Snakes are reptiles. They are very long and cold. Butterflies are beautiful animals. They are insects. They have six legs, and they can fly.<br>Next, they want to see some mammals, such as monkeys, pandas and tigers. Mammals give milk to their babies.<br>At last, they are going to see the penguins. Penguins are birds, but they cannot fly. They live on the ice. Look, how cute they are!</p><p><strong>Lesson 1 · 分类知识（节选）</strong><br>Reptiles have cold blood. They have scales. Most reptiles have four legs. All insects have six legs. Mother insects lay eggs. Most insects can fly.</p><p><strong>Lesson 2 · 问答对话（节选）</strong><br>— What kind of animals are monkeys?<br>— They are mammals.<br>— What can monkeys do?<br>— They can climb trees very well.<br>— What do monkeys like to eat?<br>— They like to eat peaches and bananas.</p><p><strong>Lesson 3 · 短文 The Elephant（节选）</strong><br>Elephants are mammals. They can be four metres tall. They don't eat meat. They only eat fruit, leaves and grass. They need a lot of food, so they spend most of their time eating. The elephant has two long, white teeth called tusks. It is the only animal with a trunk — a special long nose. The elephant can use its trunk to pick up a big tree or a small peanut. The elephant is also the mammal with the biggest ears. They look like two big fans. Elephants live in Africa and Asia. They are very strong, very smart and of course, very, very big.</p><p><strong>Story Time · 一句话导览</strong><br>导盲犬 Bobo 陪着失明的 Sharon 走遍街道；聪明猫 Precious 在火灾里咬醒 Daniel——His clever cat saved him!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经 51jiaoxi 单元跟读页（yyld.51jiaoxi.com）、Scribd 电子课本快照、51jiaoxi 同步练习、同步课堂视频课程多源交叉核对；Lesson 1/2/3 段落标题为辑录标注，以课本实际栏目为准。fan在Lesson 3：The elephant is also the mammal with the biggest ears. They look like two big fans.</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>fan，三个字母超好写。✏️口诀：扇子fan一扇，“粉丝”fan跟着跑</td></tr>
+        <tr><th>音·发音</th><td>/fæn/ 单音节。<br>🎧 跟读：two big fans · a football fan</td></tr>
+        <tr><th>意·释义</th><td>n. 扇子（电扇）；迷、粉丝（I am a fan of...我是……的粉丝）</td></tr>
+        <tr><th>用·句型</th><td>① They look like two big fans.（它们看起来像两把大扇子。——课本原句，指大象耳朵）<br>② I am a fan of pandas.（我是熊猫迷。）<br>③ My dad is a football fan.（我爸是球迷。）<br>④ Turn on the fan, please.（请打开风扇。）</td></tr>
+        <tr><th>拓·同族词</th><td>fans复数；fan club粉丝俱乐部 · fan letter追星信；同单元：elephant的big ears就像fans</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>课本句</td><td>Its ears look like two big fans.</td></tr>
+        <tr><td>粉丝</td><td>I am a fan of monkeys.</td></tr>
+        <tr><td>电器</td><td>Turn on the fan, please.</td></tr>
+        <tr><td>球迷</td><td>My mum is a basketball fan.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · look like看起来像</div>
+        <p><strong>比喻句：</strong>They <u>look like</u> two big fans.（耳朵像扇子）</p><p><strong>仿写：</strong>The moon looks like a banana. / His eyes look like stars.</p><p><strong>粉丝句：</strong>I am a fan <u>of</u>...（of + 名词）</p><p>⚠️ look like + 名词；look + 形容词（You look happy!）——别混！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>fan的两义一次讲透：大象耳朵像扇子（实物义），孩子是自己的“粉丝”（抽象义）。让孩子说“I am a fan of...”（动物、球队、书都行），再把家里的电风扇指给他看——一词两义从此打通。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选义</strong><br>家长说“The elephant's ears look like two big fans.”，问fan指什么？→ 扇子</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 介词填空</strong><br>I am a fan ____ pandas. (of)</div>
+        <div class="game-step"><strong>🔍 关卡3 · 比喻接龙</strong><br>说三个look like句子：耳朵像扇子、月亮像盘子、云朵像棉花糖</div>
+        <div class="game-step"><strong>🧩 关卡4 · 粉丝团大会</strong><br>全家轮流用“I am a fan of...”宣布自己是谁的粉丝</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用“Its ears look like two big fans.”形容一种动物的特点，录语音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟fan通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Elephant Fan Club》</h3>
+    <div class="quote">🐘 夏天太热，小动物们排队找大象Andy。小猴突然喊：“Your ears look like two big fans!”Andy扇了扇耳朵，凉风扑面：“Welcome to the Elephant Fan Club — I'm the fan, and you're my fans!”大家哈哈大笑：“You are the fan, we are the fans!”小企鹅掏出小本本：“So fan means both a tool and a person who loves someone?”Andy点点头：“In English, cool wind and true love go together!”</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 大象的耳朵像什么？(Two big fans)<br>• 这里的fan和fans分别指什么？(扇子/粉丝)<br>• 问问孩子：What are you a fan of?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 义1扇子 ── big fans大扇子 · electric fan电风扇
+├── 义2粉丝 ── a fan of...的粉丝 · fan club粉丝俱乐部
+├── 课本句 ── Its ears look like two big fans.
+├── 比喻 ── look like看起来像
+└── 记忆彩蛋 ── fan是fantastic的开头（粉丝都觉得偶像fantastic！）</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>fan（扇子）来自拉丁语vannus（扬谷的簸箕）。fan（粉丝）一般认为是fanatic（狂热者）的缩写——19世纪美国棒球场里，为心爱球队“疯狂”的观众自称the fans，从此流行开来。<br>🎯 讲给孩子：从“扇风”到“狂热”，fan走了一条“越吹越热”的路。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>fan</td><td>扇子：拉丁语vannus；粉丝：fanatic的缩写</td></tr>
+        <tr><td>fantastic</td><td>fan家族的“极好的”（粉丝口头禅！）</td></tr>
+        <tr><td>fan club</td><td>粉丝俱乐部</td></tr>
+        <tr><td>electric fan</td><td>电风扇——机器版“扇子”</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“We are the champions, my friends.”（我们是冠军，我的朋友们。）——Queen《We Are the Champions》副歌开嗓第一句。台下挥舞的双臂，正是fans的海洋。</div>
+
+    <h3>🎵 歌词里的 fan</h3>
+    🎵 Queen《We Will Rock You》(1977)：跺脚+拍手的节奏就是为现场fans设计的，全场跺脚拍手=粉丝的海洋。<br>🎵 与elephant页互链：大象的大耳朵就是两把天然的big fans！
+
+    <h3>⚡ 冷知识</h3>
+    <p>大象扇耳朵不只是为了凉快——耳朵上布满血管，扇动能给血液“物理降温”；人体最大的散热器官是皮肤；“粉丝”这个词，正是从英文fan音译到中文的。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>fan</strong> /fæn/ n. 扇子；迷</div>
+        <div>课本句：Its ears look like two big fans.</div>
+        <div>两义：扇子 / 粉丝</div>
+        <div>句型：look like看起来像</div>
+        <div>歌曲记忆：We Will Rock You</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 3 Animal World<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("fan");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·shark</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · shark</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 3 Animal World</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> shark</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 鲨鱼</div>
+    <div class="info-item"><span class="info-label">音标</span> /ʃɑːk/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> sharks</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 3 Animal World</div><p><strong>Get ready · 热身</strong><br>— Do you often go to the zoo? What is your favourite animal?<br>— I like butterflies. They are insects. They can fly.</p><p><strong>Lesson 1 · 课文短文（节选）</strong><br>Lily and her classmates are going to see the animals in the zoo.<br>First, they are going to see the sharks. Sharks are fish. They can swim under the water. They are very big and like to eat small animals in the sea.<br>Then they want to see the snakes and the butterflies. Snakes are reptiles. They are very long and cold. Butterflies are beautiful animals. They are insects. They have six legs, and they can fly.<br>Next, they want to see some mammals, such as monkeys, pandas and tigers. Mammals give milk to their babies.<br>At last, they are going to see the penguins. Penguins are birds, but they cannot fly. They live on the ice. Look, how cute they are!</p><p><strong>Lesson 1 · 分类知识（节选）</strong><br>Reptiles have cold blood. They have scales. Most reptiles have four legs. All insects have six legs. Mother insects lay eggs. Most insects can fly.</p><p><strong>Lesson 2 · 问答对话（节选）</strong><br>— What kind of animals are monkeys?<br>— They are mammals.<br>— What can monkeys do?<br>— They can climb trees very well.<br>— What do monkeys like to eat?<br>— They like to eat peaches and bananas.</p><p><strong>Lesson 3 · 短文 The Elephant（节选）</strong><br>Elephants are mammals. They can be four metres tall. They don't eat meat. They only eat fruit, leaves and grass. They need a lot of food, so they spend most of their time eating. The elephant has two long, white teeth called tusks. It is the only animal with a trunk — a special long nose. The elephant can use its trunk to pick up a big tree or a small peanut. The elephant is also the mammal with the biggest ears. They look like two big fans. Elephants live in Africa and Asia. They are very strong, very smart and of course, very, very big.</p><p><strong>Story Time · 一句话导览</strong><br>导盲犬 Bobo 陪着失明的 Sharon 走遍街道；聪明猫 Precious 在火灾里咬醒 Daniel——His clever cat saved him!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经 51jiaoxi 单元跟读页（yyld.51jiaoxi.com）、Scribd 电子课本快照、51jiaoxi 同步练习、同步课堂视频课程多源交叉核对；Lesson 1/2/3 段落标题为辑录标注，以课本实际栏目为准。shark是Lesson 1开场动物：Sharks are fish. They can swim under the water。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>shark，sh+ark，联想“海里的大方舟”。✏️口诀：一个音节，四个字母，海洋猎手</td></tr>
+        <tr><th>音·发音</th><td>/ʃɑːk/ 单音节，ar发长音/ɑː/。<br>🎧 跟读：sharks are fish · they can swim under the water</td></tr>
+        <tr><th>意·释义</th><td>鲨鱼🦈（海洋猎手；注意：属于鱼类fish，不是哺乳动物）</td></tr>
+        <tr><th>用·句型</th><td>① Sharks are fish.（鲨鱼是鱼。——课本原句）<br>② They can swim under the water.（它们能在水下游泳。——课本原句）<br>③ They are very big and like to eat small animals in the sea.（课本原句）<br>④ I like sharks. They can swim very fast.（Lesson 2原句）</td></tr>
+        <tr><th>拓·同族词</th><td>shark→sharks（复数）；great white shark大白鲨 · whale shark鲸鲨（世界上最大的鱼）；同单元：whale鲸（是mammal！）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>分类</td><td>Sharks are fish.</td></tr>
+        <tr><td>本领</td><td>They can swim under the water.</td></tr>
+        <tr><td>食性</td><td>They like to eat small animals in the sea.</td></tr>
+        <tr><td>对比</td><td>A whale is a mammal, but a shark is a fish.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · fish单复数同形</div>
+        <p><strong>类别句：</strong>Sharks <u>are</u> fish.（fish复数还是fish！）</p><p><strong>单数句：</strong>A shark <u>is</u> a fish.</p><p><strong>方位句：</strong>They can swim <u>under the water</u>.</p><p>⚠️ fish指“数量条数”时复数不加s；指“种类”时才可用fishes！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>shark最大的记忆点是“是鱼不是哺乳动物”（鲸才是mammal）。看海洋馆视频时带孩子说“Sharks are fish. They can swim under the water.”，再故意问Is a whale a fish?让孩子纠正你：No, it's a mammal!</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音辨类</strong><br>家长说“shark”，孩子从fish / mammal / bird中选 → 正确答案：fish</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 对比填空</strong><br>Sharks are ____. (fish) · Whales are ____. (mammals)</div>
+        <div class="game-step"><strong>🔍 关卡3 · 鲸鲨之谜</strong><br>whale shark鲸鲨名字里有whale，它是鲸吗？——不是！它是世界上最大的fish</div>
+        <div class="game-step"><strong>🧩 关卡4 · 快慢对决</strong><br>学鲨鱼快游5秒，学企鹅摇摆走5秒，边做边说“Sharks swim fast. Penguins walk slowly.”</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用“Sharks are fish. They can swim under the water.”录语音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟shark通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Fish Certificate》</h3>
+    <div class="quote">🦈 海底动物大会开始发“身份证书”。鲸鱼领了mammal证书，企鹅领了bird证书。轮到鲨鱼，他大声说：“Sharks are fish! 我有鳃、有鳍，一辈子住在水里。”小金鱼鼓掌：“Welcome, biggest brother!”鲸鱼凑过来问：“可我的名字里有whale...”鲨鱼笑：“名字不算数！你用肺呼吸、给宝宝喂奶，你是mammal！”大家笑成一团：海底世界，认“特征”不认“名字”。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 鲨鱼领的是什么证书？(Fish)<br>• 鲸鱼为什么领mammal证书？(用肺呼吸、喂奶)<br>• 问问孩子：A whale shark is a ... (fish!)</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 身份 ── fish鱼类 · 有鳃有鳍
+├── 明星 ── great white shark大白鲨 · whale shark鲸鲨(最大)
+├── 本领 ── swim under the water · 游得快
+├── 对比 ── whale鲸=mammal / shark鲨=fish
+└── 句型 ── Sharks are fish. · They can swim...</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>shark一词16世纪才进入英语，来源至今是谜，有学者认为来自德语Schurke（恶棍），可能因为鲨鱼“名声在外”。英语里shark还可以指某个领域的“老手、行家”：card shark就是“纸牌老千”。<br>🎯 讲给孩子：一条鱼，游进了“江湖黑话”里。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>shark</td><td>16世纪进入英语；一说来自德语Schurke（恶棍）</td></tr>
+        <tr><td>great white shark</td><td>大白鲨——电影《大白鲨》的主角</td></tr>
+        <tr><td>whale shark</td><td>鲸鲨——世界上最大的鱼，却只吃小鱼小虾</td></tr>
+        <tr><td>loan shark</td><td>放高利贷者（shark“老手”义的延伸）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“You're gonna need a bigger boat.”（你们得换条更大的船。）——电影《大白鲨》(Jaws, 1975)名台词，入选美国电影学会“百年百大电影台词”。</div>
+
+    <h3>🎵 歌词里的 shark</h3>
+    🎵 《Baby Shark》(Super Simple Songs版, 2016)：史上播放量最高的视频，“doo doo doo doo doo doo”全世界孩子都会。<br>🎵 与whale页互链：一个fish一个mammal，边唱边分清！
+
+    <h3>⚡ 冷知识</h3>
+    <p>鲨鱼比恐龙还早出现，已经在地球的海洋里游了4亿多年；鲸鲨是最大的鱼，喉咙却只有硬币大小，只吃小鱼小虾；鲨鱼的一生能换掉上万颗牙齿，牙掉了马上有新牙补位。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>shark</strong> /ʃɑːk/ n. 鲨鱼</div>
+        <div>课本句：Sharks are fish. They can swim under the water.</div>
+        <div>身份梗：是鱼不是哺乳动物</div>
+        <div>冷知识：鲨鱼比恐龙老；牙齿一直换</div>
+        <div>歌曲记忆：Baby Shark（doo doo doo）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 3 Animal World<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("shark");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

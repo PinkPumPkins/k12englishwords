@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·spend</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · spend</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 3 Animal World</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> spend</div>
+    <div class="info-item"><span class="info-label">词性</span> v. 花费（时间/金钱）</div>
+    <div class="info-item"><span class="info-label">音标</span> /spend/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class='info-item'><span class='info-label'>过去式</span> spent</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 3 Animal World</div><p><strong>Get ready · 热身</strong><br>— Do you often go to the zoo? What is your favourite animal?<br>— I like butterflies. They are insects. They can fly.</p><p><strong>Lesson 1 · 课文短文（节选）</strong><br>Lily and her classmates are going to see the animals in the zoo.<br>First, they are going to see the sharks. Sharks are fish. They can swim under the water. They are very big and like to eat small animals in the sea.<br>Then they want to see the snakes and the butterflies. Snakes are reptiles. They are very long and cold. Butterflies are beautiful animals. They are insects. They have six legs, and they can fly.<br>Next, they want to see some mammals, such as monkeys, pandas and tigers. Mammals give milk to their babies.<br>At last, they are going to see the penguins. Penguins are birds, but they cannot fly. They live on the ice. Look, how cute they are!</p><p><strong>Lesson 1 · 分类知识（节选）</strong><br>Reptiles have cold blood. They have scales. Most reptiles have four legs. All insects have six legs. Mother insects lay eggs. Most insects can fly.</p><p><strong>Lesson 2 · 问答对话（节选）</strong><br>— What kind of animals are monkeys?<br>— They are mammals.<br>— What can monkeys do?<br>— They can climb trees very well.<br>— What do monkeys like to eat?<br>— They like to eat peaches and bananas.</p><p><strong>Lesson 3 · 短文 The Elephant（节选）</strong><br>Elephants are mammals. They can be four metres tall. They don't eat meat. They only eat fruit, leaves and grass. They need a lot of food, so they spend most of their time eating. The elephant has two long, white teeth called tusks. It is the only animal with a trunk — a special long nose. The elephant can use its trunk to pick up a big tree or a small peanut. The elephant is also the mammal with the biggest ears. They look like two big fans. Elephants live in Africa and Asia. They are very strong, very smart and of course, very, very big.</p><p><strong>Story Time · 一句话导览</strong><br>导盲犬 Bobo 陪着失明的 Sharon 走遍街道；聪明猫 Precious 在火灾里咬醒 Daniel——His clever cat saved him!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经 51jiaoxi 单元跟读页（yyld.51jiaoxi.com）、Scribd 电子课本快照、51jiaoxi 同步练习、同步课堂视频课程多源交叉核对；Lesson 1/2/3 段落标题为辑录标注，以课本实际栏目为准。spend在Lesson 3：They need a lot of food, so they spend most of their time eating；与buy页互链。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>spend，s-p-e-n-d；过去式spent把e变i？——不，是e→e加t：spend→spent。✏️口诀：花完了就是“end”（end结尾）</td></tr>
+        <tr><th>音·发音</th><td>/spend/ 单音节，sp-连读。<br>🎧 跟读：spend most of their time eating · spend money</td></tr>
+        <tr><th>意·释义</th><td>v. 花费（时间、金钱）⏰💰（spend time doing / spend...on...）</td></tr>
+        <tr><th>用·句型</th><td>① They need a lot of food, so they spend most of their time eating.（它们需要很多食物，所以大部分时间都在吃。——课本原句）<br>② I spend two hours doing my homework.（我花两小时写作业。）<br>③ She spends a lot of money on books.（她花很多钱买书。）<br>④ How do you spend your weekend?（你怎么过周末？）</td></tr>
+        <tr><th>拓·同族词</th><td>spend→spent（过去式）；spend time doing sth花时间做某事 · spend...on...花钱买；同义词：take（it takes...）/ pay（付钱）/ cost（物作主语）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>时间</td><td>I spend two hours reading every day.</td></tr>
+        <tr><td>金钱</td><td>He spends his money on toys.</td></tr>
+        <tr><td>课本句</td><td>Elephants spend most of their time eating.</td></tr>
+        <tr><td>周末</td><td>How do you spend your weekend?</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · spend两大句型</div>
+        <p><strong>花时间：</strong>spend + 时间 + <u>doing</u>：I spend an hour <u>reading</u>.</p><p><strong>花金钱：</strong>spend + 钱 + <u>on</u> + 物：I spend 50 yuan <u>on</u> books.</p><p><strong>对比take：</strong>It takes me an hour to get there.（it作主语）</p><p>⚠️ 人作主语用spend，物作主语用cost！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>spend是高频动词。让孩子每天用一句“Today I spend ... minutes doing ...”记录时间花销，一周后回头看；逛超市时说“We spend 30 yuan on fruit.”——时间和金钱两种“花费”都练到（与buy页互链）。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音判断</strong><br>家长说“spend time / spend money”，孩子分别指时钟或钱包</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 句型填空</strong><br>I spend an hour ____ (play) football. → playing；She spends 10 yuan ____ the pen. → on</div>
+        <div class="game-step"><strong>🔍 关卡3 · 时间账单</strong><br>写下今天花时间最多的三件事，各说一句“I spend ... doing ...”</div>
+        <div class="game-step"><strong>🧩 关卡4 · 课本句接龙</strong><br>Elephants spend most of their time eating.换成I / My mum / My cat再说三句</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用“How do you spend your weekend?”采访家人并汇报，录语音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟spend通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Time Wallet》</h3>
+    <div class="quote">⏰ 小象Pete有个神奇钱包，装的不是钱，是时间。他一天花十几个小时吃饭：“Elephants spend most of their time eating!”小猴惊了：“那我呢？”Pete帮他数：睡觉10小时、荡秋千4小时、吃香蕉2小时……钱包快空了！小猴赶紧往里塞了一件事：“Read books — 1 hour!”第二天，小猴的时间钱包多了一道彩虹边。Pete说：“Time is the only thing we spend and never get back — spend it well!”</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 小象的钱包装什么？(Time)<br>• 大象大部分时间花在做什么？(Eating)<br>• 问问孩子：How do you want to spend one hour today?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 花时间 ── spend time doing · spend an hour reading
+├── 花金钱 ── spend money on · spend 50 yuan on books
+├── 课本句 ── Elephants spend most of their time eating.
+├── 过去式 ── spend → spent
+└── 辨析 ── 人spend / 物cost / it takes / pay付钱</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>spend来自古英语spendan，而它借自拉丁语expendere（称出、付出），和expense（费用）、expend（花费）同根。spend还有“用尽、耗尽”的意思：spend oneself就是“竭尽全力”。<br>🎯 讲给孩子：spend是“把手里有的交出去”——交出去的是时间还是钱，你说了算。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>spend</td><td>古英语spendan ← 拉丁语expendere（称出/付出）</td></tr>
+        <tr><td>expense</td><td>ex（出）+ pense → 费用</td></tr>
+        <tr><td>expend</td><td>正式用词：花费、消耗</td></tr>
+        <tr><td>spendthrift</td><td>spend + thrift → 花钱大手大脚的人</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Lost time is never found again.”（失去的时间再也找不回来。）——本杰明·富兰克林《穷理查年鉴》名句，和spend time的提醒一模一样。</div>
+
+    <h3>🎵 歌词里的 spend</h3>
+    🎵 Macklemore & Ryan Lewis《Thrift Shop》(2012)：格莱美获奖神曲，去二手店淘货正是spend money的日常画面。<br>🎵 与buy页同歌互链——花钱、花时间，都是spend！
+
+    <h3>⚡ 冷知识</h3>
+    <p>大象每天要花十几个小时吃东西，课本说spend most of their time eating一点不夸张；有统计说人一生花在睡觉上的时间约25年；英语里spend time with family（陪家人）是“最好的礼物”的代名词。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>spend</strong> /spend/ v. 花费（时间/金钱）</div>
+        <div>课本句：Elephants spend most of their time eating.</div>
+        <div>句型：spend time doing / spend money on</div>
+        <div>辨析：人spend · 物cost · it takes</div>
+        <div>歌曲记忆：Thrift Shop（与buy页互链）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 3 Animal World<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("spend");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

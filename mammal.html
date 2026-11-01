@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·mammal</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · mammal</h1>
+<div class="subhead">📍 人教版（一起点）六年级上册 Unit 3 Animal World</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> mammal</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 哺乳动物</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈmæml/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class='info-item'><span class='info-label'>复数</span> mammals</div>
+</div>
+
+<div class='textbook'><div class='textbook-title'>📖 课本原文直通车 · Unit 3 Animal World</div><p><strong>Get ready · 热身</strong><br>— Do you often go to the zoo? What is your favourite animal?<br>— I like butterflies. They are insects. They can fly.</p><p><strong>Lesson 1 · 课文短文（节选）</strong><br>Lily and her classmates are going to see the animals in the zoo.<br>First, they are going to see the sharks. Sharks are fish. They can swim under the water. They are very big and like to eat small animals in the sea.<br>Then they want to see the snakes and the butterflies. Snakes are reptiles. They are very long and cold. Butterflies are beautiful animals. They are insects. They have six legs, and they can fly.<br>Next, they want to see some mammals, such as monkeys, pandas and tigers. Mammals give milk to their babies.<br>At last, they are going to see the penguins. Penguins are birds, but they cannot fly. They live on the ice. Look, how cute they are!</p><p><strong>Lesson 1 · 分类知识（节选）</strong><br>Reptiles have cold blood. They have scales. Most reptiles have four legs. All insects have six legs. Mother insects lay eggs. Most insects can fly.</p><p><strong>Lesson 2 · 问答对话（节选）</strong><br>— What kind of animals are monkeys?<br>— They are mammals.<br>— What can monkeys do?<br>— They can climb trees very well.<br>— What do monkeys like to eat?<br>— They like to eat peaches and bananas.</p><p><strong>Lesson 3 · 短文 The Elephant（节选）</strong><br>Elephants are mammals. They can be four metres tall. They don't eat meat. They only eat fruit, leaves and grass. They need a lot of food, so they spend most of their time eating. The elephant has two long, white teeth called tusks. It is the only animal with a trunk — a special long nose. The elephant can use its trunk to pick up a big tree or a small peanut. The elephant is also the mammal with the biggest ears. They look like two big fans. Elephants live in Africa and Asia. They are very strong, very smart and of course, very, very big.</p><p><strong>Story Time · 一句话导览</strong><br>导盲犬 Bobo 陪着失明的 Sharon 走遍街道；聪明猫 Precious 在火灾里咬醒 Daniel——His clever cat saved him!</p><p style='font-size:12px;opacity:.75;'>✅ 原文经 51jiaoxi 单元跟读页（yyld.51jiaoxi.com）、Scribd 电子课本快照、51jiaoxi 同步练习、同步课堂视频课程多源交叉核对；Lesson 1/2/3 段落标题为辑录标注，以课本实际栏目为准。mammal贯穿全单元：Lesson 1讲“Mammals give milk to their babies”，Lesson 3再点题“Elephants are mammals”。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>mam·mal，结尾双写m，像妈妈（mam）抱着宝宝。✏️口诀：mam妈妈喂奶，mammal哺乳动物</td></tr>
+        <tr><th>音·发音</th><td>/ˈmæml/ 两音节，重音在前，词尾弱读。<br>🎧 跟读：monkeys are mammals · whales are mammals</td></tr>
+        <tr><th>意·释义</th><td>哺乳动物🐒（猴、熊猫、老虎、鲸、海豚、蝙蝠，还有我们自己，都是mammal）</td></tr>
+        <tr><th>用·句型</th><td>① Mammals give milk to their babies.（哺乳动物用乳汁喂养宝宝。——课本原句）<br>② What kind of animals are monkeys? — They are mammals.（课本原句）<br>③ Elephants are mammals.（课本原句）<br>④ A whale is a mammal.（鲸是哺乳动物。）</td></tr>
+        <tr><th>拓·同族词</th><td>mammal→mammals（复数）；mammalian哺乳动物的；同单元分类词：reptile · insect · bird · fish</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>分类</td><td>Whales are mammals, not fish.</td></tr>
+        <tr><td>特征</td><td>Mammals feed their babies with milk.</td></tr>
+        <tr><td>问答</td><td>What kind of animals are dogs? — They are mammals.</td></tr>
+        <tr><td>对比</td><td>A whale lives in the sea, but it is a mammal.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · What kind of...? 问类别</div>
+        <p><strong>课本问句：</strong><u>What kind of animals are monkeys?</u></p><p><strong>课本答句：</strong><u>They are mammals.</u></p><p><strong>单数版：</strong>What kind of animal is a dolphin? — It's a mammal.</p><p>⚠️ kind还有“善良”的意思：a kind girl——一词两义别混淆！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>本课重点句“Mammals give milk to their babies”是判断mammal的金标准。在家问：猫、狗、牛、鲸，谁会给宝宝喂奶？孩子答出mammals后，再玩What kind of animals are...?问答。提醒孩子mammal结尾双m。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音辨类</strong><br>家长说“dolphin”，孩子从mammal / reptile / insect中选 → 正确答案：mammal</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 双m拼写</strong><br>ma__al → mammal，补全拼写并大声读三遍</div>
+        <div class="game-step"><strong>🔍 关卡3 · 喂奶大搜索</strong><br>找出家里3位哺乳动物朋友（猫/狗/人），说“They are mammals. They give milk to their babies.”</div>
+        <div class="game-step"><strong>🧩 关卡4 · 鲸鱼谜题</strong><br>“A whale lives in the sea. Is it a fish or a mammal?” → mammal！它用肺呼吸、给宝宝喂奶</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用“What kind of animals are...?”问家人2个问题并自己回答，录语音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟mammal通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Milk Cafe》</h3>
+    <div class="quote">🦁 夜深了，森林Milk Cafe开张。狮妈妈给小狮喂奶，熊猫妈妈抱着宝宝喝奶，蝙蝠妈妈倒挂着也在喂。猫头鹰看呆了：“They are all... mammals!”小狮抬头：“Mammals give milk to their babies — that's our family rule!”这时海里游来一头鲸鱼：“Can I join?”猫头鹰摇头：“You live in the sea!”鲸鱼笑：“I breathe air and I feed milk — I'm a mammal, too!”全场欢呼：The Milk Cafe, mammals only!</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Milk Cafe的客人是谁？(Mammals)<br>• 鲸鱼凭什么入会？(用肺呼吸、喂奶)<br>• 问问孩子：Name three mammals you saw today.</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 特征 ── give milk喂奶 · breathe air用肺呼吸 · 恒温
+├── 海里 ── whale鲸 · dolphin海豚 · seal海豹
+├── 陆上 ── monkey猴 · panda熊猫 · tiger老虎
+├── 句型 ── What kind of animals are...? — They are mammals.
+└── 冷门 ── bat蝙蝠也是mammal · 人也是mammal</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>mammal来自拉丁语mamma（乳房），和小朋友喊的mama是亲戚。1758年瑞典科学家林奈给这类“会喂奶的动物”起名Mammalia，从此英语有了mammal。语言学家还发现，全世界很多语言的“妈妈”发音都很相近。<br>🎯 讲给孩子：mammal这个词里，藏着妈妈喂奶的温暖。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>mammal</td><td>mamma（乳房/妈妈）+ -al → 哺乳动物</td></tr>
+        <tr><td>mammalian</td><td>mammal + -ian → 哺乳动物的（形容词）</td></tr>
+        <tr><td>Mammalia</td><td>林奈1758年定下的学名（哺乳纲）</td></tr>
+        <tr><td>mama/mamma</td><td>同源词：几乎所有语言里“妈妈”的发音都相近</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Everything you see exists together in a delicate balance.”（你所看到的一切，共存于微妙的平衡之中。）——电影《狮子王》里狮王木法沙的名言，草原上的mammal大家族正是这样生生不息。</div>
+
+    <h3>🎵 歌词里的 mammal</h3>
+    🎵 The Tokens《The Lion Sleeps Tonight》(1961)：Billboard冠军传世金曲，“Wimoweh”原野呼唤一响，草原之王狮子（mammal明星）就睡着了。<br>🎵 与本单元elephant页、monkey页、tiger页互链——它们都是mammal！
+
+    <h3>⚡ 冷知识</h3>
+    <p>蓝鲸是地球上有史以来最大的动物——比任何恐龙都大，而它正是哺乳动物；蝙蝠是唯一会真正飞行的哺乳动物；鸭嘴兽是个例外——它会下蛋，却是货真价实的哺乳动物。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>mammal</strong> /ˈmæml/ n. 哺乳动物</div>
+        <div>课本句：Mammals give milk to their babies.</div>
+        <div>问答句：What kind of animals are monkeys? — They are mammals.</div>
+        <div>冷知识：蓝鲸是最大哺乳动物；蝙蝠是唯一会飞的</div>
+        <div>歌曲记忆：The Lion Sleeps Tonight</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级上册 Unit 3 Animal World<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("mammal");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
