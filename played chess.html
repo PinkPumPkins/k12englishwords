@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·played chess</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · played chess</h1>
+<div class="subhead">📍 人教版（一起点）五年级下册 Unit 4 Last Weekend</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> played chess</div>
+    <div class="info-item"><span class="info-label">词性</span> v.phr. 下棋（play的过去式）</div>
+    <div class="info-item"><span class="info-label">音标</span> /pleɪd tʃes/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (五年级)</div>
+    <div class='info-item'><span class='info-label'>原形</span> play chess</div><div class='info-item'><span class='info-label'>the 规则</span> 棋类不加 the</div>
+</div>
+
+<div class='textbook'>
+    <div class='textbook-title'>📖 课本原文直通车 · Unit 4 Last Weekend</div>
+    <p><strong>Get ready · 词表</strong><br>
+    核心句型：What did you do last weekend?<br>
+    词表：cleaned the window · watched TV · climbed a hill · visited grandparents · danced · jumped rope · listened to music · rowed a boat · played computer games · stayed at home · played the piano · played chess</p>
+    <p><strong>Lesson 1</strong><br>
+    — What did you do last weekend? — I stayed at home.<br>
+    On Sunday, I visited my grandparents. I cleaned the windows for them and watched TV.<br>
+    I climbed a hill with my friends on Saturday.（B部分：What did you do last weekend? 问答歌谣）</p>
+    <p><strong>Lesson 2 · A. Look, listen and number</strong><br>
+    — How was your weekend? — It was wonderful.<br>
+    — What did you do last weekend? — I watched a football match with my friends, and then we played football together.<br>
+    — On Sunday, I played the violin in a music club.<br>
+    I played badminton with Joy in the morning. It was rainy in the afternoon. I played in the rain.<br>
+    I stayed in bed all day. I was ill. — Oh, what a pity! I'm sorry to hear that.</p>
+    <p><strong>Lesson 3 · A. Let's read（日记体短文）</strong><br>
+    I usually stay at home on Saturday morning and go to an English class on Saturday afternoon. But last weekend was special.<br>
+    We danced and watched cartoons all morning. In the afternoon, we climbed a hill and rowed a boat in the park.<br>
+    I watched a football match with my dad in the morning. My favourite team won the match. I was very happy.<br>
+    I really enjoyed last weekend.</p>
+    <p><strong>Let's Spell · Fun Time</strong><br>
+    -ed 发音三代表：cleaned /d/ · danced /t/ · visited /ɪd/（还有 played · rowed · jumped · washed 等）<br>
+    Fun Time C 单元歌曲唱到：What did you do last weekend? On Saturday and Sunday, I listened to music and played football.</p>
+    <p><strong>Story Time</strong>（原文待核：动物园里男孩与大象和名叫 Peanuts 的小男孩之间的笑话故事）</p>
+    <p style='font-size:12px;opacity:.75;'>✅ 原文经51jiaoxi英语朗读宝跟读页、好多云课文翻译页、zxxk课件与教案摘要多源交叉核对（智慧山源页访问故障未采信）。本词为本单元 Get ready 词表词；国际象棋 chess 是欧美课堂最流行的棋类，与 won 页自然联动（won the chess game）。</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>play chess —— 棋类不加 the！played = play + ed<br>✏️ 口诀：下棋“裸奔”不加 the，played chess 想一步</td></tr>
+        <tr><th>音·发音</th><td>/tʃes/ 一个音节，ch 读 /tʃ/ 不是 /k/<br>🎧 跟读：played chess · play chess with Dad · chessboard 棋盘</td></tr>
+        <tr><th>意·释义</th><td>下棋（过去发生）。chess 国际象棋；将死对方老王即获胜</td></tr>
+        <tr><th>用·句型</th><td>① I played chess with my dad. (我和爸爸下棋了。)<br>② We played chess and listened to music. (我们下棋、听音乐了。)<br>③ Grandpa plays chess in the park every day.<br>④ Did you play chess last weekend?</td></tr>
+        <tr><th>拓·同族词</th><td>棋类全家福：chess 国际象棋 · Chinese chess 中国象棋 · checkers 跳棋<br>相关词：chessboard 棋盘 · chess piece 棋子</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>家人</td><td>I played chess with my grandpa.</td></tr>
+        <tr><td>胜负</td><td>I won the chess game!</td></tr>
+        <tr><td>现在对照</td><td>I often play chess on Sundays.</td></tr>
+        <tr><td>询问</td><td>Did you play chess with your friend?</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · 棋盘用语</div>
+        <p><strong>开局：</strong>Your move.（该你走了。）<br><strong>威胁：</strong>Watch out! My knight is coming.（小心！我的马来了。）<br><strong>胜负：</strong>Check!（将军！）· Checkmate!（将死！）<br><strong>风度：</strong>Good game!（打得漂亮！）</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>下棋是天然的规则教育加英语素材：一步一步用英语报棋——I move my horse. Your turn. 输赢都用英语收尾：You won! / Good game! 中国象棋与国际象棋可以对比着玩，孩子会发现车马王的走法异同——顺便讲 chess 的波斯语词源（见词源栏）。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 裸奔裁判</strong><br>play chess / play the violin / play football 哪些不加 the？→ chess 和 football！</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 过去式填空</strong><br>① I ___ (play) chess with Dad last night. → played<br>② He ___ (win) the game! → won（联动 won 页）</div>
+        <div class="game-step"><strong>✅ 关卡3 · 棋子英语</strong><br>认棋子：king 王 · queen 后 · knight 马 · rook 车 · pawn 兵</div>
+        <div class="game-step"><strong>🔍 关卡4 · 家庭赛</strong><br>与家长一局棋，赛后用英语复盘：I moved... You moved... I won/lost! 得一颗星</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>录音打卡<br><span class='btn-mimic'>🎤 示例：I played chess with my grandpa. I won the game!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟played chess通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Grandpa Trap》</h3>
+    <div class="quote">每次和爷爷下棋，Jack 十分钟就输。爷爷总说：Think before you move. 周末 Jack 悄悄研究棋谱，设了一个小陷阱。对局中爷爷的老王一步步走进包围圈——Checkmate! Jack 喊出这个词时手都在抖。爷爷愣了三秒，大笑：Good game! 你用脑子下棋了! 那盘棋的棋谱，爷爷让 Jack 签了名。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Who taught Jack to think first? (His grandpa)<br>• What did Grandpa ask Jack to do? (Sign the game record)<br>• 问问孩子：What does Think before you move mean to you?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 原形 ── play chess → played chess<br>├── the 规则 ── 棋类不加 the（chess / Chinese chess）<br>├── 棋子 ── king 王 · queen 后 · knight 马 · pawn 兵<br>├── 胜负 ── check 将军 · checkmate 将死 · won 赢了<br>└── 歌曲彩蛋 ── One Night in Bangkok 棋剧奇缘</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>chess 走了一条丝绸之路：它起源于印度的恰图兰卡（chaturanga），传入波斯后，波斯语 shāh（王）成了英语 check（将军）——喊 check 就是在喊“王危险了”；checkmate 更是波斯语 shāh māt，“王无路可走”。单词 chess 本身经古法语 esches（棋子们）进入英语。🎯 讲给孩子：你下的每一盘 chess，都带着一千多年前的波斯口音。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>chessboard</td><td>n. 棋盘（chess + board）</td></tr>
+        <tr><td>checkmate</td><td>n./v. 将死（波斯语“王无路”）</td></tr>
+        <tr><td>Chinese chess</td><td>中国象棋</td></tr>
+        <tr><td>chess piece</td><td>n. 棋子</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">“Chess is not merely an idle amusement... several very valuable qualities of the mind are to be acquired or strengthened by it.” ♟<br>国际象棋绝非无聊的消遣……它能习得并强化心灵中多种极宝贵的品质。——本杰明·富兰克林《棋的道德》（The Morals of Chess）。下棋，是给大脑做体操。</div>
+
+    <h3>🎵 歌词里的 played chess</h3>
+    <p>🎵 《One Night in Bangkok》(1984)：Billboard 冠军，取材自音乐剧《Chess》（国际象棋）——一首用“棋”讲人生博弈的流行金曲。</p><p>🎵 与 play chess 页互链（同源曲目）；曼谷一夜，棋局如人生。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>1997年，IBM 的“深蓝”计算机击败国际象棋世界冠军卡斯帕罗夫，成为 AI 历史上的标志性一刻——人类棋王第一次输给机器。但棋手们并不沮丧：如今顶尖棋手用 AI 当陪练，人机下棋成了最强的训练法。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>played chess</strong> /pleɪd tʃes/ v.phr. 下棋（play的过去式）</div>
+        <div>played chess 下棋（原形 play chess）</div>
+        <div>句型：I played chess with my dad. I won!</div>
+        <div>the 规则：棋类不加 the</div>
+        <div>歌曲：《One Night in Bangkok》棋剧金曲</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）五年级下册 Unit 4 Last Weekend<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("played chess");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
