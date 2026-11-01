@@ -45,6 +45,7 @@ h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; 
 <div style="text-align:center;margin:2px 0 14px;">
 <button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
 </div>
+<div style="text-align:center;margin:0 0 14px;"><button class="fnBtn" onclick="fnSavePage()" style="background:#2e7d32;color:#fff;border:none;padding:8px 20px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);margin:4px 6px;">&#128247; 保存为图片</button><button class="fnBtn" onclick="fnShare()" style="background:#07c160;color:#fff;border:none;padding:8px 20px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);margin:4px 6px;">&#128172; 分享到微信</button></div>
 
 <div class="info-grid">
     <div class="info-item"><span class="info-label">单词</span> April</div>
@@ -194,6 +195,57 @@ function speakWord() {
     speechSynthesis.cancel();
     speechSynthesis.speak(u);
   } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+
+<div id="fnShareModal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.55);z-index:99999;"><div style="background:#fff;border-radius:16px;padding:22px;max-width:330px;width:88%;margin:12vh auto 0;text-align:center;font-family:sans-serif;"><div style="font-weight:700;font-size:17px;margin-bottom:10px;color:#1e2a3e;">分享到微信</div><div id="fnQr" style="display:flex;justify-content:center;margin:10px 0;"></div><div id="fnUrl" style="font-size:11px;color:#8a94a0;word-break:break-all;margin:8px 0;"></div><button onclick="fnCopyLink()" style="background:#07c160;color:#fff;border:none;padding:8px 26px;border-radius:30px;font-size:14px;cursor:pointer;margin:4px;">复制链接</button><button onclick="document.getElementById('fnShareModal').style.display='none'" style="background:#eceff1;color:#37474f;border:none;padding:8px 26px;border-radius:30px;font-size:14px;cursor:pointer;margin:4px;">关闭</button><div style="font-size:12px;color:#666;margin-top:12px;line-height:1.7;text-align:left;">① 微信内打开本页：点右上角“…”→转发给朋友；<br>② 电脑/其他浏览器：微信“扫一扫”识别二维码，打开后再转发；<br>③ 也可直接长按二维码图片保存。</div></div></div>
+<script src="assets/html2canvas.min.js"></script>
+<script src="assets/qrcode.min.js"></script>
+<script>
+function fnSavePage() {
+  var btns = document.querySelectorAll(".fnBtn");
+  btns.forEach(function (b) { b.disabled = true; });
+  html2canvas(document.body, { scale: 2, useCORS: true, backgroundColor: "#f0f4f8" })
+    .then(function (canvas) {
+      var a = document.createElement("a");
+      var name = (document.title || "page").replace(/[\\\/:*?"<>|]/g, "_");
+      a.download = name + ".png";
+      a.href = canvas.toDataURL("image/png");
+      a.click();
+      btns.forEach(function (b) { b.disabled = false; });
+    })
+    .catch(function (e) {
+      alert("\u751f\u6210\u56fe\u7247\u5931\u8d25\uff1a" + (e.message || e));
+      btns.forEach(function (b) { b.disabled = false; });
+    });
+}
+var fnQrMade = false;
+function fnShare() {
+  var m = document.getElementById("fnShareModal");
+  m.style.display = "block";
+  var url = location.href.split("#")[0];
+  document.getElementById("fnUrl").textContent = url;
+  if (!fnQrMade) {
+    var q = qrcode(0, "M");
+    q.addData(url);
+    q.make();
+    document.getElementById("fnQr").innerHTML = q.createImgTag(4, 8);
+    fnQrMade = true;
+  }
+}
+function fnCopyLink() {
+  var url = location.href.split("#")[0];
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url);
+  } else {
+    var t = document.createElement("textarea");
+    t.value = url;
+    document.body.appendChild(t);
+    t.select();
+    try { document.execCommand("copy"); } catch (e) {}
+    document.body.removeChild(t);
+  }
+  alert("\u94fe\u63a5\u5df2\u590d\u5236\uff0c\u53ef\u7c98\u8d34\u5230\u5fae\u4fe1");
 }
 </script>
 </body>
