@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·habit</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · habit</h1>
+<div class="subhead">📍 人教版（一起点）六年级下册 Unit 3 Daily Life（日常生活）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> habit</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 习惯</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈhæbɪt/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">搭配</span> a good habit</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 3 Daily Life（日常生活）</div>
+    <p><strong>Lesson 1 · 周末生活（C. Let's read and match）</strong><br>
+    ... I often do some volunteer work in my community.<br>
+    （周末我常在社区做志愿服务）</p>
+    <p><strong>Lesson 2 · 三明治制作（说明文）</strong><br>
+    Put the vegetables on the top.<br>
+    Then put another piece of bread on top.<br>
+    （把蔬菜放在最上边，再盖上一片面包）</p>
+    <p><strong>Lesson 3 · 健康小课堂（C. Read and write）</strong><br>
+    We are going to talk about healthy habits. What are your ideas?<br>
+    Eat more fruit and vegetables and less meat and candy.<br>
+    Exercise at least one hour a day.</p>
+    <p><strong>Story Time · 三只小老鼠</strong><br>
+    小老鼠偷出门觅食被猫追，鼠妈妈学狗叫吓退了猫——学一门“语言”真能救命！</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经51教学网Unit 3课文跟读页、英语朗读宝Unit 3句子资源多源交叉核对。habit 出现在 Lesson 3 健康课堂——We are going to talk about healthy habits.</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>ha·bit —— 注意与 rabbit（兔子）只差一个 r：有 r 是兔子，没 r 是习惯</td></tr>
+        <tr><th>音·发音</th><td>/ˈhæbɪt/ 重音在前：HA-bit<br>🎧 跟读：a good habit · healthy habits</td></tr>
+        <tr><th>意·释义</th><td>习惯（习惯成自然的做法；另有“修女服”义）</td></tr>
+        <tr><th>用·句型</th><td>① Reading is a good habit.<br>② Bad habits are hard to break.<br>③ I go to bed early every day. It's a habit.<br>④ We are going to talk about healthy habits.</td></tr>
+        <tr><th>拓·同族词</th><td>habere 家族：have 有 · exhibit 展出 · prohibit 禁止 · inhabit 居住</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>自述</td><td>I have a good habit of reading before bed.</td></tr>
+        <tr><td>劝告</td><td>Reading is a good habit.</td></tr>
+        <tr><td>频率</td><td>I go to bed early every day. It's a habit.</td></tr>
+        <tr><td>反思</td><td>Bad habits are hard to break.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · 频度副词与习惯</div>
+        <p><strong>频度副词排序：</strong>always > usually > often > sometimes > never</p><p><strong>位置：</strong>be 动词后、实义动词前——I <u>always</u> read. / He is <u>never</u> late.</p><p><strong>谈习惯：</strong>I have a habit of doing... / It's my habit to...</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>健康习惯是本课主题，家里正好来一次“习惯盘点”：早睡、刷牙、运动、读20分钟书。用 It's a good habit / Bad habits are hard to break 点评。孩子养成习惯时别催促——告诉他形成习惯平均要两个月上下，慢慢来。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音辨词</strong><br>habit 还是 rabbit？家长随机说，孩子举手势区分（没r=习惯，有r=兔子）</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① Reading is a good ______.（habit）<br>② Bad ______ are hard to break.（habits）</div>
+        <div class="game-step"><strong>✅ 关卡3 · 频度排序</strong><br>把 always/usually/often/sometimes/never 从高到低排一遍</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>说出自己的一个好习惯和想改的一个小毛病，用英文各说一句</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>录音讲健康计划<br><span class="btn-mimic">🎤 示例：Exercising at least one hour a day is a healthy habit.</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟habit通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《二十一天的误会》</h3>
+    <div class="quote">Bill 说：“听说习惯21天就能养成，我要21天戒掉零食！”Ted 的姐姐摇头：“科学家做过实验，新习惯平均要两个多月，快的18天，慢的快一年。”Bill 深吸一口气：“那……habit 是个慢工。”姐姐说：“对，habit 的拉丁祖先 habere 就是‘拥有’——天天拥有它，它才属于你。”</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 21天养成习惯对吗？（不对，平均约两个月）<br>• habit 的拉丁祖先什么意思？（habere 拥有）<br>• 让孩子说出自己的一个好习惯</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 词义 ── 习惯 · 修女服(habit)
+├── 搭配 ── a good habit · break a habit 改掉习惯
+├── 词源 ── 拉丁 habere(拥有) → 长期拥有的做法
+├── 家族 ── have 有 · exhibit 展出 · prohibit 禁止
+└── 本课 ── We are going to talk about healthy habits.</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>habit 出自拉丁语 habere（拥有）的名词 habitus——“一个人一直拥有的状态”。两条路都通了：一直拥有的“做法”成了习惯；一直拥有的“装束”成了服装（修女的一身黑就叫 habit）。英语 have 与它同出印欧词根。🎯 讲给孩子：习惯的本质，是天天拥有。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>habit</td><td>拉丁 habitus(状态/装束) → 习惯/修女服</td></tr>
+        <tr><td>have</td><td>同出印欧词根 *ghabh-(拿/给)：英语 have</td></tr>
+        <tr><td>exhibit / prohibit</td><td>ex(出)+hibit 拿出来→展出；pro(前)+hibit 拿住→禁止</td></tr>
+        <tr><td>inhabit</td><td>in(里)+habit 拿下住处→居住</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"We are what we repeatedly do. Excellence, then, is not an act, but a habit." 🔄<br>我们反复做的事，造就了我们。优秀不是一次行动，而是一种习惯。—— 威廉·杜兰特对亚里士多德的经典转述</div>
+
+    <h3>🎵 歌词里的 habit</h3>
+    <p>🎵 Chicago《Hard Habit to Break》(1984)：软摇滚传奇的 Billboard 亚军金曲，歌名直接就是本词的终极用法——一个难以打破的 habit。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>“21天养成习惯”是流传最广的科普误会。伦敦大学学院2009年的研究实测：新习惯平均约66天成形，快的18天，慢的254天——所以别急，慢慢拥有你的 habit。另外，修女穿的黑色长袍也叫 habit，正是“装束”这层古义的活化石。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>habit</strong> /ˈhæbɪt/ n. 习惯</div>
+        <div>habit /ˈhæbɪt/ n. 习惯（拉丁 habere 拥有）</div>
+        <div>句型：Reading is a good habit. / Bad habits are hard to break.</div>
+        <div>家族：have · exhibit · prohibit · inhabit</div>
+        <div>歌曲：《Hard Habit to Break》——歌名即用法</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级下册 Unit 3 Daily Life（日常生活）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("habit");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·English-Chinese dictionary</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · English-Chinese dictionary</h1>
+<div class="subhead">📍 人教版（一起点）六年级下册 Unit 6 Summer Vacation（暑假）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> English-Chinese dictionary</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 英汉词典</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈɪŋɡlɪʃ ˌtʃaɪˈniːz ˈdɪkʃənri/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">动词短语</span> look up 查阅</div>
+</div>
+
+<div class="textbook"><div class="textbook-title">📖 课本原文直通车 · Unit 6 Summer Vacation</div><p><strong>Lesson 1 · A. Listen and match / B. Let's talk</strong><br>— I am going to London with Jenny for the summer vacation.<br>They are going there by plane on July 15. They want to see Big Ben and visit the British Museum in London.</p><p><strong>Lesson 2 · C. Let's read（西单买书记）</strong><br>We went to Xidan Bookshop first. Bill's father bought some books for me. He bought two English books about China and one English-Chinese dictionary. I am happy because now I can learn more about China and also learn more Chinese.</p><p><strong>Lesson 3 · C. Let's read《My Wonderful Holiday in China》</strong><br>We visited the Terracotta Army there. Sichuan is famous for hot pot. We visited the famous Potala Palace and took many photos there.</p><p style="font-size:12px;opacity:.75;">✅ 原文经51教习网跟读资源（yyld.51jiaoxi.com）、好多云课文翻译（haoduoyun.cc）与Scribd电子课本快照多源交叉核对。English-Chinese dictionary是课本买书情节的压轴：He bought two English books about China and one English-Chinese dictionary——学英语的随身装备。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>English + Chinese + dictionary 三段合成：英语＋汉语＋词典。✏️ 口诀：英汉夹中间，词典查两边；连字符别丢，首字母大写</td></tr>
+        <tr><th>音·发音</th><td>/ˈɪŋɡlɪʃ ˌtʃaɪˈniːz ˈdɪkʃənri/ 重音落dictionary首音节，-tionary读/ʃənri/。<br>🎧 跟读：look up a word in the dictionary · an English-Chinese dictionary</td></tr>
+        <tr><th>意·释义</th><td>英汉词典📚（English↔Chinese双向对照工具书，查词、看音标、学例句三合一）</td></tr>
+        <tr><th>用·句型</th><td>① He bought two English books about China and one English-Chinese dictionary.（他买了两本关于中国的英语书和一本英汉词典。——课本原句）<br>② I look up new words in my English-Chinese dictionary.（我在英汉词典里查生词。）<br>③ May I borrow your dictionary?（我能借你的词典吗？）<br>④ A good dictionary is a good teacher.（好词典是好老师。）</td></tr>
+        <tr><th>拓·同族词</th><td>dictionary词典 · storybook故事书 · guidebook旅行指南 · exercise book练习册；动词短语 look up 查阅（代词放中间：look it up）</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>课本句</td><td>He bought one English-Chinese dictionary.</td></tr>
+        <tr><td>查阅</td><td>I look up new words in my dictionary.</td></tr>
+        <tr><td>借用</td><td>May I borrow your dictionary?</td></tr>
+        <tr><td>建议</td><td>Don't forget to bring your dictionary.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · 查词典三件套</div>
+        <p><strong>查阅：</strong><u>look up</u> a word in the dictionary（查一个词）</p><p><strong>代词版：</strong>I don't know it — let's <u>look it up</u>.（代词放中间！）</p><p><strong>课本句：</strong>He bought one <u>English-Chinese dictionary</u>.</p><p>⚠️ look up it ✘ → look it up ✔；词典是可数名词，一本 a dictionary</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>给孩子准备第一本纸质英汉词典，教'三步查词法'：按字母顺序找词→看音标读音→抄一个例句。每天查一个生词并造句，一个月就有自己的'单词银行'。课本里Bill爸爸买词典的情节，正是最好的亲子共学示范——学英语，先备好工具。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 工具认一认</strong><br>说出三样文具英文名：词典dictionary · 故事书storybook · 练习册exercise book</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 三步查词</strong><br>用词典查apple：找到词→读出/ˈæpl/→抄一个例句，限时1分钟</div>
+        <div class="game-step"><strong>🔍 关卡3 · look up 造句</strong><br>用 look up ... in the dictionary 说一句完整话，代词版加练 look it up</div>
+        <div class="game-step"><strong>🧩 关卡4 · 拆词拼写</strong><br>English + Chinese + dictionary 按顺序默写，连字符一个不能少</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>向家人介绍 My dictionary helps me ___ 并录音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟English-Chinese dictionary通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Treasure Book》</h3>
+    <div class="quote">📚 暑假第一天，爸爸带回一个厚包裹："Guess what's inside?" Lily拆开——一本崭新的英汉词典！"Why a dictionary? I have a phone!" 爸爸笑："A dictionary never runs out of battery." 第一天，Lily查了butterfly；一周后，她的笔记本上开满了生词。爸爸说："Every word you look up is a seed." 期末那天，Lily的'种子'已经长成了一片小树林。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 爸爸送了什么礼物？(An English-Chinese dictionary)<br>• Lily查的第一个词是什么？(Butterfly)<br>• 问问孩子：What word do you want to look up first?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 构成 ── English英语 + Chinese汉语 + dictionary词典
+├── 动作 ── look up查阅 · borrow借 · buy买
+├── 课本句 ── He bought one English-Chinese dictionary.
+├── 步骤 ── 找词→看音标→抄例句
+└── 家族 ── storybook · guidebook · exercise book</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>dictionary来自拉丁语dictionarium，词根dic-意为'说、宣告'（同根词：dictation听写 · predict预言）。中英词汇互通的里程碑是19世纪初（1815—1823年间）马礼逊在澳门分卷出版的《华英字典》——第一部大型英汉/汉英词典。<br>🎯 讲给孩子：dictionary的词根就是'说话'，把两种语言的'说法'排好队。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>English-Chinese</td><td>English + Chinese → 英汉双向对照</td></tr>
+        <tr><td>dictionary</td><td>dic-（说）+ -tionary → 词典</td></tr>
+        <tr><td>look up</td><td>查阅（代词放中间：look it up）</td></tr>
+        <tr><td>vocabulary</td><td>词汇量（dic家族的亲戚，同谈'词'）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Dictionaries are like watches: the worst is better than none, and the best cannot be expected to go quite true." ⌚ 词典如手表：最差的也比没有强，最好的也难保分秒不差。—— 编纂第一部权威英语词典的塞缪尔·约翰逊（Samuel Johnson）：工具要用，也要带着思考用。</div>
+
+    <h3>🎵 歌词里的 English-Chinese dictionary</h3>
+    <p>🎵 Cameo《Word Up!》（1986）：放克经典，"Gotta get word up"——单词的力量感拉满，查词典正是收集word的寻宝游戏。<br>🔗 与study页互链：工具在手，学习开挂；你查过的每个词，都在词典里等着唱歌。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>世界上收词最多的英语词典是《牛津英语词典》（OED）：六十卷、收录50多万词，编纂花了约70年，还招募过数千名志愿者寄词卡——其中一位住在精神病院、读遍全部藏书的医生迈纳贡献了上万条词例，他们的故事被写成畅销书《教授与疯子》。你的第一本英汉词典虽小，却和它同宗同源。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>English-Chinese dictionary</strong> /ˈɪŋɡlɪʃ ˌtʃaɪˈniːz ˈdɪkʃənri/ n. 英汉词典</div>
+        <div>English-Chinese dictionary n. 英汉词典（三段合成，连字符别丢）</div>
+        <div>课本句：He bought two English books and one English-Chinese dictionary.</div>
+        <div>句型：look up a word（代词版 look it up）</div>
+        <div>歌：Cameo《Word Up!》（查词=寻宝，与study页互链）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级下册 Unit 6 Summer Vacation（暑假）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("English-Chinese dictionary");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

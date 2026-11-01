@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·moose</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · moose</h1>
+<div class="subhead">📍 人教版（一起点）六年级下册 Unit 4 Free Time（自由时光）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> moose</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 驼鹿</div>
+    <div class="info-item"><span class="info-label">音标</span> /muːs/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">复数</span> moose（单复同形）</div>
+</div>
+
+<div class="textbook"><div class="textbook-title">📖 课本原文直通车 · Unit 4 Free Time</div><p><strong>Lesson 1 · A. Listen and match / B. Let's talk</strong><br>— What do you usually do in your free time, Bill?<br>— I like reading books. I have many story books.<br>Bill and Ted are talking about hobbies. He goes to a hockey club twice a week. He can't skate very well, but he likes playing hockey.</p><p><strong>Lesson 2 · A. Listen and number / B. Let's talk</strong><br>Bill and Ted are talking about their weekend plans.<br>Sometimes Tina, Ted and their parents go out together.</p><p><strong>Lesson 3 · B. Let's talk / C. Let's read</strong><br>— Did you have a special weekend?<br>I watched a nature show about Canadian animals—beavers, raccoons and moose. There are so many interesting things to do here. We sang and danced together and then we all ate birthday cake.</p><p><strong>Project Time · Ted's Quiz</strong><br>— I am good at hockey. / My favourite TV shows are nature shows.</p><p style="font-size:12px;opacity:.75;">✅ 原文经51教习网跟读资源（yyld.51jiaoxi.com）与好多云课文翻译（haoduoyun.cc）多源交叉核对；单元内加拿大动物阅读课与Unit 5自然主题衔接。moose是课本加拿大动物三兄弟的'大个子'：I watched a nature show about Canadian animals—beavers, raccoons and moose。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>moo·se，moo（牛叫声）+se。✏️ 口诀：moose会'哞哞'叫，头顶大手掌；两个oo像两只鹿角</td></tr>
+        <tr><th>音·发音</th><td>/muːs/ 长音/uː/，嘴巴撅圆——千万别和mouse /maʊs/ 老鼠混！<br>🎧 跟读：one moose · two moose · a moose with big antlers</td></tr>
+        <tr><th>意·释义</th><td>驼鹿🫎（鹿科巨无霸，肩高超2米，头顶宽大鹿角像两只手掌）</td></tr>
+        <tr><th>用·句型</th><td>① I watched a nature show about Canadian animals—beavers, raccoons and moose.（——课本原句）<br>② Look at the moose! It is so tall!（看那只驼鹿！好高啊！）<br>③ Moose have big antlers.（驼鹿有大鹿角。）<br>④ A moose can swim across a lake.（驼鹿能游过一片湖。）</td></tr>
+        <tr><th>拓·同族词</th><td>antler鹿角 · hoof蹄子；易混词：mouse老鼠 / moose驼鹿 / goose鹅；动物三兄弟：beaver · raccoon · moose</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>感叹</td><td>Look at the moose! It's so tall!</td></tr>
+        <tr><td>特征</td><td>Moose have big antlers.</td></tr>
+        <tr><td>能力</td><td>A moose can swim well.</td></tr>
+        <tr><td>对比</td><td>A moose is big, but a mouse is small.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · 单复同形</div>
+        <p><strong>复数不变：</strong>one moose → two <u>moose</u>（不是mooses！）</p><p><strong>同类词：</strong>deer鹿 · fish鱼 · sheep羊——单复同形家族</p><p><strong>感叹句：</strong>Look at the moose! It is so <u>tall</u>!</p><p>⚠️ 发音别和mouse混：moose /muːs/，mouse /maʊs/</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>moose单复同形是本词最大考点：one moose, two moose。在家玩'数数陷阱'：家长故意说two mooses，请孩子抓错纠正；再对比mouse/moose发音，长音/uː/嘴巴撅圆。驼鹿会游泳是孩子最爱的冷知识，别忘了讲。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音辨词</strong><br>家长读moose / mouse / goose，孩子指出对应对动物卡</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 复数陷阱</strong><br>one moose → two ___（moose，复数不变！）</div>
+        <div class="game-step"><strong>🔍 关卡3 · 对比说一说</strong><br>用 A moose is ___, but a mouse is ___. 说对比句</div>
+        <div class="game-step"><strong>🧩 关卡4 · 课文三连</strong><br>按课本顺序背：beavers → raccoons → moose</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 Look at the moose! It has ___. 描述驼鹿并录音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟moose通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Gentle Giant》</h3>
+    <div class="quote">🫎 森林湖泊边，驼鹿Monty低头吃水草。小海狸Ben喊："Monty, you are SO tall!" Monty抬头，鹿角像两把大扇子："Moose can swim, too." 说罢横渡湖泊，稳稳上岸。Ben鼓掌："You're the biggest animal I know!" Monty温和地说："Big body, gentle heart — watch your step, little friend."</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Monty有什么本领？(Swim 会游泳)<br>• Ben说Monty是什么之最？(The biggest animal)<br>• 问问孩子：What's the biggest animal you have ever seen?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 特征 ── big antlers大鹿角 · long legs长腿 · tall高
+├── 单复 ── one moose → two moose（不变）
+├── 易混 ── mouse老鼠/maʊs · moose驼鹿/muːs
+├── 课本句 ── nature show Canadian animals
+└── 文化 ── 加拿大森林巨兽 · O Canada里的身影</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>moose借自北美原住民阿尔冈昆语mos（一说mooswa），意思是'剥树皮的动物'——驼鹿爱吃树皮，名字就把食性说透了。它是少数保留原住民原名、不经翻译进入英语的动物词。<br>🎯 讲给孩子：moose的名字，是原住民根据'啃树皮'起的。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>moose</td><td>来自阿尔冈昆语'剥树皮的动物'</td></tr>
+        <tr><td>antler</td><td>鹿角（moose的宽大antler像手掌）</td></tr>
+        <tr><td>elk</td><td>欧洲人对驼鹿的称呼（北美elk指加拿大马鹿）</td></tr>
+        <tr><td>mouse vs moose</td><td>易混对：/maʊs/小老鼠 vs /muːs/大驼鹿</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">北美新闻标题有个押韵梗："Moose on the loose!"（驼鹿跑上街啦！）——加拿大和美国北部小镇，驼鹿误闯市区时常上头条，这个头韵标题几十年百用不厌。驼鹿没有传世名言，但它的'主题曲'就挂在加拿大国歌里——见本页歌栏《O Canada》。</div>
+
+    <h3>🎵 歌词里的 moose</h3>
+    <p>🎵 《O Canada》（加拿大国歌）："With glowing hearts we see thee rise, The True North strong and free!"——'真北之疆'的森林里，驼鹿正是巨兽担当（国歌关联已标注）。<br>🔗 与Canada页互链：海狸铸币、驼鹿镇林、枫叶为旗，加拿大三件套聚齐。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>驼鹿冷知识三连：①会潜水——能潜到几米深的水底吃水草，鼻孔还能闭合；②鹿角每年秋天脱落、来年春天重长，一年换一副'新头盔'；③肩高2米多、重达数百公斤的大个子，却是游泳好手，时速可近每小时10公里。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>moose</strong> /muːs/ n. 驼鹿</div>
+        <div>moose /muːs/ n. 驼鹿（复数不变two moose）</div>
+        <div>课本句：...beavers, raccoons and moose.</div>
+        <div>易混：moose/muːs/驼鹿 · mouse/maʊs/老鼠</div>
+        <div>歌：O Canada（与Canada页互链）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级下册 Unit 4 Free Time（自由时光）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("moose");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·beaver</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · beaver</h1>
+<div class="subhead">📍 人教版（一起点）六年级下册 Unit 4 Free Time（自由时光）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> beaver</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 海狸</div>
+    <div class="info-item"><span class="info-label">音标</span> /ˈbiːvə(r)/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">复数</span> beavers</div>
+</div>
+
+<div class="textbook"><div class="textbook-title">📖 课本原文直通车 · Unit 4 Free Time</div><p><strong>Lesson 1 · A. Listen and match / B. Let's talk</strong><br>— What do you usually do in your free time, Bill?<br>— I like reading books. I have many story books.<br>Bill and Ted are talking about hobbies. He goes to a hockey club twice a week. He can't skate very well, but he likes playing hockey.</p><p><strong>Lesson 2 · A. Listen and number / B. Let's talk</strong><br>Bill and Ted are talking about their weekend plans.<br>Sometimes Tina, Ted and their parents go out together.</p><p><strong>Lesson 3 · B. Let's talk / C. Let's read</strong><br>— Did you have a special weekend?<br>I watched a nature show about Canadian animals—beavers, raccoons and moose. There are so many interesting things to do here. We sang and danced together and then we all ate birthday cake.</p><p><strong>Project Time · Ted's Quiz</strong><br>— I am good at hockey. / My favourite TV shows are nature shows.</p><p style="font-size:12px;opacity:.75;">✅ 原文经51教习网跟读资源（yyld.51jiaoxi.com）与好多云课文翻译（haoduoyun.cc）多源交叉核对；单元内加拿大动物阅读课与Unit 5自然主题衔接。beaver是课本加拿大动物明星第一位：I watched a nature show about Canadian animals—beavers, raccoons and moose。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>bea·ver，bea读长音/biː/。✏️ 口诀：海狸大板牙beaver，勤劳咬树不停歇</td></tr>
+        <tr><th>音·发音</th><td>/ˈbiːvə(r)/ 重音在前，ea读/iː/。<br>🎧 跟读：beavers build dams · a beaver's flat tail</td></tr>
+        <tr><th>意·释义</th><td>海狸🦫（半水栖啮齿动物，用树枝泥巴筑坝，尾巴扁平像船桨，人称'动物界建筑师'）</td></tr>
+        <tr><th>用·句型</th><td>① I watched a nature show about Canadian animals—beavers, raccoons and moose.（——课本原句）<br>② Beavers build dams.（海狸筑坝。）<br>③ Beavers collect sticks.（海狸收集树枝。——Unit 5课本原句）<br>④ The beaver has a flat tail.（海狸有扁平的尾巴。）</td></tr>
+        <tr><th>拓·同族词</th><td>dam水坝 · lodge海狸窝 · stick树枝；加拿大动物三兄弟：beaver海狸 · raccoon浣熊 · moose驼鹿；Unit 5再添squirrel松鼠</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>描述</td><td>Beavers build dams with sticks and mud.</td></tr>
+        <tr><td>能力</td><td>Beavers can swim very well.</td></tr>
+        <tr><td>特征</td><td>The beaver has a flat tail.</td></tr>
+        <tr><td>类别</td><td>Beavers are Canadian animals.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · 描述动物特征</div>
+        <p><strong>能力句：</strong>Beavers <u>can</u> swim. / Beavers <u>build</u> dams.</p><p><strong>特征句：</strong>The beaver <u>has</u> a flat tail.</p><p>⚠️ beaver复数直接+s：beavers；说一整类动物用复数（Beavers build dams）</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>beaver是加拿大的国家象征动物，5分硬币背面就是它。和孩子玩'动物档案'游戏：说出海狸三大本领（swim/dive/build），再用课本句 I watched a nature show about ... 复述；顺带讲海狸'动物界建筑师'的筑坝本领，工程思维悄悄发芽。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说beaver，孩子从🦫/🦝/🫎中选 → 🦫</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 单复变身</strong><br>Beavers ___ (build) dams. → 单数 The beaver ___ (builds) dams.</div>
+        <div class="game-step"><strong>🔍 关卡3 · 本领说一说</strong><br>用 Beavers can ___. / Beavers have ___. 说出海狸两大本领</div>
+        <div class="game-step"><strong>🧩 关卡4 · 课文复述</strong><br>用 I watched a nature show about ... 开头，背出 beavers, raccoons and moose 三连</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>扮演小海狸：I am a beaver. I can ___! 自我介绍并录音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟beaver通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Busy Beaver》</h3>
+    <div class="quote">🦫 小海狸Ben搬进新池塘，第一天就开工："Beavers build dams!" 他把树枝一根根啃断，用泥巴糊缝。兔子路过喊："Why so busy, Ben?" Ben擦汗："If I build a dam, we all get a pond!" 暴雨来了，水坝稳稳挡住洪水。兔子惊呼："You are the best builder in the forest!" Ben拍拍扁尾巴："Busy beavers make good homes for everyone."</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Ben在做什么？(Building a dam 筑坝)<br>• 水坝挡住了什么？(The flood 暴雨洪水)<br>• 问问孩子：Why do people call beavers 'nature's engineers'?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 本领 ── build dams筑坝 · swim游泳 · cut trees啃树
+├── 特征 ── flat tail扁尾巴 · big teeth大门牙 · fur皮毛
+├── 课本句 ── nature show about Canadian animals
+├── 文化 ── 加拿大国兽 · 5分硬币上的动物
+└── 家族 ── dam水坝 · lodge海狸窝 · rodent啮齿动物</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>beaver来自古英语beofor，是英语里最古老的动物词之一；它还催生了美国俚语eager beaver（干劲十足的人）——海狸的勤劳全世界都认可。1975年加拿大立法把海狸定为国家象征。<br>🎯 讲给孩子：eager beaver＝像海狸一样勤快的'卷王'。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>eager beaver</td><td>俚语：勤快肯干的人</td></tr>
+        <tr><td>beaver dam</td><td>海狸坝（beaver+dam水坝）</td></tr>
+        <tr><td>beaver lodge</td><td>海狸窝（树枝搭的圆顶巢）</td></tr>
+        <tr><td>castor</td><td>海狸的拉丁属名（Castor）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Work like a beaver." 🦫 像海狸一样埋头苦干。—— 英语流行习语：海狸修坝从不偷懒，19世纪美国西部拓荒时代人们用它夸能干的人；配套说法：busy as a beaver 忙得团团转。</div>
+
+    <h3>🎵 歌词里的 beaver</h3>
+    <p>🎵 Ylvis《The Fox (What Does the Fox Say?)》（2013）：挪威组合的病毒式神曲，把狐狸等一票动物的声音问了个遍——"What does the fox say?" 一响全场跟着节奏摇摆（无冠名曲已如实标注）。<br>🔗 与squirrel页同曲互链（动物家族两页一首歌）；与does页互链：does三单就在歌名里。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>海狸的门牙一辈子都在长，必须不停啃树磨牙；牙齿含铁元素，所以尖端是橙色的；海狸坝能建到800多米长——加拿大一处约850米的海狸坝是科学家用卫星影像发现的，堪称'世界最大的动物自建工程'之一。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>beaver</strong> /ˈbiːvə(r)/ n. 海狸</div>
+        <div>beaver /ˈbiːvə(r)/ n. 海狸（复数beavers）</div>
+        <div>课本句：I watched a nature show about ... beavers, raccoons and moose.</div>
+        <div>本领：build dams筑坝 · flat tail扁尾巴</div>
+        <div>歌：Ylvis《The Fox》（与squirrel/does页互链）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级下册 Unit 4 Free Time（自由时光）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("beaver");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

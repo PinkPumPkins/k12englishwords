@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·raccoon</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · raccoon</h1>
+<div class="subhead">📍 人教版（一起点）六年级下册 Unit 4 Free Time（自由时光）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> raccoon</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 浣熊</div>
+    <div class="info-item"><span class="info-label">音标</span> /rəˈkuːn/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">复数</span> raccoons</div>
+</div>
+
+<div class="textbook"><div class="textbook-title">📖 课本原文直通车 · Unit 4 Free Time</div><p><strong>Lesson 1 · A. Listen and match / B. Let's talk</strong><br>— What do you usually do in your free time, Bill?<br>— I like reading books. I have many story books.<br>Bill and Ted are talking about hobbies. He goes to a hockey club twice a week. He can't skate very well, but he likes playing hockey.</p><p><strong>Lesson 2 · A. Listen and number / B. Let's talk</strong><br>Bill and Ted are talking about their weekend plans.<br>Sometimes Tina, Ted and their parents go out together.</p><p><strong>Lesson 3 · B. Let's talk / C. Let's read</strong><br>— Did you have a special weekend?<br>I watched a nature show about Canadian animals—beavers, raccoons and moose. There are so many interesting things to do here. We sang and danced together and then we all ate birthday cake.</p><p><strong>Project Time · Ted's Quiz</strong><br>— I am good at hockey. / My favourite TV shows are nature shows.</p><p style="font-size:12px;opacity:.75;">✅ 原文经51教习网跟读资源（yyld.51jiaoxi.com）与好多云课文翻译（haoduoyun.cc）多源交叉核对；单元内加拿大动物阅读课与Unit 5自然主题衔接。raccoon是课本加拿大动物明星第二位：黑眼罩、爱洗食物的小手，I watched a nature show里的主角之一。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>rac·coon，双o连写，重音在后。✏️ 口诀：rac-coon两颗圆月亮，浣熊戴着黑眼罩</td></tr>
+        <tr><th>音·发音</th><td>/rəˈkuːn/ 重音在后，coon读长音/kuːn/。<br>🎧 跟读：a raccoon in the tree · raccoons wash their food</td></tr>
+        <tr><th>意·释义</th><td>浣熊🦝（面部有黑色'眼罩'斑，前爪灵巧，吃前爱把食物在水里'洗一洗'）</td></tr>
+        <tr><th>用·句型</th><td>① I watched a nature show about Canadian animals—beavers, raccoons and moose.（——课本原句）<br>② Raccoons wash their food before eating.（浣熊吃前洗食物。）<br>③ The raccoon has a black mask around its eyes.（浣熊眼周有黑眼罩。）<br>④ Look! A baby raccoon!（看！一只小浣熊！）</td></tr>
+        <tr><th>拓·同族词</th><td>mask面罩 · wash洗 · climb爬；加拿大动物三兄弟：beaver海狸 · moose驼鹿；Unit 5动物：squirrel松鼠 · swan天鹅</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>特征</td><td>Raccoons have black masks around their eyes.</td></tr>
+        <tr><td>习性</td><td>Raccoons wash their food in water.</td></tr>
+        <tr><td>观察</td><td>Look! A raccoon is climbing the tree!</td></tr>
+        <tr><td>类别</td><td>Raccoons live in the forest.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · 描述习性</div>
+        <p><strong>习性句：</strong>Raccoons <u>wash</u> their food.（一般现在时说习惯）</p><p><strong>正在做：</strong>Look! The raccoon <u>is washing</u> its food.（进行时）</p><p>⚠️ wash的宾语别漏：wash their food ✔；'洗脸'wash its face</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>raccoon的'浣'字就是'洗'的意思——中英文都想到了它爱洗东西的小手。和孩子玩'观察日记'：用 Raccoons can ... / They have ... 说特征；强调重音在后rac-COON，别读成RAC-coon；看到'洗食物'情节就问 Why does it wash its food? 引出冷知识。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说raccoon，孩子从🦝/🦫/🫎中选 → 🦝</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 重音挑战</strong><br>大声读raccoon三遍，拍手标重音：rac-COON</div>
+        <div class="game-step"><strong>🔍 关卡3 · 特征找一找</strong><br>用 Raccoons have ___. 和 Raccoons can ___. 各说一句</div>
+        <div class="game-step"><strong>🧩 关卡4 · 课文复述</strong><br>按课本顺序背出动物三连：beavers → raccoons → moose</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>扮演浣熊说 I am a raccoon. I wash my food! 录音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟raccoon通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Masked Dinner Guest》</h3>
+    <div class="quote">🦝 夜晚，浣熊Rocky溜进营地。他先在水边把饼干泡了泡："Raccoons always wash their food!" 营地的小狗汪汪叫，Rocky戴上自己的'黑眼罩'扮个鬼脸。第二天，孩子们发现饼干少了一块，小脚印一直伸向树林。老师笑："Did you watch a nature show last night? Rocky Raccoon loves picnics!"</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Rocky吃饭前先做什么？(Wash his food 洗食物)<br>• Rocky脸上有什么特征？(A black mask 黑眼罩)<br>• 问问孩子：Why is 'raccoon' called '浣'熊 in Chinese?</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 特征 ── black mask黑眼罩 · ringed tail环纹尾
+├── 习性 ── wash food洗食物 · night animal夜行
+├── 课本句 ── Canadian animals三兄弟
+├── 巧记 ── 浣＝洗，中英文名都在说'洗'
+└── 家族 ── beaver海狸 · moose驼鹿 · squirrel松鼠</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>raccoon来自北美原住民阿尔冈昆语aroughcun，意思是'用手抓挠的动物'——欧洲人第一次见到浣熊，就借了当地语言的名字。中文译名'浣'熊，'浣'就是'洗'：它吃饭前真的爱把食物在水里搓一搓。<br>🎯 讲给孩子：一个英文名说'手巧'，一个中文名说'爱洗'。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>raccoon</td><td>来自阿尔冈昆语：用手抓挠的动物</td></tr>
+        <tr><td>wash</td><td>浣熊习性关键词：洗</td></tr>
+        <tr><td>mask</td><td>面具——浣熊脸斑的昵称bandit mask</td></tr>
+        <tr><td>Rocky Raccoon</td><td>甲壳虫名曲里的牛仔浣熊（见歌栏）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Cleanliness is next to godliness." 🧼 清洁近乎美德。—— 这句英语老话常被归于18世纪英国牧师约翰·卫斯理：浣熊饭前'洗手洗菜'的仪式感，把这句谚语演绎得淋漓尽致。</div>
+
+    <h3>🎵 歌词里的 raccoon</h3>
+    <p>🎵 The Beatles《Rocky Raccoon》（1968）：白色专辑里的叙事小品，牛仔浣熊Rocky的搞笑西部故事——浣熊难得有专属冠名曲，甲壳虫给了它。<br>🔗 与beaver/moose页互链：加拿大动物三兄弟，两页配神曲、一页配国歌。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>浣熊的'洗食物'其实不是讲卫生——科学家认为是在水里用触觉'验货'：前爪浸水后敏感度大增，摸一摸等于仔细检查；城市浣熊还会开垃圾桶、拧瓶盖，堪称'动物界开锁匠'。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>raccoon</strong> /rəˈkuːn/ n. 浣熊</div>
+        <div>raccoon /rəˈkuːn/ n. 浣熊（重音在后rac-COON）</div>
+        <div>课本句：...beavers, raccoons and moose.</div>
+        <div>特征：black mask黑眼罩 · wash food洗食物</div>
+        <div>歌：The Beatles《Rocky Raccoon》（浣熊冠名曲）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级下册 Unit 4 Free Time（自由时光）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("raccoon");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

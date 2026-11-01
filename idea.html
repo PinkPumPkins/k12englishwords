@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·idea</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · idea</h1>
+<div class="subhead">📍 人教版（一起点）六年级下册 Unit 3 Daily Life（日常生活）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> idea</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 主意；想法</div>
+    <div class="info-item"><span class="info-label">音标</span> /aɪˈdɪə/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">同族</span> ideal 理想的</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 3 Daily Life（日常生活）</div>
+    <p><strong>Lesson 1 · 周末生活（C. Let's read and match）</strong><br>
+    ... I often do some volunteer work in my community.<br>
+    （周末我常在社区做志愿服务）</p>
+    <p><strong>Lesson 2 · 三明治制作（说明文）</strong><br>
+    Put the vegetables on the top.<br>
+    Then put another piece of bread on top.<br>
+    （把蔬菜放在最上边，再盖上一片面包）</p>
+    <p><strong>Lesson 3 · 健康小课堂（C. Read and write）</strong><br>
+    We are going to talk about healthy habits. What are your ideas?<br>
+    Eat more fruit and vegetables and less meat and candy.<br>
+    Exercise at least one hour a day.</p>
+    <p><strong>Story Time · 三只小老鼠</strong><br>
+    小老鼠偷出门觅食被猫追，鼠妈妈学狗叫吓退了猫——学一门“语言”真能救命！</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经51教学网Unit 3课文跟读页、英语朗读宝Unit 3句子资源多源交叉核对。idea 出现在 Lesson 3 健康课堂提问——What are your ideas?</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>i·de·a —— 三个元音字母打包；重音落在中间的 de 上</td></tr>
+        <tr><th>音·发音</th><td>/aɪˈdɪə/ 重音在后半<br>🎧 跟读：a good idea · have no idea</td></tr>
+        <tr><th>意·释义</th><td>主意；想法；意见（希腊原义“看见的模样”）</td></tr>
+        <tr><th>用·句型</th><td>① I have a good idea!<br>② What's your idea?<br>③ That's a great idea.<br>④ I have no idea.（我不知道）</td></tr>
+        <tr><th>拓·同族词</th><td>ideal 理想的 · brainstorm 头脑风暴；idea 与柏拉图的“理念”同词</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>提出</td><td>I have a good idea!</td></tr>
+        <tr><td>询问</td><td>What's your idea?</td></tr>
+        <tr><td>评价</td><td>That's a great idea.</td></tr>
+        <tr><td>不知</td><td>I have no idea.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · 提建议全家桶</div>
+        <p><strong>What about / How about + doing？</strong>——What about eating more vegetables?</p><p><strong>Let's + 动词原形：</strong>Let's exercise together!</p><p><strong>Why don't we + 动词原形？</strong>——Why don't we go for a walk?</p><p>⚠️ 回应别人的 idea：That's a good idea! / I have no idea.（我不知道）</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>“主意”要多说才能多。每周开一次家庭点子会，主题就用本课的健康话题：What are your ideas for a healthy weekend? 每个想法都先回应 That's a great idea! 再补充——先肯定再建议，是 idea 也好、情商也好的训练。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音做动作</strong><br>家长说 “I have an idea!”，孩子做出“亮灯泡”手势 💡，反应快得星</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 填空</strong><br>① I have a good ______!（idea）<br>② —Let's play basketball! —That's a great ______!（idea）</div>
+        <div class="game-step"><strong>✅ 关卡3 · 词族配对</strong><br>idea（主意）→ ______（理想的）（ideal）</div>
+        <div class="game-step"><strong>🔍 关卡4 · 生活找一找</strong><br>给家里提一个改善健康的小主意，用 What about...? 开头</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>录音回答课文问题<br><span class="btn-mimic">🎤 示例：What are your ideas? —My idea is to exercise at least one hour a day!</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟idea通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《看见的点子》</h3>
+    <div class="quote">希腊老师柏拉图说，idea 本义是“看见的模样”——脑子里的“看见”。Ted 组织健康讨论会：“What are your ideas?” Bill 灵光一闪，脑中真浮现出一幅画：操场上奔跑的自己。“I have an idea!” 他说，“Exercise at least one hour a day!” 原来 idea 就是在脑海里先“看见”，再把它说出来。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• idea 本义是什么？（看见的模样）<br>• 回应好主意说什么？（That's a great idea.）<br>• 让孩子说出一个自己的 idea 并画下来</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 词源 ── 希腊 idein(看见) → 脑中“看见的模样”
+├── 搭配 ── have a good idea · I have no idea
+├── 建议 ── What about...? · Let's... · Why don't we...?
+├── 家族 ── ideal 理想的 · brainstorm 头脑风暴
+└── 本课 ── What are your ideas?</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>idea 出自希腊语 idein（看见），柏拉图把它铸成哲学核心词：理念（Idea）是灵魂“看见”的永恒模样。这个“看见”一路传到英语，成了日常的“主意”。🎯 讲给孩子：每个 idea，都是心里先“看见”了它。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>idea</td><td>希腊 idein(看见) → 理念→主意</td></tr>
+        <tr><td>ideal</td><td>idea 的形容词兄弟：理想的；作名词即“理想”</td></tr>
+        <tr><td>have no idea</td><td>固定表达：完全不知道——I have no idea.</td></tr>
+        <tr><td>brainstorm</td><td>brain(脑) + storm(风暴) → 头脑风暴</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Imagination is more important than knowledge." 💡<br>想象力比知识更重要。—— 爱因斯坦；每个 idea 的起飞跑道</div>
+
+    <h3>🎵 歌词里的 idea</h3>
+    <p>🎵 Queen《A Kind of Magic》(1986)：传奇摇滚乐队为电影《高地人》写的名曲，“It's a kind of magic”——灵感降临的那一刻，确实像魔法。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>爱迪生那句“天才是1%的灵感加99%的汗水”里，inspiration（灵感）与 idea 是近亲——这句名言常被断章取义，爱迪生强调的正是99%那一半。专利制度则专门保护“好主意”：现代专利法的起点通常追溯到17世纪英国的法律，从那以后，idea 也能登记在册。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>idea</strong> /aɪˈdɪə/ n. 主意；想法</div>
+        <div>idea /aɪˈdɪə/ n. 主意；想法（希腊“看见”）</div>
+        <div>句型：I have a good idea! / What are your ideas?</div>
+        <div>建议句：What about...? / Let's... / Why don't we...?</div>
+        <div>歌曲：Queen《A Kind of Magic》——灵感的魔法</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级下册 Unit 3 Daily Life（日常生活）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("idea");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

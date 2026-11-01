@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·Queen's Park</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · Queen's Park</h1>
+<div class="subhead">📍 人教版（一起点）六年级下册 Unit 2 All Around Me（我身边的世界）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> Queen's Park</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 女王公园（多伦多）</div>
+    <div class="info-item"><span class="info-label">音标</span> /kwiːnz pɑːk/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">地标</span> 多伦多 · 省议会所在地</div>
+</div>
+
+<div class="textbook">
+    <div class="textbook-title">📖 课本原文直通车 · Unit 2 All Around Me（我身边的世界）</div>
+    <p><strong>Lesson 1 · 多伦多城市导览（C. Let's read）</strong><br>
+    Ted is showing Bill around the city.<br>
+    But now let's go to Queen's Park. — It's an art gallery.<br>
+    Over there you can see a public library.<br>
+    There are many beautiful buildings in downtown Toronto.<br>
+    There is a big lake in Toronto called Lake Ontario.<br>
+    You can see the sports stadium near the lake.</p>
+    <p><strong>Lesson 2 · 学校与街区（A. Listen and match / C. Read and tick）</strong><br>
+    — Is there a ... near here?（句型：询问身边场所；D. Let's write 写一写你的学校）</p>
+    <p><strong>Lesson 3 · 身边的人（C. Let's read）</strong><br>
+    描述人物并划线找信息；D. Let's write 写一写你喜欢的老师或同学</p>
+    <p style="font-size:12px;opacity:.75;">✅ 原文经51教学网Unit 2课文跟读页、Scribd电子课本、电子课本网单元听写页多源交叉核对。Queen's Park 是 Lesson 1 城市导览的第一站——But now let's go to Queen's Park.</p>
+</div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>Queen's + Park —— 专有名词两个词首字母都大写；'s 是所有格“女王的”</td></tr>
+        <tr><th>音·发音</th><td>/kwiːnz pɑːk/ qu 读 /kw/，'s 读 /z/<br>🎧 跟读：go to Queen's Park · Queen's Park is in Toronto</td></tr>
+        <tr><th>意·释义</th><td>女王公园（多伦多地标，安大略省议会大厦就在园内）</td></tr>
+        <tr><th>用·句型</th><td>① Let's go to Queen's Park.<br>② Queen's Park is in Toronto.<br>③ We visited Queen's Park yesterday.<br>④ Queen's Park is big and beautiful.</td></tr>
+        <tr><th>拓·同族词</th><td>'s 所有格家族：Children's Day 儿童节 · King's Cross 国王十字站；queen bee 蜂后</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>位置</td><td>Queen's Park is in Toronto.</td></tr>
+        <tr><td>参观</td><td>We visited Queen's Park yesterday.</td></tr>
+        <tr><td>描述</td><td>Queen's Park is big and beautiful.</td></tr>
+        <tr><td>邀请</td><td>Let's go to Queen's Park!</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · 专有名词要大写</div>
+        <p><strong>人名、地名首字母大写：</strong>Queen's Park · Toronto · Lake Ontario · Bill</p><p><strong>'s 所有格：</strong>Queen's Park 女王的公园 · Children's Day 儿童节 · Mum's car</p><p>⚠️ 专有名词写小写是考试高频扣分点！</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>Queen's Park 一词藏着两课内容：一是 's 所有格，二是专有名词大写。和孩子查地图找到它，再顺藤摸瓜找出 Toronto、Lake Ontario、CN Tower，画一张“多伦多英文地标地图”，地理英语双丰收。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音选图</strong><br>家长说 “Queen's Park”，孩子从 🏞️ / 🏛️ / 🏟️ 中选“公园” → 正确答案：🏞️</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 大写改错</strong><br>① queen's park → ______（Queen's Park）<br>② lake ontario → ______（Lake Ontario）</div>
+        <div class="game-step"><strong>✅ 关卡3 · 's 所有格</strong><br>女王的公园 ______（Queen's Park）<br>妈妈的车 ______（Mum's car）</div>
+        <div class="game-step"><strong>🔍 关卡4 · 地图找一找</strong><br>在地图上找到 Queen's Park 和 Lake Ontario，各读三遍英文名</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>当一次多伦多导游并录音<br><span class="btn-mimic">🎤 示例：Now let's go to Queen's Park. It's a famous park in Toronto.</span></div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟Queen's Park通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《女王的公园》</h3>
+    <div class="quote">Ted 带 Bill 走进市中心一片大绿地：“But now let's go to Queen's Park!” Bill 惊奇：“女王的公园？女王住在里面吗？”Ted 笑了：“这是献给一百多年前维多利亚女王的公园，省议会大厦就在这里办公。”Bill 感叹：Queen's Park——一座公园，两位“女王”：一位在历史里，一位在名字里。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• Queen's Park 以谁的名字命名？（维多利亚女王）<br>• 园里的大楼是什么？（安大略省议会大厦）<br>• 's 在这里表示什么？（所有格：女王的）</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 拼写 ── Queen's Park：专有名词双大写 + 's 所有格
+├── 地标 ── 多伦多 · 安大略省议会大厦 · 城市中心绿地
+├── 历史 ── 以维多利亚女王命名(1860年开放)
+├── 家族 ── Children's Day · King's Cross · Mum's car
+└── 本课 ── But now let's go to Queen's Park.</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>Queen's Park 得名于维多利亚女王（Queen Victoria，1819—1901），1860年由威尔士亲王（后来的爱德华七世）主持开放。园内的安大略省议会大厦1893年启用，从此 Queen's Park 成了安大略省政府的代称——就像我们用某个地名代指政府机关。🎯 讲给孩子：一个公园名，半部安大略政治史。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>Queen's Park</td><td>维多利亚女王命名 · 省议会所在</td></tr>
+        <tr><td>'s 所有格</td><td>人/物 + 's：Queen's Park · Bill's book</td></tr>
+        <tr><td>Queen bee</td><td>queen 的动物用法：蜂后（一巢只有一只）</td></tr>
+        <tr><td>Queens 纽约区</td><td>纽约行政区 Queens 无撇号——和 Queen's Park 拼法不同</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Uneasy lies the head that wears a crown." 👑<br>戴王冠的头不得安眠。—— 莎士比亚《亨利六世》；女王的荣耀，也是重担</div>
+
+    <h3>🎵 歌词里的 Queen's Park</h3>
+    <p>🎵 Sex Pistols《God Save the Queen》(1977)：朋克版“天佑女王”，1977年女王银禧年的现象级名曲——Queen 一词既是女王，也是这场摇滚风暴的主角，双义梗满分。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>在加拿大新闻里，“Queen's Park”是个“地名暗号”：记者说“Queen's Park 今天宣布……”，指的不是公园，而是安大略省政府——因为省议会就在园内。多伦多安大略省议会大厦前还立着女王骑马雕像。公园、政府、雕像，三个“女王”一个词。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>Queen's Park</strong> /kwiːnz pɑːk/ n. 女王公园（多伦多）</div>
+        <div>Queen's Park /kwiːnz pɑːk/ 女王公园（多伦多）</div>
+        <div>句型：But now let's go to Queen's Park.</div>
+        <div>语法点：'s 所有格 + 专有名词大写</div>
+        <div>歌曲：《God Save the Queen》——Queen 的双义梗</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级下册 Unit 2 All Around Me（我身边的世界）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("Queen's Park");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>

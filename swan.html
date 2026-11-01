@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>一词一宇宙·swan</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1e2a3e; line-height: 1.6; padding: 20px 16px 48px; max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; font-weight: 700; text-align: center; margin: 16px 0 8px; letter-spacing: -0.3px; color: #8e44ad; }
+.subhead { text-align: center; font-size: 14px; color: #7f8c8d; border-bottom: 1px solid #e9ecef; padding-bottom: 16px; margin-bottom: 20px; }
+.info-grid { background: #f8fafc; border-radius: 20px; padding: 16px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 14px; border: 1px solid #e2e8f0; }
+.info-item { background: white; padding: 6px 12px; border-radius: 30px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.info-label { font-weight: 600; color: #2c3e50; }
+.stage { border-radius: 24px; padding: 20px 18px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.stage-low { background: #f0f9f0; border-left: 6px solid #2ecc71; }
+.stage-mid { background: #fff9e8; border-left: 6px solid #f39c12; }
+.stage-high { background: #ffe9e8; border-left: 6px solid #e74c3c; }
+.stage-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.stage-sub { font-size: 14px; color: #5a6e7c; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,0,0,0.1); }
+.textbook { background: #ecf8ff; border-left: 5px solid #3498db; padding: 16px 18px; margin: 20px 0; border-radius: 20px; font-family: "Courier New", "宋体", monospace; font-size: 14px; color: #1f4f6e; }
+.textbook p { margin: 8px 0; }
+.textbook-title { font-weight: 800; margin-bottom: 12px; font-size: 16px; display: flex; align-items: center; gap: 8px; color: #1e6f5c; }
+.quote { font-style: italic; background: rgba(0,0,0,0.02); padding: 8px 12px; border-radius: 16px; margin: 12px 0; }
+.dim-table { width: 100%; background: white; border-radius: 20px; overflow: hidden; margin: 16px 0; border-collapse: collapse; font-size: 14px; }
+.dim-table th, .dim-table td { border: 1px solid #dee2e6; padding: 12px 10px; vertical-align: top; text-align: left; }
+.dim-table th { background: #e9ecef; font-weight: 600; width: 90px; }
+.game-box { background: white; border-radius: 28px; padding: 16px; margin: 20px 0; box-shadow: 0 6px 14px rgba(0,0,0,0.03); border: 1px solid #d0e2c0; }
+.game-step { background: #eef4fc; margin: 14px 0; padding: 14px; border-radius: 20px; }
+.btn-mimic { background: #2c3e50; color: white; display: inline-block; padding: 6px 18px; border-radius: 40px; font-size: 13px; margin-top: 8px; }
+.parent-card { background: #fff3cd; border-radius: 20px; padding: 14px 16px; margin: 16px 0; border: 1px solid #ffeeba; }
+.parent-card-title { font-weight: 700; color: #856404; margin-bottom: 8px; font-size: 15px; }
+.mindmap { background: #fff6e0; padding: 14px; border-radius: 20px; font-family: monospace; white-space: pre-wrap; font-size: 13px; line-height: 1.5; }
+.func-box { background: #f0f4ff; border-radius: 20px; padding: 14px 16px; margin: 14px 0; border: 1px solid #d4e4ff; }
+.func-box-title { font-weight: 700; color: #2c3e50; margin-bottom: 8px; font-size: 15px; }
+.footnote { font-size: 12px; color: #6c7a89; text-align: center; margin-top: 32px; }
+@media (max-width: 480px) { body { padding: 12px 14px 40px; } .stage { padding: 16px; } }
+</style>
+</head>
+<body>
+
+<h1>🌟 一词一宇宙 · swan</h1>
+<div class="subhead">📍 人教版（一起点）六年级下册 Unit 5 Nature and Culture（自然与文化）</div>
+
+<div style="text-align:center;margin:2px 0 14px;">
+<button onclick="speakWord()" style="background:#8e44ad;color:#fff;border:none;padding:8px 24px;border-radius:30px;font-size:15px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.15);">🔊 读音</button>
+</div>
+
+<div class="info-grid">
+    <div class="info-item"><span class="info-label">单词</span> swan</div>
+    <div class="info-item"><span class="info-label">词性</span> n. 天鹅</div>
+    <div class="info-item"><span class="info-label">音标</span> /swɒn/</div>
+    <div class="info-item"><span class="info-label">难度</span> ⭐⭐ (六年级)</div>
+    <div class="info-item"><span class="info-label">复数</span> swans</div>
+</div>
+
+<div class="textbook"><div class="textbook-title">📖 课本原文直通车 · Unit 5 Nature and Culture</div><p><strong>Lesson 1 · A. Listen and match / B. Let's talk / C. Let's read</strong><br>I sometimes go to the countryside near Beijing, too.</p><p><strong>Lesson 2 · 文化阅读（Thanksgiving）</strong><br>Thanksgiving is a family holiday in autumn in Canada and the USA.<br>On Thanksgiving, people have a big dinner with their family. They usually eat roast turkey and other delicious food.</p><p><strong>Lesson 3 · C. Let's read（动物过冬）</strong><br>For example, squirrels collect seeds and nuts, and beavers collect sticks.<br>For example, swans and wild geese fly away in the autumn.<br>Bears, snakes and frogs are such animals.（冬眠动物）</p><p><strong>Story Time · Henny Penny</strong><br>Suddenly, a nut fell from the tree. "The sky is falling! The sky is falling!"</p><p style="font-size:12px;opacity:.75;">✅ 原文经51教习网跟读资源（yyld.51jiaoxi.com）、好多云课文翻译（haoduoyun.cc）与Scribd电子课本快照多源交叉核对。swan是课本'南飞过冬'代表：For example, swans and wild geese fly away in the autumn——迁徙候鸟的优雅担当。</p></div>
+
+<div class="stage stage-low">
+    <div class="stage-title"><span>🟢</span> 低阶 · 学生自习室</div>
+    <div class="stage-sub">📌 背诵 + 自测 | 课本同步跟读</div>
+
+    <h3 style="margin: 12px 0 6px;">1️⃣ 五维拆解法</h3>
+    <table class="dim-table">
+        <tr><th>形·拼写</th><td>sw-an，sw-开头像swim（天鹅会游泳）。✏️ 口诀：swan天鹅水中游，sw开头不忘怀</td></tr>
+        <tr><th>音·发音</th><td>/swɒn/ 单音节，wa读/ɒ/。<br>🎧 跟读：a white swan · swans fly away in autumn · Swan Lake</td></tr>
+        <tr><th>意·释义</th><td>天鹅🦢（大型水鸟，脖颈修长、一身白羽，是有名的'忠诚鸟'）</td></tr>
+        <tr><th>用·句型</th><td>① Swans and wild geese fly away in the autumn.（天鹅和大雁秋天飞走。——课本原句）<br>② Look at the swan on the lake!（看湖上的天鹅！）<br>③ The swan is swimming gracefully.（天鹅游得真优雅。）<br>④ Swans fly to the south for winter.（天鹅飞到南方过冬。）</td></tr>
+        <tr><th>拓·同族词</th><td>goose鹅（天鹅的大号亲戚）· wild goose大雁 · lake湖；sw-家族：swim游泳 · swing秋千 · sweep扫</td></tr>
+    </table>
+
+    <h3>📢 拓展跟读表（课外句 · 非课本原文）</h3>
+    <table class="dim-table">
+        <tr><th>句型</th><th>句子</th></tr>
+        <tr><td>课本句</td><td>Swans fly away in the autumn.</td></tr>
+        <tr><td>观察</td><td>Look at the white swan on the lake!</td></tr>
+        <tr><td>动作</td><td>The swan is swimming gracefully.</td></tr>
+        <tr><td>迁徙</td><td>Swans fly south for the winter.</td></tr>
+    </table>
+
+    <div class="func-box">
+        <div class="func-box-title">功能句总结 · 说迁徙</div>
+        <p><strong>课本句：</strong>Swans and wild geese <u>fly away</u> in the autumn.（away表'飞走'）</p><p><strong>目的地：</strong>fly <u>to</u> the south for the winter</p><p><strong>进行时：</strong>Look! The swans <u>are flying</u> south!</p><p>⚠️ 天鹅复数swans；'一只天鹅'a swan，别写成a swans</p>
+    </div>
+
+    <div class="parent-card">
+        <div class="parent-card-title">👨‍👩‍👧 家长指导卡</div>
+        <p>去公园湖边看天鹅（或白鹅）时练句型：Look at the swan! It has a long neck. 顺带讲sw-家族（swim/swan/sweep都有'划过'的动作感）；文化加分：回家和孩子一起看一段《天鹅湖》芭蕾视频，配上本页歌曲，艺术启蒙同步完成。</p>
+    </div>
+
+    <h3>🎮 闯关游戏 (5关)</h3>
+    <div class="game-box">
+        <div class="game-step"><strong>📣 关卡1 · 听音辨鸟</strong><br>家长说swan / duck / goose，孩子指对应卡片</div>
+        <div class="game-step"><strong>✏️ 关卡2 · 动词填空</strong><br>Swans ___ away in the autumn. (fly)</div>
+        <div class="game-step"><strong>🔍 关卡3 · sw家族大集合</strong><br>说出swim / swan / swing / sweater四个sw词各指什么</div>
+        <div class="game-step"><strong>🧩 关卡4 · 句子仿说</strong><br>用 The swan is ___-ing. 描述天鹅正在做的事</div>
+        <div class="game-step"><strong>🎙️ 关卡5 · 口语大挑战</strong><br>用 Look at the swan! It has ___. 描述天鹅并录音打卡</div>
+    </div>
+    <p style="background:#e9f7e1; padding: 8px 14px; border-radius: 30px; font-size:13px;">💡 通关口令：在评论区发送 "🌟swan通关" 领取本词电子单词卡。</p>
+</div>
+
+<div class="stage stage-mid">
+    <div class="stage-title"><span>🟡</span> 中阶 · 家长加油站</div>
+    <div class="stage-sub">👪 陪读故事 + 思维导图 + 词源小知识</div>
+
+    <h3>📖 微型故事《The Lake Dancer》</h3>
+    <div class="quote">🦢 清晨的湖面浮着薄雾，一只白天鹅滑过水面。小鸭子们看呆了："She swims like a queen!" 天鹅收拢翅膀："In autumn, we fly away to the south." 小鸭子问："Flying is hard. Why not stay?" 天鹅指向远方："Winter here is cold. Warm places keep us safe." 夕阳下，天鹅展翅掠过湖面——原来优雅，是练出来的；迁徙，是家族的约定。</div>
+    <p><strong>🧑‍🏫 家长提问卡：</strong><br>• 天鹅什么时候飞走？(In the autumn)<br>• 它们飞去哪里？(The south)<br>• 问问孩子：What birds fly south in winter in China? (Wild geese 大雁)</p>
+
+    <h3>🗺️ 思维导图</h3>
+    <div class="mindmap">┌── 特征 ── long neck长脖子 · white feathers白羽
+├── 课本句 ── swans and wild geese fly away in autumn
+├── sw家族 ── swim游泳 · swing秋千 · sweep扫
+├── 艺术 ── Swan Lake天鹅湖（芭蕾）· 丑小鸭童话
+└── 迁徙 ── fly away南飞过冬</div>
+
+    <h3>🏛️ 词源故事</h3>
+    <p>swan是英语最古老的鸟名之一，来自古英语swan，德语亲戚Schwan和它长得一个样。有趣的是，sw-开头的词常带'划过、摆动'的画面感：swim游、swing荡、sweep扫——swan游起来，正是水面最优雅的一道弧线。<br>🎯 讲给孩子：swan的'游'，藏在sw-家族的基因里。</p>
+</div>
+
+<div class="stage stage-high">
+    <div class="stage-title"><span>🔴</span> 高阶 · 知识珍宝库</div>
+    <div class="stage-sub">📜 词源 · 名言 · 文学 · 冷知识</div>
+
+    <h3>🔍 构词密码</h3>
+
+        <table class="dim-table"><tr><th>词</th><th>构成与含义</th></tr>
+        <tr><td>swan</td><td>古英语鸟名，德语Schwan同源</td></tr>
+        <tr><td>cygnet</td><td>小天鹅（专业词）</td></tr>
+        <tr><td>Swan Lake</td><td>天鹅湖：柴可夫斯基芭蕾名作</td></tr>
+        <tr><td>black swan</td><td>黑天鹅（引申指'罕见意外事件'）</td></tr>
+        </table>
+
+    <h3>📜 名言 & 谚语</h3>
+    <div class="quote">"Swan song"（天鹅之歌）🦢 —— 古希腊传说：天鹅一生安静，临终前会唱出最美的歌，苏格拉底临刑前也引用过它；今天英语用swan song指'告别演出'。真正的天鹅虽不唱歌，但柴可夫斯基让它们跳出了最美的'歌'。</div>
+
+    <h3>🎵 歌词里的 swan</h3>
+    <p>🎵 柴可夫斯基《Swan Lake 天鹅湖》（1877）：古典芭蕾传世之作，双簧管奏出的天鹅主题一响，湖上白羽翩跹的画面就有了（纯音乐已标注）。<br>🔗 与wild goose页互链：一个优雅南飞（天鹅湖），一个列队远征（Free Bird），候鸟家族双页齐飞。</p>
+
+    <h3>⚡ 冷知识</h3>
+    <p>天鹅是出了名的'忠诚鸟'，伴侣常相伴多年；在英国，野生疣鼻天鹅自中世纪起法律上归君主所有，泰晤士河上至今保留着每年'数天鹅'（Swan Upping）的传统仪式；天鹅飞行时速可近100公里，迁徙时能飞到几千米高空。</p>
+</div>
+
+<div style="background: #f1f2f6; border-radius: 28px; padding: 20px; text-align: center; margin-top: 20px;">
+    <div style="font-weight: 800; font-size: 18px;">🌟 单词复习卡 (可截图保存)</div>
+    <div style="background: white; border-radius: 20px; padding: 12px; margin: 12px 0;">
+        <div><strong>swan</strong> /swɒn/ n. 天鹅</div>
+        <div>swan /swɒn/ n. 天鹅（复数swans）</div>
+        <div>课本句：Swans and wild geese fly away in the autumn.</div>
+        <div>sw家族：swim · swing · sweep · swan</div>
+        <div>歌：柴可夫斯基《天鹅湖》（与wild goose页互链）</div>
+    </div>
+</div>
+
+<div class="footnote">
+    📚 收录于 人教版（一起点）六年级下册 Unit 5 Nature and Culture（自然与文化）<br>
+    ✨ 一课一词，三阶讲透。欢迎留言闯关打卡！
+</div>
+
+<div style="margin:28px auto 0;padding:12px 18px;background:#f4f5f7;border-radius:14px;font-size:12px;color:#8a94a0;text-align:center;max-width:860px;line-height:1.7;">
+K12小学阶段英语单词唱着学；青山@work自研，保证能跟唱，不保证准确性和严谨性
+</div>
+
+<script>
+function speakWord() {
+  try {
+    var u = new SpeechSynthesisUtterance("swan");
+    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1.0;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch (e) { alert("当前浏览器不支持语音合成"); }
+}
+</script>
+</body>
+</html>
