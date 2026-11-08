@@ -1,9 +1,11 @@
-# 小学英语趣味学 · 一词一宇宙
+# 听歌学单词·K12小学版 · 一词一宇宙
 
 > 人教新起点（一起点）1-6年级小学英语单词趣味学习站。每个单词一页：标准读音（Web Speech）、
-> 经典歌曲记忆、五维拆解、闯关游戏、词源故事、家长指导卡。共 798 词。
+> 经典歌曲记忆、五维拆解、闯关游戏、词源故事、家长指导卡。共 798 词、12 册 76 个单元。
 
-- [总目录](https://pinkpumpkins.github.io/k12englishwords/): 全部 798 个单词的可搜索目录
+- [总目录](https://pinkpumpkins.github.io/k12englishwords/): 全部 798 个单词的可搜索目录，支持 学习顺序（册→单元）与 首字母 A-Z 双排序
 - 单页 URL 规则: https://pinkpumpkins.github.io/k12englishwords/{word}.html（如 [apple](https://pinkpumpkins.github.io/k12englishwords/apple.html)、[Big Ben](https://pinkpumpkins.github.io/k12englishwords/Big%20Ben.html)）
 - 内容结构: 课本原文直通车 / 低阶学生自习室 / 中阶家长加油站 / 高阶知识珍宝库
+- 姊妹站: [听歌学单词·K12初中版](https://pinkpumpkins.github.io/czenglishwords/)（人教版2024新版 七上～九上 2435 词条）
+- 听歌学单词·K12高中版: 内容欠奉，敬请期待
 - 自研声明: 青山@work 自研，保证能跟唱，不保证准确性和严谨性
